@@ -2373,7 +2373,7 @@ body.body-order-form .container .checkout-container .orderform-template .cart-te
   }
 }
 body.body-order-form .container .checkout-container .orderform-template .cart-template .cart-fixed .custom-cart-template-wrap .summary-cart-template-holder .cart .cart-items .item .description .item-price {
-  display: block;
+  display: none;
   font-size: 0.875rem;
   color: #9e9e9e;
   text-decoration: line-through;
