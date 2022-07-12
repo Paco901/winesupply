@@ -1,0 +1,247 @@
+{
+    "store.product": {
+        "children": [
+            "flex-layout.row#product-breadcrumb",
+            "flex-layout.row#product-main",
+            "flex-layout.row#descripcion",
+            "flex-layout.row#Tituloquienes",
+            "flex-layout.row#interesados",
+            "flex-layout.row#TituloComplementarios",
+            "flex-layout.row#complementarios",
+
+            "flex-layout.row#newsletterFicha"
+        ],
+        "props": {
+            "blockClass": [
+                "bgLightGray",
+                "contenidoFicha",
+                "contenidofichatodo"
+            ]
+        }
+    },
+    "flex-layout.row#product-breadcrumb": {
+        "props": {
+            "marginTop": 4,
+            "blockClass": ["bgLightGray", "contenidoBread"]
+        },
+        "children": ["breadcrumb"]
+    },
+    "flex-layout.row#product-main": {
+        "props": {
+            "blockClass": ["product-wrapper"]
+        },
+        "children": [
+            "flex-layout.col#product-image",
+            "flex-layout.col#right-col"
+        ]
+    },
+
+    "flex-layout.row#descripcion": {
+        "children": ["menu-item#payment-methods"],
+        "props": {
+            "blockClass": "contenidoDescription"
+        }
+    },
+    "menu-item#payment-methods": {
+        "blocks": ["vtex.menu@2.x:submenu.accordion#descrition"],
+        "props": {
+            "id": "payment-methods",
+            "blockClass": "product-page-menu-item",
+            "type": "custom",
+            "iconId": null,
+            "itemProps": {
+                "tagTitle": "Descripción",
+                "text": "Descripción"
+            }
+        }
+    },
+
+    "flex-layout.col#product-image": {
+        "props": {
+            "rowGap": 0,
+            "blockClass": "contenerdorImagenFP"
+        },
+        "children": [
+            "product-specification-badges#banderas",
+            "product-specification-badges#organico",
+            "product-specification-badges#descuentos",
+            "product-specification-badges#destaques-vinos",
+            "product-images"
+        ]
+    },
+
+    "product-images": {
+        "props": {
+            "displayThumbnailsArrows": true,
+            "showPaginationDots": false,
+            "width": "100%",
+            "thumbnailsOrientation": true,
+            "blockClass": ["imagenSliderFicha"]
+        }
+    },
+    "flex-layout.col#right-col": {
+        "props": {
+            "preventVerticalStretch": true,
+            "rowGap": 0,
+            "blockClass": ["datosFicha"]
+        },
+        "children": [
+            "product-brand",
+            "wine-short-description",
+            "flex-layout.row#priceFicha",
+            "flex-layout.row#quantity",
+            "flex-layout.row#botonesFicha",
+            "flex-layout.row#mediosFicha",
+            "sku-selector"
+        ]
+    },
+
+    "product-brand": {
+        "props": {
+            "displayMode": "text"
+        }
+    },
+    "flex-layout.row#priceFicha": {
+        "children": ["product-selling-price", "product-list-price-range"],
+        "props": {
+            "blockClass": "contenidoPrecios",
+            "preventHorizontalStretch": true
+        }
+    },
+    "flex-layout.row#quantity": {
+        "children": ["product-quantity"],
+        "props": {
+            "blockClass": ["contentCantidad"]
+        }
+    },
+    "flex-layout.row#botonesFicha": {
+        "children": [
+            "add-to-cart-button#home",
+            "product-specification-badges#baby"
+        ],
+        "props": {
+            "blockClass": "botones"
+        }
+    },
+
+    "add-to-cart-button#home": {
+        "props": {
+            "text": "COMPRAR",
+            "unavailableText": "SIN STOCK",
+            "blockClass": "botonComprar"
+        }
+    },
+
+    "rich-text#medios-pago-title": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Métodos de pago",
+            "blockClass": "medios-pago-title",
+            "width": "32%"
+        }
+    },
+
+    "product-price#product-details": {
+        "props": {
+            "showInstallments": true,
+            "showSavings": true,
+            "blockClass": "product-price-desk"
+        }
+    },
+    "flex-layout.row#buy-button": {
+        "props": {
+            "marginTop": 4,
+            "marginBottom": 7,
+            "blockClass": "buy-button-row"
+        },
+        "children": ["buy-button"]
+    },
+    "buy-button": {
+        "props": {
+            "blockClass": "buy-button"
+        }
+    },
+
+    "share#default": {
+        "props": {
+            "social": {
+                "Facebook": true,
+                "WhatsApp": true,
+                "Twitter": false,
+                "Pinterest": true
+            }
+        }
+    },
+    "flex-layout.row#related": {
+        "children": ["shelf.relatedProducts"],
+        "props": {
+            "blockClass": "shelf-related"
+        }
+    },
+
+    "flex-layout.row#Tituloquienes": {
+        "children": ["rich-text#quienes"],
+        "props": {
+            "blockClass": "contenedorTituloFicha"
+        }
+    },
+    "rich-text#quienes": {
+        "props": {
+            "text": "Quienes compraron este producto también se interesaron en:",
+            "blockClass": "tituloFichaTodo"
+        }
+    },
+    "flex-layout.row#interesados": {
+        "children": ["list-context.product-list#interesados"],
+        "props": {
+            "blockClass": ["contenidointeresados"]
+        }
+    },
+    "flex-layout.row#complementarios": {
+        "children": ["list-context.product-list#complementarios"],
+        "props": {
+            "blockClass": ["contenidointeresados"]
+        }
+    },
+    "flex-layout.row#TituloComplementarios": {
+        "children": ["rich-text#complementarios"],
+        "props": {
+            "blockClass": "contenedorTituloFicha"
+        }
+    },
+    "rich-text#complementarios": {
+        "props": {
+            "text": "Prodcutos complementarios",
+            "blockClass": "tituloFichaTodo"
+        }
+    },
+
+    "flex-layout.row#newsletterFicha": {
+        "children": ["flex-layout.col#NewsTextFicha", "newsletter"],
+        "props": {
+            "blockClass": ["newsStyle", "newsFicha"],
+            "preventHorizontalStretch": true
+        }
+    },
+    "flex-layout.col#NewsTextFicha": {
+        "children": ["rich-text#newsTop", "rich-text#newsBotton"]
+    },
+    "rich-text#newsTop": {
+        "props": {
+            "text": "ENTÉRATE DE LAS PROMOCIONES Y NOVEDADES.",
+            "blockClass": "textNewsuno"
+        }
+    },
+    "rich-text#newsBotton": {
+        "props": {
+            "text": "Suscribite a nuestro Newsletter",
+            "blockClass": "textNewsDos"
+        }
+    },
+    "newsletter": {
+        "props": {
+            "submit": "SUSCRIBIRME"
+        }
+    }
+}

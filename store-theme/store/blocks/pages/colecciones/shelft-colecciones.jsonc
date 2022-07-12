@@ -1,0 +1,766 @@
+{
+    "list-context.product-list#colecciones-malbec": {
+        "blocks": ["product-summary.shelf#malbec"],
+        "children": ["slider-layout#malbec"],
+        "props": {
+            "collection": "152"
+        }
+    },
+    "product-summary.shelf#malbec": {
+        "children": [
+            "product-specification-badges#banderas",
+            "product-specification-badges#organico",
+            "product-specification-badges#descuentos",
+            "product-specification-badges#destaques-vinos",
+            "product-summary-image",
+            "product-brand#malbec",
+            "product-name",
+            "flex-layout.row#pricemalbec",
+            "flex-layout.row#botonesmalbec"
+        ],
+        "props": {
+            "blockClass": "related-shelf-home"
+        }
+    },
+
+    "product-brand#malbec": {
+        "props": {
+            "displayMode": "text"
+        }
+    },
+
+    "flex-layout.row#pricemalbec": {
+        "children": ["product-selling-price", "product-list-price-range"],
+        "props": {
+            "blockClass": "contenidoPrecios",
+            "preventHorizontalStretch": true
+        }
+    },
+
+    "flex-layout.row#botonesmalbec": {
+        "children": [
+            "add-to-cart-button#homemalbec",
+            "product-specification-badges#malbec"
+        ],
+        "props": {
+            "blockClass": "botones"
+        }
+    },
+
+    "add-to-cart-button#homemalbec": {
+        "props": {
+            "text": "COMPRAR",
+            "unavailableText": "SIN STOCK",
+            "blockClass": "botonComprar"
+        }
+    },
+
+    "slider-layout#malbec": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 3,
+                "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "showNavigationArrows": "desktopOnly",
+            "arrowSize": 25,
+            "showPaginationDots": "mobileOnly",
+            "fullWidth": false,
+            "infinite": true,
+            "blockClass": ["shelf-default"]
+        }
+    },
+    "product-specification-badges#malbec": {
+        "props": {
+            "specificationGroupName": "allSpecifications",
+            "specificationsOptions": [
+                {
+                    "specificationName": "Producto de Preventa",
+                    "displayValue": "SPECIFICATION_NAME",
+                    "visibleWhen": ""
+                },
+                {
+                    "specificationName": "envio gratis",
+                    "displayValue": "envio gratis",
+                    "visibleWhen": false
+                }
+            ],
+            "blockClass": "envioGratisContenido"
+        }
+    },
+
+    /////////////////// CARBERNET FRANC
+
+    "list-context.product-list#colecciones-cabernet-franc": {
+        "blocks": ["product-summary.shelf#cabernet-franc"],
+        "children": ["slider-layout#cabernet-franc"],
+        "props": {
+            "collection": "152"
+        }
+    },
+    "product-summary.shelf#cabernet-franc": {
+        "children": [
+            "product-specification-badges#banderas",
+            "product-specification-badges#organico",
+            "product-specification-badges#descuentos",
+            "product-specification-badges#destaques-vinos",
+            "product-summary-image",
+            "product-brand#cabernet-franc",
+            "product-name",
+            "flex-layout.row#pricecabernet-franc",
+            "flex-layout.row#botonescabernet-franc"
+        ],
+        "props": {
+            "blockClass": "related-shelf-home"
+        }
+    },
+
+    "product-brand#cabernet-franc": {
+        "props": {
+            "displayMode": "text"
+        }
+    },
+
+    "flex-layout.row#pricecabernet-franc": {
+        "children": ["product-selling-price", "product-list-price-range"],
+        "props": {
+            "blockClass": "contenidoPrecios",
+            "preventHorizontalStretch": true
+        }
+    },
+
+    "flex-layout.row#botonescabernet-franc": {
+        "children": [
+            "add-to-cart-button#homecabernet-franc",
+            "product-specification-badges#cabernet-franc"
+        ],
+        "props": {
+            "blockClass": "botones"
+        }
+    },
+
+    "add-to-cart-button#homecabernet-franc": {
+        "props": {
+            "text": "COMPRAR",
+            "unavailableText": "SIN STOCK",
+            "blockClass": "botonComprar"
+        }
+    },
+
+    "slider-layout#cabernet-franc": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 3,
+                "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "showNavigationArrows": "desktopOnly",
+            "arrowSize": 25,
+            "showPaginationDots": "mobileOnly",
+            "fullWidth": false,
+            "infinite": true,
+            "blockClass": ["shelf-default"]
+        }
+    },
+    "product-specification-badges#cabernet-franc": {
+        "props": {
+            "specificationGroupName": "allSpecifications",
+            "specificationsOptions": [
+                {
+                    "specificationName": "Producto de Preventa",
+                    "displayValue": "SPECIFICATION_NAME",
+                    "visibleWhen": ""
+                },
+                {
+                    "specificationName": "envio gratis",
+                    "displayValue": "envio gratis",
+                    "visibleWhen": false
+                }
+            ],
+            "blockClass": "envioGratisContenido"
+        }
+    },
+
+    /////////////////// BLEND TINTOS
+
+    "list-context.product-list#colecciones-blend-tintos": {
+        "blocks": ["product-summary.shelf#blend-tintos"],
+        "children": ["slider-layout#blend-tintos"],
+        "props": {
+            "collection": "152"
+        }
+    },
+    "product-summary.shelf#blend-tintos": {
+        "children": [
+            "product-specification-badges#banderas",
+            "product-specification-badges#organico",
+            "product-specification-badges#descuentos",
+            "product-specification-badges#destaques-vinos",
+            "product-summary-image",
+            "product-brand#blend-tintos",
+            "product-name",
+            "flex-layout.row#priceblend-tintos",
+            "flex-layout.row#botonesblend-tintos"
+        ],
+        "props": {
+            "blockClass": "related-shelf-home"
+        }
+    },
+
+    "product-brand#blend-tintos": {
+        "props": {
+            "displayMode": "text"
+        }
+    },
+
+    "flex-layout.row#priceblend-tintos": {
+        "children": ["product-selling-price", "product-list-price-range"],
+        "props": {
+            "blockClass": "contenidoPrecios",
+            "preventHorizontalStretch": true
+        }
+    },
+
+    "flex-layout.row#botonesblend-tintos": {
+        "children": [
+            "add-to-cart-button#homeblend-tintos",
+            "product-specification-badges#blend-tintos"
+        ],
+        "props": {
+            "blockClass": "botones"
+        }
+    },
+
+    "add-to-cart-button#homeblend-tintos": {
+        "props": {
+            "text": "COMPRAR",
+            "unavailableText": "SIN STOCK",
+            "blockClass": "botonComprar"
+        }
+    },
+
+    "slider-layout#blend-tintos": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 3,
+                "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "showNavigationArrows": "desktopOnly",
+            "arrowSize": 25,
+            "showPaginationDots": "mobileOnly",
+            "fullWidth": false,
+            "infinite": true,
+            "blockClass": ["shelf-default"]
+        }
+    },
+    "product-specification-badges#blend-tintos": {
+        "props": {
+            "specificationGroupName": "allSpecifications",
+            "specificationsOptions": [
+                {
+                    "specificationName": "Producto de Preventa",
+                    "displayValue": "SPECIFICATION_NAME",
+                    "visibleWhen": ""
+                },
+                {
+                    "specificationName": "envio gratis",
+                    "displayValue": "envio gratis",
+                    "visibleWhen": false
+                }
+            ],
+            "blockClass": "envioGratisContenido"
+        }
+    },
+
+    /////////////////// VARIEDADES
+
+    "list-context.product-list#colecciones-variedades": {
+        "blocks": ["product-summary.shelf#variedades"],
+        "children": ["slider-layout#variedades-colecciones"],
+        "props": {
+            "collection": "152"
+        }
+    },
+    "product-summary.shelf#variedades": {
+        "children": [
+            "product-specification-badges#banderas",
+            "product-specification-badges#organico",
+            "product-specification-badges#descuentos",
+            "product-specification-badges#destaques-vinos",
+            "product-summary-image",
+            "product-brand#variedades",
+            "product-name",
+            "flex-layout.row#pricevariedades",
+            "flex-layout.row#botonesvariedades"
+        ],
+        "props": {
+            "blockClass": "related-shelf-home"
+        }
+    },
+
+    "product-brand#variedades": {
+        "props": {
+            "displayMode": "text"
+        }
+    },
+
+    "flex-layout.row#pricevariedades": {
+        "children": ["product-selling-price", "product-list-price-range"],
+        "props": {
+            "blockClass": "contenidoPrecios",
+            "preventHorizontalStretch": true
+        }
+    },
+
+    "flex-layout.row#botonesvariedades": {
+        "children": [
+            "add-to-cart-button#homevariedades",
+            "product-specification-badges#variedades"
+        ],
+        "props": {
+            "blockClass": "botones"
+        }
+    },
+
+    "add-to-cart-button#homevariedades": {
+        "props": {
+            "text": "COMPRAR",
+            "unavailableText": "SIN STOCK",
+            "blockClass": "botonComprar"
+        }
+    },
+
+    "slider-layout#variedades-colecciones": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 3,
+                "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "showNavigationArrows": "desktopOnly",
+            "arrowSize": 25,
+            "showPaginationDots": "mobileOnly",
+            "fullWidth": false,
+            "infinite": true,
+            "blockClass": ["shelf-default"]
+        }
+    },
+    "product-specification-badges#variedades": {
+        "props": {
+            "specificationGroupName": "allSpecifications",
+            "specificationsOptions": [
+                {
+                    "specificationName": "Producto de Preventa",
+                    "displayValue": "SPECIFICATION_NAME",
+                    "visibleWhen": ""
+                },
+                {
+                    "specificationName": "envio gratis",
+                    "displayValue": "envio gratis",
+                    "visibleWhen": false
+                }
+            ],
+            "blockClass": "envioGratisContenido"
+        }
+    },
+    // OTROS CUATROS SLIDER DE PRODUCTOS VARIOS1
+
+    "list-context.product-list#colecciones-varios1": {
+        "blocks": ["product-summary.shelf#varios1"],
+        "children": ["slider-layout#varios1"],
+        "props": {
+            "collection": "152"
+        }
+    },
+    "product-summary.shelf#varios1": {
+        "children": [
+            "product-specification-badges#banderas",
+            "product-specification-badges#organico",
+            "product-specification-badges#descuentos",
+            "product-specification-badges#destaques-vinos",
+            "product-summary-image",
+            "product-brand#varios1",
+            "product-name",
+            "flex-layout.row#pricevarios1",
+            "flex-layout.row#botonesvarios1"
+        ],
+        "props": {
+            "blockClass": "related-shelf-home"
+        }
+    },
+
+    "product-brand#varios1": {
+        "props": {
+            "displayMode": "text"
+        }
+    },
+
+    "flex-layout.row#pricevarios1": {
+        "children": ["product-selling-price", "product-list-price-range"],
+        "props": {
+            "blockClass": "contenidoPrecios",
+            "preventHorizontalStretch": true
+        }
+    },
+
+    "flex-layout.row#botonesvarios1": {
+        "children": [
+            "add-to-cart-button#homevarios1",
+            "product-specification-badges#varios1"
+        ],
+        "props": {
+            "blockClass": "botones"
+        }
+    },
+
+    "add-to-cart-button#homevarios1": {
+        "props": {
+            "text": "COMPRAR",
+            "unavailableText": "SIN STOCK",
+            "blockClass": "botonComprar"
+        }
+    },
+
+    "slider-layout#varios1": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "showNavigationArrows": "desktopOnly",
+            "arrowSize": 25,
+            "showPaginationDots": "mobileOnly",
+            "fullWidth": false,
+            "infinite": true,
+            "blockClass": ["shelf-default"]
+        }
+    },
+    "product-specification-badges#varios1": {
+        "props": {
+            "specificationGroupName": "allSpecifications",
+            "specificationsOptions": [
+                {
+                    "specificationName": "Producto de Preventa",
+                    "displayValue": "SPECIFICATION_NAME",
+                    "visibleWhen": ""
+                },
+                {
+                    "specificationName": "envio gratis",
+                    "displayValue": "envio gratis",
+                    "visibleWhen": false
+                }
+            ],
+            "blockClass": "envioGratisContenido"
+        }
+    },
+
+    /// OTROS CUATROS SLIDER DE PRODUCTOS VARIOS2
+
+    "list-context.product-list#colecciones-varios2": {
+        "blocks": ["product-summary.shelf#varios2"],
+        "children": ["slider-layout#varios2"],
+        "props": {
+            "collection": "152"
+        }
+    },
+    "product-summary.shelf#varios2": {
+        "children": [
+            "product-specification-badges#banderas",
+            "product-specification-badges#organico",
+            "product-specification-badges#descuentos",
+            "product-specification-badges#destaques-vinos",
+            "product-summary-image",
+            "product-brand#varios2",
+            "product-name",
+            "flex-layout.row#pricevarios2",
+            "flex-layout.row#botonesvarios2"
+        ],
+        "props": {
+            "blockClass": "related-shelf-home"
+        }
+    },
+
+    "product-brand#varios2": {
+        "props": {
+            "displayMode": "text"
+        }
+    },
+
+    "flex-layout.row#pricevarios2": {
+        "children": ["product-selling-price", "product-list-price-range"],
+        "props": {
+            "blockClass": "contenidoPrecios",
+            "preventHorizontalStretch": true
+        }
+    },
+
+    "flex-layout.row#botonesvarios2": {
+        "children": [
+            "add-to-cart-button#homevarios2",
+            "product-specification-badges#varios2"
+        ],
+        "props": {
+            "blockClass": "botones"
+        }
+    },
+
+    "add-to-cart-button#homevarios2": {
+        "props": {
+            "text": "COMPRAR",
+            "unavailableText": "SIN STOCK",
+            "blockClass": "botonComprar"
+        }
+    },
+
+    "slider-layout#varios2": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "showNavigationArrows": "desktopOnly",
+            "arrowSize": 25,
+            "showPaginationDots": "mobileOnly",
+            "fullWidth": false,
+            "infinite": true,
+            "blockClass": ["shelf-default"]
+        }
+    },
+    "product-specification-badges#varios2": {
+        "props": {
+            "specificationGroupName": "allSpecifications",
+            "specificationsOptions": [
+                {
+                    "specificationName": "Producto de Preventa",
+                    "displayValue": "SPECIFICATION_NAME",
+                    "visibleWhen": ""
+                },
+                {
+                    "specificationName": "envio gratis",
+                    "displayValue": "envio gratis",
+                    "visibleWhen": false
+                }
+            ],
+            "blockClass": "envioGratisContenido"
+        }
+    },
+
+    // OTROS CUATROS SLIDER DE PRODUCTOS VARIOS3
+
+    "list-context.product-list#colecciones-varios3": {
+        "blocks": ["product-summary.shelf#varios3"],
+        "children": ["slider-layout#varios3"],
+        "props": {
+            "collection": "152"
+        }
+    },
+    "product-summary.shelf#varios3": {
+        "children": [
+            "product-specification-badges#banderas",
+            "product-specification-badges#organico",
+            "product-specification-badges#descuentos",
+            "product-specification-badges#destaques-vinos",
+            "product-summary-image",
+            "product-brand#varios3",
+            "product-name",
+            "flex-layout.row#pricevarios3",
+            "flex-layout.row#botonesvarios3"
+        ],
+        "props": {
+            "blockClass": "related-shelf-home"
+        }
+    },
+
+    "product-brand#varios3": {
+        "props": {
+            "displayMode": "text"
+        }
+    },
+
+    "flex-layout.row#pricevarios3": {
+        "children": ["product-selling-price", "product-list-price-range"],
+        "props": {
+            "blockClass": "contenidoPrecios",
+            "preventHorizontalStretch": true
+        }
+    },
+
+    "flex-layout.row#botonesvarios3": {
+        "children": [
+            "add-to-cart-button#homevarios3",
+            "product-specification-badges#varios3"
+        ],
+        "props": {
+            "blockClass": "botones"
+        }
+    },
+
+    "add-to-cart-button#homevarios3": {
+        "props": {
+            "text": "COMPRAR",
+            "unavailableText": "SIN STOCK",
+            "blockClass": "botonComprar"
+        }
+    },
+
+    "slider-layout#varios3": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "showNavigationArrows": "desktopOnly",
+            "arrowSize": 25,
+            "showPaginationDots": "mobileOnly",
+            "fullWidth": false,
+            "infinite": true,
+            "blockClass": ["shelf-default"]
+        }
+    },
+    "product-specification-badges#varios3": {
+        "props": {
+            "specificationGroupName": "allSpecifications",
+            "specificationsOptions": [
+                {
+                    "specificationName": "Producto de Preventa",
+                    "displayValue": "SPECIFICATION_NAME",
+                    "visibleWhen": ""
+                },
+                {
+                    "specificationName": "envio gratis",
+                    "displayValue": "envio gratis",
+                    "visibleWhen": false
+                }
+            ],
+            "blockClass": "envioGratisContenido"
+        }
+    },
+
+    // OTROS CUATROS SLIDER DE PRODUCTOS VARIOS4
+
+    "list-context.product-list#colecciones-varios4": {
+        "blocks": ["product-summary.shelf#varios4"],
+        "children": ["slider-layout#varios4"],
+        "props": {
+            "collection": "152"
+        }
+    },
+    "product-summary.shelf#varios4": {
+        "children": [
+            "product-specification-badges#banderas",
+            "product-specification-badges#organico",
+            "product-specification-badges#descuentos",
+            "product-specification-badges#destaques-vinos",
+            "product-summary-image",
+            "product-brand#varios4",
+            "product-name",
+            "flex-layout.row#pricevarios4",
+            "flex-layout.row#botonesvarios4"
+        ],
+        "props": {
+            "blockClass": "related-shelf-home"
+        }
+    },
+
+    "product-brand#varios4": {
+        "props": {
+            "displayMode": "text"
+        }
+    },
+
+    "flex-layout.row#pricevarios4": {
+        "children": ["product-selling-price", "product-list-price-range"],
+        "props": {
+            "blockClass": "contenidoPrecios",
+            "preventHorizontalStretch": true
+        }
+    },
+
+    "flex-layout.row#botonesvarios4": {
+        "children": [
+            "add-to-cart-button#homevarios4",
+            "product-specification-badges#varios4"
+        ],
+        "props": {
+            "blockClass": "botones"
+        }
+    },
+
+    "add-to-cart-button#homevarios4": {
+        "props": {
+            "text": "COMPRAR",
+            "unavailableText": "SIN STOCK",
+            "blockClass": "botonComprar"
+        }
+    },
+
+    "slider-layout#varios4": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "showNavigationArrows": "desktopOnly",
+            "arrowSize": 25,
+            "showPaginationDots": "mobileOnly",
+            "fullWidth": false,
+            "infinite": true,
+            "blockClass": ["shelf-default"]
+        }
+    },
+    "product-specification-badges#varios4": {
+        "props": {
+            "specificationGroupName": "allSpecifications",
+            "specificationsOptions": [
+                {
+                    "specificationName": "Producto de Preventa",
+                    "displayValue": "SPECIFICATION_NAME",
+                    "visibleWhen": ""
+                },
+                {
+                    "specificationName": "envio gratis",
+                    "displayValue": "envio gratis",
+                    "visibleWhen": false
+                }
+            ],
+            "blockClass": "envioGratisContenido"
+        }
+    }
+}

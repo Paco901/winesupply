@@ -1,0 +1,836 @@
+{
+    "store.custom#oficial-bemberg": {
+        "blocks": [
+            "list-context.image-list#oficial-bemberg",
+            "rich-text#parrafo-principal-bemberg",
+            "flex-layout.row#tips-bemberg",
+            "flex-layout.row#contenedor-2-bemberg",
+            "flex-layout.row#newsletter-bemberg",
+            "flex-layout.row#info-marca-bemberg",
+            "flex-layout.row#linterna-bemberg",
+            "flex-layout.row#pionero-bemberg",
+            "flex-layout.row#scores-bemberg",
+            "flex-layout.row#comentarios-bemberg",
+            "flex-layout.row#separador-recetas-bemberg",
+            "flex-layout.row#receta1-bemberg",
+            "flex-layout.row#receta2-bemberg",
+            "flex-layout.row#receta3-bemberg",
+            "flex-layout.row#separador-regala-bemberg",
+            "flex-layout.row#shelf-regala-bemberg",
+            "image#mapa-bemberg",
+            "flex-layout.row#contenedor-gift-bemberg"
+        ]
+    },
+
+    /* Slider hero */
+    "list-context.image-list#oficial-bemberg": {
+        "children": ["slider-layout#oficial-bemberg-images"],
+        "props": {
+            "height": 650,
+            "images": [
+                {
+                    "image": "https://winesupply.vteximg.com.br/arquivos/hero_bemberg_desk.png",
+                    "mobileImage": "https://winesupply.vteximg.com.br/arquivos/hero_bemberg_mobile.png",
+                    "description": "descuentos"
+                },
+                {
+                    "image": "https://winesupply.vteximg.com.br/arquivos/hero_bemberg_desk.png",
+                    "mobileImage": "https://winesupply.vteximg.com.br/arquivos/hero_bemberg_mobile.png",
+                    "description": "descuentos"
+                }
+            ]
+        }
+    },
+    "slider-layout#oficial-bemberg-images": {
+        "props": {
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showPaginationDots": "never",
+            "showNavigationArrows": "never",
+            "fullWidth": true
+        }
+    },
+
+    /* Título principal */
+    "rich-text#parrafo-principal-bemberg": {
+        "props": {
+            "blockClass": "parrafo-principal-bemberg",
+            "text": "Respaldada por la cordillera de los Andes, la bodega trae consigo una historia milenaria, llena de sueños y de lazos\nprofundos que trascienden en el tiempo.\n\nInspirada en la unión familiar, su arquitectura sintetiza el apasaionante culto al vino y el amor al arte que compartimos,\ncomo así también nuestro respeto por la tierra y su tiempo.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+
+    /// burbujas tips
+    "flex-layout.row#tips-bemberg": {
+        "children": [
+            "flex-layout.col#tips-1-bemberg",
+            "flex-layout.col#tips-2-bemberg",
+            "flex-layout.col#tips-3-bemberg",
+            "flex-layout.col#tips-4-bemberg"
+        ],
+        "props": {
+            "blockClass": "tips-bemberg"
+        }
+    },
+    /// tip 1
+    "flex-layout.col#tips-1-bemberg": {
+        "children": ["image#tip-1-bemberg", "rich-text#tip-1-bemberg"],
+        "props": {
+            "blockClass": "col-tips"
+        }
+    },
+    "image#tip-1-bemberg": {
+        "props": {
+            "src": "https://winesupply.vteximg.com.br/arquivos/tips_bemberg_1.png",
+            "blockClass": "burbuja-tips"
+        }
+    },
+    "rich-text#tip-1-bemberg": {
+        "props": {
+            "text": "Maridajes"
+        }
+    },
+    // tip 2
+    "flex-layout.col#tips-2-bemberg": {
+        "children": ["image#tip-2-bemberg", "rich-text#tip-2-bemberg"],
+        "props": {
+            "blockClass": "col-tips"
+        }
+    },
+    "image#tip-2-bemberg": {
+        "props": {
+            "src": "https://winesupply.vteximg.com.br/arquivos/tips_bemberg_2.png",
+            "blockClass": "burbuja-tips"
+        }
+    },
+    "rich-text#tip-2-bemberg": {
+        "props": {
+            "text": "Set de Regalos"
+        }
+    },
+    // tip 3
+    "flex-layout.col#tips-3-bemberg": {
+        "children": ["image#tip-3-bemberg", "rich-text#tip-3-bemberg"],
+        "props": {
+            "blockClass": "col-tips"
+        }
+    },
+    "image#tip-3-bemberg": {
+        "props": {
+            "src": "https://winesupply.vteximg.com.br/arquivos/tips_bemberg_3.png",
+            "blockClass": "burbuja-tips"
+        }
+    },
+    "rich-text#tip-3-bemberg": {
+        "props": {
+            "text": "Mapa de bodegas"
+        }
+    },
+    // tip 4
+    "flex-layout.col#tips-4-bemberg": {
+        "children": ["image#tip-4-bemberg", "rich-text#tip-4-bemberg"],
+        "props": {
+            "blockClass": "col-tips"
+        }
+    },
+    "image#tip-4-bemberg": {
+        "props": {
+            "src": "https://winesupply.vteximg.com.br/arquivos/tips_bemberg_4.png",
+            "blockClass": "burbuja-tips"
+        }
+    },
+    "rich-text#tip-4-bemberg": {
+        "props": {
+            "text": "Gift Card"
+        }
+    },
+
+    /* Biografia y carrusel de productos */
+    "flex-layout.row#contenedor-2-bemberg": {
+        "children": [
+            "flex-layout.row#contenedor-informacion-bemberg",
+            "list-context.product-list#oficial-bemberg"
+        ],
+        "props": {
+            "blockClass": ["contenedor-2", "keep-walking-2"]
+        }
+    },
+    "flex-layout.row#contenedor-informacion-bemberg": {
+        "children": [
+            "flex-layout.col#col-izq-bemberg",
+            "flex-layout.col#col-der-bemberg"
+        ],
+        "props": {
+            "blockClass": "contenedor-informacion-bemberg"
+        }
+    },
+    "flex-layout.col#col-izq-bemberg": {
+        "children": [
+            "rich-text#biografia-titulo-bemberg",
+            "rich-text#biografia-text-bemberg",
+            "image#biografia-logo-bemberg"
+        ],
+        "props": {
+            "blockClass": ["col-izq", "col-izq-bemberg"]
+        }
+    },
+    "rich-text#biografia-titulo-bemberg": {
+        "props": {
+            "blockClass": "biografia-titulo-bemberg",
+            "text": "**Información\nsobre la marca**",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#biografia-text-bemberg": {
+        "props": {
+            "blockClass": "biografia-text-bemberg",
+            "text": "Respaldada por la cordillera de los Andes, la\nbodega trae consigo una historia milenaria, llena\nde sueños y de lazos profundos que trascienden\nen el tiempo.\n\nInspirada en la unión familiar, su arquitectura\nsintetiza el apasaionante culto al vino y el amor al\narte que compartimos, como así también nuestro\nrespeto por la tierra y su tiempo.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "image#biografia-logo-bemberg": {
+        "props": {
+            "blockClass": ["biografia-logo-bemberg"],
+            "maxHeight": 80,
+            "src": "https://winesupply.vteximg.com.br/arquivos/ej_bemberg_logo.png"
+        }
+    },
+    "flex-layout.col#col-der-bemberg": {
+        "children": [
+            "flex-layout.row#row-der-1-bemberg",
+            "flex-layout.row#row-der-2-bemberg"
+        ],
+        "props": {
+            "blockClass": ["row-der", "row-der-bemberg"]
+        }
+    },
+    "flex-layout.row#row-der-1-bemberg": {
+        "children": [
+            "image#biografia-image-1-bemberg",
+            "image#biografia-image-2-bemberg"
+        ],
+        "props": {
+            "blockClass": ["row-der-1-bemberg"]
+        }
+    },
+    "flex-layout.row#row-der-2-bemberg": {
+        "children": [
+            "image#biografia-image-3-bemberg",
+            "image#biografia-image-4-bemberg"
+        ],
+        "props": {
+            "blockClass": ["row-der-2-bemberg"]
+        }
+    },
+    "image#biografia-image-1-bemberg": {
+        "props": {
+            "blockClass": [
+                "biografia-image-bemberg",
+                "biografia-image-impar-bemberg"
+            ],
+            "src": "https://winesupply.vteximg.com.br/arquivos/ej_linterna_bemberg.png"
+        }
+    },
+    "image#biografia-image-2-bemberg": {
+        "props": {
+            "blockClass": "biografia-image-bemberg",
+            "src": "https://winesupply.vteximg.com.br/arquivos/ej_pionero_bemberg.png"
+        }
+    },
+    "image#biografia-image-3-bemberg": {
+        "props": {
+            "blockClass": [
+                "biografia-image-bemberg",
+                "biografia-image-impar-bemberg"
+            ],
+            "src": "https://winesupply.vteximg.com.br/arquivos/ej_scores_bemberg.png"
+        }
+    },
+    "image#biografia-image-4-bemberg": {
+        "props": {
+            "blockClass": "biografia-image-bemberg",
+            "src": "https://winesupply.vteximg.com.br/arquivos/ej_makers_bemberg.png"
+        }
+    },
+
+    "list-context.product-list#oficial-bemberg": {
+        "blocks": ["product-summary.shelf#mas-vendidos"],
+        "children": ["slider-layout#oficial-bemberg"],
+        "props": {
+            "collection": ""
+        }
+    },
+    "slider-layout#oficial-bemberg": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "navigationStep": 4,
+            "arrowSize": 25,
+            "showPaginationDots": "mobileOnly",
+            "blockClass": ["shelf-default", "oficial-bemberg"]
+        }
+    },
+
+    "flex-layout.row#contenedor-3": {
+        "children": [
+            "flex-layout.row#bloque-1",
+            "flex-layout.row#bloque-2",
+            "flex-layout.row#bloque-3"
+        ],
+        "props": {
+            "blockClass": "contenedor-bloques"
+        }
+    },
+    "flex-layout.row#bloque-1": {
+        "children": [
+            "flex-layout.col#col-texto-1",
+            "flex-layout.col#col-imagen-1"
+        ],
+        "props": {
+            "blockClass": "contendor-bloque"
+        }
+    },
+    "flex-layout.col#col-texto-1": {
+        "children": ["rich-text#titulo-bloque-1", "rich-text#texto-bloque-1"],
+        "props": {
+            "blockClass": "textos-bloques"
+        }
+    },
+    "rich-text#titulo-bloque-1": {
+        "props": {
+            "text": "Johnnie walker",
+            "blockClass": "titulos-bloques"
+        }
+    },
+    "rich-text#texto-bloque-1": {
+        "props": {
+            "text": "#Malbec y #CabernetSauvignon constituye la cima de la visiyn de Nicolós Catena Zapata: un vino sudamericano a la altura de los mejores del mundo. Se destaca por si gran complejidad, remite a frutos negros, maduros, chocolate amargo y regaliz, suavemente entrelazados con notas minerales, a violetas, hiervas y mimienta. Del mundo. Se destaca por su gran complejidad, remite a frutos nregos maduros, chocolate.",
+            "blockClass": "textos-bloques"
+        }
+    },
+    "flex-layout.col#col-imagen-1": {
+        "children": ["image#bloques-1"],
+        "props": {
+            "blockClass": "imagenes-bloques"
+        }
+    },
+    "image#bloques-1": {
+        "props": {
+            "src": "https://winesupply.vteximg.com.br/arquivos/2.jpg"
+        }
+    },
+    "flex-layout.row#bloque-2": {
+        "children": [
+            "flex-layout.col#col-texto-2",
+            "flex-layout.col#col-imagen-2"
+        ],
+        "props": {
+            "blockClass": "contendor-bloque"
+        }
+    },
+    "flex-layout.col#col-texto-2": {
+        "children": ["rich-text#titulo-bloque-2", "rich-text#texto-bloque-2"],
+        "props": {
+            "blockClass": "textos-bloques"
+        }
+    },
+    "rich-text#titulo-bloque-2": {
+        "props": {
+            "text": "Johnnie walker",
+            "blockClass": "titulos-bloques"
+        }
+    },
+    "rich-text#texto-bloque-2": {
+        "props": {
+            "text": "#Malbec y #CabernetSauvignon constituye la cima de la visiyn de Nicolós Catena Zapata: un vino sudamericano a la altura de los mejores del mundo. Se destaca por si gran complejidad, remite a frutos negros, maduros, chocolate amargo y regaliz, suavemente entrelazados con notas minerales, a violetas, hiervas y mimienta. Del mundo. Se destaca por su gran complejidad, remite a frutos nregos maduros, chocolate.",
+            "blockClass": "textos-bloques"
+        }
+    },
+    "flex-layout.col#col-imagen-2": {
+        "children": ["image#bloques-2"],
+        "props": {
+            "blockClass": "imagenes-bloques"
+        }
+    },
+    "image#bloques-2": {
+        "props": {
+            "src": "https://winesupply.vteximg.com.br/arquivos/2.jpg"
+        }
+    },
+
+    "flex-layout.row#bloque-5": {
+        "children": [
+            "flex-layout.col#col-texto-5",
+            "flex-layout.col#col-imagen-5"
+        ],
+        "props": {
+            "blockClass": "contendor-bloque"
+        }
+    },
+    "flex-layout.col#col-texto-5": {
+        "children": ["rich-text#titulo-bloque-5", "rich-text#texto-bloque-5"],
+        "props": {
+            "blockClass": "textos-bloques"
+        }
+    },
+    "rich-text#titulo-bloque-5": {
+        "props": {
+            "text": "Johnnie walker",
+            "blockClass": "titulos-bloques"
+        }
+    },
+    "rich-text#texto-bloque-5": {
+        "props": {
+            "text": "#Malbec y #CabernetSauvignon constituye la cima de la visiyn de Nicolós Catena Zapata: un vino sudamericano a la altura de los mejores del mundo. Se destaca por si gran complejidad, remite a frutos negros, maduros, chocolate amargo y regaliz, suavemente entrelazados con notas minerales, a violetas, hiervas y mimienta. Del mundo. Se destaca por su gran complejidad, remite a frutos nregos maduros, chocolate.",
+            "blockClass": "textos-bloques"
+        }
+    },
+    "flex-layout.col#col-imagen-5": {
+        "children": ["image#bloques-5"],
+        "props": {
+            "blockClass": "imagenes-bloques"
+        }
+    },
+    "image#bloques-5": {
+        "props": {
+            "src": "https://winesupply.vteximg.com.br/arquivos/2.jpg"
+        }
+    },
+    "flex-layout.row#shelf-regala-bemberg": {
+        "children": [
+            "flex-layout.row#primer-shelf-bemberg",
+            "flex-layout.row#segundo-shelf-bemberg"
+        ],
+        "props": {
+            "blockClass": "contenedor-5"
+        }
+    },
+    "flex-layout.row#primer-shelf-bemberg": {
+        "children": [
+            "image#exampleEspeciales",
+            "flex-layout.col#ShelfEspeciales"
+        ],
+        "props": {
+            "blockClass": ["primer-shelf", "primer-shelf-bemberg"]
+        }
+    },
+    "flex-layout.row#segundo-shelf-bemberg": {
+        "children": ["list-context.product-list#oficial-bemberg"],
+        "props": {
+            "blockClass": ["segundo-shelf", "segundo-shelf-bemberg"]
+        }
+    },
+
+    "list-context.product-list#gift-bemberg": {
+        "blocks": ["product-summary.shelf#mas-vendidos"],
+        "children": ["slider-layout#oficial-bemberg"],
+        "props": {
+            "collection": ""
+        }
+    },
+    "slider-layout#gift-bemberg": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "showNavigationArrows": "desktopOnly",
+            "arrowSize": 25,
+            "showPaginationDots": "mobileOnly",
+            "fullWidth": false,
+            "infinite": true,
+            "blockClass": ["shelf-default", "sliderMasVendidos", "gift-bemberg"]
+        }
+    },
+
+    "flex-layout.row#newsletter-bemberg": {
+        "children": ["flex-layout.col#NewsText-bemberg", "newsletter#bemberg"],
+        "props": {
+            "blockClass": ["newsletter-bemberg"]
+        }
+    },
+    "flex-layout.col#NewsText-bemberg": {
+        "children": [
+            "rich-text#newsTop-bemberg",
+            "rich-text#newsBotton-bemberg"
+        ],
+        "props": {
+            "blockClass": "NewsText-bemberg"
+        }
+    },
+    "rich-text#newsTop-bemberg": {
+        "props": {
+            "text": "ENTÉRATE DE LAS PROMOCIONES Y NOVEDADES.",
+            "blockClass": ["textNewsuno", "newsTop-bemberg"]
+        }
+    },
+    "rich-text#newsBotton-bemberg": {
+        "props": {
+            "text": "Suscribite a nuestro Newsletter",
+            "blockClass": ["textNewsDos", "newsBotton-bemberg"]
+        }
+    },
+    "newsletter#bemberg": {
+        "props": {
+            "submit": "SUSCRIBIRME",
+            "placeholder": "Ingresá tu e-mail...",
+            "blockClass": "newsletter-bemberg"
+        }
+    },
+
+    "flex-layout.row#info-marca-bemberg": {
+        "children": [
+            "flex-layout.col#texto-marca-bemberg",
+            "image#imagen-marca-bemberg"
+        ],
+        "props": {
+            "blockClass": ["info-marca-bemberg"]
+        }
+    },
+    "flex-layout.col#texto-marca-bemberg": {
+        "children": [
+            "rich-text#titulo-marca-bemberg",
+            "rich-text#parrafo-marca-bemberg"
+        ],
+        "props": {
+            "blockClass": ["texto-marca-bemberg"]
+        }
+    },
+    "rich-text#titulo-marca-bemberg": {
+        "props": {
+            "blockClass": ["titulo-marca-bemberg"],
+            "text": "Información sobre la marca",
+            "textAlignment": "LEFT"
+        }
+    },
+    "rich-text#parrafo-marca-bemberg": {
+        "props": {
+            "blockClass": ["parrafo-marca-bemberg"],
+            "text": "Flor de Caña, el ron premium de Nucaragua, ha sido\nnombrado Mejor Productor de Ron del Mundo en el\nInternational Wine and Spirit Competition (IWSC) en Londres.\n\nEsta distinción, ''la más alta de nivel global en la industria de\nlos destilados'', avala la calidad de este ron nicaragüense\ncon más de 125 años de historia.",
+            "textAlignment": "LEFT"
+        }
+    },
+    "image#imagen-marca-bemberg": {
+        "props": {
+            "blockClass": ["imagen-marca-bemberg"],
+            "src": "https://winesupply.vteximg.com.br/arquivos/info_marca_bemberg.png"
+        }
+    },
+
+    "flex-layout.row#linterna-bemberg": {
+        "children": [
+            "image#imagen-linterna-bemberg",
+            "flex-layout.col#texto-linterna-bemberg"
+        ],
+        "props": {
+            "blockClass": ["linterna-bemberg"]
+        }
+    },
+    "flex-layout.col#texto-linterna-bemberg": {
+        "children": [
+            "rich-text#titulo-linterna-bemberg",
+            "rich-text#parrafo-linterna-bemberg"
+        ],
+        "props": {
+            "blockClass": ["texto-marca-bemberg"]
+        }
+    },
+    "rich-text#titulo-linterna-bemberg": {
+        "props": {
+            "blockClass": ["titulo-marca-bemberg"],
+            "text": "La Linterna",
+            "textAlignment": "LEFT"
+        }
+    },
+    "rich-text#parrafo-linterna-bemberg": {
+        "props": {
+            "blockClass": ["parrafo-marca-bemberg"],
+            "text": "Flor de Caña, el ron premium de Nucaragua, ha sido\nnombrado Mejor Productor de Ron del Mundo en el\nInternational Wine and Spirit Competition (IWSC) en Londres.\n\nEsta distinción, ''la más alta de nivel global en la industria de\nlos destilados'', avala la calidad de este ron nicaragüense\ncon más de 125 años de historia.",
+            "textAlignment": "LEFT"
+        }
+    },
+    "image#imagen-linterna-bemberg": {
+        "props": {
+            "blockClass": ["imagen-linterna-bemberg"],
+            "src": "https://winesupply.vteximg.com.br/arquivos/linterna.png"
+        }
+    },
+
+    "flex-layout.row#pionero-bemberg": {
+        "children": [
+            "flex-layout.col#texto-pionero-bemberg",
+            "image#imagen-pionero-bemberg"
+        ],
+        "props": {
+            "blockClass": ["info-marca-bemberg"]
+        }
+    },
+    "flex-layout.col#texto-pionero-bemberg": {
+        "children": [
+            "rich-text#titulo-pionero-bemberg",
+            "rich-text#parrafo-pionero-bemberg"
+        ],
+        "props": {
+            "blockClass": ["texto-marca-bemberg"]
+        }
+    },
+    "rich-text#titulo-pionero-bemberg": {
+        "props": {
+            "blockClass": ["titulo-marca-bemberg"],
+            "text": "Pionero",
+            "textAlignment": "LEFT"
+        }
+    },
+    "rich-text#parrafo-pionero-bemberg": {
+        "props": {
+            "blockClass": ["parrafo-marca-bemberg"],
+            "text": "Flor de Caña, el ron premium de Nucaragua, ha sido\nnombrado Mejor Productor de Ron del Mundo en el\nInternational Wine and Spirit Competition (IWSC) en Londres.\n\nEsta distinción, ''la más alta de nivel global en la industria de\nlos destilados'', avala la calidad de este ron nicaragüense\ncon más de 125 años de historia.",
+            "textAlignment": "LEFT"
+        }
+    },
+    "image#imagen-pionero-bemberg": {
+        "props": {
+            "blockClass": ["imagen-marca-bemberg"],
+            "src": "https://winesupply.vteximg.com.br/arquivos/pionero.png"
+        }
+    },
+
+    "flex-layout.row#scores-bemberg": {
+        "children": ["link#btn-scores-bemberg"],
+        "props": {
+            "blockClass": ["scores-bemberg"]
+        }
+    },
+    "link#btn-scores-bemberg": {
+        "props": {
+            "href": "/",
+            "label": "Scores",
+            "blockClass": "btn-scores-bemberg"
+        }
+    },
+
+    "flex-layout.row#comentarios-bemberg": {
+        "children": [
+            "flex-layout.col#texto-comentarios-bemberg",
+            "image#imagen-comentarios-bemberg"
+        ],
+        "props": {
+            "blockClass": ["info-marca-bemberg"]
+        }
+    },
+    "flex-layout.col#texto-comentarios-bemberg": {
+        "children": [
+            "rich-text#titulo-comentarios-bemberg",
+            "rich-text#parrafo-comentarios-bemberg"
+        ],
+        "props": {
+            "blockClass": ["texto-marca-bemberg"]
+        }
+    },
+    "rich-text#titulo-comentarios-bemberg": {
+        "props": {
+            "blockClass": ["titulo-marca-bemberg"],
+            "text": "Comentarios de Wine makers\ny enólogos.",
+            "textAlignment": "LEFT"
+        }
+    },
+    "rich-text#parrafo-comentarios-bemberg": {
+        "props": {
+            "blockClass": ["parrafo-marca-bemberg"],
+            "text": "Flor de Caña, el ron premium de Nucaragua, ha sido\nnombrado Mejor Productor de Ron del Mundo en el\nInternational Wine and Spirit Competition (IWSC) en Londres.\n\nEsta distinción, ''la más alta de nivel global en la industria de\nlos destilados'', avala la calidad de este ron nicaragüense\ncon más de 125 años de historia.",
+            "textAlignment": "LEFT"
+        }
+    },
+    "image#imagen-comentarios-bemberg": {
+        "props": {
+            "blockClass": ["imagen-marca-bemberg"],
+            "src": "https://winesupply.vteximg.com.br/arquivos/comentarios_bemberg.png"
+        }
+    },
+
+    "flex-layout.row#separador-recetas-bemberg": {
+        "children": ["rich-text#separador-recetas-bemberg"],
+        "props": {
+            "blockClass": ["separador-recetas-bemberg"]
+        }
+    },
+    "rich-text#separador-recetas-bemberg": {
+        "props": {
+            "blockClass": ["titulo-separador-recetas-bemberg"],
+            "text": "Maridaje Recetas",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"
+        }
+    },
+
+    "flex-layout.row#receta1-bemberg": {
+        "children": [
+            "image#imagen-receta1-bemberg",
+            "flex-layout.col#texto-receta1-bemberg"
+        ],
+        "props": {
+            "blockClass": ["linterna-bemberg"]
+        }
+    },
+    "flex-layout.col#texto-receta1-bemberg": {
+        "children": [
+            "rich-text#titulo-receta1-bemberg",
+            "rich-text#parrafo-receta1-bemberg"
+        ],
+        "props": {
+            "blockClass": ["texto-marca-bemberg"]
+        }
+    },
+    "rich-text#titulo-receta1-bemberg": {
+        "props": {
+            "blockClass": ["titulo-marca-bemberg"],
+            "text": "Maridaje Recetas # 1",
+            "textAlignment": "LEFT"
+        }
+    },
+    "rich-text#parrafo-receta1-bemberg": {
+        "props": {
+            "blockClass": ["parrafo-marca-bemberg"],
+            "text": "Flor de Caña, el ron premium de Nucaragua, ha sido\nnombrado Mejor Productor de Ron del Mundo en el\nInternational Wine and Spirit Competition (IWSC) en Londres.\n\nEsta distinción, ''la más alta de nivel global en la industria de\nlos destilados'', avala la calidad de este ron nicaragüense\ncon más de 125 años de historia.",
+            "textAlignment": "LEFT"
+        }
+    },
+    "image#imagen-receta1-bemberg": {
+        "props": {
+            "blockClass": ["imagen-linterna-bemberg"],
+            "src": "https://winesupply.vteximg.com.br/arquivos/receta1_bembeerg.png"
+        }
+    },
+
+    "flex-layout.row#receta2-bemberg": {
+        "children": [
+            "flex-layout.col#texto-receta2-bemberg",
+            "image#imagen-receta2-bemberg"
+        ],
+        "props": {
+            "blockClass": ["info-marca-bemberg"]
+        }
+    },
+    "flex-layout.col#texto-receta2-bemberg": {
+        "children": [
+            "rich-text#titulo-receta2-bemberg",
+            "rich-text#parrafo-receta2-bemberg"
+        ],
+        "props": {
+            "blockClass": ["texto-marca-bemberg"]
+        }
+    },
+    "rich-text#titulo-receta2-bemberg": {
+        "props": {
+            "blockClass": ["titulo-marca-bemberg"],
+            "text": "Maridaje Recetas # 2",
+            "textAlignment": "LEFT"
+        }
+    },
+    "rich-text#parrafo-receta2-bemberg": {
+        "props": {
+            "blockClass": ["parrafo-marca-bemberg"],
+            "text": "Flor de Caña, el ron premium de Nucaragua, ha sido\nnombrado Mejor Productor de Ron del Mundo en el\nInternational Wine and Spirit Competition (IWSC) en Londres.\n\nEsta distinción, ''la más alta de nivel global en la industria de\nlos destilados'', avala la calidad de este ron nicaragüense\ncon más de 125 años de historia.",
+            "textAlignment": "LEFT"
+        }
+    },
+    "image#imagen-receta2-bemberg": {
+        "props": {
+            "blockClass": ["imagen-marca-bemberg"],
+            "src": "https://winesupply.vteximg.com.br/arquivos/receta2_bembeerg.png"
+        }
+    },
+
+    "flex-layout.row#receta3-bemberg": {
+        "children": [
+            "image#imagen-receta3-bemberg",
+            "flex-layout.col#texto-receta3-bemberg"
+        ],
+        "props": {
+            "blockClass": ["linterna-bemberg"]
+        }
+    },
+    "flex-layout.col#texto-receta3-bemberg": {
+        "children": [
+            "rich-text#titulo-receta3-bemberg",
+            "rich-text#parrafo-receta3-bemberg"
+        ],
+        "props": {
+            "blockClass": ["texto-marca-bemberg"]
+        }
+    },
+    "rich-text#titulo-receta3-bemberg": {
+        "props": {
+            "blockClass": ["titulo-marca-bemberg"],
+            "text": "Maridaje Recetas # 3",
+            "textAlignment": "LEFT"
+        }
+    },
+    "rich-text#parrafo-receta3-bemberg": {
+        "props": {
+            "blockClass": ["parrafo-marca-bemberg"],
+            "text": "Flor de Caña, el ron premium de Nucaragua, ha sido\nnombrado Mejor Productor de Ron del Mundo en el\nInternational Wine and Spirit Competition (IWSC) en Londres.\n\nEsta distinción, ''la más alta de nivel global en la industria de\nlos destilados'', avala la calidad de este ron nicaragüense\ncon más de 125 años de historia.",
+            "textAlignment": "LEFT"
+        }
+    },
+    "image#imagen-receta3-bemberg": {
+        "props": {
+            "blockClass": ["imagen-linterna-bemberg"],
+            "src": "https://winesupply.vteximg.com.br/arquivos/receta3_bembeerg.png"
+        }
+    },
+
+    "flex-layout.row#separador-regala-bemberg": {
+        "children": ["rich-text#separador-regala-bemberg"],
+        "props": {
+            "blockClass": ["separador-recetas-bemberg"]
+        }
+    },
+    "rich-text#separador-regala-bemberg": {
+        "props": {
+            "blockClass": ["titulo-separador-recetas-bemberg"],
+            "text": "Regala lo mejor de Bemberg",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"
+        }
+    },
+
+    "image#mapa-bemberg": {
+        "props": {
+            "blockClass": ["mapa-bemberg"],
+            "src": "https://winesupply.vteximg.com.br/arquivos/mapas_bemberg.png"
+        }
+    },
+
+    "flex-layout.row#contenedor-gift-bemberg": {
+        "children": ["list-context.product-list#oficial-bemberg"],
+        "props": {
+            "blockClass": ["contenedor-gift-bemberg"]
+        }
+    }
+}

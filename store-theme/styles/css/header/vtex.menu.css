@@ -1,0 +1,190 @@
+.styledLinkContent--header-menu-title {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+  
+    font-family: "Nunito-Regular";
+  }
+
+  .styledLinkIcon--header-menu-title{
+    display: none;
+  }
+  
+  .menuContainer {
+    display: flex;
+    align-items: center;
+    /* width: 86%; */
+    margin: auto;
+    justify-content: space-around;
+   
+  font-family: "Nunito-Regular";
+  }
+
+  @media only screen and (max-width: 600px) {
+    .menuContainer {
+      padding-top: 0rem;
+      width: 100%;
+      padding: 0rem;
+    }
+  }
+  .submenuContainer--menu-horizontal{
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+  .submenuWrapper--menu-horizontal {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+  }
+  .menuContainerNav--categories-menu{
+    width: 87% !important;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .submenu--menu-horizontal {
+    width: 100%;
+    height: auto;
+    background: black;
+    margin: auto;
+    border: 1px solid rgba(209, 207, 207, 0.37);
+  }
+
+
+
+  .menuItem:hover {
+    background: #F3F2F2;
+    height: 50px;
+    
+  }
+    
+    .menuItem:hover  :global(.vtex-menu-2-x-styledLinkContent){
+        background: #F3F2F2;
+        color: black;
+    }
+    
+
+  
+  @media screen and (max-width: 720px) {
+    .menuItem {
+      width: 100%;
+    }
+  
+    .styledLinkContent {
+      color: black;
+    }
+  }
+
+
+  .styledLink--menu-item-categorias .styledLinkContent--menu-item-categorias::before {
+    content: "";
+    background-image: url("https://limpioonline.vteximg.com.br/arquivos/burger-menu.png");
+    position: relative;
+    background-size: 25px 18px;
+    display: inline-block;
+    width: 25px;
+    height: 18px;
+    left: -1.2rem;
+    background-repeat: no-repeat;
+  }
+  
+ .menuItem--menu-item-categorias--isOpen .styledLink--menu-item-categorias .styledLinkContent--menu-item-categorias::before {
+  filter: invert(100);
+ }
+
+  .styledLink--menu-item-categorias .styledLinkContent--menu-item-categorias::after {
+    content: "";
+    background-image: url("https://limpioonline.vteximg.com.br/arquivos/arrow.png");
+    position: relative;
+    background-size: 22px 7px;
+    display: inline-block;
+    width: 22px;
+    height: 7px;
+    right: -0.2rem;
+    background-repeat: no-repeat;
+  }
+  
+  .menuItem--menu-item-categorias--isOpen .styledLink--menu-item-categorias .styledLinkContent--menu-item-categorias::after {
+    filter: invert(100);
+   }
+
+  .styledLinkContent--header-menu-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  font-family: "Nunito-Bold";
+    letter-spacing: -0.34px;
+  }
+  
+  .styledLinkContainer--product-page-menu-item {
+    margin: 0;
+    font-size: 1.5rem;
+  font-family: "Nunito-Bold";
+  }
+  
+  .styledLinkContent--product-page-menu-item.styledLinkContent--product-page-description {
+    color: #0283d8;
+  }
+  
+  .menuItem--product-page-description {
+    border-bottom: 1px solid #e6e6e6;
+  }
+  
+  .menuItem--product-page-menu-item {
+    padding: 1rem 0;
+  }
+  .menuItem--product-page-menu-item .submenuAccordion {
+    padding: 0;
+    width: 95%;
+  }
+  
+  .accordionIcon--isClosed::after {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='27.244' height='14.669' viewBox='0 0 27.244 14.669'%3E%3Cpath fill='none' stroke='%234d4d4d' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.484px' d='M1610.553 1576.018l-12.878 12.879-12.267-12.267' transform='translate(-1584.359 -1574.969)'/%3E%3C/svg%3E%0A");
+    display: block;
+    width: 22px;
+    height: 22px;
+    padding-left: 1rem;
+    margin-right: 0.5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .accordionIcon--isOpen::after {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='27.244' height='14.67' viewBox='0 0 27.244 14.67'%3E%3Cpath fill='none' stroke='%23006db6' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.484px' d='M1585.408 1151.2l12.878-12.879 12.267 12.267' transform='translate(-1584.359 -1137.577)'/%3E%3C/svg%3E%0A");
+    display: block;
+    width: 22px;
+    height: 22px;
+    padding-left: 1rem;
+    margin-right: 0.5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .styledLinkContainer--product-page-menu-item .styledLink .accordionIcon {
+    font-size: 0;
+  }
+  
+  .styledLink--product-page-menu-item {
+    display: flex;
+  }
+  
+  .styledLinkContent--product-page-menu-item {
+    width: 100%;
+    color: #4d4d4d;
+  }
+  
+
+  .limpioonline-limpioonline-components-1-x-MenuHorizontal{
+    background: #0283d8 !important;
+  }
+
+
+  .vtex-menu-2-x-menuItem:hover {
+    background: white;
+  }
+
+
+

@@ -1,0 +1,61 @@
+{
+    "info-card#home-one": {
+      "props": {
+        "isFullModeStyle": false,
+        "textPosition": "left",
+        "imageUrl": "https://limpioonline.vteximg.com.br/arquivos/asociate_home.png",
+        "mobileImageUrl": "https://limpioonline.vteximg.com.br/arquivos/asociate_home.png",
+        "callToActionUrl": "/sale/d",
+        "blockClass": "info-card-onlyImage",
+        "textAlignment": "center"
+      }
+    },
+    "info-card#home-two": {
+      "props": {
+        "isFullModeStyle": false,
+        "textPosition": "left",
+        "imageUrl": "https://limpioonline.vteximg.com.br/arquivos/prevencion_home.png",
+        "mobileImageUrl": "https://limpioonline.vteximg.com.br/arquivos/prevencion_home.png",
+        "callToActionUrl": "/sale/d",
+        "blockClass": "info-card-onlyImage",
+        "textAlignment": "center"
+      }
+    },
+    "image#banner-1": {
+      "props": {
+        "src": "https://limpioonline.vteximg.com.br/arquivos/asociate_home.png",
+        "link": "#"
+      }
+    },
+    "image#banner-2": {
+      "props": {
+        "src": "https://limpioonline.vteximg.com.br/arquivos/prevencion_home.png",
+        "link": "#"
+      }
+    },
+    "info-card#suscribe-youtube": {
+      "props": {
+        "isFullModeStyle": false,
+        "textPosition": "right",
+        "imageUrl": "https://limpioonline.vteximg.com.br/arquivos/home1.png",
+        "callToActionText": "Suscribite a nuestro canal de Youtube",
+        /*        "callToActionText": "DISCOVER", */
+        "callToActionUrl": "/sale/d",
+        "blockClass": ["info-card-suscribe-youtube", "info-card-home"],
+        "textAlignment": "center"
+      }
+    },
+    "info-card#suscribe-instagram": {
+      "props": {
+        "isFullModeStyle": false,
+        "textPosition": "left",
+        "imageUrl": "https://limpioonline.vteximg.com.br/arquivos/home3.png",
+        "callToActionText": "Encontranos en Instagram",
+        /*        "callToActionText": "DISCOVER", */
+        "callToActionUrl": "/sale/d",
+        "blockClass": ["info-card-suscribe-instagram", "info-card-home"],
+        "textAlignment": "center"
+      }
+    }
+  }
+  

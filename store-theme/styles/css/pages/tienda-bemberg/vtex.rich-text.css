@@ -1,0 +1,57 @@
+.container--parrafo-principal-bemberg {
+    margin: 4rem 0;
+}
+
+.strong--biografia-titulo-bemberg {
+    font-family: 'BodoniFLF-Bold';
+    color: #fff;
+}
+
+.paragraph--biografia-text-bemberg,
+.paragraph--parrafo-marca-bemberg {
+    font-size: 1.2rem !important;
+    font-family: "Nunito-light";
+}
+
+.paragraph--biografia-text-bemberg,
+.paragraph--newsTop-bemberg,
+.paragraph--newsBotton-bemberg {
+    color: #fff !important;
+}
+
+.paragraph--titulo-marca-bemberg {
+    font-family: 'BodoniFLF-Bold';
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.paragraph--titulo-separador-recetas-bemberg {
+    color: #fff;
+    font-family: 'BodoniFLF-Bold';
+    font-size: 2rem;
+    margin-left: 1.5rem;
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    .container--parrafo-principal-bemberg {
+        padding: 0 1rem;
+        font-size: 1.3rem;
+    }
+
+    .paragraph--newsBotton-bemberg {
+        margin-bottom: 0;
+    }
+
+    .paragraph--titulo-marca-bemberg {
+        font-size: 1.5rem;
+    }
+
+    .paragraph--parrafo-marca-bemberg {
+        font-size: .95rem !important;
+    }
+
+    .paragraph--titulo-separador-recetas-bemberg {
+        font-size: 1.5rem;
+    }
+}

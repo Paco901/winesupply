@@ -1,0 +1,5 @@
+@media (max-width: 768px){
+    .videoElement--videoEl{
+        height: 200px;
+    }
+}

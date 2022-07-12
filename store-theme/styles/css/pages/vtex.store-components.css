@@ -1,0 +1,10 @@
+.imageElement--especial-nordes{
+    max-width: 500px;
+    width: 100%;
+}
+
+@media (max-width: 768px){
+    .imageElement--image-shelf{
+        margin-bottom: 1rem;
+    }
+}

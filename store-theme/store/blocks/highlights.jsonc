@@ -1,0 +1,34 @@
+{
+  "vtex.product-highlights@2.x:product-highlights#collection": {
+    "props": {
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["vinos"]
+      }
+    },
+    "children": ["product-highlight-wrapper"]
+  },
+  "product-highlight-wrapper": {
+    "props": {
+      "blockClass": "collection"
+    },
+    "children": ["product-highlight-text"]
+  },
+  "product-highlight-text": {
+    "props": {
+      "message": "{highlightName}"
+    }
+  }
+  // },
+  // "vtex.product-highlights@2.x:product-highlights#limpioTips": {
+  //   "props": {
+  //     "type": "collection",
+  //     "filter": {
+  //       "type": "show",
+  //       "highlightNames": ["Limpio Tips"]
+  //     }
+  //   },
+  //   "children": ["image#card1"]
+  // }
+}

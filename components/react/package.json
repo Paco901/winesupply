@@ -1,0 +1,46 @@
+{
+  "name": "hello-react",
+  "version": "0.1.0",
+  "scripts": {
+    "pretest": "yarn",
+    "test": "vtex-test-tools test",
+    "test:coverage": "vtex-test-tools test --collectCoverage",
+    "sonar-scanner": "npm run test:coverage && node_modules/sonar-scanner/bin/sonar-scanner"
+  },
+  "author": "Juan Carlos Valencia Panchana",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/client": "^3.4.10",
+    "classnames": "^2.2.6",
+    "react": "^16.8.6",
+    "react-apollo": "^3.1.5",
+    "react-intl": "^2.9.0",
+    "react-responsive": "^9.0.0-beta.4"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.8",
+    "@types/jest": "^24.0.13",
+    "@types/ramda": "^0.27.50",
+    "@types/react": "^16.8.19",
+    "@types/react-intl": "^2.3.18",
+    "@vtex/test-tools": "^0.3.2",
+    "coveralls": "^3.0.4",
+    "prettier": "^1.18.2",
+    "sonar-scanner": "^3.1.0",
+    "tslint": "^5.20.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "tslint-react-hooks": "^2.2.1",
+    "typescript": "3.9.7",
+    "vtex.order-placed": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.order-placed@2.16.0/public/@types/vtex.order-placed",
+    "vtex.product-context": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.10.0/public/@types/vtex.product-context",
+    "vtex.product-summary": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-summary@2.80.0/public/@types/vtex.product-summary",
+    "vtex.product-summary-context": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-summary-context@0.9.0/public/@types/vtex.product-summary-context",
+    "vtex.render-runtime": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.4/public/@types/vtex.render-runtime",
+    "vtex.search-graphql": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-graphql@0.49.0/public/@types/vtex.search-graphql",
+    "vtex.search-page-context": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-page-context@0.2.0/public/@types/vtex.search-page-context",
+    "vtex.store": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store@2.125.0/public/@types/vtex.store",
+    "winesupply.componentes-wine": "http://winesupply.vtexassets.com/_v/public/typings/v1/winesupply.componentes-wine@0.1.8/public/@types/winesupply.componentes-wine"
+  }
+}

@@ -1,0 +1,131 @@
+
+:global(.vtex-store__template){
+    background: #F3F2F2;
+}
+.formTitle{
+    font-size: 20px;
+    font-family: 'Baskerville';
+    margin-bottom: 35px;
+}
+.formLinkContainer{
+    justify-content: center;
+    margin:auto !important;
+    padding: 20px 0px
+}
+.formFooter :global(.vtex-button__label){
+    color: transparent;
+}
+.formFooter :global(.vtex-button__label)::after{
+    content: "INICIAR SESION";
+    font-size:25px;
+    color:white;
+    font-family: 'Baskerville';
+    font-weight: 500;
+}
+.formFooter :global(.vtex-button__label .t-small)
+{
+    display: none !important;
+}
+.sendButton{
+    width: 50% !important; 
+    margin: auto !important;
+    color: transparent;
+}
+
+.forgotPasswordLink {
+    color: grey !important;
+}
+.dontHaveAccount{
+    color: grey !important;
+}
+
+.contentFormVisible{
+    width: 60%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+.contentAlwaysWithOptions{
+    background: white;
+    max-width: 65rem !important;
+}
+:global(.vtex-store .b--action-primary){
+    background-color: #000 !important;
+}
+.b--action-primary{
+    background-color: #000 !important;
+}
+
+.formTitle{
+    color: transparent;
+}
+
+.formTitle::before{
+    content: "Entrar en la cuenta";
+    font-size: 23px;
+    font-family: 'Baskerville';
+    display: flex;
+    color: black;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.inputContainerEmail::before{
+    content: "Direccion del correo electronico";
+    font-size: 12px;
+    font-family: 'Baskerville';
+    align-items: center;
+    display: flex;
+}
+
+.inputContainerEmail{
+    display: flex;
+}
+.inputContainerPassword {
+    position: relative;
+}
+
+.inputContainerPassword :global(.vtex-input-prefix__group ){
+    width: 78%;
+    justify-content: flex-end;
+    display: flex;
+    margin-left: 130px;
+}
+
+
+.inputContainerPassword::before{
+    content: "Contraseña";
+    font-size: 12px;
+    font-family: 'Baskerville';
+    position: absolute;
+    margin-top: 13px;
+ 
+}
+
+@media only screen and (max-width: 768px) {
+    .inputContainerPassword::before{
+        content: "";
+    }
+    .inputContainerEmail::before{
+        content: "";
+    }
+    .inputContainerPassword :global(.vtex-input-prefix__group ){
+        width: 100%;
+        justify-content: flex-end;
+        display: flex;
+        margin-left: 0px;
+    }
+
+    .formFooter :global(.vtex-button__label)::after{
+        content: "INICIAR SESION";
+        font-size:15px;
+        color:white;
+        font-family: 'Baskerville';
+        font-weight: 500;
+    }
+}
+
+:global(.vtex-menu-2-x-menuItem--product-page-menu-item--isOpen) :global(.overflow-hidden){
+    height: auto !important;
+}

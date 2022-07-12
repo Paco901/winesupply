@@ -1,0 +1,183 @@
+{
+    "submenu#categorias": {
+        "children": [
+           "MenuHorizontal"
+        ],
+        "props": {
+            "width": "100%",
+            "blockClass": ["header-submenu-container", "menu-horizontal"]
+        }
+    },
+    "MenuHorizontal":{
+        "props": {
+        }
+    },
+
+    "flex-layout.col#submenu-especial": {
+        "children": [
+            "flex-layout.row#submenu-especial-1"
+        ],
+        "props": {
+            "blockClass": "header-submenu",
+            "width": "100%"
+        }
+    },
+    "flex-layout.row#submenu-especial-1": {
+        "children": [
+            "flex-layout.col#submenu-especial-especial-1",
+            "flex-layout.col#submenu-especial-especial-2"
+        ],
+        "props": {
+            "blockClass": "header-submenu",
+            "width": "100%"
+        }
+    },
+    "flex-layout.col#submenu-especial-especial-1": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "width": "20%"
+        },
+        "children": [
+            "menu-item#submenu-especial-especial-1",
+            "menu#submenu-especial-especial-1"
+        ]
+    },
+    "menu#submenu-especial-especial-1-title": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-especial-especial-1"
+        ]
+    },
+    "menu-item#submenu-especial-especial-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header-submenu-title",
+            "itemProps": {
+                "type": "internal",
+                "href": "/especial---outdoor/especial-1",
+                "noFollow": false,
+                "tagTitle": "especial-1",
+                "text": "ESPECIAL 1"
+            }
+        }
+    },
+    "menu#submenu-especial-especial-1": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-especial-especial-1-sublink-1",
+            "menu-item#submenu-especial-especial-1-sublink-2"
+        ]
+    },
+    "menu-item#submenu-especial-especial-1-sublink-1": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/especial---outdoor/especial-1",
+                "noFollow": false,
+                "tagTitle": "Sub Link 1",
+                "text": "Sub Link 1"
+            }
+        }
+    },
+    "menu-item#submenu-especial-especial-1-sublink-2": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/especial---outdoor/especial-1",
+                "noFollow": false,
+                "tagTitle": "Sub Link 2",
+                "text": "Sub Link 2"
+            }
+        }
+    },
+    "flex-layout.col#submenu-especial-especial-2": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "width": "20%"
+        },
+        "children": [
+            "menu-item#submenu-especial-especial-2",
+            "menu#submenu-especial-especial-2"
+        ]
+    },
+    "menu#submenu-especial-especial-2-title": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-especial-especial-2"
+        ]
+    },
+    "menu-item#submenu-especial-especial-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header-submenu-title",
+            "itemProps": {
+                "type": "internal",
+                "href": "/especial---outdoor/especial-2",
+                "noFollow": false,
+                "tagTitle": "especial-2",
+                "text": "ESPECIAL 2"
+            }
+        }
+    },
+    "menu#submenu-especial-especial-2": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-especial-especial-2-sublink-1",
+            "menu-item#submenu-especial-especial-2-sublink-2"
+        ]
+    },
+    "menu-item#submenu-especial-especial-2-sublink-1": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/especial---outdoor/especial-2",
+                "noFollow": false,
+                "tagTitle": "Sub Link 1",
+                "text": "Sub Link 1"
+            }
+        }
+    },
+    "menu-item#submenu-especial-especial-2-sublink-2": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/especial---outdoor/especial-2",
+                "noFollow": false,
+                "tagTitle": "Sub Link 2",
+                "text": "Sub Link 2"
+            }
+        }
+    }
+}

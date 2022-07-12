@@ -1,0 +1,22 @@
+.paragraph--titulo-contacto {
+    font-family: 'Baskerville';
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.paragraph--subtitulo-contacto {
+    font-size: .7rem;
+}
+
+.paragraph--campos-obligatorios {
+    margin: 0;
+    font-size: .6rem;
+}
+
+.paragraph--politica-datos-personales {
+    font-size: .5rem;
+    line-height: 1.3;
+}

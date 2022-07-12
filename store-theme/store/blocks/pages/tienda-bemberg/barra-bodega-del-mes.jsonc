@@ -1,0 +1,101 @@
+{
+
+  
+  "flex-layout.row#barra-bodegas":{
+    "children": [
+      "flex-layout.row#col1",
+      "flex-layout.row#col2",
+      "flex-layout.row#col3"
+    ],
+    "props": {
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false,
+      "fullWidth":true,
+      "blockClass": ["contenidoMediosdepago", "contenidoBarraBodegas"]
+    }
+  },
+
+"flex-layout.row#col1": {
+    "children": [
+      "flex-layout.col#coluno"
+    ],
+    "props": {
+      "blockClass": "mediosDePagos",
+      "preventHorizontalStretch": true
+  
+    }
+  },
+
+  "flex-layout.col#coluno":{
+    "children":[
+      "rich-text#uno"],
+      "props": {
+        "blockClass": "contenidoTexto",
+        "fullWidth":true
+      }
+  },
+ 
+  "rich-text#uno": {
+    "props": {
+      "text": "DESCUBRÍ NUESTROS BENEFICIOS",
+      "blockClass": ["textoBarraBodega"]
+    }
+  },
+  //BLOQUE CUOTAS
+  "flex-layout.row#col2": {
+    "children": [
+      "flex-layout.col#columnatextodos"
+    ],
+    "props": {
+      "blockClass": "mediosDePagos",
+      "preventHorizontalStretch": true
+  
+    }
+  },
+  "flex-layout.col#columnatextodos":{
+    "children":[
+      "rich-text#dos"],
+      "props": {
+        "blockClass": "contenidoTexto",
+        "fullWidth":true
+      }
+  },
+ 
+  "rich-text#dos": {
+    "props": {
+      "text": "DESCUBRÍ UNA EXPERIENCIA UNICA",
+      "blockClass": ["textoBarraBodega"]
+    }
+  },
+
+
+  //FIN BLOQUE CUOTAS
+  
+  //BLOQUE ENVIOS
+
+  "flex-layout.row#col3": {
+    "children": [
+      "flex-layout.col#infoenvios"
+    ],
+    "props": {
+      "blockClass": "mediosDePagos",
+      "preventHorizontalStretch": true
+  
+    }
+  },
+
+  "flex-layout.col#infoenvios":{
+    "children":["rich-text#card2envios"],
+      "props": {
+        "blockClass": ["contenidoTexto","textoBarraBodega"],
+        "fullWidth":true
+      }
+  },
+  "rich-text#card2envios": {
+    "props": {
+      "text": "SET DE PRODUCTOS ESPECIALES",
+      "blockClass": ["textoBarraBodega"]
+    }
+  }
+
+}

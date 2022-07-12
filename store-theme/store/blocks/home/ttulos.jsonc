@@ -1,0 +1,201 @@
+{
+    
+
+"flex-layout.row#masVendidosTitulo":{
+    "children":["rich-text#masVendidos"],
+    "props": {
+      "blockClass": "contenidoNovedades",
+      "fullWidth":false
+    }
+  },
+  
+  
+  
+  "rich-text#masVendidos":{
+    "props":{
+      "text": "LOS MAS VENDIDOS  &nbsp;  ver más >",
+      "blockClass": "textNovedades"
+    }
+  },
+
+
+
+
+  
+  
+  "flex-layout.row#bodegasDelMesTitulo":{
+    "children":["rich-text#bodegas"],
+    "props": {
+      "blockClass": ["contenidoNovedades","contenidoBodegas","tituloMobileBodega"],
+      "fullWidth":false
+    }
+  },
+  
+  
+  
+  
+  "rich-text#bodegas":{
+    "props":{
+      "text": "BODEGA DEL MES",
+      "blockClass": "textNovedades"
+    }
+  },
+  ///
+
+
+  "flex-layout.row#destacadosMobile":{
+    "children":["rich-text#destacadosMobile"],
+    "props": {
+      "blockClass": ["contenidoNovedades","contenidoBodegas","especialesmobile"],
+      "fullWidth":false
+    }
+  },
+  
+    
+  "rich-text#destacadosMobile":{
+    "props":{
+      "text": "DESTACADOS",
+      "blockClass": ["textNovedades","RODRIG"]
+    }
+  },
+  ///
+
+
+  "flex-layout.row#especialesTituloMobile":{
+    "children":["rich-text#especialesmobile"],
+    "props": {
+      "blockClass": ["contenidoNovedades","contenidoBodegas","especialesmobile"],
+      "fullWidth":false
+    }
+  },
+  
+  
+  
+  
+  "rich-text#especialesmobile":{
+    "props":{
+      "text": "ESPECIALES ver mas ..>",
+      "blockClass": "textNovedades"
+    }
+  },
+  ///
+
+  "flex-layout.row#bodegasDelMesMobile":{
+    "children":["rich-text#bodegasMobile"],
+    "props": {
+      "blockClass": ["contenidoNovedades","contenidoBodegas","bodegadelMesMobile"],
+      "fullWidth":false
+    }
+  },
+  
+  
+  
+  
+  "rich-text#bodegasMobile":{
+    "props":{
+      "text": "BODEGA DEL MES",
+      "blockClass": "textNovedades"
+    }
+  },
+
+
+
+
+
+
+  "flex-layout.row#novedadesMobile":{
+    "children":["rich-text#novedadesMobile"],
+    "props": {
+      "blockClass": ["contenidoNovedades","contenidoBodegas","novedadesMobile"],
+      "fullWidth":false
+    }
+  },
+  
+  
+  
+  
+  "rich-text#novedadesMobile":{
+    "props":{
+      "text": "NOVEDADES ver mas...>",
+      "blockClass": "textNovedades"
+    }
+  },
+  
+  
+  "flex-layout.row#novedadesTitulo":{
+    "children":["rich-text#novedades"],
+    "props": {
+      "blockClass": ["contenidoNovedades","novedadesMobileBarra"],
+      "fullWidth":false
+    }
+  },
+  "rich-text#novedades":{
+    "props":{
+      "text": "NOVEDADES  &nbsp;  ver más >",
+      "blockClass": ["textNovedades"]
+    }
+  },
+  
+  "flex-layout.row#especialesTitulo":{
+    "children":["rich-text#especiales"],
+    "props": {
+      "blockClass": ["contenidoNovedades","EspecialesMobileBarra"],
+      "fullWidth":false
+    }
+  },
+  "rich-text#especiales":{
+    "props":{
+      "text": "ESPECIALES  &nbsp;  ver más >",
+      "blockClass": "textNovedades"
+    }
+  },
+  
+  "flex-layout.row#destacadosTitulo":{
+    "children":["rich-text#destacados"],
+    "props": {
+      "blockClass": ["contenidoNovedades", "contenidoDestacados"],
+      "fullWidth":false
+    }
+  },
+  "rich-text#destacados":{
+    "props":{
+      "text": "DESTACADOS",
+      "blockClass": ["textNovedades","textoDestacadosMobile"]
+    }
+  },
+
+  
+
+  "flex-layout.row#marcasTitulo":{
+    "children":["rich-text#marcas"],
+    "props": {
+      "blockClass": "contenidoMarcasLideres",
+      "fullWidth":false
+    }
+  },
+  "rich-text#marcas":{
+    "props":{
+      "text": "MARCAS LIDERES",
+      "blockClass": "textNovedades",
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+    }
+  },
+
+  "flex-layout.row#linea":{
+    "children":["rich-text#linea"],
+    "props": {
+      "blockClass": "contenidoMarcasLideres",
+      "fullWidth":false
+    }
+  },
+  "rich-text#linea":{
+    "props":{
+      "text": "",
+      "blockClass": "textNovedades",
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+    }
+  }
+  
+}

@@ -1,0 +1,617 @@
+{
+    "submenu#menu3": {
+        /* "children": [
+            "flex-layout.col#submenu-mujeres"
+        ], */
+        "props": {
+            "width": "100%",
+            "blockClass": "header-submenu-container"
+        }
+    },
+    "flex-layout.col#submenu-mujeres": {
+        "children": [
+            "flex-layout.row#submenu-mujeres-1",
+            "flex-layout.row#submenu-mujeres-2"
+        ],
+        "props": {
+            "blockClass": "header-submenu",
+            "width": "100%"
+        }
+    },
+    "flex-layout.row#submenu-mujeres-1": {
+        "children": [
+            "flex-layout.col#submenu-mujeres-accesorios",
+            "flex-layout.col#submenu-mujeres-billeteras-y-tarjeteros",
+            "flex-layout.col#submenu-mujeres-bolsos",
+            "flex-layout.col#submenu-mujeres-carteras"
+        ],
+        "props": {
+            "blockClass": "header-submenu",
+            "width": "100%"
+        }
+    },
+    "flex-layout.col#submenu-mujeres-accesorios": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "width": "20%"
+        },
+        "children": [
+            "menu-item#submenu-mujeres-accesorios",
+            "menu#submenu-mujeres-accesorios"
+        ]
+    },
+    "menu#submenu-mujeres-accesorios-title": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-mujeres-accesorios"
+        ]
+    },
+    "menu-item#submenu-mujeres-accesorios": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header-submenu-title",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/accesorios",
+                "noFollow": false,
+                "tagTitle": "Accesorios",
+                "text": "ACCESORIOS"
+            }
+        }
+    },
+    "menu#submenu-mujeres-accesorios": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-mujeres-accesorios-bolsas-plegables",
+            "menu-item#submenu-mujeres-accesorios-portacosmetico",
+            "menu-item#submenu-mujeres-accesorios-riñoneras"
+        ]
+    },
+    "menu-item#submenu-mujeres-accesorios-bolsas-plegables": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": true,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/accesorios/bolsas-plegables",
+                "noFollow": false,
+                "tagTitle": "Bolsas Plegables",
+                "text": "Bolsas Plegables"
+            }
+        }
+    },
+    "menu-item#submenu-mujeres-accesorios-portacosmetico": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/accesorios/portacosmeticos",
+                "noFollow": false,
+                "tagTitle": "portacosmeticos",
+                "text": "Portacosmeticos"
+            }
+        }
+    },
+    "menu-item#submenu-mujeres-accesorios-riñoneras": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/accesorios/rinoneras",
+                "noFollow": false,
+                "tagTitle": "riñoneras",
+                "text": "Riñoneras"
+            }
+        }
+    },
+    "flex-layout.col#submenu-mujeres-billeteras-y-tarjeteros": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "width": "20%"
+        },
+        "children": [
+            "menu-item#submenu-mujeres-billeteras-y-tarjeteros",
+            "menu#submenu-mujeres-billeteras-y-tarjeteros"
+        ]
+    },
+    "menu#submenu-mujeres-billeteras-y-tarjeteros-title": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-mujeres-billeteras-y-tarjeteros"
+        ]
+    },
+    "menu-item#submenu-mujeres-billeteras-y-tarjeteros": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header-submenu-title",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/billeteras-y-tarjeteros",
+                "noFollow": false,
+                "tagTitle": "Billeteras y Tarjeteros",
+                "text": "BILLETERAS y TARJETEROS"
+            }
+        }
+    },
+    "menu#submenu-mujeres-billeteras-y-tarjeteros": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-mujeres-billeteras-y-tarjeteros-billeteras",
+            "menu-item#submenu-mujeres-billeteras-y-tarjeteros-tarjeteros"
+        ]
+    },
+    "menu-item#submenu-mujeres-billeteras-y-tarjeteros-billeteras": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/billeteras-y-tarjeteros/billeteras",
+                "noFollow": false,
+                "tagTitle": "Billeteras",
+                "text": "Billeteras"
+            }
+        }
+    },
+    "menu-item#submenu-mujeres-billeteras-y-tarjeteros-tarjeteros": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/billeteras-y-tarjeteros/tarjeteros",
+                "noFollow": false,
+                "tagTitle": "tarjeteros",
+                "text": "Tarjeteros"
+            }
+        }
+    },
+    "flex-layout.col#submenu-mujeres-bolsos": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "width": "20%"
+        },
+        "children": [
+            "menu-item#submenu-mujeres-bolsos",
+            "menu#submenu-mujeres-bolsos"
+        ]
+    },
+    "menu#submenu-mujeres-bolsos-title": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-mujeres-bolsos"
+        ]
+    },
+    "menu-item#submenu-mujeres-bolsos": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header-submenu-title",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/bolsos",
+                "noFollow": false,
+                "tagTitle": "bolsos",
+                "text": "BOLSOS"
+            }
+        }
+    },
+    "menu#submenu-mujeres-bolsos": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-mujeres-bolsos-combos",
+            "menu-item#submenu-mujeres-bolsos-maternales",
+            "menu-item#submenu-mujeres-bolsos-materos",
+            "menu-item#submenu-mujeres-bolsos-moda",
+            "menu-item#submenu-mujeres-bolsos-playeros",
+            "menu-item#submenu-mujeres-bolsos-viaje-y-deportivos"
+        ]
+    },
+    "menu-item#submenu-mujeres-bolsos-combos": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": true,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/bolsos/combos",
+                "noFollow": false,
+                "tagTitle": "combos",
+                "text": "Combos"
+            }
+        }
+    },
+    "menu-item#submenu-mujeres-bolsos-maternales": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/bolsos/maternales",
+                "noFollow": false,
+                "tagTitle": "maternales",
+                "text": "Maternales"
+            }
+        }
+    },
+    "menu-item#submenu-mujeres-bolsos-materos": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": true,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/bolsos/materos",
+                "noFollow": false,
+                "tagTitle": "materos",
+                "text": "Materos"
+            }
+        }
+    },
+    "menu-item#submenu-mujeres-bolsos-moda": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": true,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/bolsos/moda",
+                "noFollow": false,
+                "tagTitle": "moda",
+                "text": "Moda"
+            }
+        }
+    },
+    "menu-item#submenu-mujeres-bolsos-playeros": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/bolsos/playeros",
+                "noFollow": false,
+                "tagTitle": "playeros",
+                "text": "Playeros"
+            }
+        }
+    },
+    "menu-item#submenu-mujeres-bolsos-viaje-y-deportivos": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/bolsos/viaje-y-deportivos",
+                "noFollow": false,
+                "tagTitle": "viaje y deportivos",
+                "text": "Viaje y Deportivos"
+            }
+        }
+    },
+    "flex-layout.col#submenu-mujeres-carteras": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "width": "20%"
+        },
+        "children": [
+            "menu-item#submenu-mujeres-carteras",
+            "menu#submenu-mujeres-carteras"
+        ]
+    },
+    "menu#submenu-mujeres-carteras-title": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-mujeres-carteras"
+        ]
+    },
+    "menu-item#submenu-mujeres-carteras": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header-submenu-title",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/carteras",
+                "noFollow": false,
+                "tagTitle": "carteras",
+                "text": "CARTERAS"
+            }
+        }
+    },
+    "menu#submenu-mujeres-carteras": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-mujeres-carteras-bandolera-morrales",
+            "menu-item#submenu-mujeres-carteras-carteras",
+            "menu-item#submenu-mujeres-carteras-combos",
+            "menu-item#submenu-mujeres-carteras-mochila",
+            "menu-item#submenu-mujeres-carteras-sobres-fiesta"
+        ]
+    },
+    "menu-item#submenu-mujeres-carteras-bandolera-morrales": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/carteras/bandolera-morrales",
+                "noFollow": false,
+                "tagTitle": "bandolera/morrales",
+                "text": "Bandolera/Morrales"
+            }
+        }
+    },
+    "menu-item#submenu-mujeres-carteras-carteras": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/carteras/carteras",
+                "noFollow": false,
+                "tagTitle": "carteras",
+                "text": "Carteras"
+            }
+        }
+    },
+    "menu-item#submenu-mujeres-carteras-combos": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/carteras/combos",
+                "noFollow": false,
+                "tagTitle": "combos",
+                "text": "Combos"
+            }
+        }
+    },
+    "menu-item#submenu-mujeres-carteras-mochila": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/carteras/mochila",
+                "noFollow": false,
+                "tagTitle": "mochila",
+                "text": "Mochila"
+            }
+        }
+    },
+    "menu-item#submenu-mujeres-carteras-sobres-fiesta": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/carteras/sobres-fiesta",
+                "noFollow": false,
+                "tagTitle": "sobres fiesta",
+                "text": "Sobres fiesta"
+            }
+        }
+    },
+    "flex-layout.row#submenu-mujeres-2": {
+        "children": [
+            "flex-layout.col#submenu-mujeres-mochila",
+            "flex-layout.col#submenu-mujeres-morrales-y-portafolios"
+        ],
+        "props": {
+            "blockClass": "header-submenu",
+            "width": "100%"
+        }
+    },
+    "flex-layout.col#submenu-mujeres-mochila": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "width": "20%"
+        },
+        "children": [
+            "menu-item#submenu-mujeres-mochila",
+            "menu#submenu-mujeres-mochila"
+        ]
+    },
+    "menu#submenu-mujeres-mochila-title": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-mujeres-mochila"
+        ]
+    },
+    "menu-item#submenu-mujeres-mochila": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header-submenu-title",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/mochila",
+                "noFollow": false,
+                "tagTitle": "mochila",
+                "text": "MOCHILA"
+            }
+        }
+    },
+    "menu#submenu-mujeres-mochila": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column",
+            "items": [
+                {
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "blockClass": "header-menu-item",
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/mujer/mochila/combos",
+                        "noFollow": false,
+                        "tagTitle": "combos",
+                        "text": "Combos"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "blockClass": "header-menu-item",
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/mujer/mochila/maternales",
+                        "noFollow": false,
+                        "tagTitle": "maternales",
+                        "text": "Maternales"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "blockClass": "header-menu-item",
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/mujer/mochila/porta-notebook",
+                        "noFollow": false,
+                        "tagTitle": "porta notebook",
+                        "text": "Porta Notebook"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "blockClass": "header-menu-item",
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/mujer/mochila/urbanas",
+                        "noFollow": false,
+                        "tagTitle": "urbanas",
+                        "text": "Urbanas"
+                    }
+                }
+            ]
+        }
+    },
+    "flex-layout.col#submenu-mujeres-morrales-y-portafolios": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "width": "20%"
+        },
+        "children": [
+            "menu-item#submenu-mujeres-morrales-y-portafolios",
+            "menu#submenu-mujeres-morrales-y-portafolios"
+        ]
+    },
+    "menu#submenu-mujeres-morrales-y-portafolios-title": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-mujeres-morrales-y-portafolios"
+        ]
+    },
+    "menu-item#submenu-mujeres-morrales-y-portafolios": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header-submenu-title",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/morrales-y-portafolios",
+                "noFollow": false,
+                "tagTitle": "Morrales y portafolios",
+                "text": "MORRALES Y PORTAFOLIOS"
+            }
+        }
+    },
+    "menu#submenu-mujeres-morrales-y-portafolios": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column",
+            "items": [
+                {
+                    "id": "mujeres-morrales-y-portafolios",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "blockClass": "header-menu-item",
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/mujer/morrales-y-portafolios/portafolios",
+                        "noFollow": false,
+                        "tagTitle": "portafolios",
+                        "text": "Portafolios"
+                    }
+                }
+            ]
+        }
+    }
+}

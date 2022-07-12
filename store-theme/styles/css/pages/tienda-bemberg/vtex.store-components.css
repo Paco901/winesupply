@@ -1,0 +1,47 @@
+.imageElement--burbuja-tips {
+    box-shadow: 1px 12px 11px -7px rgba(0,0,0,0.29);
+    -webkit-box-shadow: 1px 12px 11px -7px rgba(0,0,0,0.29);
+    -moz-box-shadow: 1px 12px 11px -7px rgba(0,0,0,0.25);
+}
+
+.imageElement--biografia-image-bemberg {
+    margin-bottom: 0 !important;
+    border-radius: 10px;
+    box-shadow: 1px 12px 11px -7px rgba(0,0,0,0.29);
+    -webkit-box-shadow: 1px 12px 11px -7px rgba(0,0,0,0.29);
+    -moz-box-shadow: 1px 12px 11px -7px rgba(0,0,0,0.25);
+}
+
+.imageElement--biografia-image-impar-bemberg {
+    margin-right: .5rem;
+}
+
+.inputGroup--newsletter-bemberg :global(.vtex-input-prefix__group) {
+    border-style: none;
+}
+
+.imageElement--imagen-marca-bemberg {
+    border-radius: 0 10px 10px 0;
+}
+
+.imageElement--imagen-linterna-bemberg {
+    border-radius: 10px 0 0 10px;
+}
+
+.imageElement--mapa-bemberg {
+    margin: 3rem 0;
+    width: 100%;
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    .imageElement--biografia-image-bemberg {
+        margin: 1rem 0;
+        width: 100%;
+    }
+
+    .imageElement--imagen-marca-bemberg,
+    .imageElement--imagen-linterna-bemberg {
+        border-radius: 10px 10px 0 0;
+    }
+}

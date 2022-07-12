@@ -1,0 +1,24 @@
+.desktop {
+  display: flex;
+
+  @media (max-width: $tablet) {
+    display: none !important;
+  }
+}
+
+#open-shipping,
+#cart-choose-more-products,
+.btn{
+  font-family: 'Libre Baskerville', serif !important;
+  text-transform: uppercase !important;
+  border-radius: 0 !important;
+}
+
+.mobile {
+  display: none !important;
+
+  @media (max-width: $tablet) {
+    display: flex !important;
+  }
+}
+

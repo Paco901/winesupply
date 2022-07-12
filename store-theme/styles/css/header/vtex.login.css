@@ -1,0 +1,64 @@
+.container :global(.vtex-button):hover {
+  background: transparent !important;
+}
+
+.container :global(.vtex-button__label) {
+  padding: 0 !important;
+}
+.label {
+  display: none;
+}
+.profileIcon{
+  width: 27px;
+  height: 27px;
+}
+
+.optionsListItem :global(.vtex-button) {
+  background-color: #000;
+  border-radius: 0;
+  border: none;
+}
+.optionsListItem :global(.vtex-button) :global(.vtex-button__label) {
+  color: #fff;
+  font-size: 0.8rem;
+  font-family: "Roboto", sans-serif;
+}
+
+
+
+
+@media only screen and (max-width: 1025px) {
+ .buttonLink {
+   padding-left: 20px !important;
+  }
+  .buttonLink :global(.vtex-button) {
+    display: flex;
+    align-items: center;
+   }
+  .profileIcon{
+    width: 20px;
+    height: 20px;
+  }
+
+  .container  {
+    margin-left: 0px !important;
+   }
+
+}
+
+
+@media only screen and (max-width: 700px) {
+  
+   .profileIcon{
+    width: 20px;
+    height: 20px;
+  }
+ }
+
+ @media only screen and (max-width: 640px) {
+  .container  {
+    margin-left: 0px !important;
+   }
+
+ }
+ 

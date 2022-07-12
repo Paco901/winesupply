@@ -1,0 +1,61 @@
+
+
+.styledLinkContent--footer-menu-item-title-header {
+  margin-bottom: 1.2rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #fff !important;
+  opacity: 1;
+  text-transform: uppercase;
+  font-family: 'Nunito-Bold';
+}
+
+.styledLink--footer-menu-item-title{
+ color: white;
+ font-family: 'Nunito-Regular';
+}
+
+
+
+.menuItem--footer-menu-item-title:hover{
+  background: none !important;
+}
+
+.menuItem:hover{
+  height: auto!important;
+}
+
+.menuItem:hover  :global(.vtex-menu-2-x-styledLinkContent--footer-menu-item-title){
+  background: none !important;
+  color: white !important;
+}
+
+
+
+
+
+@media only screen and (max-width: 1025px) {
+
+  :global(.vtex-menu-2-x-menuContainer--footer-menu-column){
+    margin-top: 78px;
+  }
+  
+  .menuItem--footer-menu-item-title{
+    justify-content: center;
+  }
+
+  .styledLinkContent--footer-menu-item-title-header {
+    margin-top: 30px !important;
+  }
+
+  
+
+}
+
+@media only screen and (max-width: 700px) {
+  .styledLinkContent--footer-menu-item-title{
+    color: white !important;
+    justify-content: center;
+  }
+}
+

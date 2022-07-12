@@ -1,0 +1,200 @@
+{
+    "flex-layout.row#contenedor-receta1": {
+        "children": [
+            "flex-layout.row#bloque-receta1"
+        ]
+    },
+    "flex-layout.row#bloque-receta1": {
+        "children": [
+            "flex-layout.col#col-texto-receta1",
+            "flex-layout.col#col-imagen-receta1"
+        ],
+        "props": {
+            "blockClass": [
+                "contendor-bloque",
+                "contenedor-bloque-flordecasa"
+            ]
+        }
+    },
+    "flex-layout.col#col-imagen-receta1": {
+        "children": [
+            "image#bloques-receta1"
+        ],
+        "props": {
+            "blockClass": "imagenes-bloques"
+        }
+    },
+    "image#bloques-receta1": {
+        "props": {
+            "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/d2d6be71-2667-4795-bb3d-00dcef41a792___e271a1578fc7e2cf11e481086d7b32eb.png",
+            "blockClass": [
+                "contendor-bloque",
+                "imgFlor"
+            ]
+        }
+    },
+    "flex-layout.col#col-texto-receta1": {
+        "children": [
+            "rich-text#titulo-bloque-receta1",
+            "rich-text#texto-bloque-receta1"
+        ],
+        "props": {
+            "blockClass": [
+                "textos-bloques",
+                "bloque-texto-flor"
+            ]
+        }
+    },
+    "rich-text#titulo-bloque-receta1": {
+        "props": {
+            "text": "Cocktail - Recetas #1",
+            "blockClass": [
+                "titulos-bloques",
+                "titulohistoriflor"
+            ]
+        }
+    },
+    "rich-text#texto-bloque-receta1": {
+        "props": {
+            "text": "Flor de Caña, el ron premium de Nicaragua, ha sido nombrado Mejor Productor de Ron del Mundo en el International Wine and Spirit Competition (IWSC) en Londres. <br>Esta distinción, la más alta a nivel global en la industria de los destilados, avala la calidad de este ron nicaragüense con más de 125 años de historia.",
+            "blockClass": [
+                "textos-bloques",
+                "texto-bloques-flor"
+            ]
+        }
+    },
+
+
+    // RECETA2
+
+    "flex-layout.row#contenedor-receta2": {
+        "children": [
+            "flex-layout.row#bloque-receta2"
+        ]
+    },
+    "flex-layout.row#bloque-receta2": {
+        "children": [
+            "flex-layout.col#col-texto-receta2",
+            "flex-layout.col#col-imagen-receta2"
+        ],
+        "props": {
+            "blockClass": [
+                "contendor-bloque",
+                "contenedor-bloque-flordecasa"
+            ]
+        }
+    },
+    "flex-layout.col#col-imagen-receta2": {
+        "children": [
+            "image#bloques-receta2"
+        ],
+        "props": {
+            "blockClass": "imagenes-bloques"
+        }
+    },
+    "image#bloques-receta2": {
+        "props": {
+            "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/d2d6be71-2667-4795-bb3d-00dcef41a792___e271a1578fc7e2cf11e481086d7b32eb.png",
+            "blockClass": [
+                "contendor-bloque",
+                "imgFlor"
+            ]
+        }
+    },
+    "flex-layout.col#col-texto-receta2": {
+        "children": [
+            "rich-text#titulo-bloque-receta2",
+            "rich-text#texto-bloque-receta2"
+        ],
+        "props": {
+            "blockClass": [
+                "textos-bloques",
+                "bloque-texto-flor"
+            ]
+        }
+    },
+    "rich-text#titulo-bloque-receta2": {
+        "props": {
+            "text": "Cocktail - Recetas #2",
+            "blockClass": [
+                "titulos-bloques",
+                "titulohistoriflor"
+            ]
+        }
+    },
+    "rich-text#texto-bloque-receta2": {
+        "props": {
+            "text": "Flor de Caña, el ron premium de Nicaragua, ha sido nombrado Mejor Productor de Ron del Mundo en el International Wine and Spirit Competition (IWSC) en Londres. <br>Esta distinción, la más alta a nivel global en la industria de los destilados, avala la calidad de este ron nicaragüense con más de 125 años de historia.",
+            "blockClass": [
+                "textos-bloques",
+                "texto-bloques-flor"
+            ]
+        }
+    },
+    // RECETA3
+
+    "flex-layout.row#contenedor-receta3": {
+        "children": [
+            "flex-layout.row#bloque-receta3"
+        ]
+    },
+    "flex-layout.row#bloque-receta3": {
+        "children": [
+            "flex-layout.col#col-texto-receta3",
+            "flex-layout.col#col-imagen-receta3"
+        ],
+        "props": {
+            "blockClass": [
+                "contendor-bloque",
+                "contenedor-bloque-flordecasa"
+            ]
+        }
+    },
+    "flex-layout.col#col-imagen-receta3": {
+        "children": [
+            "image#bloques-receta3"
+        ],
+        "props": {
+            "blockClass": "imagenes-bloques"
+        }
+    },
+    "image#bloques-receta3": {
+        "props": {
+            "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/d2d6be71-2667-4795-bb3d-00dcef41a792___e271a1578fc7e2cf11e481086d7b32eb.png",
+            "blockClass": [
+                "contendor-bloque",
+                "imgFlor"
+            ]
+        }
+    },
+    "flex-layout.col#col-texto-receta3": {
+        "children": [
+            "rich-text#titulo-bloque-receta3",
+            "rich-text#texto-bloque-receta3"
+        ],
+        "props": {
+            "blockClass": [
+                "textos-bloques",
+                "bloque-texto-flor"
+            ]
+        }
+    },
+    "rich-text#titulo-bloque-receta3": {
+        "props": {
+            "text": "Cocktail - Recetas #3",
+            "blockClass": [
+                "titulos-bloques",
+                "titulohistoriflor"
+            ]
+        }
+    },
+    "rich-text#texto-bloque-receta3": {
+        "props": {
+            "text": "Flor de Caña, el ron premium de Nicaragua, ha sido nombrado Mejor Productor de Ron del Mundo en el International Wine and Spirit Competition (IWSC) en Londres. <br>Esta distinción, la más alta a nivel global en la industria de los destilados, avala la calidad de este ron nicaragüense con más de 125 años de historia.",
+            "blockClass": [
+                "textos-bloques",
+                "texto-bloques-flor"
+            ]
+        }
+    }
+}

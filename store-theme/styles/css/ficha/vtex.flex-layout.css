@@ -1,0 +1,224 @@
+.flexRowContent--product-wrapper :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: 50% !important ;
+}
+.flexRowContent--product-wrapper :global(.vtex-flex-layout-0-x-flexCol--datosFicha){
+  align-items: center;
+}
+
+
+
+
+.flexCol--datosFicha{
+  border-left: #0000011A 1px solid;
+  margin-top: 40px;
+}
+
+
+.flexRow--contenidoFichaMedios :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  padding: 11px !important;
+}
+
+.flexColChild--datosFicha{
+  width:80% !important ;
+  font-family: Baskerville !important;
+}
+
+.flexRow--product-wrapper{
+  background: white;
+  max-width: 1200px;
+  margin: auto;
+  width: 90%;
+ 
+}
+.flexRow--contenidointeresados{
+  max-width: 1200px;
+  margin: auto;
+  width: 90%;
+}
+
+
+
+
+.flexRowContent--product-wrapper :global(.vtex-flex-layout-0-x-flexRowContent--contenidoPrecios){
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.flexRowContent--product-wrapper :global(.vtex-product-price-1-x-listPriceRange)::before{
+  content: "Antes";
+  margin-left: -10px;
+}
+
+.flexRowContent--estilosFicha{
+  display: flex;
+  flex-direction: column;
+}
+.flexRowContent--estilosFicha :global(.vtex-store-components-3-x-imageElement--mediosDePagos--image){
+  margin: auto !important;
+}
+
+
+
+
+.flexRowContent--estilosFicha :global(.vtex-store-components-3-x-imageElementLink--mediosDePagos--image){
+  margin: auto;
+  text-align: center;
+}
+
+.flexRowContent--estilosFicha :global(.vtex-rich-text-0-x-paragraph--textoAlternativoInfopagos){
+  margin: auto;
+  text-align: center;
+  font-size: 13px;
+  font-family: 'MuseoSans_500';
+}
+
+.flexRow--contenidoFichaMedios :global(.vtex-flex-layout-0-x-flexRowContent--contenidoMediosdepago){
+  background: white !important;
+}
+
+.flexRow--contenidoFichaMedios :global(.vtex-flex-layout-0-x-flexCol--contenidoTexto){
+  margin: auto !important;
+}
+
+/* .flexRowContent--contenidoFichaMedios :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  background:url(assets/Line7.svg) bottom right no-repeat !important;
+} */
+
+
+.flexCol--datosFicha :global(.vtex-flex-layout-0-x-flexRowContent--contentCantidad) {
+  padding: 20px 0px;
+}
+
+.flexRow--contenidoBread{
+  display: flex;
+  width: 70%;
+  font-family: 'Nunito-Light';
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 8px 0px;
+}
+.flexRow--contenidoBread :global(.vtex-breadcrumb-1-x-homeLink){
+  display: none;
+}
+
+.flexRow--contenidoDescription{
+    background: white;
+    max-width: 1200px;
+    margin: auto;
+    width: 90%;
+    margin-top: 30px;
+}
+
+.flexRow--contenidoDescription :global(.vtex-menu-2-x-styledLinkContent--product-page-menu-item){
+  padding: 20px;
+}
+
+@media only screen and (max-width: 1024px){
+ 
+  .flexRow--contenidoFichaMedios :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+    border:none !important;
+  
+  }
+  .flexRow--contenidoFichaMedios :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child{
+    border:none !important;
+  }
+
+  .flexRowContent--estilosFicha :global(.vtex-rich-text-0-x-paragraph--textoAlternativoInfopagos){
+    margin: auto;
+    text-align: center;
+    font-size: 9px;
+    font-family: 'MuseoSans_500';
+  }
+
+  .flexRow--contenidoFichaMedios :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    padding: 10px !important;
+  }
+
+  .flexRowContent--product-wrapper :global(.vtex-flex-layout-0-x-flexCol--datosFicha){
+    align-items: center;
+    margin-top: 30px;
+    font-family: Baskerville !important;
+  }
+  .flexRow--contenidoBread{
+    display: flex;
+    font-family: 'Baskerville';
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 8px 0px;
+    justify-content: center;
+    margin: auto;
+    font-size: 14px;
+    width: 70%;
+  }
+  
+}
+
+.flexRow--newsFicha{
+  margin: 20px 0px;
+}
+
+
+
+@media only screen and (max-width: 768px){
+  .flexRow--product-wrapper{
+    width: 100%;
+  }
+  .flexRowContent--product-wrapper {
+    width: 100% !important ;
+    display: flex;
+    flex-direction: column;
+  }
+  .flexRowContent--product-wrapper :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: 100% !important ;
+  }
+  .flexRow--contenidoFichaMedios :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+    border:none !important;
+  
+  }
+  
+  
+  .flexRow--contenidoFichaMedios :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child{
+    border:none !important;
+  }
+
+  .flexRow--contenidoBread{
+    display: none;
+  }
+
+  
+  
+}
+
+.flexRowContent--contenidoDescription :global(.vtex-menu-2-x-menuContainerNav--contenedorDescripcionDos){
+  padding: 20px;
+}
+
+.flexRowContent--contenidoDescription :global(.vtex-menu-2-x-menuContainer--contenedorDescripcionDos){
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.flexRowContent--tituloEspe{
+  font-family: 'BodoniFLF-Bold';
+  font-size: 30px;
+}
+
+.flexColChild--contenerdorImagenFP {
+  position: relative;
+}
+
+.flexRowContent--contenidoBread{
+  font-family: 'Baskerville' !important;
+}
+.flexRowContent--contenidoPrecios{
+  font-family: 'Baskerville' !important;
+}
+
+.flexRowContent--contenedorTituloFicha{
+  font-family: 'Baskerville' !important;
+}
+
+.flexRowContent--contenidoDescription{
+  font-family: 'Baskerville' !important;
+}

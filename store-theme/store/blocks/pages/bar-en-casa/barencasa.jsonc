@@ -1,0 +1,793 @@
+{
+    "store.custom#oficial-bar-en-casa": {
+        "blocks": [
+            "list-context.image-list#oficial-bar-en-casa",
+            "flex-layout.row#contenedor-bar"
+        ]
+    },
+
+    /// banner de imagenes
+    "list-context.image-list#oficial-bar-en-casa": {
+        "children": ["slider-layout#oficial-bar-en-casa-images"],
+        "props": {
+            "height": 650,
+            "images": [
+                {
+                    "image": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/4397a02e-23ad-448a-9eeb-c276a9ad563e___292a18dbc6441f4e5a642777c84f8a0d.jpg",
+                    "mobileImage": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/4397a02e-23ad-448a-9eeb-c276a9ad563e___292a18dbc6441f4e5a642777c84f8a0d.jpg",
+                    "description": "descuentos"
+                }
+            ]
+        }
+    },
+    "slider-layout#oficial-bar-en-casa-images": {
+        "props": {
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showPaginationDots": "never",
+            "showNavigationArrows": "always",
+            "fullWidth": true
+        }
+    },
+
+    "flex-layout.row#contenedor-bar": {
+        "children": [
+            "rich-text#titulo1bar",
+            "flex-layout.row#contenedor-bar-1",
+            "rich-text#titulo2bar",
+            "flex-layout.row#contenedor-bar-2",
+            "rich-text#titulo3bar",
+            "flex-layout.row#contenedor-bar-3"
+        ],
+        "props": {
+            "blockClass": ["contenidotest", "contenedor-1"]
+        }
+    },
+
+    "rich-text#titulo1bar": {
+        "props": {
+            "text": "TRUWEYS",
+            "blockClass": ["textNovedades", "titulosBar"]
+        }
+    },
+
+    "flex-layout.row#contenedor-bar-1": {
+        "children": ["flex-layout.row#TRUWEYS"],
+        "props": {
+            "blockClass": ["contenedor-5", "contenedor-barencasa"]
+        }
+    },
+    "flex-layout.row#TRUWEYS": {
+        "children": ["image#TRUWEYS", "flex-layout.col#TRUWEYS"],
+        "props": {
+            "blockClass": ["EspecialesContent", "EspecialesContentBarEnCasa"],
+            "colSizing": "auto"
+        }
+    },
+
+    "image#TRUWEYS": {
+        "props": {
+            "src": "https://winesupply.vteximg.com.br/arquivos/bannerMobile.png",
+            "blockClass": "bannerEspeciales"
+        }
+    },
+    "flex-layout.col#TRUWEYS": {
+        "children": [
+            "flex-layout.row#bannerMobile-barencasa-trueweys",
+            "list-context.product-list#Especiales"
+        ],
+        "props": {
+            "blockClass": "shelfEspeciales"
+        }
+    },
+
+    "flex-layout.row#bannerMobile-barencasa-trueweys": {
+        "children": ["image#banerMobile-barencasa-trueweys"],
+        "props": {
+            "blockClass": [
+                "ContentBannerMobile",
+                "contentBannerEspecialBarEnCasa"
+            ]
+        }
+    },
+    "image#banerMobile-barencasa-trueweys": {
+        "props": {
+            "src": "https://winesupply.vteximg.com.br/arquivos/bannerMobile.png",
+            "blockClass": ["imgbannerMobile"]
+        }
+    },
+
+    "rich-text#titulo2bar": {
+        "props": {
+            "text": "TRUNKS",
+            "blockClass": ["textNovedades", "titulosBar"]
+        }
+    },
+
+    "flex-layout.row#contenedor-bar-2": {
+        "children": ["flex-layout.row#TRUNKS"],
+        "props": {
+            "blockClass": "contenedor-5"
+        }
+    },
+    "flex-layout.row#TRUNKS": {
+        "children": ["image#TRUNKS", "flex-layout.col#TRUNKS"],
+        "props": {
+            "blockClass": [
+                "EspecialesContent",
+                "EspecialesContentBarEnCasa",
+                "row-reverse-bar"
+            ],
+            "colSizing": "auto"
+        }
+    },
+
+    "image#TRUNKS": {
+        "props": {
+            "src": "https://winesupply.vteximg.com.br/arquivos/bannerMobile.png",
+            "blockClass": "bannerEspeciales"
+        }
+    },
+    "flex-layout.col#TRUNKS": {
+        "children": [
+            "flex-layout.row#bannerMobile-barencasa-trunks",
+            "list-context.product-list#Especiales"
+        ],
+        "props": {
+            "blockClass": "shelfEspeciales"
+        }
+    },
+
+    "flex-layout.row#bannerMobile-barencasa-trunks": {
+        "children": ["image#banerMobile-barencasa-trunks"],
+        "props": {
+            "blockClass": [
+                "ContentBannerMobile",
+                "contentBannerEspecialBarEnCasa"
+            ]
+        }
+    },
+    "image#banerMobile-barencasa-trunks": {
+        "props": {
+            "src": "https://winesupply.vteximg.com.br/arquivos/bannerMobile.png",
+            "blockClass": ["imgbannerMobile"]
+        }
+    },
+
+    "rich-text#titulo3bar": {
+        "props": {
+            "text": "BOLSOS Y MOCHILAS",
+            "blockClass": ["textNovedades", "titulosBar"]
+        }
+    },
+
+    "flex-layout.row#contenedor-bar-3": {
+        "children": ["flex-layout.row#ARTICULOS"],
+        "props": {
+            "blockClass": "contenedor-5"
+        }
+    },
+    "flex-layout.row#ARTICULOS": {
+        "children": ["image#ARTICULOS", "flex-layout.col#ARTICULOS"],
+        "props": {
+            "blockClass": ["EspecialesContent", "EspecialesContentBarEnCasa"],
+            "colSizing": "auto"
+        }
+    },
+
+    "image#ARTICULOS": {
+        "props": {
+            "src": "https://winesupply.vteximg.com.br/arquivos/bannerMobile.png",
+            "blockClass": "bannerEspeciales"
+        }
+    },
+    "flex-layout.col#ARTICULOS": {
+        "children": [
+            "flex-layout.row#bannerMobile-barencasa-ARTICULOS",
+            "list-context.product-list#Especiales"
+        ],
+        "props": {
+            "blockClass": "shelfEspeciales"
+        }
+    },
+
+    "flex-layout.row#bannerMobile-barencasa-ARTICULOS": {
+        "children": ["image#banerMobile-barencasa-ARTICULOS"],
+        "props": {
+            "blockClass": [
+                "ContentBannerMobile",
+                "contentBannerEspecialBarEnCasa"
+            ]
+        }
+    },
+    "image#banerMobile-barencasa-ARTICULOS": {
+        "props": {
+            "src": "https://winesupply.vteximg.com.br/arquivos/bannerMobile.png",
+            "blockClass": ["imgbannerMobile"]
+        }
+    },
+
+    /// texto principal
+    "flex-layout.col#oficial-bar-en-casa": {
+        "children": [
+            "rich-text#oficial-bar-en-casa-title",
+            "rich-text#oficial-bar-en-casa-texto"
+        ]
+    },
+    "rich-text#oficial-bar-en-casa-title": {
+        "props": {
+            "text": "Un blend con historia",
+            "blockClass": "landing-row--title--bodegas-del-mes"
+        }
+    },
+
+    "rich-text#oficial-bar-en-casa-texto": {
+        "props": {
+            "text": "Con la cosecha inaugural 1997, el Nicolás #CatenaZapata se convirtió en el primer cuvée de lujo de #Argentina en ser exportado al mundo entero. Este corte de #Malbec y #CabernetSauvignon constituye la cima de la visión de Nicolás Catena Zapata: un vino sudamericano a la altura de los mejores del mundo. Se destaca por su gran complejidad, remite a frutos negros maduros, chocolate amargo y regaliz, suavemente entrelazados con notas minerales, a violetas, hierbas y pimienta.",
+            "font": "t-heading-1",
+            "blockClass": "landing-row--parrafo-bodegas-del-mes"
+        }
+    },
+
+    /// burbujas tips
+    "flex-layout.row#contenedor-tips": {
+        "children": [
+            "flex-layout.col#tips-1",
+            "flex-layout.col#tips-2",
+            "flex-layout.col#tips-3",
+            "flex-layout.col#tips-4"
+        ],
+        "props": {
+            "blockClass": "contenedor-tips"
+        }
+    },
+    /// tip 1
+    "flex-layout.col#tips-1": {
+        "children": ["image#tip-1", "rich-text#tip-1"],
+        "props": {
+            "blockClass": "col-tips"
+        }
+    },
+    "image#tip-1": {
+        "props": {
+            "src": "https://limpioonline.vteximg.com.br/arquivos/2.jpg"
+        }
+    },
+    "rich-text#tip-1": {
+        "props": {
+            "text": "Maridajes"
+        }
+    },
+    // tip 2
+    "flex-layout.col#tips-2": {
+        "children": ["image#tip-2", "rich-text#tip-2"],
+        "props": {
+            "blockClass": "col-tips"
+        }
+    },
+    "image#tip-2": {
+        "props": {
+            "src": "https://limpioonline.vteximg.com.br/arquivos/2.jpg"
+        }
+    },
+    "rich-text#tip-2": {
+        "props": {
+            "text": "Maridajes"
+        }
+    },
+    // tip 3
+    "flex-layout.col#tips-3": {
+        "children": ["image#tip-3", "rich-text#tip-3"],
+        "props": {
+            "blockClass": "col-tips"
+        }
+    },
+    "image#tip-3": {
+        "props": {
+            "src": "https://limpioonline.vteximg.com.br/arquivos/2.jpg"
+        }
+    },
+    "rich-text#tip-3": {
+        "props": {
+            "text": "Maridajes"
+        }
+    },
+    // tip 4
+    "flex-layout.col#tips-4": {
+        "children": ["image#tip-4", "rich-text#tip-4"],
+        "props": {
+            "blockClass": "col-tips"
+        }
+    },
+    "image#tip-4": {
+        "props": {
+            "src": "https://limpioonline.vteximg.com.br/arquivos/2.jpg"
+        }
+    },
+    "rich-text#tip-4": {
+        "props": {
+            "text": "Maridajes"
+        }
+    },
+
+    ///Biografia y carrusel de productos
+    "flex-layout.row#contenedor-2": {
+        "children": [
+            "flex-layout.row#contenedor-informacion",
+            "list-context.product-list#oficial-bar-en-casa"
+        ],
+        "props": {
+            "blockClass": "contenedor-2"
+        }
+    },
+    "list-context.product-list#oficial-bar-en-casa": {
+        "blocks": ["product-summary.shelf#mas-vendidos"],
+        "children": ["slider-layout#oficial-bar-en-casa"],
+        "props": {
+            "collection": ""
+        }
+    },
+    "slider-layout#oficial-bar-en-casa": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 2,
+                "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "showNavigationArrows": "never",
+            "arrowSize": 25,
+            "showPaginationDots": "never",
+            "fullWidth": false,
+            "infinite": true,
+            "blockClass": [
+                "shelf-default",
+                "sliderMasVendidos",
+                "oficial-bar-en-casa"
+            ]
+        }
+    },
+    "flex-layout.row#contenedor-informacion": {
+        "children": ["flex-layout.col#col-izq", "flex-layout.row#row-der"],
+        "props": {
+            "blockClass": "contenedor-informacion"
+        }
+    },
+    "flex-layout.col#col-izq": {
+        "children": ["rich-text#biografia-titulo", "rich-text#biografia-text"],
+        "props": {
+            "blockClass": "col-izq"
+        }
+    },
+    "rich-text#biografia-titulo": {
+        "props": {
+            "text": "### Nuestra Historia"
+        }
+    },
+    "rich-text#biografia-text": {
+        "props": {
+            "text": "**Familia Catena** nace con la cosecha inagural 1997, el Nicolós #CatenaZapata se convirtio en el primer cuvhe de lujo de #Argentina en ser exportado al mundo entero. Este corte de #Malbec y #CabernetSauvignon constituye la cima de la visiyn de Nicolós Catena Zapata: un vino sudamericano a la altura de los mejores del mundo. Se destaca por si gran complejidad, remite a frutos negros, maduros, chocolate amargo y regaliz, suavemente entrelazados con notas minerales, a violetas, hiervas y mimienta. Del mundo. Se destaca por su gran complejidad, remite a frutos nregos maduros, chocolate."
+        }
+    },
+    "flex-layout.row#row-der": {
+        "children": [
+            "image#biografia-1",
+            "image#biografia-2",
+            "image#biografia-3",
+            "image#biografia-4"
+        ],
+        "props": {
+            "blockClass": "row-der"
+        }
+    },
+    "image#biografia-1": {
+        "props": {
+            "src": "https://limpioonline.vteximg.com.br/arquivos/2.jpg"
+        }
+    },
+    "image#biografia-2": {
+        "props": {
+            "src": "https://limpioonline.vteximg.com.br/arquivos/2.jpg"
+        }
+    },
+    "image#biografia-3": {
+        "props": {
+            "src": "https://limpioonline.vteximg.com.br/arquivos/2.jpg",
+            "blockClass": "m-none"
+        }
+    },
+    "image#biografia-4": {
+        "props": {
+            "src": "https://limpioonline.vteximg.com.br/arquivos/2.jpg",
+            "blockClass": "m-none"
+        }
+    },
+    "flex-layout.row#contenedor-3": {
+        "children": [
+            "flex-layout.row#bloque-1",
+            "flex-layout.row#bloque-2",
+            "flex-layout.row#bloque-3"
+        ],
+        "props": {
+            "blockClass": "contenedor-bloques"
+        }
+    },
+    "flex-layout.row#bloque-1": {
+        "children": [
+            "flex-layout.col#col-texto-1",
+            "flex-layout.col#col-imagen-1"
+        ],
+        "props": {
+            "blockClass": "contendor-bloque"
+        }
+    },
+    "flex-layout.col#col-texto-1": {
+        "children": ["rich-text#titulo-bloque-1", "rich-text#texto-bloque-1"],
+        "props": {
+            "blockClass": "textos-bloques"
+        }
+    },
+    "rich-text#titulo-bloque-1": {
+        "props": {
+            "text": "Johnnie walker",
+            "blockClass": "titulos-bloques"
+        }
+    },
+    "rich-text#texto-bloque-1": {
+        "props": {
+            "text": "#Malbec y #CabernetSauvignon constituye la cima de la visiyn de Nicolós Catena Zapata: un vino sudamericano a la altura de los mejores del mundo. Se destaca por si gran complejidad, remite a frutos negros, maduros, chocolate amargo y regaliz, suavemente entrelazados con notas minerales, a violetas, hiervas y mimienta. Del mundo. Se destaca por su gran complejidad, remite a frutos nregos maduros, chocolate.",
+            "blockClass": "textos-bloques"
+        }
+    },
+    "flex-layout.col#col-imagen-1": {
+        "children": ["image#bloques-1"],
+        "props": {
+            "blockClass": "imagenes-bloques"
+        }
+    },
+    "image#bloques-1": {
+        "props": {
+            "src": "https://limpioonline.vteximg.com.br/arquivos/2.jpg"
+        }
+    },
+    "flex-layout.row#bloque-2": {
+        "children": [
+            "flex-layout.col#col-texto-2",
+            "flex-layout.col#col-imagen-2"
+        ],
+        "props": {
+            "blockClass": "contendor-bloque"
+        }
+    },
+    "flex-layout.col#col-texto-2": {
+        "children": ["rich-text#titulo-bloque-2", "rich-text#texto-bloque-2"],
+        "props": {
+            "blockClass": "textos-bloques"
+        }
+    },
+    "rich-text#titulo-bloque-2": {
+        "props": {
+            "text": "Johnnie walker",
+            "blockClass": "titulos-bloques"
+        }
+    },
+    "rich-text#texto-bloque-2": {
+        "props": {
+            "text": "#Malbec y #CabernetSauvignon constituye la cima de la visiyn de Nicolós Catena Zapata: un vino sudamericano a la altura de los mejores del mundo. Se destaca por si gran complejidad, remite a frutos negros, maduros, chocolate amargo y regaliz, suavemente entrelazados con notas minerales, a violetas, hiervas y mimienta. Del mundo. Se destaca por su gran complejidad, remite a frutos nregos maduros, chocolate.",
+            "blockClass": "textos-bloques"
+        }
+    },
+    "flex-layout.col#col-imagen-2": {
+        "children": ["image#bloques-2"],
+        "props": {
+            "blockClass": "imagenes-bloques"
+        }
+    },
+    "image#bloques-2": {
+        "props": {
+            "src": "https://limpioonline.vteximg.com.br/arquivos/2.jpg"
+        }
+    },
+    "flex-layout.row#bloque-3": {
+        "children": [
+            "flex-layout.col#col-texto-3",
+            "flex-layout.col#col-imagen-3"
+        ],
+        "props": {
+            "blockClass": "contendor-bloque"
+        }
+    },
+    "flex-layout.col#col-texto-3": {
+        "children": ["rich-text#titulo-bloque-3", "rich-text#texto-bloque-3"],
+        "props": {
+            "blockClass": "textos-bloques"
+        }
+    },
+    "rich-text#titulo-bloque-3": {
+        "props": {
+            "text": "Johnnie walker",
+            "blockClass": "titulos-bloques"
+        }
+    },
+    "rich-text#texto-bloque-3": {
+        "props": {
+            "text": "#Malbec y #CabernetSauvignon constituye la cima de la visiyn de Nicolós Catena Zapata: un vino sudamericano a la altura de los mejores del mundo. Se destaca por si gran complejidad, remite a frutos negros, maduros, chocolate amargo y regaliz, suavemente entrelazados con notas minerales, a violetas, hiervas y mimienta. Del mundo. Se destaca por su gran complejidad, remite a frutos nregos maduros, chocolate.",
+            "blockClass": "textos-bloques"
+        }
+    },
+    "flex-layout.col#col-imagen-3": {
+        "children": ["modal-trigger#bloque-3"],
+        "props": {
+            "blockClass": "imagenes-bloques"
+        }
+    },
+    "modal-trigger#bloque-3": {
+        "children": ["image#bloques-3", "modal-layout#bloque-3"],
+        "props": {
+            "blockClass": ["video", "especial-nordes"]
+        }
+    },
+    "image#bloques-3": {
+        "props": {
+            "src": "https://limpioonline.vteximg.com.br/arquivos/2.jpg"
+        }
+    },
+
+    "modal-layout#bloque-3": {
+        "children": ["video#background"],
+        "props": {
+            "blockClass": "video"
+        }
+    },
+    "video#background": {
+        "props": {
+            "width": "100%",
+            "height": "600px",
+            "loop": false,
+            "autoPlay": true,
+            "muted": false,
+            "src": "https://www.youtube.com/watch?v=xcJtL7QggTI&t=3s",
+            "blockClass": "videoEl"
+        }
+    },
+    "flex-layout.row#contenedor-4": {
+        "children": [
+            "rich-text#titulo-contenedor",
+            "flex-layout.row#bloque-1",
+            "flex-layout.row#bloque-2"
+        ],
+        "props": {
+            "blockClass": "contenedor-bloques-4"
+        }
+    },
+    "rich-text#titulo-contenedor": {
+        "props": {
+            "text": "Score",
+            "blockClass": ["textos-bloques", "cuarto-bloque"]
+        }
+    },
+    "flex-layout.row#bloque-4": {
+        "children": [
+            "flex-layout.col#col-texto-4",
+            "flex-layout.col#col-imagen-4"
+        ],
+        "props": {
+            "blockClass": "contendor-bloque"
+        }
+    },
+    "flex-layout.col#col-texto-4": {
+        "children": ["rich-text#titulo-bloque-4", "rich-text#texto-bloque-4"],
+        "props": {
+            "blockClass": "textos-bloques"
+        }
+    },
+    "rich-text#titulo-bloque-4": {
+        "props": {
+            "text": "Johnnie walker",
+            "blockClass": "titulos-bloques"
+        }
+    },
+    "rich-text#texto-bloque-4": {
+        "props": {
+            "text": "#Malbec y #CabernetSauvignon constituye la cima de la visiyn de Nicolós Catena Zapata: un vino sudamericano a la altura de los mejores del mundo. Se destaca por si gran complejidad, remite a frutos negros, maduros, chocolate amargo y regaliz, suavemente entrelazados con notas minerales, a violetas, hiervas y mimienta. Del mundo. Se destaca por su gran complejidad, remite a frutos nregos maduros, chocolate.",
+            "blockClass": "textos-bloques"
+        }
+    },
+    "flex-layout.col#col-imagen-4": {
+        "children": ["image#bloques-4"],
+        "props": {
+            "blockClass": "imagenes-bloques"
+        }
+    },
+    "image#bloques-4": {
+        "props": {
+            "src": "https://limpioonline.vteximg.com.br/arquivos/2.jpg"
+        }
+    },
+    "flex-layout.row#bloque-5": {
+        "children": [
+            "flex-layout.col#col-texto-5",
+            "flex-layout.col#col-imagen-5"
+        ],
+        "props": {
+            "blockClass": "contendor-bloque"
+        }
+    },
+    "flex-layout.col#col-texto-5": {
+        "children": ["rich-text#titulo-bloque-5", "rich-text#texto-bloque-5"],
+        "props": {
+            "blockClass": "textos-bloques"
+        }
+    },
+    "rich-text#titulo-bloque-5": {
+        "props": {
+            "text": "Johnnie walker",
+            "blockClass": "titulos-bloques"
+        }
+    },
+    "rich-text#texto-bloque-5": {
+        "props": {
+            "text": "#Malbec y #CabernetSauvignon constituye la cima de la visiyn de Nicolós Catena Zapata: un vino sudamericano a la altura de los mejores del mundo. Se destaca por si gran complejidad, remite a frutos negros, maduros, chocolate amargo y regaliz, suavemente entrelazados con notas minerales, a violetas, hiervas y mimienta. Del mundo. Se destaca por su gran complejidad, remite a frutos nregos maduros, chocolate.",
+            "blockClass": "textos-bloques"
+        }
+    },
+    "flex-layout.col#col-imagen-5": {
+        "children": ["image#bloques-5"],
+        "props": {
+            "blockClass": "imagenes-bloques"
+        }
+    },
+    "image#bloques-5": {
+        "props": {
+            "src": "https://limpioonline.vteximg.com.br/arquivos/2.jpg"
+        }
+    },
+    "flex-layout.row#contenedor-5": {
+        "children": [
+            "flex-layout.row#primer-shelf",
+            "flex-layout.row#segundo-shelf"
+        ],
+        "props": {
+            "blockClass": "contenedor-5"
+        }
+    },
+    "flex-layout.row#primer-shelf": {
+        "children": [
+            "image#exampleEspeciales",
+            "flex-layout.col#ShelfEspeciales"
+        ],
+        "props": {
+            "blockClass": "primer-shelf"
+        }
+    },
+    "flex-layout.row#segundo-shelf": {
+        "children": ["list-context.product-list#segundo-shelf"],
+        "props": {
+            "blockClass": "segundo-shelf"
+        }
+    },
+    "list-context.product-list#segundo-shelf": {
+        "blocks": ["product-summary.shelf#Destacados"],
+        "children": ["slider-layout#segundo-shelf"],
+        "props": {
+            "collection": ""
+        }
+    },
+    "slider-layout#segundo-shelf": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 2,
+                "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "showNavigationArrows": "never",
+            "arrowSize": 25,
+            "showPaginationDots": "never",
+            "fullWidth": false,
+            "infinite": true,
+            "blockClass": ["shelf-default", "sliderDestacados"]
+        }
+    },
+    "flex-layout.row#contenedor-6": {
+        "children": [
+            "rich-text#titulo-mapa",
+            "list-context.image-list#mapa-bar-en-casa",
+            "flex-layout.row#gift-bar-en-casa",
+            "list-context.product-list#gift-bar-en-casa"
+        ],
+        "props": {
+            "blockClass": "contenedor-6"
+        }
+    },
+    "rich-text#titulo-mapa": {
+        "props": {
+            "text": "Mapas",
+            "blockClass": "texto-maps"
+        }
+    },
+    "list-context.image-list#mapa-bar-en-casa": {
+        "children": ["slider-layout#mapa-bar-en-casa-images"],
+        "props": {
+            "height": 650,
+            "images": [
+                {
+                    "image": "https://limpioonline.vteximg.com.br/arquivos/1.jpg",
+                    "mobileImage": "https://limpioonline.vteximg.com.br/arquivos/1mobile.jpg",
+                    "description": "descuentos"
+                }
+            ]
+        }
+    },
+    "slider-layout#mapa-bar-en-casa-images": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "infinite": false,
+            "showPaginationDots": "never",
+            "showNavigationArrows": "always",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.row#gift-bar-en-casa": {
+        "children": ["rich-text#gift-bar-en-casa"]
+    },
+
+    "rich-text#gift-bar-en-casa": {
+        "props": {
+            "text": "GIFT CARD",
+            "blockClass": ["gift-bar-en-casa"]
+        }
+    },
+    "list-context.product-list#gift-bar-en-casa": {
+        "blocks": ["product-summary.shelf#mas-vendidos"],
+        "children": ["slider-layout#oficial-bar-en-casa"],
+        "props": {
+            "collection": ""
+        }
+    },
+    "slider-layout#gift-bar-en-casa": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 2,
+                "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "showNavigationArrows": "never",
+            "arrowSize": 25,
+            "showPaginationDots": "never",
+            "fullWidth": false,
+            "infinite": true,
+            "blockClass": [
+                "shelf-default",
+                "sliderMasVendidos",
+                "gift-bar-en-casa"
+            ]
+        }
+    }
+}

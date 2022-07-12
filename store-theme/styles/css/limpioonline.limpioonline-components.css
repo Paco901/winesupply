@@ -1,0 +1,165 @@
+@charset "UTF-8";
+.AsideNav .linkText {
+  font-family: "Nunito-SemiBold";
+}
+
+.menuItemText {
+  font-family: "Nunito-Bold";
+}
+
+.subMenuItemText {
+  text-decoration: none;
+  color: black;
+}
+
+.AsideNav .menuItemContainer:first-child .arrow {
+  border-right: 1.6px solid white;
+  border-top: 1.6px solid white;
+}
+.AsideNav .menuItemContainer:first-child .linkText.underlineAnimation::before {
+  display: none;
+}
+
+.underlineAnimation::before {
+  content: "";
+  background: black !important;
+}
+
+.linkText.underlineAnimation::before {
+  margin-top: 0.8px;
+}
+
+.subMenuChildrenItem .linkText {
+  font-family: "Nunito-Regular";
+  font-size: 0.9rem;
+  margin-left: 0rem !important;
+  }
+
+
+.titleAccordion {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.menuItemLink {
+  padding: 0.8rem 2rem;
+}
+
+.SubMenuContainer,
+.AsideNav {
+  overflow: scroll;
+  height: 100%;
+}
+.SubMenuContainer::-webkit-scrollbar,
+.AsideNav::-webkit-scrollbar {
+  width: 8px;
+  /* Tamaño del scroll en vertical */
+  height: 8px;
+  /* Tamaño del scroll en horizontal */
+}
+.SubMenuContainer::-webkit-scrollbar-thumb,
+.AsideNav::-webkit-scrollbar-thumb {
+  background: #0283d8;
+  opacity: 0.5;
+  border-radius: 4px;
+}
+.menu--category{
+  color: white;
+}
+
+.accordion {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapperAccordion {
+  font-family: "Nunito-SemiBold";
+  color: #4d4d4d;
+}
+
+.contentAccordion .Link {
+  color: inherit;
+  text-transform: uppercase;
+  color: #0283d8;
+  text-decoration: none;
+  font-family: "Nunito-Bold";
+}
+
+.subMenuChildrenItem {
+  padding-bottom: 0.25rem;
+}
+
+.SubMenuContainer {
+  padding: 2rem 2rem 2rem 0rem;
+}
+
+.menu--father {
+  -webkit-appearance: none !important;
+}
+
+.menu--father--customCategories {
+  text-decoration: none;
+  font-family: "Nunito-Bold";
+  color: white;
+  text-transform: uppercase;
+}
+
+.linkContainer{
+  background: black !important;
+}
+
+.isActive{
+  background: none !important;
+}
+
+.linkText{
+  color: white !important;
+  font-size: 15px;
+}
+
+.arrow{
+  border-right: 1.6px solid white !important;
+  border-top: 1.6px solid white !important;
+}
+
+.SubMenuHeading {
+    border-bottom: 1px  solid white;
+    padding-bottom: 1rem;
+    padding-left: 0rem;
+    align-items: center;
+    display: flex;
+}
+.SubMenuItemWrapper{
+  padding-left: 0px !important;
+}
+.SubMenuTitle{
+  color: white !important;
+  font-size: 18px !important;
+}
+.AsideNav{
+  background-color: black;
+}
+.SubMenuContainer{
+  background: black;
+}
+
+
+.subMenuItem .linkContainer{
+  background: transparent !important;
+}
+
+.menu--father{
+  background: black !important;
+}
+
+.linkText:hover{
+  border: none !important;
+}
+
+.linkText{
+  margin: 0;
+}
+.ShortTitle{
+  background: red !important;
+}
+

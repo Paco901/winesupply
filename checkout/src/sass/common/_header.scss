@@ -1,0 +1,139 @@
+.header-sideas{
+  display: block !important;
+  width: 100%;
+  background-color: $whitesmoke-1;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+
+  &__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    max-width: 1920px;
+    margin: auto;
+    padding-left: 35px;
+    padding-right: 35px;
+
+    > div:first-child{
+      flex: 1;
+      display: flex;
+      justify-content: center;
+
+      a{
+        display: inline-flex;
+        margin-left: 144px;
+        @media (max-width: $tablet) {
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    }
+
+    .text-check{
+      display: flex;
+      align-items: center;
+      gap: 7px;
+
+      @media (max-width: $tablet) {
+        display: none;
+      }
+
+      .txt-header{
+        font-size: 12px;
+        font-weight: 300;
+        color: $black-1;
+      }
+    }
+  }
+}
+.container-fluid + .container{
+  display: none !important;
+}
+.header-container {
+  height: 60px;
+  background-color: $main;
+
+  @media (max-width: $tablet) {
+    height: 54px;
+  }
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    max-width: $page-size;
+    margin: 0 auto;
+
+    @media (max-width: $tablet) {
+      height: 54px;
+      justify-content: center;
+    }
+
+    .header-logo {
+      width: 50%;
+      padding-left: 25px;
+
+      @media (max-width: $tablet) {
+        padding-left: 0 !important;
+        width: 100%;
+      }
+
+      a {
+        display: block;
+
+        @media (max-width: $tablet) {
+          text-align: center;
+        }
+
+        img {
+          height: 44px;
+        }
+      }
+    }
+
+    .cart-icons {
+      width: 50%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+
+      .shipping,
+      .security {
+        display: flex;
+        align-items: center;
+        padding: 0 15px;
+
+        .icon-shipping {
+          background: url("/arquivos/truck.png") no-repeat;
+          display: inline-block;
+          width: 40px;
+          height: 40px;
+          background-size: contain;
+        }
+
+        .icon-security {
+          background: url("/arquivos/security.png") no-repeat;
+          display: inline-block;
+          width: 30px;
+          height: 30px;
+          background-size: contain;
+        }
+
+        span {
+          color: $white;
+          font-size: $font-12;
+          font-weight: 600;
+          letter-spacing: 1px;
+          line-height: 16px;
+          margin-left: 5px;
+        }
+      }
+
+      .shipping {
+        border-right: 1px solid $white;
+      }
+    }
+  }
+}

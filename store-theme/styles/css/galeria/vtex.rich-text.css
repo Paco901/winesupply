@@ -1,0 +1,9 @@
+.container--tituloFichaTodo{
+  color: white;
+}
+.container--tituloFichaTodo{
+  width: 90% !important;
+  font-family: 'MuseoSans_500' !important;
+  font-size: 20px;
+  font-weight: bold;
+}

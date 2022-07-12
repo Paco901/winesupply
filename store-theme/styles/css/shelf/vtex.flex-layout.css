@@ -1,0 +1,96 @@
+.flexRowContent--botones {
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.stretchChildrenWidth :global(.vtex-button) {
+    border: none;
+}
+
+.flexRowContent--botones .stretchChildrenWidth:first-child {
+    width: 100% !important;
+}
+
+.flexRowContent--botones .stretchChildrenWidth:last-child {
+    background: black;
+    width: auto !important;
+    border-radius: 0px 7px 7px 0px;
+    border-left: 1px solid white;
+    height: 40px;
+}
+
+:global(.vtex-add-to-cart-button-0-x-buttonText--botonComprar) {
+    font-family: 'Baskerville';
+    font-size: 20px;
+    padding: 6px;
+    font-weight: bold;
+}
+
+:global(.vtex-product-summary-2-x-containerNormal--related-shelf-home) {
+    background: white;
+    box-shadow: 1px 1px 6px #b7b7cb;
+    height: auto !important;
+}
+
+:global(.vtex-product-specification-badges-0-x-badgeContainer--envio-gratis) {
+    background-image: url('https://winesupply.vteximg.com.br/arquivos/envioGratis.png');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+    background-color: black;
+}
+
+:global(.vtex-product-specification-badges-0-x-badgeText--envio-gratis) {
+    color: transparent;
+    font-size: 9px;
+}
+
+.flexRow--contenidoPrecios {
+    margin: 6px 0px;
+}
+
+@media only screen and (max-width: 700px) {
+    .flexRowContent--botones {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 100%;
+    }
+    .flexRow--botones{
+        width: 75%;
+        margin: auto;
+    }
+    .flexRowContent--botones .stretchChildrenWidth:first-child {
+        width: 100% !important;
+    }
+
+    .flexRowContent--botones .stretchChildrenWidth:last-child {
+        background: black;
+        width: auto !important;
+        border-radius: 7px 7px 7px 7px;
+        border-left: 2px solid white;
+        height: 43px;
+    }
+    :global(.vtex-add-to-cart-button-0-x-buttonText--botonComprar) {
+        font-family: 'Baskerville';
+        font-size: 10px !important;
+        padding: 10px 0px;
+        font-weight: bold;
+    }
+    .flexRowContent--contenidoPrecios {
+        display: flex;
+        background-color: white;
+    }
+    :global(.vtex-product-summary-2-x-containerNormal--related-shelf-home) {
+        background: white;
+        box-shadow: #b7b7cb;
+        margin-right: 8px;
+    }
+
+    .flexRowContent--botones
+        :global(.vtex-flex-layout-0-x-stretchChildrenWidth):empty {
+        display: none;
+    }
+}

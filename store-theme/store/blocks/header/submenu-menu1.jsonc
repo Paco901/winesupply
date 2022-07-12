@@ -1,0 +1,341 @@
+{
+    "submenu#menu1": {
+        /* "children": [
+            "flex-layout.col#submenu-menu1"
+        ], */
+        "props": {
+            "width": "100%",
+            "blockClass": "header-submenu-container"
+        }
+    },
+    "flex-layout.col#submenu-menu1": {
+        "children": [
+            "flex-layout.row#submenu-menu1"
+        ],
+        "props": {
+            "blockClass": "header-submenu",
+            "width": "100%"
+        }
+    },
+    "flex-layout.row#submenu-menu1": {
+        "children": [
+            "flex-layout.col#submenu-menu1-item1",
+            "flex-layout.col#submenu-menu1-item2",
+            "flex-layout.col#submenu-menu1-item3",
+            "flex-layout.col#submenu-menu1-item4"
+        ],
+        "props": {
+            "blockClass": "header-submenu",
+            "width": "100%"
+        }
+    },
+    "flex-layout.col#submenu-menu1-item1": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "width": "20%"
+        },
+        "children": [
+            "menu-item#submenu-deportes-accesorios",
+            "menu#submenu-deportes-accesorios"
+        ]
+    },
+    "menu#submenu-deportes-accesorios-title": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-deportes-accesorios"
+        ]
+    },
+    "menu-item#submenu-deportes-accesorios": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header-submenu-title",
+            "itemProps": {
+                "type": "internal",
+                "href": "/deportes---outdoor/accesorios",
+                "noFollow": false,
+                "tagTitle": "Accesorios",
+                "text": "ACCESORIOS"
+            }
+        }
+    },
+    "menu#submenu-deportes-accesorios": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-deportes-accesorios-botellas--termos-y-vasos",
+            "menu-item#submenu-deportes-accesorios-riñoneras"
+        ]
+    },
+    "menu-item#submenu-deportes-accesorios-botellas--termos-y-vasos": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/deportes---outdoor/accesorios/botellas--termos-y-vasos",
+                "noFollow": false,
+                "tagTitle": "Botellas, Termos y Vasos",
+                "text": "Botellas, Termos y Vasos"
+            }
+        }
+    },
+    "menu-item#submenu-deportes-accesorios-riñoneras": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/deportes---outdoor/accesorios/rinoneras",
+                "noFollow": false,
+                "tagTitle": "riñoneras",
+                "text": "Riñoneras"
+            }
+        }
+    },
+    "flex-layout.col#submenu-menu1-item2": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "width": "20%"
+        },
+        "children": [
+            "menu-item#submenu-deportes-bolsos",
+            "menu#submenu-deportes-bolsos"
+        ]
+    },
+    "menu#submenu-deportes-bolsos-title": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-deportes-bolsos"
+        ]
+    },
+    "menu-item#submenu-deportes-bolsos": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header-submenu-title",
+            "itemProps": {
+                "type": "internal",
+                "href": "/deportes---outdoor/bolsos",
+                "noFollow": false,
+                "tagTitle": "Bolsos",
+                "text": "BOLSOS"
+            }
+        }
+    },
+    "menu#submenu-deportes-bolsos": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-deportes-bolsos-combos",
+            "menu-item#submenu-deportes-bolsos-viaje-y-deportivos"
+        ]
+    },
+    "menu-item#submenu-deportes-bolsos-combos": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": true,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/deportes---outdoor/bolsos/combos",
+                "noFollow": false,
+                "tagTitle": "combos",
+                "text": "Combos"
+            }
+        }
+    },
+    "menu-item#submenu-deportes-bolsos-viaje-y-deportivos": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/deportes---outdoor/bolsos/viaje-y-deportivos",
+                "noFollow": false,
+                "tagTitle": "Viaje y Deportivos",
+                "text": "Viaje y Deportivos"
+            }
+        }
+    },
+    "flex-layout.col#submenu-menu1-item3": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "width": "20%"
+        },
+        "children": [
+            "menu-item#submenu-deportes-fitness",
+            "menu#submenu-deportes-fitness"
+        ]
+    },
+    "menu#submenu-deportes-fitness-title": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-deportes-fitness"
+        ]
+    },
+    "menu-item#submenu-deportes-fitness": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header-submenu-title",
+            "itemProps": {
+                "type": "internal",
+                "href": "/deportes---outdoor/fitness",
+                "noFollow": false,
+                "tagTitle": "fitness",
+                "text": "FITNESS"
+            }
+        }
+    },
+    "menu#submenu-deportes-fitness": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-deportes-fitness-pesas-y-mancuernas",
+            "menu-item#submenu-deportes-fitness-sogas-y-bandas",
+            "menu-item#submenu-deportes-fitness-yoga",
+            "menu-item#submenu-deportes-fitness-toallas"
+        ]
+    },
+    "menu-item#submenu-deportes-fitness-pesas-y-mancuernas": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/deportes---outdoor/fitness/pesas-y-mancuernas",
+                "noFollow": false,
+                "tagTitle": "Pesas y Mancuernas",
+                "text": "Pesas y Mancuernas"
+            }
+        }
+    },
+    "menu-item#submenu-deportes-fitness-sogas-y-bandas": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/deportes---outdoor/fitness/sogas-y-bandas",
+                "noFollow": false,
+                "tagTitle": "Sogas y Bandas",
+                "text": "Sogas y Bandas"
+            }
+        }
+    },
+    "menu-item#submenu-deportes-fitness-yoga": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/deportes---outdoor/fitness/yoga",
+                "noFollow": false,
+                "tagTitle": "yoga",
+                "text": "Yoga"
+            }
+        }
+    },
+    "menu-item#submenu-deportes-fitness-toallas": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/deportes---outdoor/fitness/toallas",
+                "noFollow": false,
+                "tagTitle": "Toallas",
+                "text": "Toallas"
+            }
+        }
+    },
+    "flex-layout.col#submenu-menu1-item4": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "width": "20%"
+        },
+        "children": [
+            "menu-item#submenu-deportes-mochila",
+            "menu#submenu-deportes-mochila"
+        ]
+    },
+    "menu#submenu-deportes-mochila-title": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-deportes-mochila"
+        ]
+    },
+    "menu-item#submenu-deportes-mochila": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header-submenu-title",
+            "itemProps": {
+                "type": "internal",
+                "href": "/deportes---outdoor/mochila",
+                "noFollow": false,
+                "tagTitle": "mochila",
+                "text": "MOCHILA"
+            }
+        }
+    },
+    "menu#submenu-deportes-mochila": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column",
+            "items": [
+                {
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "blockClass": "header-menu-item",
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/deportes---outdoor/mochila/camping",
+                        "noFollow": false,
+                        "tagTitle": "Camping",
+                        "text": "Camping"
+                    }
+                }
+            ]
+        }
+    }
+}

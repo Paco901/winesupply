@@ -1,0 +1,242 @@
+.groupContainer--banderas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+.badgeContainer--banderas,
+.badgeContainer--destaqueDescuentos,
+.badgeContainer--destaqueOrganico--organico {
+    width: 47px;
+    height: 47px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+}
+
+.badgeText--banderas,
+.badgeText--destaqueDescuentos,
+.badgeText--destaqueOrganico--organico{
+    display: none;
+}
+.badgeContainer--destaqueOrganico--organico {
+    width: 47px !important;
+    height: 43px !important;
+}
+
+/* Shelf organicos-y-biodinamicos */
+:global(.vtex-product-summary-2-x-containerNormal--related-shelf-vinos-de-la-semana) .groupContainer--destaqueOrganico {
+    top: 10px;
+}
+
+/* Banderas */
+.badgeContainer--banderas--escocia {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Escocia.png);
+}
+
+.badgeContainer--banderas--rusia {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Rusia.png);
+}
+
+.badgeContainer--banderas--alemania {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Alemania.png);
+}
+
+.badgeContainer--banderas--argentina {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/argentina.png);
+}
+.badgeContainer--banderas--reino-unido{
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-ReinoUnido.png);
+}
+
+.badgeContainer--banderas--belgica {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Belgica.png);
+}
+
+.badgeContainer--banderas--brasil {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Brasil.png);
+}
+
+.badgeContainer--banderas--chile {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Chile.png);
+}
+
+.badgeContainer--banderas--eeuu {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-EEUU.png);
+}
+
+.badgeContainer--banderas--espana {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-España.png);
+}
+
+.badgeContainer--banderas--francia {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Francia.png);
+}
+
+.badgeContainer--banderas--guatemala {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Guatemala.png);
+}
+
+.badgeContainer--banderas--irlanda {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Irlanda.png);
+}
+
+.badgeContainer--banderas--italia {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Italia.png);
+}
+
+.badgeContainer--banderas--mexico {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Mexico.png);
+}
+
+.badgeContainer--banderas--nicaragua {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Nicaragua.png);
+}
+
+.badgeContainer--banderas--peru {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Peru.png);
+}
+
+.badgeContainer--banderas--portugal {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Portugal.png);
+}
+
+.badgeContainer--banderas--reinounido {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Reinounido.png);
+}
+
+.badgeContainer--banderas--sudafrica {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Sudafrica.png);
+}
+
+.badgeContainer--banderas--uruguay {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Uruguay.png);
+}
+
+/* Destaque descuentos */
+.groupContainer--destaqueDescuentos {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.badgeContainer--destaqueDescuentos--6x4 {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Cucarda-6x4.png);
+    position: absolute;
+    top: 70px;
+    right: 8px;
+}
+:global(.vtex-product-summary-2-x-containerNormal--related-shelf-vinos-de-la-semana) .badgeContainer--destaqueDescuentos--6x4 {
+    top: 0px;
+}
+
+.badgeContainer--destaqueDescuentos--6x5 {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Cucarda-6x5.png);
+}
+
+.badgeContainer--destaqueDescuentos--10off {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Cucarda-10off.png);
+}
+
+.badgeContainer--destaqueDescuentos--15off {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Cucarda-15off.png);
+}
+
+.badgeContainer--destaqueDescuentos--20off {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Cucarda-20off.png);
+}
+
+.badgeContainer--destaqueDescuentos--25off {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Cucarda-25off.png);
+}
+
+.badgeContainer--destaqueDescuentos--33off {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Cucarda-33off.png);
+}
+
+.badgeContainer--destaqueDescuentos--50off {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Cucarda-50off.png);
+}
+
+.badgeContainer--destaqueDescuentos--newin {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Cucarda-Newin.png);
+    position: absolute;
+    top: 70px;
+    right: 8px;
+}
+:global(.vtex-product-summary-2-x-containerNormal--related-shelf-vinos-de-la-semana) .badgeContainer--destaqueDescuentos--newin {
+    top: 0px;
+}
+
+.badgeContainer--destaqueDescuentos--vacia {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Cucarda-Vacia.png);
+}
+
+/* Destaque orgánico */
+.groupContainer--destaqueOrganico {
+    position: absolute;
+    right: 0;
+    top: 70px;
+    z-index: 10;
+}
+
+.badgeContainer--destaqueOrganico--organico {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/orgnaico_destaque.png);
+}
+
+/* Destaques Vinos */
+.badgeContainer--destaqueVinos {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.groupContainer--destaqueVinos {
+    position: absolute;
+    left: 0;
+    top: 70px;
+    z-index: 10;
+}
+
+.badgeText--destaqueVinos {
+    width: 26px;
+    height: 26px;
+    visibility: hidden;
+}
+
+.badgeContainer--destaqueVinos--x4 {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/x4_vinos.png);
+}
+
+.badgeContainer--destaqueVinos--x6 {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/x6_vinos.png);
+}
+
+.badgeContainer--destaqueVinos--x8 {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/x8_vinos.png);
+}
+
+.badgeContainer--destaqueVinos--x12 {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/x12_vinos.png);
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .badgeContainer--banderas,
+    .badgeContainer--destaqueDescuentos,
+    .badgeContainer--destaqueOrganico--organico {
+    width: 45px;
+    height: 45px;
+    }
+    .groupContainer--destaqueVinos {
+        left: 5px;
+    }
+    .badgeText--destaqueVinos {
+        width: 13px;
+        height: 46px;
+    }
+    .badgeContainer--destaqueOrganico--organico {
+        width: 39px !important;
+        height: 39px !important;
+    }
+}

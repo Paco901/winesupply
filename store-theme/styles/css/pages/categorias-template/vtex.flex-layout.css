@@ -1,0 +1,180 @@
+.flexRow--contedido-nordes{
+    max-width: 1200px;
+    margin: auto;
+    width: 90%;
+}
+.flexRowContent--contenidoSliderCirculos{
+    margin: 40px 0px;
+}
+.flexRow--contenidoSliderCirculos{
+    margin: auto;
+}
+.flexRowContent--contedido-nordes{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexRow--contenido-flordecana{
+    max-width: 1200px;
+    margin: auto;
+    width: 90%;
+}
+.flexRowContent--contenidoSliderCirculos-flordecana{
+    max-width: 1200px;
+    margin: auto;
+    width: 90%;
+    justify-content: center;
+}
+.flexRow--contenidoSliderCirculos-flordecana{
+    background:#E4E4E4 ;
+    padding: 40px 0px;
+    margin: 40px 0px;
+}
+
+.flexRowContent--contenido-flordecana{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexRow--contenido-cards{
+    margin: auto;
+}
+
+.flexRow--info-cardgrande{
+    width: 500px !important;
+}
+.flexRowContent--info-carddos{
+    width: 515px !important;
+}
+
+.flexRowContent--bloqueMobileBanners{
+    display: none;
+}
+
+.flexRow--cards-desktop{
+    display: block;
+}
+
+.flexRow--bloqueMobileBanners{
+    margin: auto;
+}
+
+@media (max-width: 1024px){
+    .flexRow--info-cardgrande{
+        width: 500px !important;
+    }
+    .flexRowContent--info-carddos{
+        width: 515px !important;
+    }
+    .flexRowContent--bloqueMobileBanners{
+        display: block;
+    }
+    .flexRow--cards-desktop{
+        display: none;
+    }
+    .flexRowContent--contenedor-bloque-flordecasa :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+        width: 100% !important;
+    }
+    
+}
+@media (max-width: 728px){
+    .flexColChild--imagenes-bloques{
+        max-height: 450px !important;
+        margin: auto !important;
+    }
+}
+
+
+.flexRowContent--contenidonNewsFlordecana{
+    justify-content: center;
+}
+.flexRow--contenidonNewsFlordecana{
+    background: black;
+    margin: 40px 0px !important;
+}
+
+.flexRow--news-flordecana :global(.vtex-flex-layout-0-x-flexRow--newsStyle){
+    border:none !important;
+}
+
+.flexRow--news-flordecana :global(.vtex-rich-text-0-x-paragraph--textNewsuno){
+    color: white !important;
+}
+.flexRow--news-flordecana :global(.vtex-rich-text-0-x-paragraph--textNewsDos){
+    color: white !important;
+}
+
+.flexRow--news-flordecana :global(.vtex-button__label){
+    color: white !important;
+}
+.flexRow--news-flordecana :global(.vtex-styleguide-9-x-hideDecorators ){
+    border-radius: 0px;
+}
+
+.flexCol--bloque-texto-flor{
+    padding: 50px 80px;
+}
+
+
+
+.flexRowContent--imagenTextoCol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexRowContent--imagenTextoCol :global(.vtex-store-components-3-x-imageElement){
+    width: 280px;
+}
+
+
+.flexRowContent--vimeo-home{
+    position: relative !important;
+}
+
+.flexRowContent--ContenedorBannerNordes:global(.vtex-store-components-3-x-imageElement--imagenBannerNordes){
+    width: 400px;
+    background: red;
+}
+
+.flexRow--styleTemplate{
+    width: 100%;
+    margin: auto;
+}
+
+.flexRowContent--styleTemplate{
+    justify-content: center;
+}
+
+.flexCol--contenidoInfoRecetas{
+    padding: 10px;
+}
+
+.flexRowContent--contenidoRecetas{
+    background: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin:  20px  0px 10px 0px;
+}
+
+.flexRow--shelf-and-video{
+    width: 92%;
+    margin: 0 auto;
+}
+
+.flexRow--contenedorRegalos{
+    margin: 50px auto;
+}
+
+.flexRowContent--contenido-flordecana :global(.vtex-rich-text-0-x-container--titulosFlorRecetas){
+    background: black !important;
+    width: 100%;
+    margin: 40px 0px !important;
+  }
+
+@media (max-width: 1024px){
+    .flexCol--bloque-texto-flor{
+        padding: 0px 0px;
+    }
+}
+  

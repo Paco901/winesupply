@@ -1,0 +1,305 @@
+body {
+  letter-spacing: 1px;
+ background: #f4f2f2;
+}
+
+h1#cart-title {
+  display: none !important;
+}
+
+#cart-to-orderform {
+  background: #000;
+  letter-spacing: 2px;
+  width: 100%;
+  font-size: 15px;
+  border-radius: 0;
+  text-transform: uppercase;
+  line-height: 0;
+  font-weight: 100;
+  border: 0;
+}
+
+.summary-template-holder tfoot tr td.monetary {
+  color: #000;
+  font-size: 13px;
+}
+
+.full-cart .totalizers tfoot td {
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+
+.summary-template-holder tbody td {
+  font-weight: 100;
+  font-size: 1em;
+  color: #000;
+}
+
+.product, .shipping-date, .product-price, .quantity, .quantity-price  {
+  font-weight: 100 !important;
+  font-size: 1em;
+  color: #000;
+}
+
+.coupon-form button#cart-coupon-add {
+  background: #000;
+  font-size: 0;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-weight: 100;
+  border: 0;
+  color: white;
+  height: 30px;
+  line-height: 30px;
+}
+
+.coupon-form button#cart-coupon-add::before {
+font-size: 15px;
+color: white;
+content: "VALIDAR";
+letter-spacing: 2px;
+}
+
+input#cart-coupon {
+  height: 30px;
+  line-height: 30px;
+}
+
+#shipping-calculate-link  {
+  background: #000;
+  letter-spacing: 2px;
+  font-size: 15px;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-weight: 100;
+  border: 0;
+  color: white;
+  height: 30px;
+}
+
+.table.cart-items td.product-name a, .table.cart-items td.product-name a {
+  color: #000;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+i.icon-question-sign {
+  display: none;
+}
+
+.orderform-template .cart-template.mini-cart .summary-totalizers tfoot tr td.monetary {
+  color: #000;
+}
+.orderform-template .cart-template.mini-cart .summary-totalizers tfoot tr td {
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+
+body a, body a:hover, .orderform-template-holder .step .form-step #is-corporate-client {
+  color: #000;
+}
+
+button#go-to-shipping, .btn-success {
+  background: #000;
+  letter-spacing: 2px;
+  font-size: 15px;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-weight: 100;
+  border: 0;
+  color: white;
+}
+
+.btn-success:hover {
+  opacity: 0.8;
+  background: #000;
+  border-color: #000;
+}
+
+span.fn.product-name {
+  color: #000;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.orderform-template .cart-template.mini-cart .summary-totalizers tbody td {
+  font-weight: 100 !important;
+  font-size: 1em;
+  color: #000;
+}
+
+/*campos telefono*/
+.orderform-template-holder .step .form-step fieldset p.client-phone-mobile,
+.orderform-template-holder
+.step
+.form-step
+fieldset
+p.input
+span.client-phone-prefix {
+display: none !important;
+}
+.orderform-template-holder .step.client-profile-data .client-phone p.input {
+display: Flex;
+align-items: center;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+.orderform-template-holder .step .form-step fieldset p.input .input-micro {
+display: block !important;
+max-width: 50px !important;
+padding: 0 !important;
+text-align: center;
+margin-right: 10px;
+float: left;
+padding: 0;
+text-align: center;
+}
+.orderform-template-holder .step .form-step fieldset p.input .input-mini {
+max-width: 76% !important;
+}
+.orderform-template-holder .step.client-profile-data .client-phone {
+margin-top: 1rem;
+}
+.orderform-template-holder .step.client-profile-data .client-phone label {
+color: #999;
+}
+body.js-vcustom-showNoteField .orderform-template .summary-note {
+display: none !important;
+}
+.orderform-template-holder .step .form-step fieldset p span.help.error {
+position: static !important;
+}
+.summary-template-holder
+.summary-coupon
+fieldset.coupon-fieldset
+> div[style*="none"]
+p.coupon-label {
+display: block;
+}
+.summary-template-holder
+.summary-coupon
+fieldset.coupon-fieldset
+> div[style*="none"]
+p.coupon-label
+label {
+font-size: 0;
+}
+.summary-template-holder
+.summary-coupon
+fieldset.coupon-fieldset
+> div[style*="none"]
+p.coupon-label
+label:before {
+content: "¿Tenés un cupón de descuento?";
+font-size: 14px;
+text-transform: uppercase;
+font-weight: bold;
+color: black;
+text-align: left;
+display: block;
+line-height: 14px;
+}
+.summary-template-holder span.link-choose-more-products-wrapper {
+display: block;
+text-align: center;
+text-transform: uppercase;
+font-weight: bold;
+margin: 20px;
+text-decoration: underline;
+font-size: 13px;
+}
+
+#vtexIdContainer input,
+.table.cart-items tr.item-attachments-content input,
+.table.cart-items tr.item-attachments-content select,
+.table.cart-items tbody tr td .product-service select,
+.table.cart-items td.quantity input,
+.summary-template-holder
+.summary-coupon
+fieldset.coupon-fieldset
+input[type="text"],
+.summary-template-holder
+.summary-coupon
+fieldset.coupon-fieldset
+button[type="submit"],
+.cart-more-options .srp-container select,
+.cart-more-options .srp-container input[type="text"]:not(.pac-target-input),
+.cart-more-options
+.srp-container
+.vtex-shipping-preview-0-x-addressFormPart1.vtex-shipping-preview-0-x-geolocation
+input,
+.orderform-template-holder
+#client-profile-data
+form.client-pre-email
+input[type="text"]:not(.pac-target-input),
+.orderform-template-holder
+#client-profile-data
+form.client-pre-email
+input[type="tel"]:not(.pac-target-input),
+.orderform-template-holder
+#client-profile-data
+form.client-pre-email
+input[type="email"]:not(.pac-target-input),
+.orderform-template-holder
+#client-profile-data
+form.client-pre-email
+select:not(.pac-target-input),
+.orderform-template-holder
+#client-profile-data
+.step.client-profile-data
+input[type="text"]:not(.pac-target-input),
+.orderform-template-holder
+#client-profile-data
+.step.client-profile-data
+input[type="tel"]:not(.pac-target-input),
+.orderform-template-holder
+#client-profile-data
+.step.client-profile-data
+input[type="email"]:not(.pac-target-input),
+.orderform-template-holder
+#client-profile-data
+.step.client-profile-data
+select:not(.pac-target-input),
+.orderform-template-holder
+#shipping-data
+input[type="text"]:not(.pac-target-input),
+.orderform-template-holder
+#shipping-data
+input[type="tel"]:not(.pac-target-input),
+.orderform-template-holder
+#shipping-data
+input[type="email"]:not(.pac-target-input),
+.orderform-template-holder #shipping-data select:not(.pac-target-input),
+.orderform-template-holder
+#payment-data
+input[type="text"]:not(.pac-target-input),
+.orderform-template-holder
+#payment-data
+input[type="tel"]:not(.pac-target-input),
+.orderform-template-holder
+#payment-data
+input[type="email"]:not(.pac-target-input),
+.orderform-template-holder #payment-data select:not(.pac-target-input),
+.orderform-template-holder
+.step.shipping-data
+.vtex-omnishipping-1-x-addressFormPart1.vtex-omnishipping-1-x-geolocation
+input,
+.orderform-template .summary-note .note-textarea,
+#app-container input[type="text"],
+#app-container input[type="tel"],
+#app-container input[type="email"],
+#app-container select,
+.vcustom--vtex-omnishipping-1-x-address input {
+border-color: black;
+background-position: center right;
+font-weight: bold;
+color: black;
+border-radius: 0;
+}
+
+.cart-more-options.span7 {
+  display: none !important;
+}
+.v-custom-quantity-price__list--selling{
+display:none !important;
+}

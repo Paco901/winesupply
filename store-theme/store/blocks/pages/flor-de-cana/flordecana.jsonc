@@ -1,0 +1,893 @@
+{
+    "store.custom#flordecana": {
+        "blocks": [
+            "list-context.image-list#flordecana",
+            "flex-layout.row#flordecana--container-descripcion",
+            "flex-layout.row#flordecana--circulos",
+            "flex-layout.row#flordecana--container-shelf-banners",
+            "flex-layout.row#flordecana--historia-contenido",
+            "flex-layout.row#flordecana--recetas-contenido",
+            "flex-layout.row#flordecana--regalos",
+            "flex-layout.row#flordecana--news-contenido"
+        ]
+    },
+    "list-context.image-list#flordecana": {
+        "children": ["slider-layout#flordecana"],
+        "props": {
+            "height": 650,
+            "images": [
+                {
+                    "image": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/8e1095bb-5a12-4169-a429-521800574096___ded4ce253fd387a62a3ea36b44b7270b.jpg",
+                    "mobileImage": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/13056ad6-f231-4f75-9876-93415a336dab___fa67348343529137f02e3127dd327100.jpg",
+                    "description": "descuentos"
+                },
+                {
+                    "image": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/3b2f5113-0798-45fd-ac74-3fe55344b672___21716ee9eeb45e98b0e83bbbd9f6019b.jpg",
+                    "mobileImage": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/13056ad6-f231-4f75-9876-93415a336dab___fa67348343529137f02e3127dd327100.jpg",
+                    "description": "descuentos"
+                }
+            ]
+        }
+    },
+    "slider-layout#flordecana": {
+        "props": {
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "never",
+            "fullWidth": true
+        }
+    },
+
+    "flex-layout.row#flordecana--container-descripcion": {
+        "children": ["rich-text#descripcionFlordeCana"],
+        "props": {
+            "blockClass": ["contenido-flordecana"],
+            "preventHorizontalStretch": true
+        }
+    },
+
+    "flex-layout.row#flordecana--container-shelf-banners": {
+        "children": [
+            "list-context.product-list#flordecanaslider1",
+            "flex-layout.row#infoCards",
+            "flex-layout.row#infoCards-mobile"
+        ],
+        "props": {
+            "blockClass": ["contenido-flordecana"],
+            "preventHorizontalStretch": true
+        }
+    },
+    "flex-layout.col#col-imagen-3": {
+        "children": ["modal-trigger#bloque-3"],
+        "props": {
+            "blockClass": "imagenes-bloques"
+        }
+    },
+    "modal-trigger#bloque-3": {
+        "children": ["image#bloques-3", "modal-layout#bloque-3"],
+        "props": {
+            "blockClass": ["video", "especial-nordes"]
+        }
+    },
+    "image#bloques-3": {
+        "props": {
+            "src": "https://limpioonline.vteximg.com.br/arquivos/2.jpg"
+        }
+    },
+
+    "flex-layout.row#infoCards-mobile": {
+        "children": [
+            "image#grandeMobile",
+            "image#hostoriaMobile",
+            "image#25mobile"
+        ],
+        "props": {
+            "blockClass": ["bloqueMobileBanners"],
+            "preventHorizontalStretch": true
+        }
+    },
+    "image#grandeMobile": {
+        "props": {
+            "src": "https://user-images.githubusercontent.com/284515/70230392-f982e780-1736-11ea-921b-e83208e80620.png"
+        }
+    },
+    "image#hostoriaMobile": {
+        "props": {
+            "src": "https://user-images.githubusercontent.com/284515/70230392-f982e780-1736-11ea-921b-e83208e80620.png"
+        }
+    },
+    "image#25mobile": {
+        "props": {
+            "src": "https://user-images.githubusercontent.com/284515/70230392-f982e780-1736-11ea-921b-e83208e80620.png"
+        }
+    },
+
+    "flex-layout.row#infoCards": {
+        "children": ["flex-layout.row#uno", "flex-layout.row#dos"],
+        "props": {
+            "blockClass": ["contenido-cards", "cards-desktop"]
+        }
+    },
+    "flex-layout.row#uno": {
+        "children": ["info-card#grande"],
+        "props": {
+            "blockClass": "info-cardgrande"
+        }
+    },
+    "flex-layout.row#dos": {
+        "children": ["info-card#medio1", "info-card#medio2"],
+        "props": {
+            "blockClass": "info-carddos"
+        }
+    },
+
+    "info-card#grande": {
+        "props": {
+            "textPosition": "center",
+            "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+
+            "callToActionUrl": "https://mv1390--lacardeuse.myvtex.com/asesoramiento",
+            "blockClass": [
+                "info-card-asesoramiento",
+                "infocard-grande",
+                "infocard-grande-mobile"
+            ],
+            "textAlignment": "center",
+            "isFullModeStyle": true
+        }
+    },
+    "info-card#medio1": {
+        "props": {
+            "textPosition": "center",
+            "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+
+            "callToActionUrl": "https://mv1390--lacardeuse.myvtex.com/asesoramiento",
+            "blockClass": ["info-card-asesoramiento", "dos"],
+            "textAlignment": "center",
+            "isFullModeStyle": true
+        }
+    },
+    "info-card#medio2": {
+        "props": {
+            "textPosition": "center",
+            "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+            "callToActionUrl": "https://mv1390--lacardeuse.myvtex.com/asesoramiento",
+            "blockClass": ["info-card-asesoramiento", "dos"],
+            "textAlignment": "center",
+            "isFullModeStyle": true
+        }
+    },
+
+    "flex-layout.row#flordecana--historia-contenido": {
+        "children": [
+            "flex-layout.row#contenedor-historia-flor",
+            "list-context.product-list#flordecanaslider1"
+        ],
+        "props": {
+            "blockClass": ["contenido-flordecana"],
+            "preventHorizontalStretch": true
+        }
+    },
+
+    "flex-layout.row#gift-embajador": {
+        "children": ["rich-text#embajador"]
+    },
+    "rich-text#embajador": {
+        "props": {
+            "text": "Embajador vinos",
+            "blockClass": ["gift-bemberg"]
+        }
+    },
+    "rich-text#descripcionFlordeCana": {
+        "props": {
+            "text": "Flor de Caña, el ron premium de Nicaragua, ha sido nombrado Mejor Productor de Ron del Mundo en el International Wine and Spirit Competition (IWSC) en Londres. <br><br>Este certamen, que cuenta con un jurado compuesto por más de 400 expertos que evalúan muestras de más de 90 países, premia cada año la excelencia en el sector global de los destilados.<br><br>Esta distinción, la más alta a nivel global en la industria de los destilados, avala la calidad de este ron nicaragüense con más de 125 años de historia.",
+            "blockClass": "textoDescripcion-flordecana"
+        }
+    },
+    // NEWS
+    "flex-layout.row#flordecana--news-contenido": {
+        "children": ["flex-layout.row#flordecana---news"],
+        "props": {
+            "blockClass": ["contenidonNewsFlordecana"],
+            "preventHorizontalStretch": true
+        }
+    },
+    "flex-layout.row#flordecana---news": {
+        "children": ["flex-layout.row#newsletter"],
+        "props": {
+            "blockClass": ["news-flordecana"]
+        }
+    },
+
+    "flex-layout.row#flordecana--circulos": {
+        "children": ["flex-layout.row#flordecana--contenido-slider-circulos"],
+        "props": {
+            "blockClass": ["contenidoSliderCirculos-flordecana"],
+            "preventHorizontalStretch": true
+        }
+    },
+    "flex-layout.row#flordecana--contenido-slider-circulos": {
+        "children": ["slider-layout#circulosflordecana"],
+        "props": {
+            "blockClass": ["circulos-flordecana"]
+        }
+    },
+
+    "flex-layout.row#flordecana--recetas-contenido": {
+        "children": [
+            "rich-text#titulorecetas",
+            "flex-layout.row#contenedor-receta1",
+            "flex-layout.row#contenedor-receta2",
+            "flex-layout.row#contenedor-receta3",
+            "flex-layout.col#col-imagen-3",
+            "rich-text#tituloRegalos"
+        ],
+        "props": {
+            "blockClass": ["contenido-flordecana"],
+            "preventHorizontalStretch": true
+        }
+    },
+
+    "rich-text#titulorecetas": {
+        "props": {
+            "text": "Cocktails - Recetas",
+            "blockClass": ["titulosFlorRecetas"]
+        }
+    },
+    "rich-text#tituloRegalos": {
+        "props": {
+            "text": "Regalos Exclusivos",
+            "blockClass": ["titulosFlorRecetas"]
+        }
+    },
+
+    "list-context.product-list#flordecanaslider1": {
+        "blocks": ["product-summary.shelf#nordesuno"],
+        "children": ["slider-layout#floruno"],
+        "props": {
+            "collection": "152"
+        }
+    },
+    "product-summary.shelf#floruno": {
+        "children": [
+            "product-specification-badges#banderas",
+            "product-specification-badges#organico",
+            "product-specification-badges#descuentos",
+            "product-specification-badges#destaques-vinos",
+            "product-summary-image",
+            "vtex.product-highlights@2.x:product-highlights#collection",
+            "product-brand",
+            "product-name",
+            "flex-layout.row#price",
+            "flex-layout.row#botones"
+        ],
+        "props": {
+            "blockClass": "related-shelf-home"
+        }
+    },
+
+    "product-brand": {
+        "props": {
+            "displayMode": "text"
+        }
+    },
+
+    "flex-layout.row#price": {
+        "children": ["product-selling-price", "product-list-price-range"],
+        "props": {
+            "blockClass": "contenidoPrecios",
+            "preventHorizontalStretch": true
+        }
+    },
+
+    "flex-layout.row#botones": {
+        "children": [
+            "add-to-cart-button#home",
+            "product-specification-badges#baby"
+        ],
+        "props": {
+            "blockClass": "botones"
+        }
+    },
+
+    "add-to-cart-button#home": {
+        "props": {
+            "text": "COMPRAR",
+            "unavailableText": "SIN STOCK",
+            "blockClass": "botonComprar"
+        }
+    },
+
+    "slider-layout#floruno": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "showNavigationArrows": "desktopOnly",
+            "arrowSize": 25,
+            "showPaginationDots": "never",
+            "fullWidth": false,
+            "infinite": true,
+            "blockClass": ["shelf-default", "shelf-nordes"]
+        }
+    },
+    "product-specification-badges#baby": {
+        "props": {
+            "specificationGroupName": "allSpecifications",
+            "specificationsOptions": [
+                {
+                    "specificationName": "Producto de Preventa",
+                    "displayValue": "SPECIFICATION_NAME",
+                    "visibleWhen": ""
+                },
+                {
+                    "specificationName": "envio gratis",
+                    "displayValue": "envio gratis",
+                    "visibleWhen": false
+                }
+            ],
+            "blockClass": "envioGratisContenido"
+        }
+    },
+
+    "flex-layout.col#ShelfEspeciales-flor": {
+        "children": ["list-context.product-list#Especiales-flor"],
+        "props": {
+            "blockClass": "shelfEspeciales"
+        }
+    },
+
+    "list-context.product-list#Especiales-flor": {
+        "blocks": ["product-summary.shelf#Especiales-flor"],
+        "children": ["slider-layout#Especiales-flor"],
+        "props": {
+            "collection": ""
+        }
+    },
+    "product-summary.shelf#Especiales-flor": {
+        "children": [
+            "product-specification-badges#banderas",
+            "product-specification-badges#organico",
+            "product-specification-badges#descuentos",
+            "product-specification-badges#destaques-vinos",
+            "product-summary-image",
+            "vtex.product-highlights@2.x:product-highlights#collection",
+            "product-brand#Especiales",
+            "product-name",
+            "flex-layout.row#priceEspeciales",
+            "flex-layout.row#botonesEspeciales"
+        ],
+        "props": {
+            "blockClass": "related-shelf-home"
+        }
+    },
+
+    "product-brand#Especiales-flor": {
+        "props": {
+            "displayMode": "text"
+        }
+    },
+
+    "flex-layout.row#priceEspeciales-flor": {
+        "children": ["product-selling-price", "product-list-price-range"],
+        "props": {
+            "blockClass": "contenidoPrecios",
+            "preventHorizontalStretch": true
+        }
+    },
+
+    "flex-layout.row#botonesEspeciales-flor": {
+        "children": [
+            "add-to-cart-button#homeEspeciales-flor",
+            "product-specification-badges#Especiales-flor"
+        ],
+        "props": {
+            "blockClass": "botones"
+        }
+    },
+
+    "add-to-cart-button#homeEspeciales-flor": {
+        "props": {
+            "text": "COMPRAR",
+            "unavailableText": "SIN STOCK",
+            "blockClass": "botonComprar"
+        }
+    },
+
+    "slider-layout#Especiales-flor": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never",
+            "fullWidth": false,
+            "infinite": true,
+            "blockClass": ["shelf-default", "sliderEspeciales"]
+        }
+    },
+    "product-specification-badges#Especiales-flor": {
+        "props": {
+            "specificationGroupName": "allSpecifications",
+            "specificationsOptions": [
+                {
+                    "specificationName": "Producto de Preventa",
+                    "displayValue": "SPECIFICATION_NAME",
+                    "visibleWhen": ""
+                },
+                {
+                    "specificationName": "envio gratis",
+                    "displayValue": "envio gratis",
+                    "visibleWhen": false
+                }
+            ],
+            "blockClass": "envioGratisContenido"
+        }
+    },
+
+    //// seccion del video
+
+    "flex-layout.row#video": {
+        "children": ["modal-trigger#example"],
+        "props": {
+            "blockClass": "shelf-and-video"
+        }
+    },
+
+    "modal-trigger#example": {
+        "children": ["image#video", "modal-layout#example"],
+        "props": {
+            "blockClass": ["video", "especial-flordecana"]
+        }
+    },
+    "image#video": {
+        "props": {
+            "src": "https://winesupply.vteximg.com.br/arquivos/prueba-video.jpg",
+            "blockClass": ["video", "especial-flordecana"]
+        }
+    },
+    "modal-layout#example": {
+        "children": ["video#background"],
+        "props": {
+            "blockClass": "video"
+        }
+    },
+    "video#background": {
+        "props": {
+            "width": "100%",
+            "height": "600px",
+            "loop": false,
+            "autoPlay": true,
+            "muted": false,
+            "src": "https://www.youtube.com/watch?v=xcJtL7QggTI&t=3s",
+            "blockClass": "videoEl"
+        }
+    },
+
+    // NEWS LETTER
+
+    "flex-layout.row#newsletterflordecana": {
+        "children": ["flex-layout.col#NewsText", "newsletter"],
+        "props": {
+            "blockClass": ["newsStyle", "styleTemplate", "florcanabloquenews"],
+            "preventHorizontalStretch": true
+        }
+    },
+    "flex-layout.col#NewsText": {
+        "children": ["rich-text#newsTop", "rich-text#newsBotton"]
+    },
+    "rich-text#newsTop": {
+        "props": {
+            "text": "ENTÉRATE DE LAS PROMOCIONES Y NOVEDADES.",
+            "blockClass": "textNewsuno"
+        }
+    },
+    "rich-text#newsBotton": {
+        "props": {
+            "text": "Suscribite a nuestro Newsletter",
+            "blockClass": "textNewsDos"
+        }
+    },
+    "newsletter": {
+        "props": {
+            "submit": "SUSCRIBIRME"
+        }
+    },
+
+    "flex-layout.row#contenedor-cocktel": {
+        "children": ["flex-layout.row#bloque-1-cocktel"]
+    },
+    "flex-layout.row#bloque-1-cocktel": {
+        "children": [
+            "flex-layout.col#col-texto-cocktel",
+            "flex-layout.col#col-imagen-cocktel"
+        ],
+        "props": {
+            "blockClass": "contendor-bloque"
+        }
+    },
+    "flex-layout.col#col-imagen-cocktel": {
+        "children": ["image#bloques-cocktel"],
+        "props": {
+            "blockClass": "imagenes-bloques"
+        }
+    },
+    "image#bloques-cocktel": {
+        "props": {
+            "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/d2d6be71-2667-4795-bb3d-00dcef41a792___e271a1578fc7e2cf11e481086d7b32eb.png",
+            "blockClass": ["contendor-bloque"]
+        }
+    },
+
+    "flex-layout.col#col-texto-cocktel": {
+        "children": [
+            "rich-text#titulo-bloque-cocktel",
+            "rich-text#texto-bloque-cocktel"
+        ],
+        "props": {
+            "blockClass": "textos-bloques"
+        }
+    },
+    "rich-text#titulo-bloque-cocktel": {
+        "props": {
+            "text": "COCKTAIL",
+            "blockClass": "titulos-bloques"
+        }
+    },
+
+    "rich-text#texto-bloque-cocktel": {
+        "props": {
+            "text": "#Historia y #CabernetSauvignon constituye la cima de la visiyn de Nicolós Catena Zapata: un vino sudamericano a la altura de los mejores del mundo. Se destaca por si gran complejidad, remite a frutos negros, maduros, chocolate amargo y regaliz",
+            "blockClass": "textos-bloques"
+        }
+    },
+
+    "flex-layout.row#contenedor-historia-flor": {
+        "children": ["flex-layout.row#bloque-1-flor"]
+    },
+    "flex-layout.row#bloque-1-flor": {
+        "children": [
+            "flex-layout.col#col-texto-flor",
+            "flex-layout.col#col-imagen-flor"
+        ],
+        "props": {
+            "blockClass": ["contendor-bloque", "contenedor-bloque-flordecasa"]
+        }
+    },
+    "flex-layout.col#col-imagen-flor": {
+        "children": ["image#bloques-flor"],
+        "props": {
+            "blockClass": "imagenes-bloques"
+        }
+    },
+    "image#bloques-flor": {
+        "props": {
+            "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/d2d6be71-2667-4795-bb3d-00dcef41a792___e271a1578fc7e2cf11e481086d7b32eb.png",
+            "blockClass": ["contendor-bloque", "imgFlor"]
+        }
+    },
+
+    "flex-layout.col#col-texto-flor": {
+        "children": [
+            "rich-text#titulo-bloque-flor",
+            "rich-text#texto-bloque-flor"
+        ],
+        "props": {
+            "blockClass": ["textos-bloques", "bloque-texto-flor"]
+        }
+    },
+    "rich-text#titulo-bloque-flor": {
+        "props": {
+            "text": "Historia de Flor de Caña",
+            "blockClass": ["titulos-bloques", "titulohistoriflor"]
+        }
+    },
+
+    "rich-text#texto-bloque-flor": {
+        "props": {
+            "text": "Flor de Caña, el ron premium de Nicaragua, ha sido nombrado Mejor Productor de Ron del Mundo en el International Wine and Spirit Competition (IWSC) en Londres. <br>Esta distinción, la más alta a nivel global en la industria de los destilados, avala la calidad de este ron nicaragüense con más de 125 años de historia.",
+            "blockClass": ["textos-bloques", "texto-bloques-flor"]
+        }
+    },
+
+    "flex-layout.row#flordecana--regalos": {
+        "children": ["flex-layout.row#contenedor-5-regalos"]
+    },
+
+    "flex-layout.row#contenedor-5-regalos": {
+        "children": [
+            "flex-layout.row#primer-shelf",
+            "flex-layout.row#segundo-shelf"
+        ],
+        "props": {
+            "blockClass": "contenedor-5"
+        }
+    },
+    "flex-layout.row#primer-shelf": {
+        "children": [
+            "image#exampleEspeciales",
+            "flex-layout.col#ShelfEspeciales"
+        ],
+        "props": {
+            "blockClass": "primer-shelf"
+        }
+    },
+    "flex-layout.row#segundo-shelf": {
+        "children": ["list-context.product-list#segundo-shelf"],
+        "props": {
+            "blockClass": "segundo-shelf"
+        }
+    },
+    "list-context.product-list#segundo-shelf": {
+        "blocks": ["product-summary.shelf#Destacados"],
+        "children": ["slider-layout#segundo-shelf"],
+        "props": {
+            "collection": ""
+        }
+    },
+
+    "flex-layout.row#contenedor-6": {
+        "children": [
+            "rich-text#titulo-mapa",
+            "list-context.image-list#mapa-bemberg",
+            "flex-layout.row#gift-bemberg",
+            "list-context.product-list#gift-bemberg"
+        ],
+        "props": {
+            "blockClass": "contenedor-6"
+        }
+    },
+    "rich-text#titulo-mapa": {
+        "props": {
+            "text": "Mapas",
+            "blockClass": "texto-maps"
+        }
+    },
+    "list-context.image-list#mapa-bemberg": {
+        "children": ["slider-layout#mapa-bemberg-images"],
+        "props": {
+            "height": 650,
+            "images": [
+                {
+                    "image": "https://winesupply.vteximg.com.br/arquivos/1.jpg",
+                    "mobileImage": "https://winesupply.vteximg.com.br/arquivos/1mobile.jpg",
+                    "description": "descuentos"
+                }
+            ]
+        }
+    },
+    "slider-layout#mapa-bemberg-images": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "infinite": false,
+            "showPaginationDots": "never",
+            "showNavigationArrows": "always",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.row#gift-bemberg": {
+        "children": ["rich-text#gift-bemberg"]
+    },
+
+    "rich-text#gift-bemberg": {
+        "props": {
+            "text": "GIFT CARD",
+            "blockClass": ["gift-bemberg"]
+        }
+    },
+
+    "flex-layout.row#recetaflordecanaUno": {
+        "children": [
+            "flex-layout.col#recetaflordecanaUno",
+            "flex-layout.row#imgRecetasUno"
+        ],
+        "props": {
+            "blockClass": ["contenidoRecetas"]
+        }
+    },
+    "flex-layout.col#recetaflordecanaUno": {
+        "children": [
+            "rich-text#tituloRecetaUnoflordecana",
+            "rich-text#TextoRecetaUnoflordecana"
+        ],
+        "props": {
+            "blockClass": ["contenidoInfoRecetas"]
+        }
+    },
+
+    "rich-text#tituloRecetaUnoflordecana": {
+        "props": {
+            "text": "COCKTAIL | Recetas",
+            "blockClass": "tituloRecetas"
+        }
+    },
+
+    "rich-text#TextoRecetaUnoflordecana": {
+        "props": {
+            "text": "Nordés se produce en Aguardientes de Galicia, una pequeña destilería situada en San Pedro de Sarandon, Vedra (A Coruña). ¿Cuáles son los ingredientes principales de esta ginebra? La receta de Nordés utiliza una porción de uva albariño gallega de la que se obtiene el aguardiente de vino, alma del producto.",
+            "blockClass": "textoRecetas"
+        }
+    },
+
+    "flex-layout.row#imgRecetasUno": {
+        "children": ["image#recetasUno"]
+    },
+
+    "image#recetasUno": {
+        "props": {
+            "src": "https://user-images.githubusercontent.com/284515/70230392-f982e780-1736-11ea-921b-e83208e80620.png"
+        }
+    },
+
+    /////////////
+
+    "flex-layout.row#recetaflordecanaDos": {
+        "children": [
+            "flex-layout.col#recetaflordecanaDos",
+            "flex-layout.row#imgRecetasDos"
+        ],
+        "props": {
+            "blockClass": ["contenidoRecetas"]
+        }
+    },
+    "flex-layout.col#recetaflordecanaDos": {
+        "children": [
+            "rich-text#tituloRecetaDosflordecana",
+            "rich-text#TextoRecetaDosflordecana"
+        ],
+        "props": {
+            "blockClass": ["contenidoInfoRecetas"]
+        }
+    },
+
+    "rich-text#tituloRecetaDosflordecana": {
+        "props": {
+            "text": "MARIDAJE | Recetas",
+            "blockClass": "tituloRecetas"
+        }
+    },
+
+    "rich-text#TextoRecetaDosflordecana": {
+        "props": {
+            "text": "Nordés se produce en Aguardientes de Galicia, una pequeña destilería situada en San Pedro de Sarandon, Vedra (A Coruña). ¿Cuáles son los ingredientes principales de esta ginebra? La receta de Nordés utiliza una porción de uva albariño gallega de la que se obtiene el aguardiente de vino, alma del producto.",
+            "blockClass": "textoRecetas"
+        }
+    },
+
+    "flex-layout.row#imgRecetasDos": {
+        "children": ["image#recetasDos"]
+    },
+
+    "image#recetasDos": {
+        "props": {
+            "src": "https://user-images.githubusercontent.com/284515/70230392-f982e780-1736-11ea-921b-e83208e80620.png"
+        }
+    },
+
+    ////////////////
+
+    "flex-layout.row#recetaflordecanaHistoriaflordecana": {
+        "children": [
+            "flex-layout.col#recetaflordecanaHistoriaflordecana",
+            "flex-layout.row#imgRecetasHistoriaflordecana"
+        ],
+        "props": {
+            "blockClass": ["contenidoRecetas"]
+        }
+    },
+    "flex-layout.col#recetaflordecanaHistoriaflordecana": {
+        "children": [
+            "rich-text#tituloRecetaHistoriaflordecanaflordecana",
+            "rich-text#TextoRecetaHistoriaflordecanaflordecana"
+        ],
+        "props": {
+            "blockClass": ["contenidoInfoRecetas"]
+        }
+    },
+
+    "rich-text#tituloRecetaHistoriaflordecanaflordecana": {
+        "props": {
+            "text": "HISTORIA DE flordecana",
+            "blockClass": "tituloRecetas"
+        }
+    },
+
+    "rich-text#TextoRecetaHistoriaflordecanaflordecana": {
+        "props": {
+            "text": "Nordés se produce en Aguardientes de Galicia, una pequeña destilería situada en San Pedro de Sarandon, Vedra (A Coruña). ¿Cuáles son los ingredientes principales de esta ginebra? La receta de Nordés utiliza una porción de uva albariño gallega de la que se obtiene el aguardiente de vino, alma del producto.",
+            "blockClass": "textoRecetas"
+        }
+    },
+
+    "flex-layout.row#imgRecetasHistoriaflordecana": {
+        "children": ["image#recetasHistoriaflordecana"]
+    },
+
+    "image#recetasHistoriaflordecana": {
+        "props": {
+            "src": "https://user-images.githubusercontent.com/284515/70230392-f982e780-1736-11ea-921b-e83208e80620.png"
+        }
+    },
+
+    "flex-layout.row#giftflordecana": {
+        "children": ["rich-text#gift"]
+    },
+
+    "rich-text#gift": {
+        "props": {
+            "text": "GIFTCARD",
+            "blockClass": ""
+        }
+    },
+
+    "flex-layout.row#contenedor-regalos": {
+        "children": ["flex-layout.row#Especiales"],
+        "props": {
+            "blockClass": ["contenedor-5", "contenedorRegalos"]
+        }
+    },
+    "flex-layout.row#primer-shelf-regalos": {
+        "children": [
+            "image#exampleEspeciales",
+            "flex-layout.col#ShelfEspeciales"
+        ],
+        "props": {
+            "blockClass": "primer-shelf"
+        }
+    },
+
+    "list-context.product-list#segundo-shelf-regalos": {
+        "blocks": ["product-summary.shelf#Destacados"],
+        "children": ["slider-layout#segundo-shelf-regalos"],
+        "props": {
+            "collection": ""
+        }
+    },
+    "slider-layout#segundo-shelf-regalos": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "showNavigationArrows": "desktopOnly",
+            "arrowSize": 25,
+            "showPaginationDots": "never",
+            "fullWidth": false,
+            "infinite": true,
+            "blockClass": ["shelf-default", "sliderDestacados"]
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.link--btn-scores-bemberg {
+    text-decoration: none;
+    width: 225px !important;
+    height: 49px;
+    border-radius: 15px;
+    background: #CEA16A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label--btn-scores-bemberg {
+    font-family: 'BodoniFLF-Bold';
+    font-size: 2rem;
+    color: #fff;
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    .link--btn-scores-bemberg {
+        width: 170px !important;
+        height: 30px;
+        border-radius: 8px;
+    }
+    .label--btn-scores-bemberg {
+        font-size: 1.3rem;
+    }
+}

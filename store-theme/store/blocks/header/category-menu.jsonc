@@ -1,0 +1,155 @@
+{
+    "menu#categories-menu": {
+      "props": {
+        "showAllDepartments": true,
+        "showSubcategories": true,
+        "menuDisposition": "center",
+        "departments": [],
+        "blockClass": "categories-menu"
+      },
+      "children": [
+        "menu-item#categorias",
+        "menu-item#menu1",
+        "menu-item#menu2",
+        "menu-item#menu3",
+        "menu-item#menu4",
+        "menu-item#menu5",
+        "menu-item#lista-precios",
+        "menu-item#complementos",
+        "menu-item#deli"
+      ]
+    },
+    "menu-item#categorias": {
+      "blocks": [
+        "submenu#categorias"
+      ],
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": [
+          "header-menu-title",
+          "menu-item-categorias"
+        ],
+        "itemProps": {
+          "type": "internal",
+          "href": "",
+          "noFollow": false,
+          "tagTitle": "categorias",
+          "text": "menu"
+        }
+      }
+    },
+    "menu-item#menu1": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header-menu-title",
+        "itemProps": {
+          "type": "internal",
+          "href": "/ofertas",
+          "noFollow": false,
+          "tagTitle": "ofertas",
+          "text": "VINOS"
+        }
+      }
+    },
+    "menu-item#menu2": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header-menu-title",
+        "itemProps": {
+          "type": "internal",
+          "href": "/limpieza_profesional",
+          "noFollow": false,
+          "tagTitle": "limpieza profesional",
+          "text": "ESPUMANTES"
+        }
+      }
+    },
+    "menu-item#menu3": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header-menu-title",
+        "itemProps": {
+          "type": "internal",
+          "href": "/marcas",
+          "noFollow": false,
+          "tagTitle": "marcas",
+          "text": "WHISKYS"
+        }
+      }
+    },
+    "menu-item#menu4": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header-menu-title",
+        "itemProps": {
+          "type": "internal",
+          "href": "/pack_ahorrus",
+          "noFollow": false,
+          "tagTitle": "pack ahorrus",
+          "text": "GINS"
+        }
+      }
+    },
+    "menu-item#menu5": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header-menu-title",
+        "itemProps": {
+          "type": "internal",
+          "href": "/pack_ahorrus",
+          "noFollow": false,
+          "tagTitle": "Prevención Covid",
+          "text": "RONES"
+        }
+      }
+    },
+    "menu-item#lista-precios": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header-menu-title",
+        "itemProps": {
+          "type": "internal",
+          "href": "/138?layout=list&map=productClusterIds",
+          "noFollow": false,
+          "tagTitle": "Lista de precios",
+          "text": "OTROS SPIRTS"
+        }
+      }
+    },
+    "menu-item#complementos": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header-menu-title",
+        "itemProps": {
+          "type": "internal",
+          "href": "/138?layout=list&map=productClusterIds",
+          "noFollow": false,
+          "tagTitle": "Lista de precios",
+          "text": "COMPLEMENTOS"
+        }
+      }
+    },
+    "menu-item#deli": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header-menu-title",
+        "itemProps": {
+          "type": "internal",
+          "href": "/138?layout=list&map=productClusterIds",
+          "noFollow": false,
+          "tagTitle": "Lista de precios",
+          "text": "deli"
+        }
+      }
+    }
+  }
+

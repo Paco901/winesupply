@@ -1,0 +1,784 @@
+@charset "UTF-8";
+.paragraph {
+  font-family: "Nunito-Regular";
+}
+
+.paragraph--footerTitle {
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+.wrapper--footerLink .paragraph {
+  color: white;
+}
+
+.paragraph--compra-protegida {
+  color: white;
+  font-family: "Nunito-Regular";
+  font-size: 0.8rem;
+  margin: 0;
+  line-height: 1.2;
+}
+@media only screen and (max-width: 600px) {
+  .paragraph--compra-protegida {
+    text-align: center;
+  }
+}
+
+.paragraph--footerTitle {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.paragraph--redes-sociales-title {
+  font-size: 0.85rem;
+  font-family: "Nunito-Regular";
+  margin-bottom: 0.3rem;
+  margin-top: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .container--newsletterText {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.paragraph--newsletterText {
+  color: white;
+  margin-right: 3rem;
+  font-family: "Nunito-SemiBold";
+}
+@media only screen and (max-width: 600px) {
+  .paragraph--newsletterText {
+    margin-right: 0;
+    margin-top: 0;
+    line-height: 1;
+    font-size: 0.85rem;
+    text-align: center;
+  }
+}
+
+.paragraph--footerCopyrightsText {
+  font-size: 0.7rem;
+  text-align: center;
+  font-family: "Nunito-Regular";
+  margin: 0.3rem;
+}
+@media only screen and (max-width: 600px) {
+  .paragraph--footerCopyrightsText {
+    padding: 0.4rem 2rem;
+  }
+}
+
+.paragraph--infopagos {
+  font-size: 0.9rem;
+  /* font-family: "Nunito-SemiBold"; */
+  color: #4d4d4d;
+  margin: 0;
+  line-height: 1.1;
+}
+@media only screen and (max-width: 600px) {
+  .paragraph--infopagos {
+    text-align: center;
+    font-size: 0.7rem;
+  }
+}
+
+.paragraph--promotionalCardText {
+  font-size: 0.9rem;
+  /* font-family: "Nunito-SemiBold"; */
+  color: #4d4d4d;
+  margin: 0;
+  line-height: 1.1;
+}
+@media only screen and (max-width: 600px) {
+  .paragraph--promotionalCardText {
+    text-align: center;
+    font-size: 0.7rem;
+  }
+}
+
+.paragraph--titleCard {
+  color: #0283d8;
+  font-size: 0.9rem;
+  font-family: "Nunito-Regular";
+  margin: 0;
+  line-height: 1.2;
+}
+@media only screen and (max-width: 600px) {
+  .paragraph--titleCard {
+    text-align: center;
+    font-size: 0.65rem;
+  }
+}
+
+.container--shelf-title {
+  width: 78%;
+  margin: auto;
+  padding: 1rem 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+}
+@media only screen and (max-width: 600px) {
+  .container--shelf-title {
+    width: 100%;
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .strong--shelf-title {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .strong--shelf-title {
+    font-size: 1rem;
+  }
+}
+
+.paragraph--shelf-title {
+  margin: 0;
+}
+@media only screen and (max-width: 600px) {
+  .paragraph--shelf-title {
+    line-height: 1;
+  }
+}
+
+.container--promotionalCardText {
+  width: 85%;
+}
+@media only screen and (max-width: 600px) {
+  .container--promotionalCardText {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .paragraph--home-brands-title {
+    font-size: 1rem;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    line-height: 1.2;
+    padding-bottom: 1rem;
+  }
+}
+.wrapper--limpioTips--paragraph {
+  width: 85%;
+}
+.wrapper--limpioTips--paragraph .paragraph {
+  color: white;
+  line-height: 1.2rem;
+  font-family: "Nunito-SemiBold";
+}
+
+.container--limpio-tips-text-bajada {
+  background: #0283d8;
+  color: white;
+  padding: 0 8rem;
+}
+@media only screen and (max-width: 600px) {
+  .container--limpio-tips-text-bajada {
+    padding: 1rem;
+  }
+  .container--limpio-tips-text-bajada .paragraph--limpio-tips-text-bajada {
+    margin: 0 1rem;
+    line-height: 1.2;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
+
+.paragraph--limpioTips--paragraph {
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 600px) {
+  .paragraph--limpioTips--paragraph {
+    font-size: 0.85rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container--home-brands-title {
+    justify-content: center;
+  }
+}
+.wrapper--product-page-icons .paragraph {
+  margin: 0;
+  color: #0283d8;
+  line-height: 1;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.wrapper--opinions .paragraph {
+  font-family: "Nunito-Bold";
+  margin: 3rem 0 0;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.wrapper--filter-navigator--title {
+  background: #0283d8;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0px;
+  width: 100%;
+  margin: 0.5rem 0;
+}
+.wrapper--filter-navigator--title .paragraph--filter-navigator--title {
+  margin: 0;
+  font-size: 0.9rem;
+  font-family: "Nunito-Bold";
+}
+
+@media only screen and (max-width: 2000px) and (min-width: 1440px) {
+  .wrapper--limpio-tips-text-bajada {
+    width: 70%;
+    margin: auto;
+  }
+}
+.container--breadcrumb-limpio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paragraph--breadcrumb-marcas {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.paragraph--breadcrumb-marcas::before {
+  content: "›";
+  position: relative;
+  margin: 0 0.5rem;
+  font-size: 1.3rem;
+  line-height: 1;
+  top: -1px;
+}
+
+.paragraph--breadcrumb {
+  color: #0283d8;
+  text-transform: capitalize;
+}
+
+.paragraph--breadcrumb {
+  color: #0283d8;
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  font-family: "Nunito-Regular";
+}
+
+.link--brands {
+  color: #0283d8;
+  text-transform: uppercase;
+  font-family: "Nunito-Bold";
+  font-size: 0.85rem;
+}
+
+.paragraph--brands {
+  margin-top: 0.5rem;
+}
+
+.paragraph--landing-row--title {
+  color: black;
+  font-family: 'Baskerville';
+  margin: 0;
+  font-size: 2rem;
+}
+
+.paragraph--landing-row-detalle {
+  margin: 0;
+  margin-top: 0.4rem;
+  line-height: 1;
+}
+
+.container--landing-row-detalle {
+  padding-left: 1rem;
+  margin-left: 1rem;
+}
+
+.container--landing-row--title {
+  justify-content: center;
+  font-size: 1.6rem;
+}
+@media only screen and (max-width: 600px) {
+  .container--landing-row--title {
+    justify-content: flex-start;
+  }
+}
+
+.headingLevel4--landing-row-detalle {
+  margin: 0;
+}
+
+.paragraph--landing-row--bajada {
+  font-size: 0.8rem;
+  margin-top: 4rem;
+  color: #0283d8;
+  text-align: center;
+}
+
+.headingLevel4--faq,
+.headingLevel4--terminos {
+  margin: 0;
+  font-size: 1.2rem;
+  font-family: 'Baskerville';
+  font-weight: bold;
+  color: black;
+}
+
+.headingLevel6--faq,
+.headingLevel6--terminos {
+  margin: 0;
+  font-size: 1.2rem;
+  font-family: 'Baskerville';
+  font-weight: bold;
+  color: black;
+}
+.headingLevel4--terminos {
+  font-size: 1rem;
+}
+
+.paragraph--faq,
+.paragraph--terminos {
+  margin: 0.2rem;
+}
+
+.headingLevel6--faq,
+.headingLevel6--terminos {
+  margin: 0;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.headingLevel5--faq,
+.headingLevel5--terminos {
+  margin: 0;
+  font-family: "Nunito-Black";
+  font-size: 1rem;
+}
+
+.link--faq,
+.link--terminos {
+  font-family: "Nunito-Bold";
+}
+
+.paragraph--landing-row--title {
+  padding: 1rem 0;
+}
+
+.container--terminos {
+  margin: 0.7rem 0;
+}
+
+.headingLevel2--envios-text {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 0.2rem;
+  border-top: 1px solid #0283d8;
+  padding: 1rem;
+  margin: 0;
+}
+
+.paragraph--envios-text {
+  text-align: center;
+}
+
+.paragraph--landing-row--title {
+  margin-bottom: 3rem;
+}
+
+.link--envios-text {
+  color: black;
+}
+
+.headingLevel5--envios-important, .paragraph--envios-important {
+  margin: 0;
+  color: white;
+}
+
+.paragraph--envios-important {
+  font-size: 0.9rem;
+  font-family: "Nunito-Regular";
+}
+
+.paragraph--devolucion-title2 {
+  margin-top: 3rem;
+}
+
+
+
+.paragraph--infopagos{
+  font-family: 'Nunito-Bold';
+  color: black;
+}
+
+.paragraph--textoAlternativoInfopagos{
+  font-size: 12px;
+  font-family: 'Nunito-Bold';
+  margin: 0px;
+}
+
+@media only screen and (max-width: 1025px) {
+  .imageElementLink--mediosDePagos--image{
+    width: 40px;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 1025px) {
+  .paragraph--infopagos {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 8px;
+  }
+  .paragraph--textoAlternativoInfopagos{
+    font-size: 12px;
+    margin: auto;
+    text-align: center !important;
+  }
+  .container--infopagos{
+    justify-content: center;
+  }
+
+  .container--textoAlternativoInfopagos{
+    text-align: center !important;
+    justify-content: center;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .paragraph--infopagos {
+    text-align: center;
+    font-size: 11px;
+  }
+  
+  .paragraph--textoAlternativoInfopagos{
+   display: none
+  }
+  .container--infopagos{
+    justify-content: center;
+  }
+
+  .container--textoAlternativoInfopagos{
+    text-align: center !important;
+    justify-content: center;
+  }
+ 
+}
+
+@media only screen and (max-width: 360px) {
+  .paragraph--infopagos {
+    text-align: center;
+    font-size: 11px;
+    margin-top: 20px;
+  }
+  .paragraph--textoAlternativoInfopagos{
+    font-size: 9px;
+    margin: auto;
+    text-align: center !important;
+  }
+  .container--infopagos{
+    justify-content: center;
+  }
+
+  .container--textoAlternativoInfopagos{
+    text-align: center !important;
+    justify-content: center;
+  }
+ 
+  
+}
+
+
+/* BLOQUE  TIENDAS */
+
+.paragraph--fuenteUno{
+  font-family: 'BodoniFLF-Bold' !important;
+}
+
+.paragraph--fuenteUnoVinos{
+  font-family: 'BodoniFLF-Bold' !important;
+  font-size: 15px;
+}
+
+.paragraph--fuenteSecundariaUno{
+  font-family: 'Baskerville' !important;
+}
+
+.wrapper--fuenteUno {
+  margin: auto;
+  margin-top: -12px;
+  
+}
+
+.wrapper--fuenteUno .paragraph{
+  font-family: none;
+  font-weight: bold;
+}
+
+.container--fuenteSecundariaUno{
+  justify-content: center;
+  margin-top: -38px;
+}
+
+.wrapper--fuenteSecundariaUno .paragraph{
+  font-family: 'Baskerville' !important;
+}
+
+@media only screen and (max-width:700px) {
+  .wrapper--fuenteUno {
+    font-size: 16px;
+   }
+  .container--fuenteSecundariaUno{
+    font-size: 13px;
+  }
+
+  .container--fuenteSecundariaUno{
+    justify-content: center;
+    margin-top: -30px;
+  }
+  
+  
+}
+
+/* FIN BLOQUE TIENDAS */
+
+
+/*  BLOQUE NOVEDADES  */
+
+.paragraph--titleBlogs{
+  font-weight: 800;
+  padding-top: 10px;
+  font-family: "MuseoSans_500" !important;
+  color: black;
+  
+}
+
+.paragraph--textNovedades{
+  font-weight: bold;
+  font-family: "MuseoSans_500" !important;
+  color: black;
+  margin: inherit;
+  font-size:20px;
+  margin-bottom: 20px;
+}
+
+
+@media only screen and (max-width:1025px) {
+
+
+
+ .container--novedadesMobileBarra{
+  display: none;
+}
+
+
+
+  
+}
+
+
+/* BLOQUE  VINOS */
+
+.wrapper--fuenteUnoVinos {
+  margin: auto;
+  margin-top: -12px;
+}
+
+.wrapper--fuenteUnoVinos .paragraph{
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+
+
+.wrapper--fuenteSecundariaUno .paragraph{
+  font-family: none;
+}
+
+@media only screen and (max-width:768px) {
+  .wrapper--fuenteUnoVinos {
+    font-size: 16px;
+   }
+  .container--fuenteSecundariaUno{
+    font-size: 13px;
+  }
+
+  .paragraph--textNovedades{
+    font-weight: bold;
+    font-family: "MuseoSans_500" !important;
+    color: white !important;
+    margin: inherit;
+    font-size:15px;
+    margin-bottom: 0px;
+    padding: 10px;
+  }
+
+
+  
+}
+
+/* FIN BLOQUE VINOS */
+
+
+.paragraph--tituloblog{
+  padding: 10px 25px;
+  font-size: 18px;
+  font-family: 'Nunito-Bold' !important;
+}
+
+.paragraph--tituloblogComunicacion{
+  padding: 10px 25px;
+  font-size: 18px;
+  font-family: 'Nunito-Bold' !important;
+  color: black;
+}
+
+
+
+.container--parrafoBlog2{
+  padding: 10px 25px;
+  position: absolute;
+  top: 30px;
+  font-size: 14px;
+}
+
+.paragraph--parrafo2Blog2{
+  position: absolute;
+  top: 70px;
+  padding: 10px 25px;
+  font-family: 'Nunito-Regular';
+  font-size: 13px;
+  color: black;
+}
+
+.paragraph--tituloblogComunicacion{
+  font-family: 'Nunito-Bold' !important;
+}
+
+
+
+.container--parrafoBlog3{
+  padding: 10px 25px;
+  position: absolute;
+  top: 30px;
+  font-size: 13px;
+  font-family: 'Nunito-Regular';
+}
+
+.paragraph--parrafoBlog2{
+  font-weight: bold;
+  color: black;
+}
+.paragraph--parrafoBlog3{
+  font-weight: bold;
+  color: black;
+}
+
+.paragraph--parrafoDosBlog3{
+  position: absolute;
+  top: 70px;
+  padding: 10px 25px;
+  font-size: 13px;
+  font-family: 'Nunito-Regular';
+}
+
+.paragraph--parrafo3DosBlog3{
+  position: absolute;
+  top: 70px;
+  padding: 10px 25px;
+  font-size: 13px;
+  font-family: 'Nunito-Regular';
+}
+
+@media only screen and (max-width:1025px) {
+  .paragraph--tituloblog{
+    font-size: 16px;
+    padding: 11px 32px;
+  }
+}
+
+
+/* BLOQUE NEWS */
+
+.paragraph--textNewsuno{
+  font-family: 'Nunito-Bold';
+  margin-right: 50px;
+  color: black;
+}
+.paragraph--textNewsDos{
+  font-family: 'Nunito-Bold';
+  margin-top: -15px;
+  color: black;
+}
+
+
+@media only screen and (max-width:1025px) {
+  .paragraph--textNewsuno{
+    font-family: 'Nunito-Bold';
+    margin-right: 0px;
+    text-align: center;
+  }
+  .paragraph--textNewsDos{
+    font-family: 'Nunito-Bold';
+    margin-top: -15px;
+  }
+
+  .container--textNewsDos{
+    justify-content: center;
+  }
+}
+
+
+/* FOOTER */
+
+.paragraph--seguinosStyle{
+  color: white;
+  margin-top: 0px;
+  font-family: 'Nunito-Bold';
+}
+
+.container--seguinosStyleLogos{
+  margin-top: 30px;
+}
+
+
+
+.paragraph--seguinosStyleLogos{
+  color: white;
+  margin-left: 50px;
+  font-family: 'Nunito-Bold';
+}
+
+.wrapper--tituloEspe :global(.vtex-rich-text-0-x-paragraph){
+  font-family: 'Baskerville';
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.paragraph--tituloFichaTodo{
+  font-family: 'Baskerville';
+}
+.paragraph--tituloEspe{
+  font-family: 'Baskerville';
+}

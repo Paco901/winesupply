@@ -1,0 +1,376 @@
+{
+    "slider-layout#marcasHome": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 8,
+                "tablet": 5,
+                "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "infinite": true,
+            "showNavigationArrows": "never",
+            "blockClass": ["carousel", "dotMarcas"]
+        },
+        "children": [
+            "flex-layout.row#marca1",
+            "flex-layout.row#marca2",
+            "flex-layout.row#marca3",
+            "flex-layout.row#marca4",
+            "flex-layout.row#marca5",
+            "flex-layout.row#marca6",
+            "flex-layout.row#marca7",
+            "flex-layout.row#marca8",
+            "flex-layout.row#marca9",
+            "flex-layout.row#marca10",
+            "flex-layout.row#marca11",
+            "flex-layout.row#marca12",
+            "flex-layout.row#marca13",
+            "flex-layout.row#marca14",
+            "flex-layout.row#marca15",
+            "flex-layout.row#marca16",
+            "flex-layout.row#marca17",
+            "flex-layout.row#marca18",
+            "flex-layout.row#marca19",
+            "flex-layout.row#marca20"
+        ]
+    },
+
+    "flex-layout.row#marca1": {
+        "children": ["image#Marca1"],
+        "props": {
+            "blockClass": ["contenidoMarca"]
+        }
+    },
+
+    "image#Marca1": {
+        "props": {
+            "blockClass": ["imgMarca"],
+            "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/18d0fb0a-b805-4a3d-b873-dc4908df33f8___4e825f0f462c7914cc7802f0178af00f.png",
+            "link": "#"
+        }
+    },
+
+    ////////////////////////
+
+    "flex-layout.row#marca2": {
+        "children": ["image#Marca2"],
+        "props": {
+            "blockClass": ["contenidoMarca"]
+        }
+    },
+
+    "image#Marca2": {
+        "props": {
+            "blockClass": ["imgMarca"],
+            "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/18d0fb0a-b805-4a3d-b873-dc4908df33f8___4e825f0f462c7914cc7802f0178af00f.png",
+            "link": "#"
+        }
+    },
+
+    ////////////////////////
+
+    "flex-layout.row#marca3": {
+        "children": ["image#Marca3"],
+        "props": {
+            "blockClass": ["contenidoMarca"]
+        }
+    },
+
+    "image#Marca3": {
+        "props": {
+            "blockClass": ["imgMarca"],
+            "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/18d0fb0a-b805-4a3d-b873-dc4908df33f8___4e825f0f462c7914cc7802f0178af00f.png",
+            "link": "#"
+        }
+    },
+
+    ////////////////////////
+
+    "flex-layout.row#marca4": {
+        "children": ["image#Marca4"],
+        "props": {
+            "blockClass": ["contenidoMarca"]
+        }
+    },
+
+    "image#Marca4": {
+        "props": {
+            "blockClass": ["imgMarca"],
+            "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/18d0fb0a-b805-4a3d-b873-dc4908df33f8___4e825f0f462c7914cc7802f0178af00f.png",
+            "link": "#"
+        }
+    },
+
+    ////////////////////////
+
+    "flex-layout.row#marca5": {
+        "children": ["image#Marca5"],
+        "props": {
+            "blockClass": ["contenidoMarca"]
+        }
+    },
+
+    "image#Marca5": {
+        "props": {
+            "blockClass": ["imgMarca"],
+            "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/18d0fb0a-b805-4a3d-b873-dc4908df33f8___4e825f0f462c7914cc7802f0178af00f.png",
+            "link": "#"
+        }
+    },
+
+    ////////////////////////
+
+    "flex-layout.row#marca6": {
+        "children": ["image#Marca6"],
+        "props": {
+            "blockClass": ["contenidoMarca"]
+        }
+    },
+
+    "image#Marca6": {
+        "props": {
+            "blockClass": ["imgMarca"],
+            "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/18d0fb0a-b805-4a3d-b873-dc4908df33f8___4e825f0f462c7914cc7802f0178af00f.png",
+            "link": "#"
+        }
+    },
+
+    ////////////////////////
+
+    "flex-layout.row#marca7": {
+        "children": ["image#Marca7"],
+        "props": {
+            "blockClass": ["contenidoMarca"]
+        }
+    },
+
+    "image#Marca7": {
+        "props": {
+            "blockClass": ["imgMarca"],
+            "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/18d0fb0a-b805-4a3d-b873-dc4908df33f8___4e825f0f462c7914cc7802f0178af00f.png",
+            "link": "#"
+        }
+    },
+
+    ////////////////////////
+
+    "flex-layout.row#marca8": {
+        "children": ["image#Marca8"],
+        "props": {
+            "blockClass": ["contenidoMarca"]
+        }
+    },
+
+    "image#Marca8": {
+        "props": {
+            "blockClass": ["imgMarca"],
+            "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/18d0fb0a-b805-4a3d-b873-dc4908df33f8___4e825f0f462c7914cc7802f0178af00f.png",
+            "link": "#"
+        }
+    },
+
+    ////////////////////////
+
+    "flex-layout.row#marca9": {
+        "children": ["image#Marca9"],
+        "props": {
+            "blockClass": ["contenidoMarca"]
+        }
+    },
+
+    "image#Marca9": {
+        "props": {
+            "blockClass": ["imgMarca"],
+            "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/18d0fb0a-b805-4a3d-b873-dc4908df33f8___4e825f0f462c7914cc7802f0178af00f.png",
+            "link": "#"
+        }
+    },
+
+    ////////////////////////
+
+    "flex-layout.row#marca10": {
+        "children": ["image#Marca10"],
+        "props": {
+            "blockClass": ["contenidoMarca"]
+        }
+    },
+
+    "image#Marca10": {
+        "props": {
+            "blockClass": ["imgMarca"],
+            "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/18d0fb0a-b805-4a3d-b873-dc4908df33f8___4e825f0f462c7914cc7802f0178af00f.png",
+            "link": "#"
+        }
+    },
+
+    ////////////////////////
+
+    "flex-layout.row#marca11": {
+        "children": ["image#Marca11"],
+        "props": {
+            "blockClass": ["contenidoMarca"]
+        }
+    },
+
+    "image#Marca11": {
+        "props": {
+            "blockClass": ["imgMarca"],
+            "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/18d0fb0a-b805-4a3d-b873-dc4908df33f8___4e825f0f462c7914cc7802f0178af00f.png",
+            "link": "#"
+        }
+    },
+
+    ////////////////////////
+
+    "flex-layout.row#marca12": {
+        "children": ["image#Marca12"],
+        "props": {
+            "blockClass": ["contenidoMarca"]
+        }
+    },
+
+    "image#Marca12": {
+        "props": {
+            "blockClass": ["imgMarca"],
+            "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/18d0fb0a-b805-4a3d-b873-dc4908df33f8___4e825f0f462c7914cc7802f0178af00f.png",
+            "link": "#"
+        }
+    },
+
+    ////////////////////////
+
+    "flex-layout.row#marca13": {
+        "children": ["image#Marca13"],
+        "props": {
+            "blockClass": ["contenidoMarca"]
+        }
+    },
+
+    "image#Marca13": {
+        "props": {
+            "blockClass": ["imgMarca"],
+            "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/18d0fb0a-b805-4a3d-b873-dc4908df33f8___4e825f0f462c7914cc7802f0178af00f.png",
+            "link": "#"
+        }
+    },
+
+    ////////////////////////
+
+    "flex-layout.row#marca14": {
+        "children": ["image#Marca13"],
+        "props": {
+            "blockClass": ["contenidoMarca"]
+        }
+    },
+
+    "image#Marca14": {
+        "props": {
+            "blockClass": ["imgMarca"],
+            "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/18d0fb0a-b805-4a3d-b873-dc4908df33f8___4e825f0f462c7914cc7802f0178af00f.png",
+            "link": "#"
+        }
+    },
+
+    ////////////////////////
+
+    "flex-layout.row#marca15": {
+        "children": ["image#Marca15"],
+        "props": {
+            "blockClass": ["contenidoMarca"]
+        }
+    },
+
+    "image#Marca15": {
+        "props": {
+            "blockClass": ["imgMarca"],
+            "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/18d0fb0a-b805-4a3d-b873-dc4908df33f8___4e825f0f462c7914cc7802f0178af00f.png",
+            "link": "#"
+        }
+    },
+    ////////////////////////
+
+    "flex-layout.row#marca16": {
+        "children": ["image#Marca15"],
+        "props": {
+            "blockClass": ["contenidoMarca"]
+        }
+    },
+
+    "image#Marca16": {
+        "props": {
+            "blockClass": ["imgMarca"],
+            "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/18d0fb0a-b805-4a3d-b873-dc4908df33f8___4e825f0f462c7914cc7802f0178af00f.png",
+            "link": "#"
+        }
+    },
+
+    ////////////////////////
+
+    "flex-layout.row#marca17": {
+        "children": ["image#Marca17"],
+        "props": {
+            "blockClass": ["contenidoMarca"]
+        }
+    },
+
+    "image#Marca17": {
+        "props": {
+            "blockClass": ["imgMarca"],
+            "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/18d0fb0a-b805-4a3d-b873-dc4908df33f8___4e825f0f462c7914cc7802f0178af00f.png",
+            "link": "#"
+        }
+    },
+
+    ////////////////////////
+
+    "flex-layout.row#marca18": {
+        "children": ["image#Marca17"],
+        "props": {
+            "blockClass": ["contenidoMarca"]
+        }
+    },
+
+    "image#Marca18": {
+        "props": {
+            "blockClass": ["imgMarca"],
+            "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/18d0fb0a-b805-4a3d-b873-dc4908df33f8___4e825f0f462c7914cc7802f0178af00f.png",
+            "link": "#"
+        }
+    },
+
+    ////////////////////////
+
+    "flex-layout.row#marca19": {
+        "children": ["image#Marca19"],
+        "props": {
+            "blockClass": ["contenidoMarca"]
+        }
+    },
+
+    "image#Marca19": {
+        "props": {
+            "blockClass": ["imgMarca"],
+            "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/18d0fb0a-b805-4a3d-b873-dc4908df33f8___4e825f0f462c7914cc7802f0178af00f.png",
+            "link": "#"
+        }
+    },
+    ////////////////////////
+
+    "flex-layout.row#marca20": {
+        "children": ["image#Marca20"],
+        "props": {
+            "blockClass": ["contenidoMarca"]
+        }
+    },
+
+    "image#Marca20": {
+        "props": {
+            "blockClass": ["imgMarca"],
+            "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/18d0fb0a-b805-4a3d-b873-dc4908df33f8___4e825f0f462c7914cc7802f0178af00f.png",
+            "link": "#"
+        }
+    }
+}

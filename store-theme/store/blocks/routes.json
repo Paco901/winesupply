@@ -1,0 +1,32 @@
+{
+  "store.custom#preguntas-frecuentes": {
+    "path": "/preguntas-frecuentes"
+  },
+  "store.custom#colecciones8": {
+    "path": "/colecciones-ocho"
+  },
+  "store.custom#colecciones": {
+    "path": "/colecciones"
+  },
+  "store.custom#vinos-de-la-semana": {
+    "path": "/vinos-de-la-semana"
+  },
+  "store.custom#nordes": {
+    "path": "/nordes"
+  },
+  "store.custom#flordecana": {
+    "path": "/flordecana"
+  },
+  "store.custom#oficial-bar-en-casa": {
+    "path": "/bar-en-casa"
+  },
+  "store.custom#vinos-por-caja": {
+    "path": "/vinos-por-caja"
+  },
+  "store.custom#contacto": {
+    "path": "/contacto"
+  },
+  "store.custom#oficial-bemberg": {
+    "path": "/tienda-oficial-bemberg"
+  }
+}

@@ -1,0 +1,578 @@
+{
+  "flex-layout.row#footer": {
+    "children": [
+      "flex-layout.row#menu-1-1",
+      "flex-layout.row#menu-1",
+      "flex-layout.row#menu-2",
+      "flex-layout.col#menu-3",
+      "flex-layout.row#menu-4"
+    ],
+    "props": {
+      "blockClass": "footer-menu-wrapper",
+      "colGap": 4,
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.row#menu-1-1": {
+    "children": [
+      "image#imagenLogo",
+      "flex-layout.row#seguinosContentIzquierda"
+    ],
+    "props": {
+      "blockClass": [
+        "contenidoLogos"
+      ],
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.row#seguinosContentIzquierda": {
+    "children": []
+  },
+  "image#imagenLogo": {
+    "props": {
+      "src": "assets/ig.svg",
+      "blockClass": [
+        "imgLogoFooter"
+      ]
+    }
+  },
+  "flex-layout.row#redes-sociales-logos": {
+    "children": [
+      "image#faceFooterIzquierda",
+      "image#instaFooterIzquierda"
+    ],
+    "props": {
+      "blockClass": [
+        "footer-desktop-redes-izquierda",
+        "logosIzquierda"
+      ]
+    }
+  },
+  "image#instaFooterIzquierda": {
+    "props": {
+      "src": "assets/ig.svg",
+      "blockClass": [
+        "igfooterIzq"
+      ]
+    }
+  },
+  "image#faceFooterIzquierda": {
+    "props": {
+      "src": "assets/face.svg",
+      "blockClass": [
+        "fcfooterIzq"
+      ]
+    }
+  },
+  "flex-layout.row#menu-1": {
+    "children": [
+      "menu#footer-1"
+    ],
+    "props": {
+      "blockClass": [
+        "footer-menu-column-flex",
+        "footer-link-mobile",
+        "footer-menu-padding"
+      ],
+      "rowGap": 10
+    }
+  },
+  "menu#footer-1": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer-menu-column"
+    },
+    "children": [
+      "menu-item#footer-1-1",
+      "menu-item#footer-1-2",
+      "menu-item#footer-1-3",
+      "menu-item#footer-1-4",
+      "menu-item#footer-1-5",
+      "menu-item#footer-1-6",
+      "menu-item#footer-1-7"
+    ]
+  },
+  "menu-item#footer-1-1": {
+    "props": {
+      "id": "footer-menu-item-1-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": [
+        "footer-menu-item-title",
+        "footer-menu-item-title-header"
+      ],
+      "itemProps": {
+        "type": "external",
+        "href": "/contacto",
+        "noFollow": true,
+        "tagTitle": "Contacto",
+        "text": "Contacto"
+      }
+    }
+  },
+  "menu-item#footer-1-2": {
+    "props": {
+      "id": "footer-menu-item-1-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": [
+        "footer-menu-item-title",
+        "footer-menu-item-mail"
+      ],
+      "itemProps": {
+        "type": "internal",
+        "href": "/locales",
+        "noFollow": true,
+        "tagTitle": "ventaonlineumbro@grupodass.com.ar",
+        "text": "ventaonlineumbro@grupodass.com.ar"
+      }
+    }
+  },
+  "menu-item#footer-1-3": {
+    "props": {
+      "id": "footer-menu-item-1-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": [
+        "footer-menu-item-title",
+        "footer-menu-item-phone"
+      ],
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "3221-6860",
+        "text": "3221-6860"
+      }
+    }
+  },
+  "menu-item#footer-1-4": {
+    "props": {
+      "id": "footer-menu-item-1-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-menu-item-title",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Lunes a Viernes 8 a 21hs",
+        "text": "Lunes a Viernes 8 a 21hs"
+      }
+    }
+  },
+  "menu-item#footer-1-5": {
+    "props": {
+      "id": "footer-menu-item-1-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": [
+        "footer-menu-item-title",
+        "footer-menu-item-mail"
+      ],
+      "itemProps": {
+        "type": "internal",
+        "href": "/locales",
+        "noFollow": true,
+        "tagTitle": "ventaonlineumbro@grupodass.com.ar",
+        "text": "ventaonlineumbro@grupodass.com.ar"
+      }
+    }
+  },
+  "menu-item#footer-1-6": {
+    "props": {
+      "id": "footer-menu-item-1-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": [
+        "footer-menu-item-title",
+        "footer-menu-item-mail"
+      ],
+      "itemProps": {
+        "type": "internal",
+        "href": "/locales",
+        "noFollow": true,
+        "tagTitle": "ventaonlineumbro@grupodass.com.ar",
+        "text": "ventaonlineumbro@grupodass.com.ar"
+      }
+    }
+  },
+  "menu-item#footer-1-7": {
+    "props": {
+      "id": "footer-menu-item-1-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": [
+        "footer-menu-item-title",
+        "footer-menu-item-mail"
+      ],
+      "itemProps": {
+        "type": "internal",
+        "href": "/locales",
+        "noFollow": true,
+        "tagTitle": "ventaonlineumbro@grupodass.com.ar",
+        "text": "ventaonlineumbro@grupodass.com.ar"
+      }
+    }
+  },
+  "flex-layout.row#menu-2": {
+    "children": [
+      "menu#footer-2"
+    ],
+    "props": {
+      "blockClass": [
+        "footer-menu-column-flex",
+        "footer-menu-padding"
+      ]
+    }
+  },
+  "menu#footer-2": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": [
+        "footer-menu-column"
+      ]
+    },
+    "children": [
+      "menu-item#footer-2-1",
+      "menu-item#footer-2-2",
+      "menu-item#footer-2-3",
+      "menu-item#footer-2-4",
+      "menu-item#footer-2-5",
+      "menu-item#footer-2-6",
+      "menu-item#footer-2-7"
+    ]
+  },
+  "menu-item#footer-2-1": {
+    "props": {
+      "id": "footer-menu-item-2-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": [
+        "footer-menu-item-title",
+        "footer-menu-item-title-header"
+      ],
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Categorías",
+        "text": "Categorías"
+      }
+    }
+  },
+  "menu-item#footer-2-2": {
+    "props": {
+      "id": "footer-menu-item-2-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": [
+        "footer-menu-item-title"
+      ],
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Fútbol",
+        "text": "Fútbol"
+      }
+    }
+  },
+  "menu-item#footer-2-3": {
+    "props": {
+      "id": "footer-menu-item-2-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": [
+        "footer-menu-item-title"
+      ],
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Clubes",
+        "text": "Clubes"
+      }
+    }
+  },
+  "menu-item#footer-2-4": {
+    "props": {
+      "id": "footer-menu-item-2-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": [
+        "footer-menu-item-title"
+      ],
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Indumentaria",
+        "text": "Indumentaria"
+      }
+    }
+  },
+  "menu-item#footer-2-5": {
+    "props": {
+      "id": "footer-menu-item-2-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": [
+        "footer-menu-item-title"
+      ],
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Línea Retro",
+        "text": "Línea Retro"
+      }
+    }
+  },
+  "menu-item#footer-2-6": {
+    "props": {
+      "id": "footer-menu-item-2-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": [
+        "footer-menu-item-title"
+      ],
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Boletín de Promociones",
+        "text": "Boletín de Promociones"
+      }
+    }
+  },
+  "menu-item#footer-2-7": {
+    "props": {
+      "id": "footer-menu-item-2-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": [
+        "footer-menu-item-title"
+      ],
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "SALE",
+        "text": "SALE"
+      }
+    }
+  },
+  "flex-layout.col#menu-3": {
+    "children": [
+      "menu#footer-3"
+    ],
+    "props": {
+      "blockClass": [
+        "footer-menu-column-flex",
+        "footer-menu-padding"
+      ]
+    }
+  },
+  "menu#footer-3": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": [
+        "footer-menu-column"
+      ]
+    },
+    "children": [
+      "menu-item#footer-3-1",
+      "menu-item#footer-3-2",
+      "menu-item#footer-3-3",
+      "menu-item#footer-3-4",
+      "menu-item#footer-3-5",
+      "menu-item#footer-3-6"
+    ]
+  },
+  "menu-item#footer-3-1": {
+    "props": {
+      "id": "footer-menu-item-3-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": [
+        "footer-menu-item-title",
+        "footer-menu-item-title-header"
+      ],
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Ayuda",
+        "text": "Ayuda"
+      }
+    }
+  },
+  "menu-item#footer-3-2": {
+    "props": {
+      "id": "footer-menu-item-3-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": [
+        "footer-menu-item-title"
+      ],
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Estado de mi pedido",
+        "text": "Estado de mi pedido"
+      }
+    }
+  },
+  "menu-item#footer-3-3": {
+    "props": {
+      "id": "footer-menu-item-3-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": [
+        "footer-menu-item-title"
+      ],
+      "itemProps": {
+        "type": "external",
+        "href": "/preguntas-frecuentes",
+        "noFollow": true,
+        "tagTitle": "Preguntas frecuentes",
+        "text": "Preguntas frecuentes"
+      }
+    }
+  },
+  "menu-item#footer-3-4": {
+    "props": {
+      "id": "footer-menu-item-3-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": [
+        "footer-menu-item-title"
+      ],
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Términos y condiciones",
+        "text": "Términos y condiciones"
+      }
+    }
+  },
+  "menu-item#footer-3-5": {
+    "props": {
+      "id": "footer-menu-item-3-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": [
+        "footer-menu-item-title"
+      ],
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Consultas Tienda Online",
+        "text": "Consultas Tienda Online"
+      }
+    }
+  },
+  "menu-item#footer-3-6": {
+    "props": {
+      "id": "footer-menu-item-3-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": [
+        "footer-menu-item-title"
+      ],
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Otras Consultas",
+        "text": "Otras Consultas"
+      }
+    }
+  },
+  "flex-layout.row#menu-4": {
+    "children": [
+      "menu#footer-4"
+    ],
+    "props": {
+      "blockClass": [
+        "footer-menu-column-flex"
+      ]
+    }
+  },
+  "menu#footer-4": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer-menu-column"
+    },
+    "children": [
+      "rich-text#newsletter-title",
+      "flex-layout.row#redes-sociales"
+    ]
+  },
+  "rich-text#newsletter-title": {
+    "props": {
+      "text": "SEGUINOS",
+      "blockClass": [
+        "seguinosStyle"
+      ]
+    }
+  },
+  "flex-layout.row#redes-sociales": {
+    "children": [
+      "image#faceFooter",
+      "image#instaFooter",
+      "image#inks"
+    ],
+    "props": {
+      "blockClass": "footer-desktop-redes"
+    }
+  },
+  "image#instaFooter": {
+    "props": {
+      "src": "assets/ig.svg",
+      "blockClass": [
+        "igfooter"
+      ]
+    }
+  },
+  "image#faceFooter": {
+    "props": {
+      "src": "assets/face.svg",
+      "blockClass": [
+        "fcfooter"
+      ]
+    }
+  },
+  "image#inks": {
+    "props": {
+      "src": "https://legatus.com.ar/images/ima/inkp.png",
+      "blockClass": [
+        "inkfooter"
+      ]
+    }
+  }
+}

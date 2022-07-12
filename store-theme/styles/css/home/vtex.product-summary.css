@@ -1,0 +1,24 @@
+.containerNormal{
+    width: 225px !important;
+}
+
+.imageContainer{
+    height: 100%;
+    max-height: 203px;
+}
+
+.container--novedadesDesktopDN{
+    display: none;
+}
+.container--especialesDesktopDN{
+    display: none;
+}
+
+@media only screen and (max-width:1025px) {
+    .container--novedadesDesktopDN{
+        display: block;
+    }
+    .container--especialesDesktopDN{
+        display:block;
+    }
+}

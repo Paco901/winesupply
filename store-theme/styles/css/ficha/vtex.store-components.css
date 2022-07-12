@@ -1,0 +1,93 @@
+.productImagesContainer--carousel{
+  display: block !important;
+}
+
+.productImageTag--imagenSliderFicha{
+  max-width: 60%  ;
+  margin: auto;
+  display: flex;
+}
+
+.carouselGaleryThumbs--imagenSliderFicha {
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+}
+.carouselContainer--imagenSliderFicha{
+  background: white;
+  max-width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.vtex-store-components-3-x-carouselGaleryCursor{
+  background: white;
+}
+
+.productImagesThumb--imagenSliderFicha{
+  padding: 5px;
+  margin: 12px;
+}
+.swiperCaretNext--imagenSliderFicha{
+  color: transparent;
+}
+.figure--imagenSliderFicha{
+  border:solid 1px #979B9B;
+}
+
+.swiperCaretNext--imagenSliderFicha::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  transform: rotate(45deg);
+}
+
+.swiperCaretPrev--imagenSliderFicha{
+  color: transparent;
+}
+
+.swiperCaretPrev--imagenSliderFicha::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  transform: rotate(0.62turn);
+}
+
+.caretIcon--imagenSliderFicha{
+  color: transparent;
+}
+
+.carouselGaleryThumbs--imagenSliderFicha::before{
+  display: block;
+  content: '';
+  background: #0000011A;
+  height: 1px;
+  margin-top: -20px;
+  margin-left: 118px;
+  margin: auto;
+
+}
+
+:global(.vtex-store-components-3-x-productBrandName--brandFicha){
+  background: none !important;
+  color:black !important;
+  text-transform: uppercase;
+  font-size: 20px !important;
+}
+@media only screen and (max-width: 1025px){
+  .productImageTag--imagenSliderFicha{
+    max-width: 100%  ;
+    margin: auto;
+    display: flex;
+    margin-top: 10px;
+  }
+}
+
+
+

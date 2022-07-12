@@ -1,0 +1,649 @@
+{
+    "submenu#hombres": {
+        "children": [
+            "flex-layout.col#submenu-hombres"
+        ],
+        "props": {
+            "width": "100%",
+            "blockClass": "header-submenu-container"
+        }
+    },
+    "flex-layout.col#submenu-hombres": {
+        "children": [
+            "flex-layout.row#submenu-hombres-1",
+            "flex-layout.row#submenu-hombres-2"
+        ],
+        "props": {
+            "blockClass": "header-submenu",
+            "width": "100%"
+        }
+    },
+    "flex-layout.row#submenu-hombres-1": {
+        "children": [
+            "flex-layout.col#submenu-hombres-accesorios",
+            "flex-layout.col#submenu-hombres-accesorios-de-viaje",
+            "flex-layout.col#submenu-hombres-billeteras-y-tarjeteros",
+            "flex-layout.col#submenu-hombres-bolsos"
+        ],
+        "props": {
+            "blockClass": "header-submenu",
+            "width": "100%"
+        }
+    },
+    "flex-layout.col#submenu-hombres-accesorios": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "width": "20%"
+        },
+        "children": [
+            "menu-item#submenu-hombres-accesorios",
+            "menu#submenu-hombres-accesorios"
+        ]
+    },
+    "menu#submenu-hombres-accesorios-title": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-hombres-accesorios"
+        ]
+    },
+    "menu-item#submenu-hombres-accesorios": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header-submenu-title",
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/accesorios",
+                "noFollow": false,
+                "tagTitle": "Accesorios",
+                "text": "ACCESORIOS"
+            }
+        }
+    },
+    "menu#submenu-hombres-accesorios": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-hombres-accesorios-botellas-termos-y-vasos",
+            "menu-item#submenu-hombres-accesorios-cinturones",
+            "menu-item#submenu-hombres-accesorios-paraguas",
+            "menu-item#submenu-hombres-accesorios-riñoneras"
+        ]
+    },
+    "menu-item#submenu-hombres-accesorios-botellas-termos-y-vasos": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/accesorios/botellas-termos-y-vasos",
+                "noFollow": false,
+                "tagTitle": "Botellas, Termos y Vasos",
+                "text": "Botellas, Termos y Vasos"
+            }
+        }
+    },
+    "menu-item#submenu-hombres-accesorios-cinturones": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": true,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/accesorios/cinturones",
+                "noFollow": false,
+                "tagTitle": "cinturones",
+                "text": "Cinturones"
+            }
+        }
+    },
+    "menu-item#submenu-hombres-accesorios-paraguas": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": true,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/accesorios/paraguas",
+                "noFollow": false,
+                "tagTitle": "paraguas",
+                "text": "Paraguas"
+            }
+        }
+    },
+    "menu-item#submenu-hombres-accesorios-riñoneras": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/accesorios/rinoneras",
+                "noFollow": false,
+                "tagTitle": "riñoneras",
+                "text": "Riñoneras"
+            }
+        }
+    },
+    "flex-layout.col#submenu-hombres-accesorios-de-viaje": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "width": "20%"
+        },
+        "children": [
+            "menu-item#submenu-hombres-accesorios-de-viaje",
+            "menu#submenu-hombres-accesorios-de-viaje"
+        ]
+    },
+    "menu#submenu-hombres-accesorios-de-viaje-title": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-hombres-accesorios-de-viaje"
+        ]
+    },
+    "menu-item#submenu-hombres-accesorios-de-viaje": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header-submenu-title",
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/accesorios-de-viaje",
+                "noFollow": false,
+                "tagTitle": "Accesorios de viaje",
+                "text": "ACCESORIOS DE VIAJE"
+            }
+        }
+    },
+    "menu#submenu-hombres-accesorios-de-viaje": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-hombres-accesorios-de-viaje-neceseres"
+        ]
+    },
+    "menu-item#submenu-hombres-accesorios-de-viaje-neceseres": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/accesorios-de-viaje/neceseres",
+                "noFollow": false,
+                "tagTitle": "Neceseres",
+                "text": "Neceseres"
+            }
+        }
+    },
+    "flex-layout.col#submenu-hombres-billeteras-y-tarjeteros": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "width": "20%"
+        },
+        "children": [
+            "menu-item#submenu-hombres-billeteras-y-tarjeteros",
+            "menu#submenu-hombres-billeteras-y-tarjeteros"
+        ]
+    },
+    "menu#submenu-hombres-billeteras-y-tarjeteros-title": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-hombres-billeteras-y-tarjeteros"
+        ]
+    },
+    "menu-item#submenu-hombres-billeteras-y-tarjeteros": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header-submenu-title",
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/billeteras-y-tarjeteros",
+                "noFollow": false,
+                "tagTitle": "Billeteras y Tarjeteros",
+                "text": "BILLETERAS y TARJETEROS"
+            }
+        }
+    },
+    "menu#submenu-hombres-billeteras-y-tarjeteros": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-hombres-billeteras-y-tarjeteros-billeteras",
+            "menu-item#submenu-hombres-billeteras-y-tarjeteros-tarjeteros"
+        ]
+    },
+    "menu-item#submenu-hombres-billeteras-y-tarjeteros-billeteras": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/billeteras-y-tarjeteros/billeteras",
+                "noFollow": false,
+                "tagTitle": "Billeteras",
+                "text": "Billeteras"
+            }
+        }
+    },
+    "menu-item#submenu-hombres-billeteras-y-tarjeteros-tarjeteros": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/billeteras-y-tarjeteros/tarjeteros",
+                "noFollow": false,
+                "tagTitle": "tarjeteros",
+                "text": "Tarjeteros"
+            }
+        }
+    },
+    "flex-layout.col#submenu-hombres-bolsos": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "width": "20%"
+        },
+        "children": [
+            "menu-item#submenu-hombres-bolsos",
+            "menu#submenu-hombres-bolsos"
+        ]
+    },
+    "menu#submenu-hombres-bolsos-title": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-hombres-bolsos"
+        ]
+    },
+    "menu-item#submenu-hombres-bolsos": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header-submenu-title",
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/bolsos",
+                "noFollow": false,
+                "tagTitle": "bolsos",
+                "text": "BOLSOS"
+            }
+        }
+    },
+    "menu#submenu-hombres-bolsos": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-hombres-bolsos-botineros",
+            "menu-item#submenu-hombres-bolsos-combos",
+            "menu-item#submenu-hombres-bolsos-matero",
+            "menu-item#submenu-hombres-bolsos-portatrajes",
+            "menu-item#submenu-hombres-bolsos-viaje-y-deportivos"
+        ]
+    },
+    "menu-item#submenu-hombres-bolsos-botineros": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": true,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/bolsos/botineros",
+                "noFollow": false,
+                "tagTitle": "botineros",
+                "text": "Botineros"
+            }
+        }
+    },
+    "menu-item#submenu-hombres-bolsos-combos": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": true,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/bolsos/combos",
+                "noFollow": false,
+                "tagTitle": "combos",
+                "text": "Combos"
+            }
+        }
+    },
+    "menu-item#submenu-hombres-bolsos-matero": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": true,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/bolsos/matero",
+                "noFollow": false,
+                "tagTitle": "matero",
+                "text": "Matero"
+            }
+        }
+    },
+    "menu-item#submenu-hombres-bolsos-portatrajes": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": true,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/bolsos/portatrajes",
+                "noFollow": false,
+                "tagTitle": "portatrajes",
+                "text": "Portatrajes"
+            }
+        }
+    },
+    "menu-item#submenu-hombres-bolsos-viaje-y-deportivos": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/bolsos/viaje-y-deportivos",
+                "noFollow": false,
+                "tagTitle": "viaje y deportivos",
+                "text": "Viaje y Deportivos"
+            }
+        }
+    },
+    "flex-layout.row#submenu-hombres-2": {
+        "children": [
+            "flex-layout.col#submenu-hombres-mochila",
+            // "flex-layout.col#submenu-hombres-textil",
+            "flex-layout.col#submenu-hombres-morrales-y-portafolios"
+        ],
+        "props": {
+            "blockClass": "header-submenu",
+            "width": "100%"
+        }
+    },
+    "flex-layout.col#submenu-hombres-mochila": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "width": "20%"
+        },
+        "children": [
+            "menu-item#submenu-hombres-mochila",
+            "menu#submenu-hombres-mochila"
+        ]
+    },
+    "menu#submenu-hombres-mochila-title": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-hombres-mochila"
+        ]
+    },
+    "menu-item#submenu-hombres-mochila": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header-submenu-title",
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/mochila",
+                "noFollow": false,
+                "tagTitle": "mochila",
+                "text": "MOCHILA"
+            }
+        }
+    },
+    "menu#submenu-hombres-mochila": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column",
+            "items": [
+                {
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "blockClass": "header-menu-item",
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/hombre/mochila/combos",
+                        "noFollow": false,
+                        "tagTitle": "combos",
+                        "text": "Combos"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "blockClass": "header-menu-item",
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/hombre/mochila/con-carro",
+                        "noFollow": false,
+                        "tagTitle": "con carro",
+                        "text": "Con carro"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "blockClass": "header-menu-item",
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/hombre/mochila/porta-notebook",
+                        "noFollow": false,
+                        "tagTitle": "porta notebook",
+                        "text": "Porta Notebook"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "blockClass": "header-menu-item",
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/hombre/mochila/urbanas",
+                        "noFollow": false,
+                        "tagTitle": "urbanas",
+                        "text": "Urbanas"
+                    }
+                }
+            ]
+        }
+    },
+    "flex-layout.col#submenu-hombres-textil": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "width": "20%"
+        },
+        "children": [
+            "menu-item#submenu-hombres-textil",
+            "menu#submenu-hombres-textil"
+        ]
+    },
+    "menu#submenu-hombres-textil-title": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-hombres-textil"
+        ]
+    },
+    "menu-item#submenu-hombres-textil": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header-submenu-title",
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/textil",
+                "noFollow": false,
+                "tagTitle": "textil",
+                "text": "TEXTIL"
+            }
+        }
+    },
+    "menu#submenu-hombres-textil": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column",
+            "items": [
+                {
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "blockClass": "header-menu-item",
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/hombre/textil/bufandas-y-cuellos",
+                        "noFollow": false,
+                        "tagTitle": "bufandas y cuellos",
+                        "text": "Bufandas y Cuellos"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "blockClass": "header-menu-item",
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/hombre/textil/gorros",
+                        "noFollow": false,
+                        "tagTitle": "Gorros",
+                        "text": "Gorros"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "blockClass": "header-menu-item",
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/hombre/textil/guantes",
+                        "noFollow": false,
+                        "tagTitle": "Guantes",
+                        "text": "Guantes"
+                    }
+                }
+            ]
+        }
+    },
+    "flex-layout.col#submenu-hombres-morrales-y-portafolios": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "width": "20%"
+        },
+        "children": [
+            "menu-item#submenu-hombres-morrales-y-portafolios",
+            "menu#submenu-hombres-morrales-y-portafolios"
+        ]
+    },
+    "menu#submenu-hombres-morrales-y-portafolios-title": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-hombres-morrales-y-portafolios"
+        ]
+    },
+    "menu-item#submenu-hombres-morrales-y-portafolios": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header-submenu-title",
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/morrales-y-portafolios",
+                "noFollow": false,
+                "tagTitle": "Morrales y portafolios",
+                "text": "MORRALES Y PORTAFOLIOS"
+            }
+        }
+    },
+    "menu#submenu-hombres-morrales-y-portafolios": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column",
+            "items": [
+                {
+                    "id": "hombres-morrales-y-portafolios-morrales",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "blockClass": "header-menu-item",
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/hombre/morrales-y-portafolios/morrales",
+                        "noFollow": false,
+                        "tagTitle": "morrales",
+                        "text": "Morrales"
+                    }
+                },
+                {
+                    "id": "hombres-morrales-y-portafolios-portafolios",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "blockClass": "header-menu-item",
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/hombre/morrales-y-portafolios/portafolios",
+                        "noFollow": false,
+                        "tagTitle": "portafolios",
+                        "text": "Portafolios"
+                    }
+                }
+            ]
+        }
+    }
+}

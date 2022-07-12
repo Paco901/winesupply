@@ -1,0 +1,151 @@
+.flexRowContent--contenidoGaleria {
+    max-width: 1200px;
+    margin: auto;
+    width: 90%;
+}
+
+.flexRow--contenidoGaleria {
+    margin-bottom: 150px;
+}
+
+.flexRow--flex-search-above :global(.vtex-breadcrumb-1-x-homeLink) {
+    display: none;
+}
+.flexRow--flex-search-above :global(.vtex-breadcrumb-1-x-link--1) {
+    font-size: 10px;
+}
+.flexRowContent--flex-search-above {
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 1200px;
+    margin: auto;
+    width: 90%;
+}
+
+@media only screen and (max-width: 1025px) {
+    .flexRowContent--flex-search-above {
+        display: flex;
+        flex-direction: row;
+        margin-left: 70px;
+        justify-content: start;
+        margin-left: 66px;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .flexRowContent--flex-search-above {
+        margin-left: 32px;
+    }
+    .flexRowContent--search-main-mobile
+        :global(.vtex-product-price-1-x-sellingPriceValue) {
+        font-size: 20px !important;
+    }
+    .flexRowContent--filtroMobile
+        :global(.vtex-search-result-3-x-galleryItem--small) {
+        max-width: 50% !important;
+    }
+    .flexRowContent--filtroMobile
+        :global(.vtex-product-summary-2-x-containerNormal--related-shelf-home) {
+        width: 160px !important;
+    }
+}
+
+.flexRowContent--contenidoGaleria
+    :global(.vtex-search-result-3-x-filtersWrapper) {
+    width: 100%;
+    background: #e8e8e8;
+    padding: 10px;
+}
+.filters--layout {
+    margin-top: 45px;
+}
+
+.flexRowContent--contenidoGaleria
+    :global(.vtex-search-result-3-x-filter__container--title) {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/backFiltrar.png);
+    background-repeat: no-repeat;
+    color: transparent;
+    background-size: cover;
+    border-radius: 3px;
+    background-position-y: center;
+}
+
+.flexRowContent--contenidoGaleria
+    :global(.vtex-search-result-3-x-filter__container--category-2) {
+    border: none;
+}
+
+.flexRowContent--contenidoGaleria
+    :global(.vtex-search-result-3-x-filter__container--brand) {
+    border: none;
+}
+
+.flexRowContent--contenidoGaleria
+    :global(.vtex-search-result-3-x-filter__container--priceRange) {
+    border: none;
+}
+
+.flexRowContent--contenidoGaleria :global(.vtex-checkbox__box-wrapper) {
+    background: white;
+    border: solid 1px #b3b3b3;
+}
+
+.flexRowContent--contenidoGaleria
+    :global(.vtex-search-result-3-x-filter__container--selectedFilters) {
+    display: none;
+}
+
+.flexRowContent--contenidoGaleria
+    :global(.vtex-search-result-3-x-filter__container--anejamiento) {
+    display: none;
+}
+
+.flexRowContent--contenidoGaleria
+    :global(.vtex-search-result-3-x-filter__container--category-1) {
+    display: none;
+}
+
+.flexRowContent--contenidoGaleria
+    :global(.vtex-search-result-3-x-filter__container--region) {
+    display: none;
+}
+.flexRowContent--contenidoGaleria
+    :global(.vtex-search-result-3-x-filter__container--pais) {
+    display: none;
+}
+
+.flexRowContent--search-main-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexRow--filtroMobile
+    :global(.vtex-search-result-3-x-filter__container--selectedFilters) {
+    display: none;
+}
+
+.flexRow--filtroMobile
+    :global(.vtex-search-result-3-x-filter__container--anejamiento) {
+    display: none;
+}
+
+.flexRow--filtroMobile
+    :global(.vtex-search-result-3-x-filter__container--category-1) {
+    display: none;
+}
+
+.flexRow--filtroMobile
+    :global(.vtex-search-result-3-x-filter__container--region) {
+    display: none;
+}
+.flexRow--filtroMobile
+    :global(.vtex-search-result-3-x-filter__container--pais) {
+    display: none;
+}
+
+.flexRow--contenedorTituloFicha {
+    background: black;
+    margin: 60px 0px 50px 0px;
+}

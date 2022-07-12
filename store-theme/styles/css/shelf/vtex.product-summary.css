@@ -1,0 +1,24 @@
+
+:global(.vtex-product-summary-2-x-element--related-shelf-home){
+    padding: 13px;
+    justify-content: space-between;
+}
+
+:global(.vtex-product-summary-2-x-containerNormal){
+    width: 275px;
+}
+
+.element {
+    position: relative;
+}
+
+.container {
+    height: 100% !important;
+}
+
+@media only screen and (max-width: 1025px) {
+    :global(.vtex-product-summary-2-x-containerNormal){
+      width: 100%;
+    }
+}
+

@@ -1,0 +1,761 @@
+{
+    "submenu#menu2": {
+       /*  "children": [
+            "flex-layout.col#submenu-mi-viaje"
+        ], */
+        "props": {
+            "width": "100%",
+            "blockClass": "header-submenu-container"
+        }
+    },
+    "flex-layout.col#submenu-mi-viaje": {
+        "children": [
+            "flex-layout.row#submenu-mi-viaje-1",
+            "flex-layout.row#submenu-mi-viaje-2"
+        ],
+        "props": {
+            "blockClass": "header-submenu",
+            "width": "100%"
+        }
+    },
+    "flex-layout.row#submenu-mi-viaje-1": {
+        "children": [
+            "flex-layout.col#submenu-mi-viaje-accesorios",
+            "flex-layout.col#submenu-mi-viaje-accesorios-de-viaje",
+            "flex-layout.col#submenu-mi-viaje-billeteras-y-tarjeteros",
+            "flex-layout.col#submenu-mi-viaje-bolsos"
+        ],
+        "props": {
+            "blockClass": "header-submenu",
+            "width": "100%"
+        }
+    },
+    "flex-layout.col#submenu-mi-viaje-accesorios": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "width": "20%"
+        },
+        "children": [
+            "menu-item#submenu-mi-viaje-accesorios",
+            "menu#submenu-mi-viaje-accesorios"
+        ]
+    },
+    "menu#submenu-mi-viaje-accesorios-title": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-mi-viaje-accesorios"
+        ]
+    },
+    "menu-item#submenu-mi-viaje-accesorios": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header-submenu-title",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mi-viaje/accesorios",
+                "noFollow": false,
+                "tagTitle": "Accesorios",
+                "text": "ACCESORIOS"
+            }
+        }
+    },
+    "menu#submenu-mi-viaje-accesorios": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-mi-viaje-accesorios-bolsas-de-viaje",
+            "menu-item#submenu-mi-viaje-accesorios-portacosmeticos",
+            "menu-item#submenu-mi-viaje-accesorios-riñoneras"
+        ]
+    },
+    "menu-item#submenu-mi-viaje-accesorios-bolsas-de-viaje": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mi-viaje/accesorios/bolsas-de-viaje",
+                "noFollow": false,
+                "tagTitle": "Bolsas de viaje",
+                "text": "Bolsas de viaje"
+            }
+        }
+    },
+    "menu-item#submenu-mi-viaje-accesorios-portacosmeticos": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mi-viaje/accesorios/portacosmeticos",
+                "noFollow": false,
+                "tagTitle": "portacosmeticos",
+                "text": "Portacosmeticos"
+            }
+        }
+    },
+    "menu-item#submenu-mi-viaje-accesorios-riñoneras": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mi-viaje/accesorios/rinoneras",
+                "noFollow": false,
+                "tagTitle": "riñoneras",
+                "text": "Riñoneras"
+            }
+        }
+    },
+    "flex-layout.col#submenu-mi-viaje-accesorios-de-viaje": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "width": "20%"
+        },
+        "children": [
+            "menu-item#submenu-mi-viaje-accesorios-de-viaje",
+            "menu#submenu-mi-viaje-accesorios-de-viaje"
+        ]
+    },
+    "menu#submenu-mi-viaje-accesorios-de-viaje-title": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-mi-viaje-accesorios-de-viaje"
+        ]
+    },
+    "menu-item#submenu-mi-viaje-accesorios-de-viaje": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header-submenu-title",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mi-viaje/accesorios-de-viaje",
+                "noFollow": false,
+                "tagTitle": "Accesorios de viaje",
+                "text": "ACCESORIOS DE VIAJE"
+            }
+        }
+    },
+    "menu#submenu-mi-viaje-accesorios-de-viaje": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-mi-viaje-accesorios-de-viaje-almohadas-y-antifaces",
+            "menu-item#submenu-mi-viaje-accesorios-de-viaje-candados-y-balanzas",
+            "menu-item#submenu-mi-viaje-accesorios-de-viaje-estuches-y-porta-camaras",
+            "menu-item#submenu-mi-viaje-accesorios-de-viaje-fundas-e-identificadores-de-valija",
+            "menu-item#submenu-mi-viaje-accesorios-de-viaje-mochilas-y-bolsos-plegables",
+            "menu-item#submenu-mi-viaje-accesorios-de-viaje-neceseres",
+            "menu-item#submenu-mi-viaje-accesorios-de-viaje-organizador-de-viaje",
+            "menu-item#submenu-mi-viaje-accesorios-de-viaje-portavalores-y-documentos"
+        ]
+    },
+    "menu-item#submenu-mi-viaje-accesorios-de-viaje-almohadas-y-antifaces": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": true,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mi-viaje/accesorios-de-viaje/almohadas-y-antifaces",
+                "noFollow": false,
+                "tagTitle": "Almohadas y Antifaces",
+                "text": "Almohadas y Antifaces"
+            }
+        }
+    },
+    "menu-item#submenu-mi-viaje-accesorios-de-viaje-candados-y-balanzas": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": true,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mi-viaje/accesorios-de-viaje/candados-y-balanzas",
+                "noFollow": false,
+                "tagTitle": "Candados y Balanzas",
+                "text": "Candados y Balanzas"
+            }
+        }
+    },
+    "menu-item#submenu-mi-viaje-accesorios-de-viaje-estuches-y-porta-camaras": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": true,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mi-viaje/accesorios-de-viaje/estuches-y-porta-camaras",
+                "noFollow": false,
+                "tagTitle": "estuches y porta camaras",
+                "text": "Estuches y Porta Camaras"
+            }
+        }
+    },
+    "menu-item#submenu-mi-viaje-accesorios-de-viaje-fundas-e-identificadores-de-valija": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": true,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mi-viaje/accesorios-de-viaje/fundas-e-identificadores-de-valija",
+                "noFollow": false,
+                "tagTitle": "fundas e identificadores de valija",
+                "text": "Fundas E Identificadores De Valija"
+            }
+        }
+    },
+    "menu-item#submenu-mi-viaje-accesorios-de-viaje-mochilas-y-bolsos-plegables": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": true,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mi-viaje/accesorios-de-viaje/mochilas-y-bolsos-plegables",
+                "noFollow": false,
+                "tagTitle": "mochilas y bolsos plegables",
+                "text": "Mochilas y Bolsos Plegables"
+            }
+        }
+    },
+    "menu-item#submenu-mi-viaje-accesorios-de-viaje-neceseres": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mi-viaje/accesorios-de-viaje/neceseres",
+                "noFollow": false,
+                "tagTitle": "Neceseres",
+                "text": "Neceseres"
+            }
+        }
+    },
+    "menu-item#submenu-mi-viaje-accesorios-de-viaje-organizador-de-viaje": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mi-viaje/accesorios-de-viaje/organizador-de-viaje",
+                "noFollow": false,
+                "tagTitle": "organizador de viaje",
+                "text": "Organizador De Viaje"
+            }
+        }
+    },
+    "menu-item#submenu-mi-viaje-accesorios-de-viaje-portavalores-y-documentos": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": true,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mi-viaje/accesorios-de-viaje/portavalores-y-documentos",
+                "noFollow": false,
+                "tagTitle": "portavalores y documentos",
+                "text": "Portavalores y Documentos"
+            }
+        }
+    },
+    "flex-layout.col#submenu-mi-viaje-billeteras-y-tarjeteros": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "width": "20%"
+        },
+        "children": [
+            "menu-item#submenu-mi-viaje-billeteras-y-tarjeteros",
+            "menu#submenu-mi-viaje-billeteras-y-tarjeteros"
+        ]
+    },
+    "menu#submenu-mi-viaje-billeteras-y-tarjeteros-title": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-mi-viaje-billeteras-y-tarjeteros"
+        ]
+    },
+    "menu-item#submenu-mi-viaje-billeteras-y-tarjeteros": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header-submenu-title",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mi-viaje/billeteras-y-tarjeteros",
+                "noFollow": false,
+                "tagTitle": "Billeteras y Tarjeteros",
+                "text": "BILLETERAS y TARJETEROS"
+            }
+        }
+    },
+    "menu#submenu-mi-viaje-billeteras-y-tarjeteros": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            // "menu-item#submenu-mi-viaje-billeteras-y-tarjeteros-billeteras",
+            "menu-item#submenu-mi-viaje-billeteras-y-tarjeteros-tarjeteros"
+        ]
+    },
+    "menu-item#submenu-mi-viaje-billeteras-y-tarjeteros-billeteras": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mi-viaje/billeteras-y-tarjeteros/billeteras",
+                "noFollow": false,
+                "tagTitle": "Billeteras",
+                "text": "Billeteras"
+            }
+        }
+    },
+    "menu-item#submenu-mi-viaje-billeteras-y-tarjeteros-tarjeteros": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mi-viaje/billeteras-y-tarjeteros/tarjeteros",
+                "noFollow": false,
+                "tagTitle": "tarjeteros",
+                "text": "Tarjeteros"
+            }
+        }
+    },
+    "flex-layout.col#submenu-mi-viaje-bolsos": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "width": "20%"
+        },
+        "children": [
+            "menu-item#submenu-mi-viaje-bolsos",
+            "menu#submenu-mi-viaje-bolsos"
+        ]
+    },
+    "menu#submenu-mi-viaje-bolsos-title": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-mi-viaje-bolsos"
+        ]
+    },
+    "menu-item#submenu-mi-viaje-bolsos": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header-submenu-title",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mi-viaje/bolsos",
+                "noFollow": false,
+                "tagTitle": "bolsos",
+                "text": "BOLSOS"
+            }
+        }
+    },
+    "menu#submenu-mi-viaje-bolsos": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-mi-viaje-bolsos-con-carro",
+            "menu-item#submenu-mi-viaje-bolsos-combos",
+            "menu-item#submenu-mi-viaje-bolsos-matero",
+            "menu-item#submenu-mi-viaje-bolsos-playeros",
+            "menu-item#submenu-mi-viaje-bolsos-portatrajes",
+            "menu-item#submenu-mi-viaje-bolsos-viaje-y-deportivos"
+        ]
+    },
+    "menu-item#submenu-mi-viaje-bolsos-con-carro": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": true,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mi-viaje/bolsos/bolsos-con-carro",
+                "noFollow": false,
+                "tagTitle": "Bolsos con Carro",
+                "text": "Bolsos con Carro"
+            }
+        }
+    },
+    "menu-item#submenu-mi-viaje-bolsos-combos": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": true,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mi-viaje/bolsos/combos",
+                "noFollow": false,
+                "tagTitle": "combos",
+                "text": "Combos"
+            }
+        }
+    },
+    "menu-item#submenu-mi-viaje-bolsos-matero": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": true,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mi-viaje/bolsos/matero",
+                "noFollow": false,
+                "tagTitle": "matero",
+                "text": "Matero"
+            }
+        }
+    },
+    "menu-item#submenu-mi-viaje-bolsos-playeros": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mi-viaje/bolsos/playeros",
+                "noFollow": false,
+                "tagTitle": "playeros",
+                "text": "Playeros"
+            }
+        }
+    },
+    "menu-item#submenu-mi-viaje-bolsos-portatrajes": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": true,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mi-viaje/bolsos/portatrajes",
+                "noFollow": false,
+                "tagTitle": "portatrajes",
+                "text": "Portatrajes"
+            }
+        }
+    },
+    "menu-item#submenu-mi-viaje-bolsos-viaje-y-deportivos": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mi-viaje/bolsos/viaje-y-deportivos",
+                "noFollow": false,
+                "tagTitle": "viaje y deportivos",
+                "text": "Viaje y Deportivos"
+            }
+        }
+    },
+    "flex-layout.row#submenu-mi-viaje-2": {
+        "children": [
+            "flex-layout.col#submenu-mi-viaje-mochila",
+            "flex-layout.col#submenu-mi-viaje-morrales-y-portafolios",
+            "flex-layout.col#submenu-mi-viaje-valijas"
+        ],
+        "props": {
+            "blockClass": "header-submenu",
+            "width": "100%"
+        }
+    },
+    "flex-layout.col#submenu-mi-viaje-mochila": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "width": "20%"
+        },
+        "children": [
+            "menu-item#submenu-mi-viaje-mochila",
+            "menu#submenu-mi-viaje-mochila"
+        ]
+    },
+    "menu#submenu-mi-viaje-mochila-title": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-mi-viaje-mochila"
+        ]
+    },
+    "menu-item#submenu-mi-viaje-mochila": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header-submenu-title",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mi-viaje/mochila",
+                "noFollow": false,
+                "tagTitle": "mochila",
+                "text": "MOCHILA"
+            }
+        }
+    },
+    "menu#submenu-mi-viaje-mochila": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column",
+            "items": [
+                {
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "blockClass": "header-menu-item",
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/mi-viaje/mochila/combos",
+                        "noFollow": false,
+                        "tagTitle": "combos",
+                        "text": "Combos"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "blockClass": "header-menu-item",
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/mi-viaje/mochila/con-carro",
+                        "noFollow": false,
+                        "tagTitle": "con carro",
+                        "text": "Con carro"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "blockClass": "header-menu-item",
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/mi-viaje/mochila/porta-notebook",
+                        "noFollow": false,
+                        "tagTitle": "porta notebook",
+                        "text": "Porta Notebook"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "blockClass": "header-menu-item",
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/mi-viaje/mochila/urbanas",
+                        "noFollow": false,
+                        "tagTitle": "urbanas",
+                        "text": "Urbanas"
+                    }
+                }
+            ]
+        }
+    },
+    "flex-layout.col#submenu-mi-viaje-morrales-y-portafolios": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "width": "20%"
+        },
+        "children": [
+            "menu-item#submenu-mi-viaje-morrales-y-portafolios",
+            "menu#submenu-mi-viaje-morrales-y-portafolios"
+        ]
+    },
+    "menu#submenu-mi-viaje-morrales-y-portafolios-title": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-mi-viaje-morrales-y-portafolios"
+        ]
+    },
+    "menu-item#submenu-mi-viaje-morrales-y-portafolios": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header-submenu-title",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mi-viaje/morrales-y-portafolios",
+                "noFollow": false,
+                "tagTitle": "Morrales y portafolios",
+                "text": "MORRALES Y PORTAFOLIOS"
+            }
+        }
+    },
+    "menu#submenu-mi-viaje-morrales-y-portafolios": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column",
+            "items": [
+                // {
+                //     "id": "mi-viaje-morrales-y-portafolios-portafolios",
+                //     "type": "custom",
+                //     "iconId": null,
+                //     "highlight": false,
+                //     "blockClass": "header-menu-item",
+                //     "itemProps": {
+                //         "type": "internal",
+                //         "href": "/mi-viaje/morrales-y-portafolios/portafolios",
+                //         "noFollow": false,
+                //         "tagTitle": "portafolios",
+                //         "text": "Portafolios"
+                //     }
+                // },
+                {
+                    "id": "mi-viaje-morrales-y-portafolios-morrales",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "blockClass": "header-menu-item",
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/mi-viaje/morrales-y-portafolios/morrales",
+                        "noFollow": false,
+                        "tagTitle": "morrales",
+                        "text": "Morrales"
+                    }
+                }
+            ]
+        }
+    },
+    "flex-layout.col#submenu-mi-viaje-valijas": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "width": "20%"
+        },
+        "children": [
+            "menu-item#submenu-mi-viaje-valijas",
+            "menu#submenu-mi-viaje-valijas"
+        ]
+    },
+    "menu#submenu-mi-viaje-valijas-title": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-mi-viaje-valijas"
+        ]
+    },
+    "menu-item#submenu-mi-viaje-valijas": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header-submenu-title",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mi-viaje/valijas",
+                "noFollow": false,
+                "tagTitle": "valijas",
+                "text": "valijas"
+            }
+        }
+    },
+    "menu#submenu-mi-viaje-valijas": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column",
+            "items": [
+                {
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "blockClass": "header-menu-item",
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/mi-viaje/valijas/combos",
+                        "noFollow": false,
+                        "tagTitle": "combos",
+                        "text": "Combos"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "blockClass": "header-menu-item",
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/mi-viaje/valijas/rigidas",
+                        "noFollow": false,
+                        "tagTitle": "rigidas",
+                        "text": "Rígidas"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "blockClass": "header-menu-item",
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/mi-viaje/valijas/semi-rigidas",
+                        "noFollow": false,
+                        "tagTitle": "semi-rigidas",
+                        "text": "Semi-Rigidas"
+                    }
+                }
+            ]
+        }
+    }
+}

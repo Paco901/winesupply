@@ -1,0 +1,66 @@
+.paragraph--textoDescripcion{
+  font-size: 19px;
+  font-family: 'Baskerville'!important;
+  color: black;
+  text-align: justify;
+  font-weight: 500;
+}
+.paragraph--textoDescripcion-flordecana{
+  font-size: 21px;
+  font-family: 'MuseoSans_100'!important;
+  color: black;
+  text-align: center;
+  font-weight: 100;
+}
+.wrapper--textoDescripcion{
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  margin-top: 30px;
+} 
+
+.container--textNordesCirculos{
+  display: flex;
+  justify-content: center !important
+  
+}
+
+.paragraph--textNordesCirculos{
+  font-family: 'Baskerville'!important;
+  color: black;
+  font-weight: 900;
+}
+.paragraph--tituloRecetas{
+  font-family: 'BodoniFLF-Bold'!important;
+  font-size: 22px;
+}
+.paragraph--textoRecetas{
+  font-family: 'Baskerville';
+  font-size: 20px;
+}
+
+.container--textFlorCirculos{
+  justify-content: center;
+}
+
+.paragraph--textFlorCirculos{
+  font-family: 'MuseoSans_700'!important;
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+}
+
+
+.container--titulosBar{
+  border-bottom: 2px solid black;
+  margin: 30px auto;
+  font-family: 'BodoniFLF-Bold'!important;
+ 
+}
+
+
+
+.container-titulosFlorRecetas{
+  background: black !important;
+  margin: 40px 0px !important;
+}

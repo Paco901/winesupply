@@ -1,0 +1,44 @@
+{
+  "drawer": {
+    "props": {
+      "slideDirection": "leftToRight",
+      "blockClass": "drawer-mobile"
+    },
+    "children": [
+      // "category-menu"
+      "vtex.menu@2.x:menu#drawer"
+    ]
+  },
+  "vtex.menu@2.x:menu#drawer": {
+    "children": ["ExpandableMenu#v2"],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "ExpandableMenu": {},
+  "ExpandableMenu#v2": {
+    "props": {
+      "blockClass": "customCategories"
+    }
+  },
+  "vtex.menu@2.x:submenu.accordion#menu1": {
+    "props": {
+      "blockClass": "acordion-mobile"
+    },
+    "children": ["flex-layout.col#submenu-hombres", "menu-item#ver-todo-hombre"]
+  },
+  "menu-item#ver-todo-hombre": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": ["header-submenu-title", "ver-todo"],
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre",
+        "noFollow": false,
+        "tagTitle": "ver todo hombre",
+        "text": "VER TODO"
+      }
+    }
+  }
+}

@@ -1,0 +1,154 @@
+.flexRow--tips-bemberg {
+    background: #E4E4E4;
+    margin-bottom: 3rem;
+    padding: 2.5rem 0;
+}
+
+.flexCol--col-izq-bemberg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: .5rem;
+    box-shadow: 1px 12px 11px -7px rgba(0,0,0,0.29);
+    -webkit-box-shadow: 1px 12px 11px -7px rgba(0,0,0,0.29);
+    -moz-box-shadow: 1px 12px 11px -7px rgba(0,0,0,0.25);
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/info_back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flexRow--contenedor-informacion-bemberg {
+    margin-bottom: 3rem;
+}
+
+.flexRowContent--row-der-bemberg {
+    justify-content: flex-end;
+}
+
+.flexRow--contenedor-informacion-bemberg :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+    height: auto !important;
+}
+
+.flexRow--row-der-1-bemberg {
+    margin-bottom: 1rem;
+}
+
+.flexRowContent--newsletter-bemberg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+}
+
+.flexRow--newsletter-bemberg {
+    background: #161615;
+    margin: 3rem 0;
+    padding: 1rem 0;
+}
+
+.flexRow--newsletter-bemberg :global(.vtex-store-components-3-x-container) {
+    display: flex;
+    justify-content: center;
+}
+
+.flexRow--info-marca-bemberg :global(.vtex-store-components-3-x-container),
+.flexRow--linterna-bemberg :global(.vtex-store-components-3-x-container),
+.flexRow--scores-bemberg :global(.vtex-store-components-3-x-container),
+.flexRow--separador-recetas-bemberg :global(.vtex-store-components-3-x-container),
+.flexRow--contenedor-gift-bemberg :global(.vtex-store-components-3-x-container)  {
+    max-width: 80%;
+}
+
+.flexRowContent--info-marca-bemberg,
+.flexRowContent--linterna-bemberg {
+    background: #fff;
+    margin: 3rem 0 .5rem 0;
+    border-radius: 10px;
+    box-shadow: 1px 12px 11px -7px rgba(0,0,0,0.29);
+    -webkit-box-shadow: 1px 12px 11px -7px rgba(0,0,0,0.29);
+    -moz-box-shadow: 1px 12px 11px -7px rgba(0,0,0,0.25);
+}
+
+.flexRowContent--info-marca-bemberg :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    justify-content: flex-end !important;
+}
+
+.flexCol--texto-marca-bemberg {
+    margin-left: 2.5rem;
+}
+
+.flexRowContent--linterna-bemberg :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    justify-content: flex-start !important;
+}
+
+.flexRow--scores-bemberg :global(.vtex-store-components-3-x-container) {
+    height: 150px;
+    margin: 2rem auto;
+    border-radius: 10px;
+    box-shadow: 1px 12px 11px -7px rgba(0,0,0,0.29);
+    -webkit-box-shadow: 1px 12px 11px -7px rgba(0,0,0,0.29);
+    -moz-box-shadow: 1px 12px 11px -7px rgba(0,0,0,0.25);
+    display: flex;
+    align-items: center;
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/scores_bemberg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flexRow--separador-recetas-bemberg {
+    margin: 2rem auto 1rem auto;
+}
+
+.flexRow--separador-recetas-bemberg :global(.vtex-store-components-3-x-container) {
+    height: 85px;
+    background: #000;
+    display: flex;
+    align-items: center;
+}
+
+.flexRowContent--primer-shelf-bemberg {
+    width: 80% !important;
+}
+
+.flexRowContent--primer-shelf-bemberg :global(.vtex-slider-layout-0-x-sliderArrows--sliderEspeciales) {
+    display: none;
+}
+
+.flexRow--contenedor-gift-bemberg {
+    margin: 3rem 0 5rem 0;
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    .flexCol--col-izq-bemberg {
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .flexRow--row-der-1-bemberg {
+        margin-bottom: 0;
+    }
+
+    .flexRowContent--newsletter-bemberg {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .flexCol--texto-marca-bemberg {
+        margin-left: 0;
+        padding: .9rem;
+    }
+
+    .flexRowContent--info-marca-bemberg {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .flexRow--scores-bemberg :global(.vtex-store-components-3-x-container) {
+        height: 90px;
+    }
+
+    .flexRowContent--primer-shelf-bemberg :global(.vtex-store-components-3-x-imageElement--bannerEspeciales) {
+        height: 222px;
+    }
+}

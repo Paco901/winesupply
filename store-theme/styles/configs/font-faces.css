@@ -1,0 +1,90 @@
+
+@font-face {
+    font-family: 'Nunito-Black';
+    src: url(assets/fonts/Nunito-Black.ttf), url(assets/fonts/Nunito-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Nunito-Bold';
+    src: url(assets/fonts/Nunito-Bold.ttf), url(assets/fonts/Nunito-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Nunito-ExtraBold';
+    src: url(assets/fonts/Nunito-ExtraBold.ttf), url(assets/fonts/Nunito-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'Nunito-ExtraLight';
+    src: url(assets/fonts/Nunito-ExtraLight.ttf), url(assets/fonts/Nunito-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: 'Nunito-Light';
+    src: url(assets/fonts/Nunito-Light.ttf), url(assets/fonts/Nunito-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Nunito-Regular';
+    src: url(assets/fonts/Nunito-Regular.ttf), url(assets/fonts/Nunito-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Nunito-SemiBold';
+    src: url(assets/fonts/Nunito-SemiBold.ttf), url(assets/fonts/Nunito-SemiBold.ttf);
+}
+
+
+/* paso */
+
+@font-face {
+    font-family: 'Baskervville-Regular';
+    src: url(assets/fonts/Baskervville-Regular.ttf), url(assets/fonts/Baskervville-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: 'Baskervville-Italic';
+    src: url(assets/fonts/Baskervville-Italic.ttf), url(assets/fonts/Baskervville-Italic.ttf);
+}
+
+/* paso */
+
+
+@font-face {
+    font-family: 'BodoniFLF-Bold-Italic';
+    src: url(assets/fonts/BodoniFLF-Bold-Italic.ttf), url(assets/fonts/BodoniFLF-Bold-Italic.ttf);
+}
+
+
+@font-face {
+    font-family: 'BodoniFLF-Bold';
+    src: url(assets/fonts/BodoniFLF-Bold.ttf), url(assets/fonts/BodoniFLF-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: 'BodoniFLF-Medium-Italic';
+    src: url(assets/fonts/Baskervville-Italic.ttf), url(assets/fonts/BodoniFLF-Medium-Italic.ttf);
+}
+
+
+@font-face {
+    font-family: 'BodoniFLF-Roman';
+    src: url(assets/fonts/BodoniFLF-Roman.ttf), url(assets/fonts/BodoniFLF-Roman.ttf);
+}
+
+
+
+@font-face {
+    font-family: 'Baskerville';
+    src: url(assets/fonts/Baskerville-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: 'Aleo';
+    src: url(assets/fonts/Aleo-Regular.ttf);
+}
+
+

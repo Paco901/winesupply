@@ -1,0 +1,143 @@
+.paginationDot {
+   display: none;
+}
+
+
+
+.sliderLayoutContainer--sliderMasVendidos{
+    margin: auto;
+    margin-bottom: 35px;
+    width: 92% !important;
+}
+
+
+
+.sliderLayoutContainer--sliderNovedades{
+    margin:auto;
+    margin-bottom: 35px;
+    width: 87%;
+  
+}
+
+.sliderLayoutContainer--sliderDestacados{
+    margin: 0px auto 35px auto;
+    width: 87%;
+  
+}
+
+.sliderLayoutContainer--sliderdestacados2{
+    margin: 0px auto 35px auto;
+    width: 87%;
+  
+}
+
+.paginationDot--isActive {
+    background-color: grey !important;
+}
+
+
+
+
+
+@media only screen and (min-width: 1442px) {
+    .sliderLayoutContainer--sliderMasVendidos{
+        margin-bottom: 35px;
+        width: 85%;
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1025px) {
+    .sliderTrackContainer--sliderNovedades{
+        margin-bottom: 1.5rem;
+    }
+    .sliderTrackContainer--sliderDestacados{
+        margin-bottom: 1.5rem;
+    }
+    .paginationDot {
+        display: block;
+     }
+     
+    .paginationDot--isActive {
+        background-color: grey !important;
+    }
+  
+}
+
+@media only screen and (max-width: 700px) {
+    .sliderTrackContainer--sliderNovedades{
+        margin-bottom: unset;
+    }
+    .sliderTrackContainer--sliderDestacados{
+        margin-bottom: unset;
+    }
+    .sliderLayoutContainer--shelf-default{
+        padding-left: 4px !important;
+        padding-right: 4px !important;
+    }
+
+    .paginationDotsContainer{
+        bottom: -25px;
+    }
+    .sliderLayoutContainer--novedadesVuela{
+        display: none;
+    }
+    
+}
+
+
+.paginationDotsContainer--carousel {
+    bottom: -15px;
+}
+
+.paginationDotsContainer--sliderMasVendidos{
+    bottom: -25px;
+}
+
+.sliderLayoutContainer--sliderBodegas1{
+    margin-bottom: 20px;
+    margin-right: 3rem;
+    padding-left: 45px !important;
+    padding-right: 9px !important;
+    max-width: 95% !important;
+}
+.sliderLayoutContainer--sliderBodegas2{
+    padding-left: 45px !important;
+    padding-right: 9px !important;
+    max-width: 95% !important;
+    margin: 0 !important;
+    width: auto !important;
+}
+.sliderRightArrow--sliderBodegas2{
+    right: -50px;
+}
+.sliderLayoutContainer--sliderEspeciales{
+    margin-bottom: 20px;
+    padding-left: 0 !important;
+    padding-right: 35px !important;
+}
+.paginationDotsContainer :global(.vtex-slider-layout-0-x-paginationDot--dotMarcas ){
+    display: block !important;
+}
+
+.sliderLeftArrow--sliderEspeciales{
+    left: -35px;
+}
+.sliderRightArrow--sliderEspeciales{
+    right: -10px;
+}
+
+
+@media (min-width: 580px) {
+    .sliderLayoutContainer--sliderBodegasMobile {
+        display: none;
+    }
+    .sliderLayoutContainer--sliderBodegasDosMobile {
+        display: none;
+    }
+}
+

@@ -1,0 +1,173 @@
+{
+    "store.custom#bodegas-del-mes": {
+        "blocks": [
+            "list-context.image-list#bodegas-del-mes",
+            "flex-layout.row#contenedor-principal",
+            "flex-layout.row#contenedor-bodegas-2",
+            "flex-layout.row#contenedor-bodegas-3",
+            "flex-layout.row#contenedor-bodegas-4"
+        ]
+    },
+
+    /// banner de imagenes
+    "list-context.image-list#bodegas-del-mes": {
+        "children": ["slider-layout#bodegas-del-mes-images"],
+        "props": {
+            "height": 650,
+            "images": [
+                {
+                    "image": "https://limpioonline.vteximg.com.br/arquivos/1.jpg",
+                    "mobileImage": "https://limpioonline.vteximg.com.br/arquivos/1mobile.jpg",
+                    "description": "descuentos"
+                }
+            ]
+        }
+    },
+    "slider-layout#bodegas-del-mes-images": {
+        "props": {
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showPaginationDots": "never",
+            "showNavigationArrows": "always",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.row#contenedor-principal": {
+        "children": [
+            "flex-layout.row#texto-principal",
+            "flex-layout.row#bloques-texto"
+        ],
+        "props": {
+            "blockClass": ["texto-principal-bodega"]
+        }
+    },
+
+    /// texto principal
+    "flex-layout.row#texto-principal": {
+        "children": ["rich-text#titulo-bodega"],
+        "props": {
+            "blockClass": ["texto-principal"]
+        }
+    },
+
+    "rich-text#titulo-bodega": {
+        "props": {
+            "text": "Con la cosecha inaugural 1997, el Nicolás #CatenaZapata se convirtió en el primer cuvée de lujo de #Argentina en ser exportado al mundo entero. Este corte de #Malbec y #CabernetSauvignon constituye la cima de la visión de Nicolás Catena Zapata: un vino sudamericano a la altura de los mejores del mundo. Se destaca por su gran complejidad, remite a frutos negros maduros, chocolate amargo y regaliz, suavemente entrelazados con notas minerales, a violetas, hierbas y pimienta.",
+            "font": "t-heading-1",
+            "blockClass": [
+                "landing-row--parrafo-bodegas-del-mes",
+                "keep-walking"
+            ]
+        }
+    },
+
+    "flex-layout.row#bloques-texto": {
+        "children": [
+            "rich-text#texto-1",
+            "rich-text#texto-2",
+            "rich-text#texto-3"
+        ],
+        "props": {
+            "blockClass": ["bloques-texto"]
+        }
+    },
+    "rich-text#texto-1": {
+        "props": {
+            "text": "Con la cosecha inaugural 1997, el Nicolás #CatenaZapata se convirtió en el primer cuvée de lujo de #Argentina en ser exportado al mundo entero. Este corte de #Malbec y #CabernetSauvignon constituye la cima de la visión de Nicolás Catena Zapata",
+            "font": "t-heading-1",
+            "blockClass": ["bloque-texto"]
+        }
+    },
+    "rich-text#texto-2": {
+        "props": {
+            "text": "Con la cosecha inaugural 1997, el Nicolás #CatenaZapata se convirtió en el primer cuvée de lujo de #Argentina en ser exportado al mundo entero. Este corte de #Malbec y #CabernetSauvignon constituye la cima de la visión de Nicolás Catena Zapata",
+            "font": "t-heading-1",
+            "blockClass": ["bloque-texto"]
+        }
+    },
+    "rich-text#texto-3": {
+        "props": {
+            "text": "Con la cosecha inaugural 1997, el Nicolás #CatenaZapata se convirtió en el primer cuvée de lujo de #Argentina en ser exportado al mundo entero. Este corte de #Malbec y #CabernetSauvignon constituye la cima de la visión de Nicolás Catena Zapata",
+            "font": "t-heading-1",
+            "blockClass": ["bloque-texto", "bd-none"]
+        }
+    },
+    ///Biografia y carrusel de productos
+    "flex-layout.row#contenedor-bodegas-2": {
+        "children": [
+            "rich-text#titulo-1",
+            "list-context.product-list#bodega-del-mes"
+        ],
+        "props": {
+            "blockClass": [
+                "contenedor-bodegas",
+                "contenedor-bodegas-1",
+                "contenedor-2",
+                "contenedor-2-mobile"
+            ]
+        }
+    },
+    "rich-text#titulo-1": {
+        "props": {
+            "text": "Con la cosecha inaugural 1997",
+            "font": "t-heading-1",
+            "blockClass": ["titulo-texto"]
+        }
+    },
+    "list-context.product-list#bodega-del-mes": {
+        "blocks": ["product-summary.shelf#mas-vendidos"],
+        "children": ["slider-layout#bodega-del-mes"],
+        "props": {
+            "collection": ""
+        }
+    },
+    "slider-layout#bodega-del-mes": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "showNavigationArrows": "desktopOnly",
+            "arrowSize": 25,
+            "showPaginationDots": "never",
+            "fullWidth": false,
+            "infinite": true,
+            "blockClass": [
+                "shelf-default",
+                "sliderMasVendidos",
+                "oficial-bemberg"
+            ]
+        }
+    },
+    "flex-layout.row#contenedor-bodegas-3": {
+        "children": [
+            "rich-text#titulo-1",
+            "list-context.product-list#bodega-del-mes"
+        ],
+        "props": {
+            "blockClass": ["contenedor-bodegas", "contenedor-2", "contenedor-3","contenedor-2-mobile"]
+        }
+    },
+    "flex-layout.row#contenedor-bodegas-4": {
+        "children": [
+            "rich-text#titulo-1",
+            "list-context.product-list#bodega-del-mes"
+        ],
+        "props": {
+            "blockClass": ["contenedor-bodegas", "contenedor-2", "contenedor-4","contenedor-2-mobile"]
+        }
+    }
+}

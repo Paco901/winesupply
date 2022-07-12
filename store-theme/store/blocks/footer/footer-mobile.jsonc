@@ -1,0 +1,739 @@
+{
+    "flex-layout.row#menu":{
+        "children":[
+            "flex-layout.row#logo",
+            "flex-layout.row#logoSeguinos",
+            "flex-layout.col#menu-1-mobile",
+            "flex-layout.col#menu-2-mobile",
+            "flex-layout.col#menu-3-mobile",
+            "flex-layout.row#empresasMobile"
+        ],
+        "props": {
+            "blockClass": "headerLogo",
+            "preventHorizontalStretch":true
+          }
+    },
+
+    "flex-layout.row#logo":{
+        "children":[
+            "image#imagenLogoMobile"
+        ]
+    },
+    "image#imagenLogoMobile": {
+        "props": {
+          "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/c7324392-bcba-4b97-8e66-cea6215cd679___d7dc677592b00463809f883656070c0f.png",
+          "blockClass": [
+            "imgLogoFooterMobile"
+          ]
+        }
+      },
+      "flex-layout.row#logoSeguinos":{
+          "children":[
+            "rich-text#seguinosEn",
+            "flex-layout.row#redes-sociales-mobile"
+          ],
+          "props":{
+            "preventHorizontalStretch":true,
+            "blockClass": [
+                "contenidoSeguinos"
+              ]
+          }
+      },
+      "rich-text#seguinosEn": {
+        "props": {
+          "text": "Seguinos en:",
+          "blockClass": [
+            "seguinosStylMobile"
+          ]
+        }
+      },
+      "flex-layout.row#redes-sociales-mobile":{
+          "children":[
+            "image#faceFooterIzquierdaMobile",
+            "image#instaFooterIzquierdaMobile",
+            "image#LinkFooterIzquierdaMobile"
+          ],
+          "props":{
+              "blockClass":["faceinstamobile"],
+            "preventHorizontalStretch":true
+          }
+      },
+      "image#faceFooterIzquierdaMobile": {
+        "props": {
+          "src": "assets/ig.svg",
+          "blockClass": [
+            "igfooterIzqMobile"
+          ]
+        }
+      },
+      "image#instaFooterIzquierdaMobile": {
+        "props": {
+          "src": "assets/face.svg",
+          "blockClass": [
+            "fcfooterIzqMobile"
+          ]
+        }
+      },
+      "image#LinkFooterIzquierdaMobile": {
+        "props": {
+          "src": "https://legatus.com.ar/images/ima/inkp.png",
+          "blockClass": [
+            "linkmobile"
+          ]
+        }
+      },
+      "flex-layout.col#menu-1-mobile":{
+        "children": [
+            "menu#footer-1-mobile",
+            "menu#footer-2-mobile",
+            "menu#footer-3-mobile",
+            "menu#footer-4-mobile",
+            "menu#footer-5-mobile",
+            "menu#footer-6-mobile",
+            "menu#footer-7-mobile"
+          ]
+      },
+
+
+
+
+      "menu#footer-1-mobile": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "footer-menu-column"
+        },
+        "children": [
+          "menu-item#footer-1-mobile"
+        ]
+      },
+      "menu-item#footer-1-mobile": {
+        "props": {
+          "id": "footer-menu-item-1-1",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": [
+            "footer-menu-item-title-header",
+            "footer-menu-item-title"
+            
+          ],
+          "itemProps": {
+            "type": "internal",
+            "href": "",
+            "noFollow": true,
+            "tagTitle": "INICIO",
+            "text": "INICIO"
+          }
+        }
+      },
+
+      "menu#footer-2-mobile": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "footer-menu-column"
+        },
+        "children": [
+          "menu-item#footer-2-mobile"
+        ]
+      },
+      "menu-item#footer-2-mobile": {
+        "props": {
+          "id": "footer-menu-item-2-mobile",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "footer-menu-item-title",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "Quienes somos?",
+            "text": "Quienes somos?"
+          }
+        }
+      },
+      "menu#footer-3-mobile": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "footer-menu-column"
+        },
+        "children": [
+          "menu-item#footer-3-mobile"
+        ]
+      },
+      "menu-item#footer-3-mobile": {
+        "props": {
+          "id": "footer-menu-item-3-mobile",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "footer-menu-item-title",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "Nosotros",
+            "text": "Nosotros"
+          }
+        }
+      },
+
+      "menu#footer-4-mobile": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "footer-menu-column"
+        },
+        "children": [
+          "menu-item#footer-4-mobile"
+        ]
+      },
+      "menu-item#footer-4-mobile": {
+        "props": {
+          "id": "footer-menu-item-4-mobile",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "footer-menu-item-title",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "Términos y condiciones",
+            "text": "Términos y condiciones"
+          }
+        }
+      },
+
+      "menu#footer-5-mobile": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "footer-menu-column"
+        },
+        "children": [
+          "menu-item#footer-5-mobile"
+        ]
+      },
+      "menu-item#footer-5-mobile": {
+        "props": {
+          "id": "footer-menu-item-5-mobile",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "footer-menu-item-title",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "Politicas de privacidad",
+            "text": "Politicas de privacidad"
+          }
+        }
+      },
+      "menu#footer-6-mobile": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "footer-menu-column"
+        },
+        "children": [
+          "menu-item#footer-6-mobile"
+        ]
+      },
+      "menu-item#footer-6-mobile": {
+        "props": {
+          "id": "footer-menu-item-6-mobile",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "footer-menu-item-title",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "Contáctanos",
+            "text": "Contáctanos"
+          }
+        }
+      },
+      "menu#footer-7-mobile": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "footer-menu-column"
+        },
+        "children": [
+          "menu-item#footer-7-mobile"
+        ]
+      },
+      "menu-item#footer-7-mobile": {
+        "props": {
+          "id": "footer-menu-item-7-mobile",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "footer-menu-item-title",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "Ayuda",
+            "text": "Ayuda"
+          }
+        }
+      },
+
+
+      ///////////////////////
+
+
+      "flex-layout.col#menu-2-mobile":{
+        "children": [
+            "menu#footer-1-2-mobile",
+            "menu#footer-2-2-mobile",
+            "menu#footer-3-2-mobile",
+            "menu#footer-4-2-mobile",
+            "menu#footer-5-2-mobile",
+            "menu#footer-6-2-mobile",
+            "menu#footer-7-2-mobile"
+          ]
+      },
+
+
+
+
+      "menu#footer-1-2-mobile": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "footer-menu-column"
+        },
+        "children": [
+          "menu-item#footer-1-2-mobile"
+        ]
+      },
+      "menu-item#footer-1-2-mobile": {
+        "props": {
+          "id": "footer-menu-item-1-1",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": [
+            "footer-menu-item-title-header",
+            "footer-menu-item-title"
+            
+          ],
+          "itemProps": {
+            "type": "internal",
+            "href": "",
+            "noFollow": true,
+            "tagTitle": "TIENDA ONLINE",
+            "text": "TIENDA ONLINE"
+          }
+        }
+      },
+
+      "menu#footer-2-2-mobile": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "footer-menu-column"
+        },
+        "children": [
+          "menu-item#footer-2-2-mobile"
+        ]
+      },
+      "menu-item#footer-2-2-mobile": {
+        "props": {
+          "id": "footer-menu-item-2-2-mobile",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "footer-menu-item-title",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "Mi carrito",
+            "text": "Mi carrito"
+          }
+        }
+      },
+      "menu#footer-3-2-mobile": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "footer-menu-column"
+        },
+        "children": [
+          "menu-item#footer-3-2-mobile"
+        ]
+      },
+      "menu-item#footer-3-2-mobile": {
+        "props": {
+          "id": "footer-menu-item-3-mobile",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "footer-menu-item-title",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "Mis pedidos",
+            "text": "Mis pedidos"
+          }
+        }
+      },
+
+      "menu#footer-4-2-mobile": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "footer-menu-column"
+        },
+        "children": [
+          "menu-item#footer-4-2-mobile"
+        ]
+      },
+      "menu-item#footer-4-2-mobile": {
+        "props": {
+          "id": "footer-menu-item-4-mobile",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "footer-menu-item-title",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "Preguntas frecuentes",
+            "text": "Preguntas frecuentes"
+          }
+        }
+      },
+
+      "menu#footer-5-2-mobile": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "footer-menu-column"
+        },
+        "children": [
+          "menu-item#footer-5-2-mobile"
+        ]
+      },
+      "menu-item#footer-5-2-mobile": {
+        "props": {
+          "id": "footer-menu-item-5-mobile",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "footer-menu-item-title",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "Envíos",
+            "text": "Envíos"
+          }
+        }
+      },
+      "menu#footer-6-2-mobile": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "footer-menu-column"
+        },
+        "children": [
+          "menu-item#footer-6-2-mobile"
+        ]
+      },
+      "menu-item#footer-6-2-mobile": {
+        "props": {
+          "id": "footer-menu-item-6-mobile",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "footer-menu-item-title",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "Medios de pago",
+            "text": "Medios de pago"
+          }
+        }
+      },
+      "menu#footer-7-2-mobile": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "footer-menu-column"
+        },
+        "children": [
+          "menu-item#footer-7-2-mobile"
+        ]
+      },
+      "menu-item#footer-7-2-mobile": {
+        "props": {
+          "id": "footer-menu-item-7-mobile",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "footer-menu-item-title",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "Ayuda",
+            "text": "Ayuda"
+          }
+        }
+      },
+      "menu#footer-8-2-mobile": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "footer-menu-column"
+        },
+        "children": [
+          "menu-item#footer-8-2-mobile"
+        ]
+      },
+      "menu-item#footer-8-2-mobile": {
+        "props": {
+          "id": "footer-menu-item-8-mobile",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "footer-menu-item-title",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "Botón de devolución",
+            "text": "Ayuda"
+          }
+        }
+      },
+
+
+      //////////////////////
+
+
+      "flex-layout.col#menu-3-mobile":{
+        "children": [
+            "menu#footer-1-3-mobile",
+            "menu#footer-2-3-mobile",
+            "menu#footer-3-3-mobile",
+            "menu#footer-4-3-mobile",
+            "menu#footer-5-3-mobile",
+            "menu#footer-6-3-mobile",
+            "menu#footer-7-3-mobile"
+          ]
+      },
+
+
+
+
+      "menu#footer-1-3-mobile": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "footer-menu-column"
+        },
+        "children": [
+          "menu-item#footer-1-3-mobile"
+        ]
+      },
+      "menu-item#footer-1-3-mobile": {
+        "props": {
+          "id": "footer-menu-item-1-1",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": [
+            "footer-menu-item-title-header",
+            "footer-menu-item-title"
+            
+          ],
+          "itemProps": {
+            "type": "internal",
+            "href": "/contacto",
+            "noFollow": true,
+            "tagTitle": "CONTACTO",
+            "text": "CONTACTO"
+          }
+        }
+      },
+
+      "menu#footer-2-3-mobile": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "footer-menu-column"
+        },
+        "children": [
+          "menu-item#footer-2-3-mobile"
+        ]
+      },
+      "menu-item#footer-2-3-mobile": {
+        "props": {
+          "id": "footer-menu-item-2-3-mobile",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "footer-menu-item-title",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "Tel.: 5491135607400",
+            "text": "Tel.: 5491135607400"
+          }
+        }
+      },
+      "menu#footer-3-3-mobile": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "footer-menu-column"
+        },
+        "children": [
+          "menu-item#footer-3-3-mobile"
+        ]
+      },
+      "menu-item#footer-3-3-mobile": {
+        "props": {
+          "id": "footer-menu-item-3-mobile",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "footer-menu-item-title",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "Whays :5491135607400",
+            "text": "Whays :5491135607400"
+          }
+        }
+      },
+
+      "menu#footer-4-3-mobile": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "footer-menu-column"
+        },
+        "children": [
+          "menu-item#footer-4-3-mobile"
+        ]
+      },
+      "menu-item#footer-4-3-mobile": {
+        "props": {
+          "id": "footer-menu-item-4-mobile",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "footer-menu-item-title",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "Mail: info@blackwine.com.ar",
+            "text": "Mail: info@blackwine.com.ar"
+          }
+        }
+      },
+
+      "menu#footer-5-3-mobile": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "footer-menu-column"
+        },
+        "children": [
+          "menu-item#footer-5-3-mobile"
+        ]
+      },
+      "menu-item#footer-5-3-mobile": {
+        "props": {
+          "id": "footer-menu-item-5-mobile",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "footer-menu-item-title",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "Envíos",
+            "text": "Envíos"
+          }
+        }
+      },
+      "menu#footer-6-3-mobile": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "footer-menu-column"
+        },
+        "children": [
+          "menu-item#footer-6-3-mobile"
+        ]
+      },
+      "menu-item#footer-6-3-mobile": {
+        "props": {
+          "id": "footer-menu-item-6-mobile",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "footer-menu-item-title",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "Medios de pago",
+            "text": "Medios de pago"
+          }
+        }
+      },
+      "menu#footer-7-3-mobile": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "footer-menu-column"
+        },
+        "children": [
+          "menu-item#footer-7-3-mobile"
+        ]
+      },
+      "menu-item#footer-7-3-mobile": {
+        "props": {
+          "id": "footer-menu-item-7-mobile",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "footer-menu-item-title",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "Ayuda",
+            "text": "Ayuda"
+          }
+        }
+      },
+      "menu#footer-8-3-mobile": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "footer-menu-column"
+        },
+        "children": [
+          "menu-item#footer-8-3-mobile"
+        ]
+      },
+      "menu-item#footer-8-3-mobile": {
+        "props": {
+          "id": "footer-menu-item-8-mobile",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "footer-menu-item-title",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "Botón de devolución",
+            "text": "Ayuda"
+          }
+        }
+      }
+   
+
+      
+}

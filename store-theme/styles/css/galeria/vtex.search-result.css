@@ -1,0 +1,141 @@
+.searchResultContainer--search-desktop{
+    max-width: 90rem;
+}
+
+
+
+.galleryItem {
+    flex-basis: 33.3% !important;
+    max-width: 48% !important;
+    
+}
+.galleryTitle--layout{
+    font-size: 15px;
+    font-family: "MuseoSans_500" !important;
+}
+
+.filters--layout{
+    min-width: 300px;
+    font-family: "MuseoSans_500"!important;
+}
+
+.filterTitle{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.filterIcon{
+    color:black;
+}  
+
+.filterAccordionBreadcrumbs{
+    background: #e8e8e8;
+}
+.accordionFilter{
+    background: #e8e8e8; 
+}
+
+.accordionFilterContainer  {
+    background: #e8e8e8;
+}
+
+.filterBreadcrumbsItem{
+    color:black !important;
+}
+.filterBreadcrumbsItemName{
+    font-family: "MuseoSans_500"!important;
+    font-weight: 800;
+    font-size: 18px;
+
+}
+.filterBreadcrumbsText{
+    font-family: "MuseoSans_500"!important;
+    font-weight: 800;
+}
+.accordionFilterItemTitle{
+    font-family: "MuseoSans_500"!important;
+    font-weight: 800;
+}
+
+.accordionFilterContainer--categoria{
+    border: none !important;
+}
+
+.accordionFilterContainer--categoria{
+    border: none !important;
+}
+
+
+.accordionFilterContainer--anejamiento{
+    display: none;
+}
+.accordionFilterContainer--departamento{
+    display: none;
+}
+.accordionFilterContainer--nacional-o-importado {
+    display: none;
+}
+.accordionFilterContainer--pais{
+    display: none;
+}
+
+.accordionFilterContainer--region{
+    display: none;
+}
+.filterButtonsBox{
+    background: #e8e8e8;
+}
+
+.filterClearButtonWrapper :global(.vtex-button){
+    background: black;
+}
+
+.filterClearButtonWrapper :global(.vtex-button__label){
+    color: white;
+}
+
+
+.filterApplyButtonWrapper :global(.vtex-button){
+    background: black;
+}
+
+.filterApplyButtonWrapper :global(.vtex-button__label){
+    color: white;
+}
+
+@media only screen and (max-width: 1024px) {
+    .gallery{
+        justify-content: center;
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+    .gallery {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .galleryItem {
+        flex-basis: 50%!important;
+        max-width: 50%!important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .gallery {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    .galleryItem {
+       
+        max-width: 100%!important;
+    }
+}
+
+.buttonShowMore--layout{
+    margin: 50px auto;
+}
+
+

@@ -1,0 +1,381 @@
+{
+    "store.custom#landing-blog": {
+        "blocks": [
+            "list-context.image-list#vinosdelasemana",
+            "flex-layout.row#lading-blog"
+        ]
+    },
+
+    "list-context.image-list#vinosdelasemana": {
+        "children": ["slider-layout#vinosdelasemana"],
+        "props": {
+            "height": 650,
+            "images": [
+                {
+                    "image": "https://limpioonline.vteximg.com.br/arquivos/1.jpg",
+                    "mobileImage": "https://limpioonline.vteximg.com.br/arquivos/1mobile.jpg",
+                    "description": "descuentos"
+                },
+                {
+                    "image": "https://limpioonline.vteximg.com.br/arquivos/2.jpg",
+                    "mobileImage": "https://limpioonline.vteximg.com.br/arquivos/1mobile.jpg",
+                    "description": "descuentos"
+                }
+            ]
+        }
+    },
+    "slider-layout#vinosdelasemana": {
+        "props": {
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showPaginationDots": "never",
+            "showNavigationArrows": "always",
+            "fullWidth": true
+        }
+    },
+
+    "flex-layout.row#lading-blog": {
+        "children": [
+            "wine-custom-container#bloque-landing-1",
+            "wine-custom-container#bloque-landing-2",
+            "wine-custom-container#bloque-landing-3",
+            "wine-custom-container#bloque-landing-4",
+            "wine-custom-container#bloque-landing-5",
+            "wine-custom-container#bloque-landing-6",
+            "wine-custom-container#bloque-landing-7",
+            "wine-custom-container#bloque-landing-8"
+        ],
+        "props": {
+            "blockClass": ["contenedor--blog"]
+        }
+    },
+
+    /*bloque 1*/
+    "wine-custom-container#bloque-landing-1":{
+        "children":[
+            "flex-layout.row#bloque-landing-1"
+        ]
+    },
+    "flex-layout.row#bloque-landing-1":{
+        "children":[
+            "image#bloque-blog-1",
+            "flex-layout.col#bloque-texto-1"    
+        ],
+        "props":{
+            "blockClass": "bloques-blog"
+        }
+    },
+    "image#bloque-blog-1": {
+        "props": {
+          "blockClass": "image-bloque-blog",
+          "src": "https://limpioonline.vteximg.com.br/arquivos/ml_logo.png",
+          "link": "#"
+        }
+    },
+    "flex-layout.col#bloque-texto-1":{
+        "children":[
+        "rich-text#titulo-blog-1",
+        "rich-text#bloque-blog-1"
+        ]
+    },
+    "rich-text#titulo-blog-1": {
+        "props": {
+            "text": "Titulo",
+            "blockClass": ["titulo-bloque-blog"]
+        }
+    },
+      "rich-text#bloque-blog-1": {
+        "props": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "blockClass": ["texto-bloque-blog"]
+        }
+    },
+     /*bloque 2*/
+     "wine-custom-container#bloque-landing-2":{
+        "children":[
+            "flex-layout.row#bloque-landing-2"
+        ]
+    },
+     "flex-layout.row#bloque-landing-2":{
+        "children":[
+            "image#bloque-blog-2",
+            "flex-layout.col#bloque-texto-2"
+        ],
+        "props":{
+            "blockClass": "bloques-blog"
+        }
+    },
+    "image#bloque-blog-2": {
+        "props": {
+          "blockClass": "image-bloque-blog",
+          "src": "https://limpioonline.vteximg.com.br/arquivos/ml_logo.png",
+          "link": "#"
+        }
+      },
+      "flex-layout.col#bloque-texto-2":{
+        "children":[
+        "rich-text#titulo-blog-2",
+        "rich-text#bloque-blog-2"
+        ]
+    },
+    "rich-text#titulo-blog-2": {
+        "props": {
+            "text": "Titulo",
+            "blockClass": ["titulo-bloque-blog"]
+        }
+    },
+      "rich-text#bloque-blog-2": {
+        "props": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "blockClass": ["texto-bloque-blog"]
+        }
+    },
+     /*bloque 3*/
+     "wine-custom-container#bloque-landing-3":{
+        "children":[
+            "flex-layout.row#bloque-landing-3"
+        ]
+    },
+     "flex-layout.row#bloque-landing-3":{
+        "children":[
+            "image#bloque-blog-3",
+            "flex-layout.col#bloque-texto-3"
+        ],
+        "props":{
+            "blockClass": "bloques-blog"
+        }
+    },
+    "image#bloque-blog-3": {
+        "props": {
+          "blockClass": "image-bloque-blog",
+          "src": "https://limpioonline.vteximg.com.br/arquivos/ml_logo.png",
+          "link": "#"
+        }
+      },
+      "flex-layout.col#bloque-texto-3":{
+        "children":[
+        "rich-text#titulo-blog-3",
+        "rich-text#bloque-blog-3"
+        ]
+    },
+    "rich-text#titulo-blog-3": {
+        "props": {
+            "text": "Titulo",
+            "blockClass": ["titulo-bloque-blog"]
+        }
+    },
+      "rich-text#bloque-blog-3": {
+        "props": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "blockClass": ["texto-bloque-blog"]
+        }
+    },
+     /*bloque 4*/
+     "wine-custom-container#bloque-landing-4":{
+        "children":[
+            "flex-layout.row#bloque-landing-4"
+        ]
+    },
+     "flex-layout.row#bloque-landing-4":{
+        "children":[
+            "image#bloque-blog-4",
+            "flex-layout.col#bloque-texto-4"
+        ],
+        "props":{
+            "blockClass": "bloques-blog"
+        }
+    },
+    "image#bloque-blog-4": {
+        "props": {
+          "blockClass": "image-bloque-blog",
+          "src": "https://limpioonline.vteximg.com.br/arquivos/ml_logo.png",
+          "link": "#"
+        }
+      },
+      "flex-layout.col#bloque-texto-4":{
+        "children":[
+        "rich-text#titulo-blog-4",
+        "rich-text#bloque-blog-4"
+        ]
+    },
+    "rich-text#titulo-blog-4": {
+        "props": {
+            "text": "Titulo",
+            "blockClass": ["titulo-bloque-blog"]
+        }
+    },
+      "rich-text#bloque-blog-4": {
+        "props": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "blockClass": ["texto-bloque-blog"]
+        }
+    },
+     /*bloque 5*/
+     "wine-custom-container#bloque-landing-5":{
+        "children":[
+            "flex-layout.row#bloque-landing-5"
+        ]
+    },
+     "flex-layout.row#bloque-landing-5":{
+        "children":[
+            "image#bloque-blog-5",
+            "flex-layout.col#bloque-texto-5"
+        ],
+        "props":{
+            "blockClass": "bloques-blog"
+        }
+    },
+    "image#bloque-blog-5": {
+        "props": {
+          "blockClass": "image-bloque-blog",
+          "src": "https://limpioonline.vteximg.com.br/arquivos/ml_logo.png",
+          "link": "#"
+        }
+      },
+      "flex-layout.col#bloque-texto-5":{
+        "children":[
+        "rich-text#titulo-blog-5",
+        "rich-text#bloque-blog-5"
+        ]
+    },
+    "rich-text#titulo-blog-5": {
+        "props": {
+            "text": "Titulo",
+            "blockClass": ["titulo-bloque-blog"]
+        }
+    },
+      "rich-text#bloque-blog-5": {
+        "props": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "blockClass": ["texto-bloque-blog"]
+        }
+    },
+     /*bloque 6*/
+     "wine-custom-container#bloque-landing-6":{
+        "children":[
+            "flex-layout.row#bloque-landing-6"
+        ]
+    },
+     "flex-layout.row#bloque-landing-6":{
+        "children":[
+            "image#bloque-blog-6",
+            "flex-layout.col#bloque-texto-6"
+        ],
+        "props":{
+            "blockClass": "bloques-blog"
+        }
+    },
+    "image#bloque-blog-6": {
+        "props": {
+          "blockClass": "image-bloque-blog",
+          "src": "https://limpioonline.vteximg.com.br/arquivos/ml_logo.png",
+          "link": "#"
+        }
+      },
+      "flex-layout.col#bloque-texto-6":{
+        "children":[
+        "rich-text#titulo-blog-6",
+        "rich-text#bloque-blog-6"
+        ]
+    },
+    "rich-text#titulo-blog-6": {
+        "props": {
+            "text": "Titulo",
+            "blockClass": ["titulo-bloque-blog"]
+        }
+    },
+      "rich-text#bloque-blog-6": {
+        "props": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "blockClass": ["texto-bloque-blog"]
+        }
+    },
+     /*bloque 7*/
+     "wine-custom-container#bloque-landing-7":{
+        "children":[
+            "flex-layout.row#bloque-landing-7"
+        ]
+    },
+     "flex-layout.row#bloque-landing-7":{
+        "children":[
+            "image#bloque-blog-7",
+            "flex-layout.col#bloque-texto-7"
+        ],
+        "props":{
+            "blockClass": "bloques-blog"
+        }
+    },
+    "image#bloque-blog-7": {
+        "props": {
+          "blockClass": "image-bloque-blog",
+          "src": "https://limpioonline.vteximg.com.br/arquivos/ml_logo.png",
+          "link": "#"
+        }
+      },
+      "flex-layout.col#bloque-texto-7":{
+        "children":[
+        "rich-text#titulo-blog-7",
+        "rich-text#bloque-blog-7"
+        ]
+    },
+    "rich-text#titulo-blog-7": {
+        "props": {
+            "text": "Titulo",
+            "blockClass": ["titulo-bloque-blog"]
+        }
+    },
+      "rich-text#bloque-blog-7": {
+        "props": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "blockClass": ["texto-bloque-blog"]
+        }
+    },
+     /*bloque 8*/
+     "wine-custom-container#bloque-landing-8":{
+        "children":[
+            "flex-layout.row#bloque-landing-8"
+        ]
+    },
+     "flex-layout.row#bloque-landing-8":{
+        "children":[
+            "image#bloque-blog-8",
+            "flex-layout.col#bloque-texto-8"
+        ],
+        "props":{
+            "blockClass": "bloques-blog"
+        }
+    },
+    "image#bloque-blog-8": {
+        "props": {
+          "blockClass": "image-bloque-blog",
+          "src": "https://limpioonline.vteximg.com.br/arquivos/ml_logo.png",
+          "link": "#"
+        }
+      },
+      "flex-layout.col#bloque-texto-8":{
+        "children":[
+        "rich-text#titulo-blog-8",
+        "rich-text#bloque-blog-8"
+        ]
+    },
+    "rich-text#titulo-blog-8": {
+        "props": {
+            "text": "Titulo",
+            "blockClass": ["titulo-bloque-blog"]
+        }
+    },
+      "rich-text#bloque-blog-8": {
+        "props": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "blockClass": ["texto-bloque-blog"]
+        }
+    }
+}

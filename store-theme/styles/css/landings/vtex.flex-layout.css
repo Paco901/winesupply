@@ -1,0 +1,379 @@
+.flexRow--contenedorbodegas-del-mes{
+  width: 90% !important;
+}
+.flexRowContent--contenidoBarraBodegas{
+  height: 85px !important;
+}
+
+
+.flexRowContent--galeriaBodega :global(.vtex-search-result-3-x-searchResultContainer--search-desktop){
+  justify-content: center;
+  display: flex;
+}
+
+.flexRowContent--galeriaBodega :global(.vtex-search-result-3-x-gallery){
+  justify-content: space-between;
+}
+
+
+/*Landing bodega del mes*/
+.flexRow--contenedor-1{
+  background-color: #fff;
+}
+.flexRowContent--contenedor-1{
+  flex-direction: column;
+  padding: 0 3rem;
+}
+.flexRowContent--contenedor-1 :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: 100% !important;
+}
+.flexCol--col-tips{
+  align-items: center;
+}
+.flexColChild--col-tips :global(.vtex-store-components-3-x-imageElement){
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+.flexColChild--col-tips :global(.vtex-rich-text-0-x-paragraph){
+  font-weight: bold;
+}
+
+.flexRowContent--contenedor-2 :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: 100% !important;
+}
+
+.flexRowContent--row-der{
+  flex-wrap: wrap;
+}
+.flexRowContent--row-der :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  flex: 0 0 calc(50% - 0px);
+  justify-content: flex-end;
+}
+
+.flexRowContent--row-der :global(.vtex-store-components-3-x-imageElement){
+  width: 300px;
+  height: 300px;
+  border-radius: 15px; 
+  margin-bottom: 2rem;
+}
+.flexRowContent--row-der :global(.vtex-store-components-3-x-imageElement--m-none){
+  margin-bottom: 0;
+}
+.flexRowContent--contenedor-informacion :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+  height: initial;
+  max-height: 632px;
+}
+
+.flexCol--col-izq{
+  background-color: #fff;
+  border-radius: 15px;
+}
+.flexColChild--col-izq{
+  height: auto !important;
+  padding: 0 2rem;
+}
+.flexColChild--col-izq :global(.vtex-rich-text-0-x-headingLevel3){
+  margin-bottom: 0;
+  font-size: 1.74rem;
+}
+.flexColChild--col-izq :global(.vtex-rich-text-0-x-paragraph){
+  margin-top: 0;
+  font-size: 1.74rem;
+}
+
+.flexRow--contenedor-2 :global(.vtex-slider-layout-0-x-sliderLayoutContainer--sliderMasVendidos){
+  margin-top: 3rem;
+  padding: 0 !important;
+}
+
+/*css bloques*/
+.flexRowContent--contenedor-bloques{
+  flex-direction: column;
+  max-width: 1380px;
+  width: 84%;
+  margin: 0rem auto;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding: 2rem 0;
+}
+
+.flexRowContent--contenedor-bloques .stretchChildrenWidth{
+  width: 100% !important;
+}
+.flexRow--contendor-bloque{
+  margin-bottom: 2rem;
+}
+.flexRowContent--contendor-bloque {
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 15px;
+    -webkit-box-shadow: 0px 3px 14px 5px rgba(0,0,0,0.24);
+  -moz-box-shadow: 0px 3px 14px 5px rgba(0,0,0,0.24);
+  box-shadow: 0px 3px 14px 5px rgba(0,0,0,0.24);
+}
+
+.flexRowContent--contendor-bloque .stretchChildrenWidth:first-child {
+  flex: 0 0 calc(60% - 0px);
+}
+.flexRowContent--contendor-bloque .stretchChildrenWidth:last-child {
+  flex: 0 0 calc(40% - 0px);
+}
+
+
+.flexCol--imagenes-bloques{
+  display: flex;
+  align-items: end;
+}
+.flexCol--imagenes-bloques .flexColChild--imagenes-bloques{
+  max-width: 500px;
+  max-height: 325px;
+}
+.flexColChild--imagenes-bloques :global(.vtex-modal-layout-0-x-triggerContainer--video){
+  cursor: pointer;
+}
+
+.flexRowContent--contenedor-bloques-4{
+  flex-direction: column;
+  max-width: 1380px;
+  width: 95%;
+  margin: 0rem auto 4rem auto;
+}
+
+.flexRowContent--contenedor-bloques-4 :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: 100% !important;
+}
+
+.flexRowContent--contenedor-5{
+  flex-direction: column;
+  max-width: 1380px;
+  margin: 0 auto;
+}
+.flexRowContent--contenedor-5 :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: 100% !important;
+}
+
+.flexRowContent--primer-shelf :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child{
+  width: 55% !important;
+}
+
+@media(max-width: 768px){
+  .flexRowContent--primer-shelf :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child{
+    width: 100% !important;
+  }
+}
+
+.flexRowContent--primer-shelf{
+  width: 92%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px){
+  .flexRowContent--primer-shelf{
+    width: 84% !important;
+  }
+}
+
+.flexRowContent--primer-shelf .stretchChildrenWidth:first-child{
+  max-height: 410px;
+}
+
+.flexRowContent--primer-shelf .stretchChildrenWidth:nth-child(3n){
+  max-height: 410px;
+  width: 100% !important;
+}
+
+.flexRowContent--contenedor-6{
+  flex-direction: column;
+  max-width: 1380px;
+  margin: 0 auto;
+}
+.flexRowContent--contenedor-6 :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: 100% !important;
+}
+
+@media (max-width: 768px) {
+  .flexColChild--col-izq :global(.vtex-rich-text-0-x-paragraph){
+    font-size: 1.2rem;
+  }
+  .flexRowContent--contenedor-1{
+    padding: 0 1rem;
+  }
+  .flexRowContent--row-der{
+    margin-top: 3rem;
+  }
+  .flexRowContent--row-der :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    justify-content: center;
+  }
+  .flexRowContent--row-der :global(.vtex-store-components-3-x-imageElement--m-none){
+    margin-bottom: 2rem;
+  }
+  .flexRowContent--contendor-bloque{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .flexRowContent--primer-shelf :global(.vtex-store-components-3-x-imageElement){
+    display: block;
+    margin-bottom: 1rem;
+  }
+  .flexRowContent--segundo-shelf{
+    width: 92%;
+    margin: 0 auto;
+  }
+}
+
+/*keep-walking*/
+.flexRow--keep-walking-4 :global(.vtex-store-components-3-x-container){
+  width: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+
+.flexRowContent--keep-walking-2{
+  width: 84%;
+  border-bottom: none;
+  margin: 4rem auto 0 auto;
+  flex-direction: column;
+}
+
+.flexRow--keep-walking-bloques :global(.vtex-slider-layout-0-x-sliderLayoutContainer--oficial-bemberg){
+  width: 82%!important;
+}
+
+.flexRowContent--contenedor-5 :global(.vtex-slider-layout-0-x-sliderLayoutContainer--sliderDestacados){
+  width: 77% !important;
+}
+
+.flexRowContent--contenedor-5 .flexRowContent--primer-shelf {
+  width: 69%;
+}
+
+
+.flexRowContent--contenedor-5 :global(.vtex-store-components-3-x-imageElement--bannerEspeciales){
+  height: 405px;
+}
+
+@media (max-width: 768px){
+  .flexRowContent--keep-walking-2 :global(.vtex-slider-layout-0-x-sliderLayoutContainer--oficial-bemberg){
+    width: 100%!important;
+  }
+
+  .flexRow--keep-walking-bloques :global(.vtex-slider-layout-0-x-sliderLayoutContainer--oficial-bemberg){
+    width: 100%!important;
+  }
+
+  .flexRowContent--contenedor-5 :global(.vtex-slider-layout-0-x-sliderLayoutContainer--sliderDestacados){
+    width: 90% !important;
+  }
+  .flexRowContent--contenedor-5 :global(.vtex-store-components-3-x-imageElement--bannerEspeciales){
+    height: 309px;
+  }
+}
+
+.flexRowContent--keep-walking-bloques{
+  border-top: none;
+  border-bottom: none;
+}
+
+.flexRowContent--keep-walking-4 {
+  margin: unset;
+  width: 67%;
+  max-width: unset;
+  background-color: #000;
+  margin: 0 auto 3rem auto;
+}
+
+@media (max-width: 768px){
+  .flexRowContent--keep-walking-4 {
+    width: 100%;
+  }
+}
+.flexRow--contenedor-1 .flexRowContent--keep-walking{
+  padding-bottom: 2rem;
+}
+
+.flexRowContent--keep-walking-2 :global(.vtex-modal-layout-0-x-triggerContainer--video){
+  cursor: pointer;
+}
+
+.flexCol--imagenes-bloques .flexColChild--bloque-video{
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+}
+
+.flexRow--bloque-video .flexRowContent--bloque-video .stretchChildrenWidth{
+  flex: unset;
+}
+
+/*bodehas del mes*/
+.flexRowContent--texto-principal-bodega{
+  flex-direction: column;
+}
+
+.flexRow--texto-principal-bodega{
+  max-width: 1380px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.flexRowContent--texto-principal-bodega .stretchChildrenWidth{
+  width: 100% !important;
+}
+
+.flexRowContent--contenedor-bodegas{
+  margin: 2rem auto;
+  width: 95%;
+}
+.flexRowContent--contenedor-bodegas-1 {
+  margin-top: 3rem;
+}
+
+.flexRow--contenedor-bodegas .flexRowContent--contenedor-2{
+  flex-direction: column;
+  max-width: 1380px;
+  margin: 2rem auto;
+  width: 66%;
+}
+
+.flexRow--contenedor-bodegas .flexRowContent--contenedor-2-mobile{
+  flex-direction: column;
+  max-width: 1380px;
+  margin: 2rem auto;
+  width: 95% !important;
+  margin: auto;
+}
+
+
+
+.flexRowContent--contenedor-bodegas :global(.vtex-rich-text-0-x-container--titulo-texto){
+  border-bottom: 1px solid #000;
+  padding-bottom: .5rem;
+  margin-right: .7rem;
+}
+
+.flexRow--contenedor-2 .stretchChildrenWidth {
+width: 100% !important;
+}
+
+.flexRow--contenedor-2 :global(.vtex-slider-layout-0-x-sliderLeftArrow--sliderMasVendidos) {
+  left: -50px;
+}
+
+.flexRow--contenedor-2 :global(.vtex-slider-layout-0-x-sliderRightArrow--sliderMasVendidos ) {
+  right: -50px;
+}
+
+.flexRowContent--contenidoRecetas .flexRowContent--recetas-imagen {
+  flex-direction: column;
+}
+.flexRowContent--recetas-imagen .stretchChildrenWidth{
+  width: 100% !important;
+}
+
+.flexRow--contenedor-bloque-flordecasa .flexRowContent--contenedor-bloque-flordecasa{
+  margin-top: 40px;
+}
+
+

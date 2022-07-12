@@ -1,0 +1,21 @@
+.form {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.5rem !important;
+}
+
+.formSubmitButton  {
+    display: flex;
+    justify-content: center;
+    margin: 2.5rem 0 7rem 0;
+}
+
+.vtex-styleguide-9-x-input {
+    font-size: .8rem;
+}
+
+:global(.vtex-input__label), 
+:global(.vtex-textarea) {
+    font-size: .9rem;
+    color: #4b4b4b;
+}

@@ -1,0 +1,187 @@
+{
+
+  
+  "flex-layout.row#medios":{
+    "children": [
+      "flex-layout.row#mediosC",
+      "flex-layout.row#cuotas",
+      "flex-layout.row#envios",
+      "flex-layout.row#hablemos"
+    ],
+    "props": {
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false,
+      "fullWidth":true,
+      "blockClass": "contenidoMediosdepago"
+    }
+  },
+
+"flex-layout.row#mediosC": {
+    "children": [
+      "image#medios",
+      "flex-layout.col#medios"
+    ],
+    "props": {
+      "blockClass": "mediosDePagos",
+      "preventHorizontalStretch": true
+  
+    }
+  },
+
+  "flex-layout.col#medios":{
+    "children":["rich-text#medios",
+      "rich-text#medios2"],
+      "props": {
+        "blockClass": "contenidoTexto",
+        "fullWidth":true
+      }
+  },
+  "image#medios": {
+    "props": {
+      "blockClass": ["mediosDePagos--image","imgPgos"],
+      "src": "https://limpioonline.vteximg.com.br/arquivos/ml_logo.png",
+      "link": "#"
+    }
+  },
+  "rich-text#medios": {
+    "props": {
+      "text": "Medios de pagos",
+      "blockClass": "infopagos"
+    }
+  },
+  "rich-text#medios2": {
+    "props": {
+      "text": "tarjetas de crédito, débito o transferencia",
+      "blockClass": "textoAlternativoInfopagos"
+    }
+  },
+  //BLOQUE CUOTAS
+  "flex-layout.row#cuotas": {
+    "children": [
+      "image#card1cuotas",
+      "flex-layout.col#infocuotas"
+    ],
+    "props": {
+      "blockClass": "mediosDePagos",
+      "preventHorizontalStretch": true
+  
+    }
+  },
+
+  "flex-layout.col#infocuotas":{
+    "children":["rich-text#card1cuotas",
+      "rich-text#card2cuotas"],
+      "props": {
+        "blockClass": "contenidoTexto",
+        "fullWidth":true
+      }
+  },
+  "image#card1cuotas": {
+    "props": {
+      "blockClass": ["mediosDePagos--image","imgCuotas"],
+      "src": "https://limpioonline.vteximg.com.br/arquivos/ml_logo.png",
+      "link": "#"
+    }
+  },
+  "rich-text#card1cuotas": {
+    "props": {
+      "text": "Medios de pago",
+      "blockClass": ["infopagos","top-cuotas-text"]
+    }
+  },
+  "rich-text#card2cuotas": {
+    "props": {
+      "text": "tarjetas de crédito, débito o transferencia",
+      "blockClass": ["textoAlternativoInfopagos"]
+    }
+  },
+
+  //FIN BLOQUE CUOTAS
+  
+  //BLOQUE ENVIOS
+
+  "flex-layout.row#envios": {
+    "children": [
+      "image#card1envios",
+      "flex-layout.col#colEnvios"
+    ],
+    "props": {
+      "blockClass": "mediosDePagos",
+      "preventHorizontalStretch": true
+  
+    }
+  },
+
+  "flex-layout.col#colEnvios":{
+    "children":["rich-text#envios",
+      "rich-text#envios2"],
+      "props": {
+        "blockClass": "contenidoTexto",
+        "fullWidth":true
+      }
+  },
+  "image#card1envios": {
+    "props": {
+      "blockClass": "mediosDePagos--image",
+      "src": "https://limpioonline.vteximg.com.br/arquivos/ml_logo.png",
+      "link": "#"
+    }
+  },
+  "rich-text#envios": {
+    "props": {
+      "text": "Medios de pago",
+      "blockClass": "infopagos"
+    }
+  },
+  "rich-text#envios2": {
+    "props": {
+      "text": "tarjetas de crédito, débito o transferencia",
+      "blockClass": "textoAlternativoInfopagos"
+    }
+  },
+
+   //FIN BLOQUE ENVIOS
+
+   //BLOQUE HABLEMOS
+
+   "flex-layout.row#hablemos": {
+    "children": [
+      "image#card1hablemos",
+      "flex-layout.col#infohablemos"
+    ],
+    "props": {
+      "blockClass": "estilosHablemos",
+      "preventHorizontalStretch": true
+  
+    }
+  },
+
+  "flex-layout.col#infohablemos":{
+    "children":["rich-text#card1hablemos",
+      "rich-text#card2hablemos"],
+      "props": {
+        "blockClass": "contenidoTexto",
+        "fullWidth":true
+      }
+  },
+  "image#card1hablemos": {
+    "props": {
+      "blockClass": ["mediosDePagos--image","imgHablemos"],
+      "src": "https://limpioonline.vteximg.com.br/arquivos/ml_logo.png",
+      "link": "#"
+    }
+  },
+  "rich-text#card1hablemos": {
+    "props": {
+      "text": "Medios de pago",
+      "blockClass": "infopagos"
+    }
+  },
+  "rich-text#card2hablemos": {
+    "props": {
+      "text": "tarjetas de crédito, débito o transferencia",
+      "blockClass": "textoAlternativoInfopagos"
+    }
+  }
+
+}

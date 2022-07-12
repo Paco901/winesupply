@@ -1,0 +1,173 @@
+{
+    "store.orderplaced": {
+      "blocks": [
+        "order-placed"
+      ]
+    },
+    "order-placed": {
+      "blocks": [
+        "op-header",
+        "op-order"
+      ]
+    },
+    /* Order Header */
+    "op-header": {
+      "children": [
+        "op-section#orderplaced-title",
+        "op-section#orderplaced-confirmation",
+        "op-summary-section",
+        "op-bank-invoice-section"
+      ]
+    },
+    "op-section#orderplaced-title": {
+      "children": [
+        "rich-text#orderplaced-title"
+      ]
+    },
+    "rich-text#orderplaced-title": {
+      "props": {
+        "text": "Pedido Confirmado",
+        "blockClass": "orderplaced-title"
+      }
+    },
+    "op-section#orderplaced-confirmation": {
+      "props": {
+        "name": "orderplaced-confirmation",
+        "borderless": true
+      },
+      "children": [
+        "op-confirmation-title",
+        "op-confirmation-message",
+        "rich-text#orderplaced-contact-time"
+      ]
+    },
+    "rich-text#orderplaced-contact-time": {
+      "props": {
+        "text": "Si ya abonaste, procedemos al envio de tu pedido.\nSi elegiste el pago por transferencia bancaria, la confirmación del mismo puede tardar hasta 72 horas hábiles; cuando comenzaremos con los preparativos para el envío recibiras otro mail. Recuerda revisar correo no deseado.\n\nPor favor tené en cuenta las tipografías que solicitamos en el figma.\nSe puede agregar un bloque de color blanco en donde aparece la imagen del producto para que no se vea el recuadro blanco de la foto? queda medio raro.\n\nGracias!",
+        "blockClass": "orderplaced-contact-time"
+      }
+    },
+    /* Order */
+    "op-order": {
+      "children": [
+        "flex-layout.row#orderplaced-number",
+        "op-order-split-notice",
+        "op-section#customer-payment-info",
+        "op-section#products-list",
+        "op-order-takeaway-packages"
+      ]
+    },
+    "flex-layout.row#orderplaced-number": {
+      "props": {
+        "fullWidth": true,
+        "colGap": 1
+      },
+      "children": [
+        "op-order-number"
+      ]
+    },
+    "op-section#customer-payment-info": {
+      "children": [
+        "op-section#shipping",
+        "op-section#payment",
+        "op-section#total",
+        "op-summary-section"
+      ],
+      "props": {
+        "blockClass": "custmer-payment-info"
+      }
+    },
+    "op-section#products-list": {
+      "children": [
+        "op-section#pickup-packages",
+        "op-section#delivery-packages",
+        "flex-layout.row#orderplaced-buttons"
+      ]
+    },
+    "op-section#shipping": {
+      "children": [
+        "rich-text#shipping-title",
+        "op-order-customer"
+      ],
+      "props": {
+        "blockClass": "orderplaced-card"
+      }
+    },
+    "rich-text#shipping-title": {
+      "props": {
+        "text": "Dirección",
+        "blockClass": "orderplaced-card-title"
+      }
+    },
+    "op-section#payment": {
+      "children": [
+        "rich-text#payment-title",
+        "op-order-payment"
+      ],
+      "props": {
+        "blockClass": "orderplaced-card"
+      }
+    },
+    "rich-text#payment-title": {
+      "props": {
+        "text": "Método de pago",
+        "blockClass": "orderplaced-card-title"
+      }
+    },
+    "op-section#total": {
+      "children": [
+        "rich-text#total-title",
+        "op-order-total"
+      ],
+      "props": {
+        "blockClass": "orderplaced-card"
+      }
+    },
+    "rich-text#total-title": {
+      "props": {
+        "text": "Resumen",
+        "blockClass": "orderplaced-card-title"
+      }
+    },
+    "op-section#pickup-packages": {
+      "props": {
+        "name": "pickup-packages"
+      },
+      "children": [
+        "op-order-pickup-packages"
+      ]
+    },
+    "op-section#delivery-packages": {
+      "props": {
+        "name": "delivery-packages"
+      },
+      "children": [
+        "custom-orderplaced"
+      ]
+    },
+    /* Buttons */
+    "flex-layout.row#orderplaced-buttons": {
+      "children": [
+        "link#orderplaced-home",
+        "link#orderplaced-orders"
+      ],
+      "props": {
+        "blockClass": "orderplaced-buttons"
+      }
+    },
+    "link#orderplaced-home": {
+      "props": {
+        "href": "/",
+        "label": "Seguir Comprando",
+        "blockClass": "orderplaced-home"
+      }
+    },
+    "link#orderplaced-orders": {
+      "props": {
+        "href": "/account#/orders",
+        "label": "Ir a Mis Pedidos",
+        "blockClass": "orderplaced-orders"
+      }
+    }
+  }
+  

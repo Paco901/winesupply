@@ -1,0 +1,260 @@
+{
+    "store.custom#vinos-por-caja": {
+        "blocks": [
+            "list-context.image-list#tienda-keep-walking",
+            "flex-layout.row#tiendas-vinosporcaja",
+            "flex-layout.row#wrapper-vinos-por-caja"
+        ]
+    },
+
+      "flex-layout.row#tiendas-vinosporcaja": {
+        "children": ["slider-layout#tienda-vinosporcaja"],
+        "props": {
+            "blockClass": ["contenidoSlider", "burbujas-VxC"]
+        }
+    },
+    "slider-layout#tienda-vinosporcaja": {
+      "props": {
+          "itemsPerPage": {
+              "desktop": 4,
+              "tablet": 1,
+              "phone": 2
+          },
+          "autoplay": {
+            "timeout": 5000,
+            "stopOnHover": true
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "blockClass": "carousel",
+          "navigationStep": 1
+      },
+      "children": [
+          "flex-layout.row#post1-vinosporcaja",
+          "flex-layout.row#post2-vinosporcaja",
+          "flex-layout.row#post3-vinosporcaja",
+          "flex-layout.row#post4-vinosporcaja"
+      ]
+    },
+    "flex-layout.row#post1-vinosporcaja": {
+      "children": ["image#post1-vpc"],
+      "props": {
+          "blockClass": ["contenidoTienda"]
+      }
+    },
+  
+    "image#post1-vpc": {
+      "props": {
+          "blockClass": ["imgUno"],
+          "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/46670d38-9d50-4eb6-857b-d5b78f94c770___f240a239328a5462d819d20ccc83ff9c.jpg",
+          "link": "#"
+      }
+    },
+
+    //
+    "flex-layout.row#post2-vinosporcaja": {
+      "children": ["image#post2-vpc"],
+      "props": {
+          "blockClass": ["contenidoTienda"]
+      }
+    },
+  
+    "image#post2-vpc": {
+      "props": {
+          "blockClass": ["imgUno"],
+          "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/fe9e8695-6eba-4de9-895d-03d0ba576cb2___1f146c0d76d79624af1ca57d85f8bbec.jpg",
+          "link": "#"
+      }
+    },
+
+    //
+
+    "flex-layout.row#post3-vinosporcaja": {
+      "children": ["image#post3-vpc"],
+      "props": {
+          "blockClass": ["contenidoTienda"]
+      }
+    },
+  
+    "image#post3-vpc": {
+      "props": {
+          "blockClass": ["imgUno"],
+          "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/6b3dea12-0960-4110-a347-048bf0497e16___0bc485375e83e44a3fcee3e953bde5b6.jpg",
+          "link": "#"
+      }
+    },
+
+    //
+
+    "flex-layout.row#post4-vinosporcaja": {
+    "children": ["image#post3-vpc"],
+    "props": {
+        "blockClass": ["contenidoTienda"]
+    }
+  },
+
+  "image#post4-vpc": {
+    "props": {
+        "blockClass": ["imgUno"],
+        "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/fe533c18-5cdd-4861-88bf-cc607084521c___f39d5b60cf05eb7bdf30d4c733e6539d.jpg",
+        "link": "#"
+    }
+  },
+
+    "flex-layout.row#wrapper-vinos-por-caja": {
+        "children": [
+            "rich-text#titulo-variedad",
+            "flex-layout.row#banner-shelf-uno",
+            "rich-text#titulo-bodega-vinos",
+            "flex-layout.row#banner-shelf-dos",
+            "rich-text#titulo-combinados",
+            "flex-layout.row#banner-shelf-tres",
+            "rich-text#titulo-vacio",
+            "flex-layout.row#banner-shelf-cuatro"
+        ],
+        "props": {
+            "preventHorizontalStretch":true,
+            "blockClass": "contenedor-home"
+        }
+    },
+    "flex-layout.row#tips":{
+        "children":[
+          "flex-layout.row#contenedor-tips"
+        ],
+        "props":{
+          "blockClass": ["contenedor-1", "tipsVinosXCaja"]
+        }
+    },
+    "rich-text#titulo-variedad":{
+        "props":{
+          "text": "VARIEDAD",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": "tituloVariedad"
+        }
+    },
+    "flex-layout.row#banner-shelf-uno":{
+        "children":[
+            "image#banner-simulado-vinos-por-caja-uno",
+            "flex-layout.col#shelf-vinos-por-caja-uno"
+        ],
+        "props":{
+            "blockClass":["EspecialesContent", "VinosXCajaContent"],
+            "colSizing": "auto" 
+        }
+    },
+    "image#banner-simulado-vinos-por-caja-uno":{
+        "props": {
+          "src": "https://winesupply.vteximg.com.br/arquivos/banner_ej_vinos.png",
+          "blockClass": "bannerVinosXCaja"
+        }
+    },
+    "flex-layout.col#shelf-vinos-por-caja-uno":{
+        "children":[
+          "list-context.product-list#vinos-por-caja-uno"
+        ],
+        "props": {
+          "blockClass": "shelfEspeciales"
+        }
+    },
+    "flex-layout.row#banner-shelf-dos":{
+      "children":[
+          "image#banner-simulado-vinos-por-caja-dos",
+          "flex-layout.col#shelf-vinos-por-caja-dos"
+      ],
+      "props":{
+          "blockClass":["EspecialesContent", "VinosXCajaContent"],
+          "colSizing": "auto" 
+      }
+  },
+  "image#banner-simulado-vinos-por-caja-dos":{
+      "props": {
+        "src": "https://winesupply.vteximg.com.br/arquivos/banner_ej_vinos.png",
+        "blockClass": "bannerVinosXCaja"
+      }
+  },
+  "flex-layout.col#shelf-vinos-por-caja-dos":{
+      "children":[
+        "list-context.product-list#vinos-por-caja-dos"
+      ],
+      "props": {
+        "blockClass": "shelfEspeciales"
+      }
+  },
+
+
+  "flex-layout.row#banner-shelf-tres":{
+    "children":[
+        "image#banner-simulado-vinos-por-caja-tres",
+        "flex-layout.col#shelf-vinos-por-caja-tres"
+    ],
+    "props":{
+        "blockClass":["EspecialesContent", "VinosXCajaContent"],
+        "colSizing": "auto" 
+    }
+},
+"image#banner-simulado-vinos-por-caja-tres":{
+    "props": {
+      "src": "https://winesupply.vteximg.com.br/arquivos/banner_ej_vinos.png",
+      "blockClass": "bannerVinosXCaja"
+    }
+},
+"flex-layout.col#shelf-vinos-por-caja-tres":{
+    "children":[
+      "list-context.product-list#vinos-por-caja-tres"
+    ],
+    "props": {
+      "blockClass": "shelfEspeciales"
+    }
+},
+
+
+"flex-layout.row#banner-shelf-cuatro":{
+  "children":[
+      "image#banner-simulado-vinos-por-caja-cuatro",
+      "flex-layout.col#shelf-vinos-por-caja-cuatro"
+  ],
+  "props":{
+      "blockClass":["EspecialesContent", "VinosXCajaContent"],
+      "colSizing": "auto" 
+  }
+},
+"image#banner-simulado-vinos-por-caja-cuatro":{
+  "props": {
+    "src": "https://winesupply.vteximg.com.br/arquivos/banner_ej_vinos.png",
+    "blockClass": "bannerVinosXCaja"
+  }
+},
+"flex-layout.col#shelf-vinos-por-caja-cuatro":{
+  "children":[
+    "list-context.product-list#vinos-por-caja-cuatro"
+  ],
+  "props": {
+    "blockClass": "shelfEspeciales"
+  }
+},
+    "rich-text#titulo-bodega-vinos":{
+        "props":{
+          "text": "BODEGA",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": "tituloVariedad"
+        }
+    },
+    "rich-text#titulo-combinados":{
+        "props":{
+          "text": "COMBINADOS",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": "tituloVariedad"
+        }
+    },
+    "rich-text#titulo-vacio":{
+        "props":{
+          "text": "SIN DEFINIR",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": "tituloVariedad"
+        }
+    }
+}

@@ -1,0 +1,197 @@
+{
+    "store.custom#preguntas-frecuentes": {
+        "blocks": [
+            "list-context.image-list#home",
+            "flex-layout.row#faq--container",
+            "flex-layout.row#newsletter"
+
+        ]
+    },
+    "flex-layout.row#faq--container": {
+        "children": [
+            "flex-layout.col#faq"
+        ],
+        "props": {
+            "blockClass": ["landing-row--container","contenedorPreguntas"]
+        }
+    },
+    "flex-layout.col#faq": {
+        "children": [
+            "rich-text#faq-title",
+            "flex-layout.col#faq--col"
+        ]
+    },
+    "rich-text#faq-title": {
+        "props": {
+            "text": "Preguntas Frecuentes",
+            "font": "t-heading-1",
+            "blockClass": "landing-row--title"
+        }
+    },
+    "flex-layout.col#faq--col": {
+        "children": [
+            "rich-text#faq-1",
+            "rich-text#faq-2",
+            "rich-text#faq-9",
+            "rich-text#faq-11",
+            "rich-text#faq-12",
+            "rich-text#faq-14"
+            // "rich-text#faq-15",
+            // "rich-text#faq-16",
+            // "rich-text#faq-17",
+            // "rich-text#faq-18",
+            // "rich-text#faq-19",
+            // "rich-text#faq-20",
+            // "rich-text#faq-21",
+            // "rich-text#faq-23",
+            // "rich-text#faq-24",
+            // "rich-text#faq-25"
+
+        ],
+        "props": {
+            "blockClass": "faq--col"
+        }
+    },
+    "rich-text#faq-1": {
+        "props": {
+            "text": "#### ¿Cómo puedo comprar? \n En el siguiente video detallamos paso a paso cómo realizar una compra rápida y fácil en Limpionline: \n [https://www.youtube.com/watch?v=FvK3Vmz-X5E&t=6s](https://www.youtube.com/watch?v=FvK3Vmz-X5E&t=6s)",
+            "blockClass": "faq"
+        }
+    },
+    "rich-text#faq-2": {
+        "props": {
+            "text": "#### ¿Cómo obtener ayuda en línea? \n Podés comunicarte con un asesor por medio de nuestro WhatsApp al +54 9 1124986906 o a nuestro email ventas@limpionline.com. Tomá en cuenta que no atendemos llamadas telefónicas y que su consulta será atendida en nuestro horario administrativo de 10:00 a 17:00 hrs de lunes a viernes, días hábiles.",
+            "blockClass": "faq"
+        }
+    },
+
+    "rich-text#faq-9": {
+        "props": {
+            "text": "####  ¿Manejan lista de precios al mayor? \n No, somos una tienda online; todos nuestros productos y precios están publicados.",
+            "blockClass": [
+                "faq",
+                "t-body"
+            ]
+        }
+    },
+
+    "rich-text#faq-11": {
+        "props": {
+            "text": "#### ¿Puedo pagar mi pedido contra entrega? \n No, los pagos son únicamente por el sitio web para proteger tanto a los clientes como a nuestro personal.",
+            "blockClass": [
+                "faq",
+                "t-body"
+            ]
+        }
+    },
+    "rich-text#faq-12": {
+        "props": {
+            "text": "#### Tengo un cupón de descuento, ¿cómo lo uso? \n Si recibiste un cupón de descuento, se debe  utilizar durante el proceso de compra antes de finalizar el pago. Durante el ingreso de los datos para pagar, deberás copiar y pegar el código recibido o escribirlo tal cual (en mayúsculas y sin espacios) en el campo para el cupón. Después, hacé click en el botón “Usar” para que se valide y aplique el descuento según la promoción u oferta a la que pertenezca el mismo. La promoción es válida para usuarios en zona de cobertura de Argentina.",
+            "blockClass": [
+                "faq",
+                "t-body"
+            ]
+        }
+    },
+
+    "rich-text#faq-14": {
+        "props": {
+            "text": "#### ¿Cuándo estará llegando mi envío? \n Su pedido será procesado dentro de nuestro horario administrativo de 10:00 a 16:30 hrs para ser despachado en 24 a 48 horas hábiles.",
+            "blockClass": [
+                "faq",
+                "t-body"
+            ]
+        }
+    },
+    "rich-text#faq-15": {
+        "props": {
+            "text": "#### ¿Cuáles son las zonas donde realizan las entregas? \n Realizamos entregas en CABA y cercanías en GBA. Verifique si su ubicación está dentro del rango de cobertura. En caso de no estarlo, aplican las mismas condiciones de envíos para el interior. Si su compra es inferior a $2500, verifique el costo de su envío clickeando acá. ",
+            "blockClass": [
+                "faq",
+                "t-body"
+            ]
+        }
+    },
+    "rich-text#faq-16": {
+        "props": {
+            "text": "#### ¿Realizan envíos al interior? \n Sí realizamos envíos al interior, sin embargo, nosotros no gestionamos con cuál empresa de logística será transportada su mercadería, únicamente lo que nos indique el comprador sobre cuál expreso o proveedor de envío es de su preferencia para entregar, tomando en cuenta las condiciones del pedido (peso y medidas permitidas). Los envíos que sean para el interior serán despachados hacia la sucursal del expreso / proveedor de envío en CABA sin ningún cargo adicional. El costo que tenga el envío de la sucursal al domicilio de entrega va a cargo del comprador.",
+            "blockClass": [
+                "faq",
+                "t-body"
+            ]
+        }
+    },
+    "rich-text#faq-17": {
+        "props": {
+            "text": "#### ¿Cuál es el costo de envío al interior? \n No manejamos los precios de los proveedores de envíos, por eso el cliente debe indicarnos el que sea de su preferencia al momento de realizar la compra.",
+            "blockClass": [
+                "faq",
+                "t-body"
+            ]
+        }
+    },
+    "rich-text#faq-18": {
+        "props": {
+            "text": "#### ¿Dónde puedo retirar mi compra? \n Puede retirar en nuestro depósito ubicado en Avelino Díaz 365, Parque Chacabuco, CABA.",
+            "blockClass": [
+                "faq",
+                "t-body"
+            ]
+        }
+    },
+    "rich-text#faq-19": {
+        "props": {
+            "text": "#### ¿Cuál es el horario de retiro? \n Nuestro horario de retiro es de 12:30 a 16:00 hrs de lunes a viernes, solo días hábiles.",
+            "blockClass": [
+                "faq",
+                "t-body"
+            ]
+        }
+    },
+    "rich-text#faq-20": {
+        "props": {
+            "text": "#### ¿Puedo enviar a alguien a retirar mi pedido? \n Sí, siempre y cuando presente el código de retiro de su pedido, el mismo debe ser solicitado a nuestro ejecutivo de ventas.",
+            "blockClass": [
+                "faq",
+                "t-body"
+            ]
+        }
+    },
+    "rich-text#faq-21": {
+        "props": {
+            "text": "#### Disponibilidad de stock al momento de retiro: \n Si selecciona la opción de retiro, debe tener en cuenta que la disponibilidad de los productos ofrecidos en la página web está sujeta al movimiento diario de stock; por lo tanto se recomienda retirar en un máximo de 7 días después de realizar la compra, ya que el producto seleccionado puede no encontrarse disponible. \n Si pasado los 7 días el pedido no fue retirado, puede consultar a través de nuestro WhatsApp la disponibilidad del mismo.",
+            "blockClass": [
+                "faq",
+                "t-body"
+            ]
+        }
+    },
+
+    "rich-text#faq-23": {
+        "props": {
+            "text": "#### En caso de equivocarme con algún producto de mi pedido, ¿cómo lo cambio o devuelvo? \n Si tuvo alguna incidencia con su compra debido a que no era lo que necesitaba o esperaba, debe informarnos por medio de WhatsApp o email para indicarle cómo proceder. Recuerde que el producto debe de estar en perfecto estado y sin uso. Si la compra se realizó bajo la modalidad de retiro o envío a domicilio, deberá acercarse en forma presencial a nuestro depósito.",
+            "blockClass": [
+                "faq",
+                "t-body"
+            ]
+        }
+    },
+    "rich-text#faq-24": {
+        "props": {
+            "text": "#### No recibí mi compra en condiciones o presenta una falla, ¿cómo es el proceso de cambio o devolución? \n Debe comunicarse a través del WhatsApp o correo electrónico indicándonos cuál es la falla del producto y adjuntando fotos / video que corroboren lo indicado. Se aceptará la devolución de un producto cuando el mismo tenga alguna falla o defecto de fabricación y/o descripción errónea.\n Una vez recibido el producto, la devolución podrá efectuarse dentro de las próximas 72 horas corridas posteriores a la fecha de recepción del pedido.",
+            "blockClass": [
+                "faq",
+                "t-body"
+            ]
+        }
+    },
+    "rich-text#faq-25": {
+        "props": {
+            "text": "#### Requisitos para devolver un producto: \n Debe encontrarse en las mismas condiciones en las que fue entregado y poseer todas las etiquetas, marcas, accesorios y envase original que identifican al producto y que no estén rotos o destruidos.",
+            "blockClass": [
+                "faq",
+                "t-body"
+            ]
+        }
+    }
+}

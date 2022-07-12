@@ -1,0 +1,51 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer",
+      "flex-layout.row#empresas"
+    ],
+    "props": {
+      "blockClass": "footer-desktop"
+    }
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#menu"
+    ],
+    "props": {
+      "blockClass": "footer-menu-wrapper-mobile"
+    }
+  },
+  "flex-layout.row#empresas": {
+    "children": [
+      "image#empresas"
+    ]
+  },
+  "image#empresas": {
+    "props": {
+      "src": "assets/face.svg",
+      "blockClass": [
+        "imagenEmpresas"
+      ]
+    }
+  },
+  "flex-layout.row#empresasMobile": {
+    "children": [
+      "image#empresasMobile"
+    ]
+  },
+  "image#empresasMobile": {
+    "props": {
+      "src": "assets/logo.jpg",
+      "blockClass": [
+        "imagenEmpresasMobile"
+      ]
+    }
+  }
+}

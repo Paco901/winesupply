@@ -1,0 +1,359 @@
+{
+    "list-context.product-list#vinos-por-caja-uno": {
+        "blocks": ["product-summary.shelf#vinos-por-caja-uno"],
+        "children": ["slider-layout#vinos-por-caja-uno"],
+        "props": {
+            "collection": ""
+        }
+    },
+    "product-summary.shelf#vinos-por-caja-uno": {
+        "children": [
+            "product-specification-badges#banderas",
+            "product-specification-badges#organico",
+            "product-specification-badges#descuentos",
+            "product-specification-badges#destaques-vinos",
+            "product-summary-image",
+            "vtex.product-highlights@2.x:product-highlights#collection",
+            "product-brand#vinos-por-caja",
+            "product-name",
+            "flex-layout.row#price-vinos-por-caja-uno",
+            "flex-layout.row#botones-vinos-por-caja-uno"
+        ],
+        "props": {
+            "blockClass": ["related-shelf-home"]
+        }
+    },
+    "product-brand#vinos-por-caja-uno": {
+        "props": {
+            "displayMode": "text"
+        }
+    },
+    "flex-layout.row#price-vinos-por-caja-uno": {
+        "children": ["product-selling-price", "product-list-price-range"],
+        "props": {
+            "blockClass": "contenidoPrecios",
+            "preventHorizontalStretch": true
+        }
+    },
+    "flex-layout.row#botones-vinos-por-caja-uno": {
+        "children": [
+            "add-to-cart-button#vinos-por-caja",
+            "product-specification-badges#vinos-por-caja-uno"
+        ],
+        "props": {
+            "blockClass": "botones"
+        }
+    },
+    "add-to-cart-button#vinos-por-caja-uno": {
+        "props": {
+            "text": "COMPRAR",
+            "unavailableText": "SIN STOCK",
+            "blockClass": "botonComprar"
+        }
+    },
+    "slider-layout#vinos-por-caja-uno": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 2,
+                "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "infinite": true,
+            "showPaginationDots": "mobileOnly",
+            "showNavigationArrows": "desktopOnly",
+            "fullWidth": false,
+            "blockClass": ["shelf-default", "sliderEspeciales"]
+        }
+    },
+    "product-specification-badges#vinos-por-caja-uno": {
+        "props": {
+            "specificationGroupName": "allSpecifications",
+            "specificationsOptions": [
+                {
+                    "specificationName": "Producto de Preventa",
+                    "displayValue": "SPECIFICATION_NAME",
+                    "visibleWhen": ""
+                },
+                {
+                    "specificationName": "envio gratis",
+                    "displayValue": "envio gratis",
+                    "visibleWhen": false
+                }
+            ],
+            "blockClass": "envioGratisContenido"
+        }
+    },
+
+    //dos
+    "list-context.product-list#vinos-por-caja-dos": {
+        "blocks": ["product-summary.shelf#vinos-por-caja-dos"],
+        "children": ["slider-layout#vinos-por-caja-dos"],
+        "props": {
+            "collection": ""
+        }
+    },
+    "product-summary.shelf#vinos-por-caja-dos": {
+        "children": [
+            "product-specification-badges#banderas",
+            "product-specification-badges#organico",
+            "product-specification-badges#descuentos",
+            "product-specification-badges#destaques-vinos",
+            "product-summary-image",
+            "vtex.product-highlights@2.x:product-highlights#collection",
+            "product-brand#vinos-por-caja-uno",
+            "product-name",
+            "flex-layout.row#price-vinos-por-caja-dos",
+            "flex-layout.row#botones-vinos-por-caja-dos"
+        ],
+        "props": {
+            "blockClass": ["related-shelf-home"]
+        }
+    },
+    "product-brand#vinos-por-cajauno": {
+        "props": {
+            "displayMode": "text"
+        }
+    },
+    "flex-layout.row#price-vinos-por-caja-dos": {
+        "children": ["product-selling-price", "product-list-price-range"],
+        "props": {
+            "blockClass": "contenidoPrecios",
+            "preventHorizontalStretch": true
+        }
+    },
+    "flex-layout.row#botones-vinos-por-caja-dos": {
+        "children": [
+            "add-to-cart-button#vinos-por-caja-dos",
+            "product-specification-badges#vinos-por-caja-dos"
+        ],
+        "props": {
+            "blockClass": "botones"
+        }
+    },
+    "add-to-cart-button#vinos-por-caja-dos": {
+        "props": {
+            "text": "COMPRAR",
+            "unavailableText": "SIN STOCK",
+            "blockClass": "botonComprar"
+        }
+    },
+    "slider-layout#vinos-por-caja-dos": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 2,
+                "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "infinite": true,
+            "showPaginationDots": "mobileOnly",
+            "showNavigationArrows": "desktopOnly",
+            "fullWidth": false,
+            "blockClass": ["shelf-default", "sliderEspeciales"]
+        }
+    },
+    "product-specification-badges#vinos-por-caja-dos": {
+        "props": {
+            "specificationGroupName": "allSpecifications",
+            "specificationsOptions": [
+                {
+                    "specificationName": "Producto de Preventa",
+                    "displayValue": "SPECIFICATION_NAME",
+                    "visibleWhen": ""
+                },
+                {
+                    "specificationName": "envio gratis",
+                    "displayValue": "envio gratis",
+                    "visibleWhen": false
+                }
+            ],
+            "blockClass": "envioGratisContenido"
+        }
+    },
+    //tres
+    "list-context.product-list#vinos-por-caja-tres": {
+        "blocks": ["product-summary.shelf#vinos-por-caja-tres"],
+        "children": ["slider-layout#vinos-por-caja-tres"],
+        "props": {
+            "collection": ""
+        }
+    },
+    "product-summary.shelf#vinos-por-caja-tres": {
+        "children": [
+            "product-specification-badges#banderas",
+            "product-specification-badges#organico",
+            "product-specification-badges#descuentos",
+            "product-specification-badges#destaques-vinos",
+            "product-summary-image",
+            "vtex.product-highlights@2.x:product-highlights#collection",
+            "product-brand#vinos-por-caja",
+            "product-name",
+            "flex-layout.row#price-vinos-por-caja-tres",
+            "flex-layout.row#botones-vinos-por-caja-tres"
+        ],
+        "props": {
+            "blockClass": ["related-shelf-home"]
+        }
+    },
+    "product-brand#vinos-por-caja-tres": {
+        "props": {
+            "displayMode": "text"
+        }
+    },
+    "flex-layout.row#price-vinos-por-caja-tres": {
+        "children": ["product-selling-price", "product-list-price-range"],
+        "props": {
+            "blockClass": "contenidoPrecios",
+            "preventHorizontalStretch": true
+        }
+    },
+    "flex-layout.row#botones-vinos-por-caja-tres": {
+        "children": [
+            "add-to-cart-button#vinos-por-caja-tres",
+            "product-specification-badges#vinos-por-caja-tres"
+        ],
+        "props": {
+            "blockClass": "botones"
+        }
+    },
+    "add-to-cart-button#vinos-por-caja-tres": {
+        "props": {
+            "text": "COMPRAR",
+            "unavailableText": "SIN STOCK",
+            "blockClass": "botonComprar"
+        }
+    },
+    "slider-layout#vinos-por-caja-tres": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 2,
+                "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "infinite": true,
+            "showPaginationDots": "mobileOnly",
+            "showNavigationArrows": "desktopOnly",
+            "fullWidth": false,
+            "blockClass": ["shelf-default", "sliderEspeciales"]
+        }
+    },
+    "product-specification-badges#vinos-por-caja-tres": {
+        "props": {
+            "specificationGroupName": "allSpecifications",
+            "specificationsOptions": [
+                {
+                    "specificationName": "Producto de Preventa",
+                    "displayValue": "SPECIFICATION_NAME",
+                    "visibleWhen": ""
+                },
+                {
+                    "specificationName": "envio gratis",
+                    "displayValue": "envio gratis",
+                    "visibleWhen": false
+                }
+            ],
+            "blockClass": "envioGratisContenido"
+        }
+    },
+
+    //cuatro
+    "list-context.product-list#vinos-por-caja-cuatro": {
+        "blocks": ["product-summary.shelf#vinos-por-caja-cuatro"],
+        "children": ["slider-layout#vinos-por-caja-cuatro"],
+        "props": {
+            "collection": ""
+        }
+    },
+    "product-summary.shelf#vinos-por-caja-cuatro": {
+        "children": [
+            "product-specification-badges#banderas",
+            "product-specification-badges#organico",
+            "product-specification-badges#descuentos",
+            "product-specification-badges#destaques-vinos",
+            "product-summary-image",
+            "vtex.product-highlights@2.x:product-highlights#collection",
+            "product-brand#vinos-por-caja",
+            "product-name",
+            "flex-layout.row#price-vinos-por-caja-cuatro",
+            "flex-layout.row#botones-vinos-por-caja-cuatro"
+        ],
+        "props": {
+            "blockClass": ["related-shelf-home"]
+        }
+    },
+    "product-brand#vinos-por-caja": {
+        "props": {
+            "displayMode": "text"
+        }
+    },
+    "flex-layout.row#price-vinos-por-caja-cuatro": {
+        "children": ["product-selling-price", "product-list-price-range"],
+        "props": {
+            "blockClass": "contenidoPrecios",
+            "preventHorizontalStretch": true
+        }
+    },
+    "flex-layout.row#botones-vinos-por-caja-cuatro": {
+        "children": [
+            "add-to-cart-button#vinos-por-caja",
+            "product-specification-badges#vinos-por-caja-cuatro"
+        ],
+        "props": {
+            "blockClass": "botones"
+        }
+    },
+    "add-to-cart-button#vinos-por-caja": {
+        "props": {
+            "text": "COMPRAR",
+            "unavailableText": "SIN STOCK",
+            "blockClass": "botonComprar"
+        }
+    },
+    "slider-layout#vinos-por-caja-cuatro": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 2,
+                "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "infinite": true,
+            "showPaginationDots": "never",
+            "showNavigationArrows": "desktopOnly",
+            "fullWidth": false,
+            "blockClass": ["shelf-default", "sliderEspeciales"]
+        }
+    },
+    "product-specification-badges#vinos-por-caja-cuatro": {
+        "props": {
+            "specificationGroupName": "allSpecifications",
+            "specificationsOptions": [
+                {
+                    "specificationName": "Producto de Preventa",
+                    "displayValue": "SPECIFICATION_NAME",
+                    "visibleWhen": ""
+                },
+                {
+                    "specificationName": "envio gratis",
+                    "displayValue": "envio gratis",
+                    "visibleWhen": false
+                }
+            ],
+            "blockClass": "envioGratisContenido"
+        }
+    }
+}

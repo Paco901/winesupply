@@ -1,0 +1,1923 @@
+body {
+  font-family: $font-normal;
+  .container {
+    max-width: $page-size;
+    width: 100%;
+  }
+  &.body-order-form {
+    padding: 0 !important;
+    background-color: $linen-1;
+    position: relative;
+
+    input {
+      border: 1px solid $whitesmoke-2 !important;
+      padding: 12px 14px;
+      color: $black;
+      border-radius: 0px;
+
+      &::placeholder {
+        color: $linen;
+      }
+    }
+
+    .container {
+      .checkout-container {
+        position: relative;
+        padding-left: 0px;
+
+        @media (max-width: $tablet) {
+          padding-left: 0;
+        }
+
+        .orderform-template {
+          margin-bottom: 0;
+          display: grid !important;
+          grid-template-columns: 1fr auto;
+          gap: 0;
+          justify-items: center;
+
+          &::after,
+          &::before{
+            content: unset !important;
+          }
+
+          @media (max-width: $phone + 128px) {
+            display: flex !important;
+            flex-direction: column;
+          }
+
+          .orderform-template-holder {
+            width: 100% !important;
+            display: flex;
+            flex: 1;
+            padding: 0;
+            overflow: hidden;
+            flex: 1;
+            margin-bottom: 62px;
+
+            @media (max-width: $phone + 128px) {
+              margin-top: 0;
+              width: 100% !important;
+              margin-right: 0;
+              max-height: none;
+              margin-bottom: 0;
+            }
+
+            > .row-fluid {
+              overflow-y: auto !important;
+              padding: 15px 25px;
+
+              display: flex;
+              flex-direction: column;
+
+              max-width: 1180px;
+              width: 100% !important;
+              margin-left: auto;
+              margin-right: auto;
+
+              @media (max-width: $phone + 128px) {
+                max-height: none;
+                overflow-y: hidden;
+                height: auto !important;
+                padding: 0;
+              }
+
+              /* Profile */
+              #client-profile-data {
+                width: 100% !important;
+                float: left;
+
+                @media (max-width: $phone + 128px) {
+                  width: 100% !important;
+                  float: none;
+                }
+
+                .client-profile-data {
+                  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.13);
+                  border-radius: 0px;
+                  background-color: $floralwhite;
+                  padding: 17px 21px 22px 22px;
+
+                  &.active {
+                    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+
+                    .client-notice {
+                      display: none;
+                    }
+
+                    .accordion-heading {
+                      .accordion-toggle {
+                        span {
+                          font-size: 0;
+                          display: flex;
+                          align-items: center;
+
+                          &:before {
+                            content: "1";
+                            width: 29px;
+                            height: 29px;
+                            border: 1px solid $main;
+                            border-radius: 50%;
+                            font-size: $font-16;
+                            color: $white;
+                            background-color: $main ;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                          }
+
+                          &:after {
+                            content: "Datos personales";
+                            font-size: $font-16;
+                            font-weight: bold;
+                            line-height: 20px;
+                            color: $darkgray-1;
+                          }
+                        }
+                      }
+                    }
+
+                    .accordion-body {
+                      .accordion-inner {
+                        &:before {
+                          content: "Solicitamos únicamente la información esencial para la finalización de la compra.";
+                          color: $linen;
+                          font-size: $font-14;
+                          line-height: 16px;
+                          padding-top: 4px;
+                        }
+
+                        .box-step {
+                          .form-step {
+                            padding-top: 4px !important;
+
+                            .box-client-info-pf {
+                              label {
+                                font-size: $font-12;
+                                line-height: 16px;
+                                font-family: $font-normal;
+                                font-weight: bold;
+                                color: $black-1;
+                              }
+
+                              .help.error {
+                                width: 100%;
+                              }
+
+                              .client-phone {
+                                position: relative;
+
+                                label {
+                                  margin: 10px 0 5px;
+                                }
+
+                                .client-phone-mobile {
+                                  position: absolute;
+                                  top: 0;
+                                  right: 0;
+
+                                  span {
+                                    @media (max-width: $phone + 128px) {
+                                      display: flex;
+                                      right: 15px;
+                                    }
+                                  }
+
+                                  input {
+                                    @media (max-width: $phone + 128px) {
+                                      width: auto;
+                                    }
+                                  }
+                                }
+
+                                .help.error {
+                                  top: 100%;
+                                }
+
+                                .input {
+                                  display: flex;
+                                  align-items: center;
+
+                                  .client-phone-prefix {
+                                    width: 20px;
+                                  }
+
+                                  #client-phone1 {
+                                    width: calc(50% - 20px);
+                                  }
+
+                                  .client-phone-suffix {
+                                    width: 40px;
+                                  }
+
+                                  .client-phone3 {
+                                    width: calc(50% - 40px);
+                                  }
+                                }
+                              }
+                            }
+
+                            .box-client-info-pj {
+                              margin: 0;
+
+                              #is-corporate-client {
+                                font-size: $font-12;
+                                line-height: 16px;
+                                text-decoration: underline;
+                                color: $main;
+                              }
+
+                              #not-corporate-client {
+                                font-size: $font-12;
+                                color: $main;
+
+                                &:hover {
+                                  text-decoration: none;
+                                }
+                              }
+
+                              .corporate-title {
+                                font-size: $font-12;
+                                line-height: 16px;
+                                text-decoration: underline;
+                                color: $main;
+                                margin: 0;
+                              }
+
+                              .corporate-info-box {
+                                label {
+                                  font-size: $font-12;
+                                  line-height: 16px;
+                                  color: $black-1;
+                                  font-family: $font-normal;
+                                }
+                              }
+                            }
+
+                            .newsletter {
+                              margin-top: 10px;
+
+                              .newsletter-text {
+                                font-size: $font-12;
+                                line-height: 16px;
+                                color: $darkgray-1;
+                              }
+                            }
+
+                            .btn-submit-wrapper {
+                              display: flex;
+                              justify-content: flex-end;
+                              height: 40px;
+
+                              #go-to-shipping {
+                                font-size: 0;
+                                font-weight: 600;
+                                color: $white;
+                                height: 40px;
+                                padding: 0;
+                                text-align: center;
+                                margin: 0;
+                                border-radius: 0px;
+                                background-color: $main;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                background-image: none;
+                                border: none;
+                                width: 100%;
+                                &::before{
+                                  content: "Continuar con la entrega";
+                                  font-size: $font-15;
+                                }
+                              }
+
+                              #go-to-payment {
+                                font-size: 0;
+                                font-weight: 600;
+                                color: $white;
+                                height: 40px;
+                                padding: 0;
+                                text-align: center;
+                                margin: 0;
+                                border-radius: 0px;
+                                background-color: $main;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                background-image: none;
+                                border: none;
+                                width: 100%;
+                                &::before{
+                                  content: "Continuar con el pago";
+                                  font-size: $font-15;
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+
+                  .accordion-heading {
+                    position: relative;
+
+                    @media (max-width: $phone + 128px) {
+                      position: static;
+                    }
+
+                    .accordion-toggle {
+                      @media (max-width: $phone + 128px) {
+                        position: static;
+                      }
+                    }
+
+                    #edit-profile-data,
+                    .link-box-edit {
+                      position: absolute;
+                      top: 22px;
+                      z-index: 9;
+
+                      @media (max-width: $phone + 128px) {
+                        top: 39px;
+                        right: 20px;
+                      }
+
+                      &:hover {
+                        color: $main;
+                      }
+
+                      .icon-edit {
+                        font-size: $font-22;
+                        color: $black;
+                      }
+                    }
+
+                    .accordion-toggle {
+                      span {
+                        font-size: 0;
+                        display: flex;
+                        align-items: center;
+
+                        &:before {
+                          content: "1";
+                          width: 29px;
+                          height: 29px;
+                          border: 1px solid $main;
+                          color: $main;
+                          border-radius: 50%;
+                          font-size: $font-16;
+                          display: flex;
+                          align-items: center;
+                          justify-content: center;
+                          background: none;
+                        }
+
+                        &:after {
+                          content: "Datos personales";
+                          font-size: $font-16;
+                          font-weight: bold;
+                          line-height: 20px;
+                          color: $darkgray-1;
+                        }
+                      }
+                    }
+                  }
+
+                  .client-profile-email,
+                  .client-profile-summary {
+                    font-size: $font-14;
+                    line-height: 16px;
+                    color: $linen;
+                  }
+
+                  .client-profile-email {
+                    margin: 0;
+
+                    .link-logout-container,
+                    .link-logout {
+                      color: $main;
+                      cursor: pointer;
+                    }
+                  }
+                }
+              }
+
+              /* Shipping */
+              #shipping-data {
+                padding: 0;
+                width: 100% !important;
+                margin-left: 0;
+                margin-bottom: 0 !important;
+                box-sizing: border-box;
+
+                @media (max-width: $phone + 128px) {
+                  width: 100% !important;
+                  float: none;
+                  margin: 0 !important;
+                }
+
+                .shipping-data {
+                  padding: 17px 21px 22px 22px;
+                  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.13);
+                  border-radius: 0px;
+                  background-color: $floralwhite;
+
+                  @media (max-width: $phone + 128px) {
+                    width: calc(100% - 44px);
+                  }
+
+                  &.active {
+                    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+
+                    .accordion-heading {
+                      .accordion-toggle {
+                        display: flex;
+                        align-items: center;
+                        font-size: 0;
+
+                        &:before {
+                          content: "2";
+                          width: 29px;
+                          height: 29px;
+                          border: 1px solid $main;
+                          border-radius: 50%;
+                          font-size: $font-16;
+                          color: $white;
+                          background-color: $main;
+                          display: flex;
+                          align-items: center;
+                          justify-content: center;
+                        }
+
+                        &:after {
+                          content: "Método de Entrega";
+                          font-size: $font-16;
+                          font-weight: bold;
+                          line-height: 20px;
+                          color: $darkgray-1;
+                        }
+                      }
+                    }
+
+                    .accordion-inner {
+                      label {
+                        font-size: $font-12;
+                        line-height: 16px;
+                        color: $black-1;
+                        font-weight: bold;
+                        margin-bottom: 10px;
+                        border-radius: 0px;
+                        padding-left: 0;
+                        padding-right: 0;
+
+                        .vtex-omnishipping-1-x-svg {
+                          fill: $main;
+
+                          path {
+                            fill: $main;
+                          }
+                        }
+                      }
+
+                      .vtex-omnishipping-1-x-addressForm {
+                        .vtex-omnishipping-1-x-shippingSectionTitle {
+                          font-size: $font-14;
+                          line-height: 16px;
+                          color: $black;
+                          font-weight: bold;
+                        }
+
+                        .vtex-omnishipping-1-x-addressSummaryActive {
+                          .address-summary {
+                            border: 1px solid $whitesmoke-2;
+                            background-image: none;
+                            font-size: $font-14;
+                            line-height: 16px;
+                            color: $black;
+                            padding: 12px;
+
+                            .link-edit {
+                              color: $main;
+                            }
+                          }
+                        }
+                      }
+
+                      .vtex-omnishipping-1-x-btnDelivery {
+                        background-color: $main;
+                        font-weight: bold;
+                        border-radius: 0px;
+                      }
+
+                      .vtex-omnishipping-1-x-deliveryGroup {
+                        .vtex-omnishipping-1-x-shippingSectionTitle {
+                          font-size: 0;
+
+                          &:before {
+                            content: "Opciones de entrega";
+                            font-size: $font-12;
+                            font-weight: 600;
+                            color: $black-1;
+                          }
+                        }
+
+                        #delivery-packages-options {
+                          border: none;
+
+                          #CHEAPEST {
+                            background-color: transparent !important;
+                            border: none;
+                            padding: 12px 0;
+
+                            .vtex-omnishipping-1-x-leanShippingIcon {
+                              .vtex-omnishipping-1-x-svg {
+                                fill: $main;
+
+                                path {
+                                  fill: $main !important;
+                                }
+                              }
+                            }
+
+                            .vtex-omnishipping-1-x-leanShippingText {
+                              .vtex-omnishipping-1-x-leanShippingTextLabelSingle {
+                                font-size: $font-14;
+                                line-height: 16px;
+                              }
+                            }
+
+                            .vtex-omnishipping-1-x-optionPrice {
+                              font-size: $font-14;
+                              line-height: 16px;
+                            }
+                          }
+                        }
+                      }
+
+                      .btn-go-to-payment-wrapper {
+                        display: flex;
+                        justify-content: flex-end;
+                        height: 40px;
+                        width: 100%;
+
+                        #btn-go-to-payment {
+                          font-weight: 600;
+                          color: $white;
+                          height: 40px;
+                          padding: 0;
+                          text-align: center;
+                          margin: 0;
+                          border-radius: 0px;
+                          background-color: $main;
+                          display: flex;
+                          justify-content: center;
+                          align-items: center;
+                          background-image: none;
+                          border: none;
+                          width: 100%;
+                          font-size: 0;
+                          &::before{
+                            content: "Continuar con el pago";
+                            font-size: $font-15;
+                          }
+                        }
+                      }
+
+                      .shp-summary-group-info {
+                        border-left: none;
+                      }
+
+                      .vtex-omnishipping-1-x-addressFormPart1 {
+                        .ship-postalCode {
+                          small {
+                            a {
+                              color: $main;
+
+                              &:hover {
+                                text-decoration: none;
+                                color: $main;
+                              }
+                            }
+                          }
+                        }
+
+                        .vtex-omnishipping-1-x-addressItemOption {
+                          background: none;
+                          border: none;
+                          box-shadow: none;
+
+                          .vtex-omnishipping-1-x-addressItemIcon {
+                            .vtex-omnishipping-1-x-svg {
+                              fill: $main;
+
+                              path {
+                                fill: $main !important;
+                              }
+                            }
+                          }
+                        }
+
+                        .address-edit {
+                          #edit-address-button {
+                            border: 2px solid $main;
+                            font-weight: bold;
+                            font-size: $font-15;
+                            color: $main;
+                            border-radius: 0px;
+                            font-family: $font-normal;
+                            height: 45px;
+                          }
+                        }
+
+                        .address-create {
+                          #new-address-button {
+                            border: 2px solid $main;
+                            font-weight: bold;
+                            font-size: $font-15;
+                            color: $main;
+                            border-radius: 0px;
+                            font-family: $font-normal;
+                            height: 45px;
+                          }
+                        }
+
+                        #back-to-address-list {
+                          border: 2px solid $main;
+                          font-weight: bold;
+                          font-size: $font-15;
+                          color: $main;
+                          border-radius: 0px;
+                          font-family: $font-normal;
+                          height: 45px;
+                        }
+                      }
+
+                      .vtex-omnishipping-1-x-deliveryChannelsWrapper {
+                        border: 2px solid $gray;
+                        border-radius: 0px;
+                        background-color: $linen-1;
+                        height: 51px;
+                        display: flex;
+                        align-items: center;
+
+                        .vtex-omnishipping-1-x-deliveryChannelsToggle {
+                          border-radius: 0px;
+                          border: none;
+                          background: transparent;
+                          height: 55px;
+                        }
+
+                        #shipping-option-delivery {
+                          font-size: 0;
+                          color: $darkgray-1;
+                          height: 55px;
+                          background-color: $linen-1;
+
+                          &:before {
+                            content: "ENVÍO";
+                            font-size: $font-14;
+                            font-weight: 600;
+                            line-height: 16px;
+                            display: block;
+                          }
+
+                          &:after {
+                            content: "a Domicilio";
+                            font-size: $font-14;
+                            font-weight: 600;
+                            line-height: 16px;
+                            display: block;
+                          }
+
+                          &.vtex-omnishipping-1-x-deliveryOptionActive {
+                            background-color: $main;
+                            color: $white;
+                            border: none;
+                            border-radius: 0px;
+                          }
+
+                          .shp-method-option-complement {
+                            display: none;
+                          }
+                        }
+
+                        #shipping-option-pickup-in-point {
+                          font-size: 0;
+                          color: $darkgray-1;
+                          height: 55px;
+                          background-color: $linen-1;
+
+                          &:before {
+                            content: "RETIRO";
+                            font-size: $font-14;
+                            font-weight: 700;
+                            line-height: 15px;
+                          }
+
+                          &:after {
+                            content: "en Tienda";
+                            font-size: $font-14;
+                            font-weight: 600;
+                            line-height: 16px;
+                            display: block;
+                          }
+
+                          &.vtex-omnishipping-1-x-deliveryOptionActive {
+                            background-color: $main;
+                            color: $white;
+                            border: none;
+                            border-radius: 0px;
+                          }
+
+                          .shp-method-option-complement {
+                            display: none;
+                          }
+                        }
+                      }
+
+                      .delivery-group-content {
+                        .vtex-omnishipping-1-x-findPickup {
+                          .pickup-marker-blue {
+                            fill: $main;
+
+                            path {
+                              fill: $main;
+                            }
+                          }
+
+                          .vtex-omnishipping-1-x-details {
+                            color: $darkslategray;
+                            font-weight: 600;
+
+                            &:hover {
+                              text-decoration: none;
+                            }
+                          }
+
+                          .vtex-omnishipping-1-x-pickupPointChange {
+                            border: 2px solid $main;
+                            font-weight: bold;
+                            font-size: 0;
+                            color: $main;
+                            border-radius: 0px;
+                            font-family: $font-normal;
+                            height: 45px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            &:before {
+                              content: "Ver todos los puntos de retiro";
+                              font-size: $font-15;
+                            }
+                          }
+                        }
+
+                        .vtex-omnishipping-1-x-packages {
+                          .vtex-omnishipping-1-x-shippingSectionTitle {
+                            font-size: 0;
+
+                            &:before {
+                              content: "Opciones de entrega";
+                              font-size: $font-13;
+                              color: $darkslategray;
+                              font-weight: 600;
+                            }
+                          }
+
+                          .vtex-omnishipping-1-x-leanShippingIcon {
+                            svg {
+                              fill: $main;
+
+                              path {
+                                fill: $main;
+                              }
+                            }
+                          }
+                        }
+                      }
+
+                      .vtex-omnishipping-1-x-container {
+                        .vtex-omnishipping-1-x-receiverTitle {
+                          padding-top: 10px;
+                          font-size: 0;
+
+                          &:before {
+                            content: "Responsable de retiro";
+                            font-size: $font-13;
+                            color: $darkslategray;
+                            font-weight: 600;
+                          }
+                        }
+
+                        .vtex-omnishipping-1-x-pickupReceiverIcon {
+                          svg {
+                            fill: $main;
+
+                            path {
+                              fill: $main;
+                            }
+                          }
+                        }
+
+                        .vtex-omnishipping-1-x-btn {
+                          color: $main;
+                          font-weight: 600;
+                        }
+                      }
+
+                      .vtex-pickup-points-modal-3-x-pkpmodal {
+                        .vtex-pickup-points-modal-3-x-modalHeader {
+                          background-color: $main;
+
+                          .vtex-pickup-points-modal-3-x-modalTitle {
+                            color: $white;
+                            font-size: 0;
+
+                            &:before {
+                              content: "Elija un punto de retiro";
+                              font-size: $font-16;
+                              font-weight: bold;
+                            }
+                          }
+                        }
+
+                        .vtex-pickup-points-modal-3-x-infoBarContainer,
+                        .pac-target-input {
+                          background: $floralwhite;
+                        }
+
+                        .pkp-modal-ask-geolocation-btn {
+                          background: $floralwhite;
+                          opacity: 1;
+
+                          svg {
+                            fill: $main;
+
+                            path {
+                              fill: $main;
+                            }
+                          }
+                        }
+
+                        .vtex-pickup-points-modal-3-x-pointsItem {
+                          background: $linen-1;
+                          box-shadow: 0 0 9px 0 rgb(0 0 0 / 30%);
+                        }
+
+                        .pkpmodal-pickup-point-best-marker-image,
+                        .pkpmodal-pickup-point-marker-image {
+                          fill: $main;
+
+                          path {
+                            fill: $main;
+                          }
+                        }
+
+                        .vtex-pickup-points-modal-3-x-locationReset {
+                          color: $main;
+                          font-weight: 600;
+
+                          &:hover {
+                            text-decoration: none;
+                          }
+                        }
+
+                        #pkpmodal-show-list-btn {
+                          border: 2px solid $main;
+                          border-radius: 0px;
+                          color: $main;
+                          font-weight: bold;
+                          text-transform: none;
+                        }
+
+                        .vtex-pickup-points-modal-3-x-modalDetailsBackLnk {
+                          font-size: 0;
+
+                          &:after {
+                            content: "Ver todos los puntos de retiro";
+                            font-size: $font-13;
+                          }
+                        }
+
+                        .vtex-pickup-points-modal-3-x-pickupDetailsHeaderTitle {
+                          font-size: 0;
+
+                          &:before {
+                            content: "Detalles del punto de retiro";
+                            font-size: $font-13;
+                          }
+                        }
+
+                        .pkpmodal-details-confirm-btn {
+                          font-size: 0;
+                          background-color: $main;
+                          font-weight: bold;
+                          border: none;
+                          border-radius: 2px;
+                          display: flex;
+                          align-items: center;
+                          justify-content: center;
+
+                          &:before {
+                            content: "RETIRAR EN ESTA SUCURSAL";
+                            font-size: $font-13;
+                          }
+                        }
+                      }
+
+                      .vtex-omnishipping-1-x-PickupPointInfo {
+                        background-color: $linen-1;
+                        border: none;
+                        border-radius: 0px;
+
+                        .vtex-omnishipping-1-x-PickupPointName {
+                          color: $black-2;
+                          font-size: $font-12;
+                          font-weight: 600;
+                          line-height: 16px;
+                        }
+                      }
+                    }
+                  }
+
+                  .accordion-heading {
+                    position: relative;
+
+                    #edit-shipping-data {
+                      position: absolute;
+                      top: 22px;
+                      z-index: 9;
+
+                      &:hover {
+                        color: $main;
+                      }
+
+                      .icon-edit {
+                        font-size: $font-22;
+                        color: $black;
+                      }
+                    }
+
+                    .accordion-toggle {
+                      font-size: 0;
+                      font-weight: bold;
+                      line-height: 16px;
+                      color: $black;
+                      display: flex;
+                      align-items: center;
+
+                      &:before {
+                        content: "2";
+                        width: 29px;
+                        height: 29px;
+                        border: 1px solid $main;
+                        border-radius: 50%;
+                        font-size: $font-16;
+                        color: $main;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        background: none;
+                      }
+
+                      &:after {
+                        content: "Método de Entrega";
+                        font-size: $font-16;
+                        font-weight: bold;
+                        line-height: 20px;
+                        color: $darkgray-1;
+                      }
+                    }
+                  }
+
+                  .address-summary,
+                  .shp-summary-package-time,
+                  .shp-summary-group-price {
+                    font-size: $font-14;
+                    font-weight: 400;
+                    line-height: 16px;
+                    color: $linen;
+                  }
+
+                  .shp-summary-group-info {
+                    border-right: none;
+                  }
+
+                  .link-change-shipping {
+                    padding: 0;
+                    background-color: transparent;
+                    font-size: $font-14;
+                    line-height: 1.19;
+                    color: $main;
+                    font-weight: bold;
+                    height: 40px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: 2px solid $main;
+                    border-radius: 0px;
+
+                    &:hover {
+                      text-decoration: none;
+                    }
+                  }
+                }
+              }
+
+              /* Payment */
+              #payment-data {
+                padding: 0;
+                width: 100% !important;
+                float: right;
+                margin-left: 0 !important;
+                margin-top: 15px;
+
+                .link-gift-card{
+                  border: 1px solid #cbcbcb !important;
+                  border-radius: 0;
+                }
+
+                #show-gift-card-group{
+                  color: $main;
+                  font-size: 0 !important;
+                  display: flex;
+                  align-items: center;
+
+                  &::after{
+                    content: "Cupón de descuento";
+                    font-size: 12px !important;
+                  }
+
+                  @media (max-width: $phone + 128px) {
+                    justify-content: center;
+                  }
+                }
+
+                @media (max-width: $phone + 128px) {
+                  width: 100% !important;
+                  float: none;
+                  margin: 20px 0 0;
+                }
+
+                .store-country-ARG {
+                  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.13);
+                  border-radius: 0px;
+                  background-color: $floralwhite;
+                  padding: 17px 21px 22px 22px;
+
+                  @media (max-width: $phone + 128px) {
+                    margin-left: 0;
+                    width: calc(100% - 44px) !important;
+                  }
+
+                  &.active {
+                    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+                    margin-left: 0;
+
+                    @media (max-width: $phone + 128px) {
+                      margin-left: 0;
+                      width: calc(100% - 44px) !important;
+                      height: auto;
+                    }
+
+                    .accordion-heading {
+                      position: relative;
+
+                      .accordion-toggle {
+                        span {
+                          font-size: 0;
+                          display: flex;
+                          align-items: center;
+
+                          &:before {
+                            content: "3";
+                            width: 29px;
+                            height: 29px;
+                            border: 1px solid $main;
+                            border-radius: 50%;
+                            font-size: $font-16;
+                            background-color: $main;
+                            color: $white;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                          }
+
+                          &:after {
+                            content: "Pago";
+                            font-size: $font-16;
+                            font-weight: bold;
+                            line-height: 20px;
+                            color: $darkgray-1;
+                          }
+                        }
+                      }
+                    }
+
+                    .box-step-content {
+                      .form-step {
+
+                        @media (max-width: $phone + 128px) {
+                          flex-direction: column;
+                        }
+
+                        .payment-group {
+                          float: left;
+                          margin: 0;
+                          padding: 0;
+                          width: 175px;
+                          width: 100%;
+
+                          @media (max-width: $phone + 128px) {
+                            float: none;
+                            width: 100%;
+                          }
+
+                          .payment-group-list-btn {
+                            margin: 0;
+                            width: 100%;
+                            display: grid;
+                            justify-content: center;
+                            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+                            column-gap: 6px;
+
+                            @media (max-width: $phone + 128px) {
+                              flex-direction: row;
+                              justify-content: center;
+                              grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+                            }
+
+                            a {
+                              width: 100% !important;
+                              height: 44px;
+                              background: $whitesmoke-1;
+                              position: relative;
+                              border: 1px solid $lightgray;
+                              border-radius: 0;
+                              box-shadow: none;
+                              margin-right: 0;
+
+                              &:before,
+                              &:after {
+                                display: none;
+                              }
+
+                              &:hover {
+                                top: 0;
+                              }
+
+                              .payment-group-item-text {
+                                font-size: 12px !important;
+                                font-weight: 600;
+                                line-height: 16px;
+                                color: $dimgray;
+                                width: 100%;
+                                text-align: left;
+
+                                @media (max-width: $phone + 128px) {
+                                  text-align: center;
+                                  font-size: 11px !important;
+                                }
+
+                                &:before {
+                                  display: none;
+                                }
+
+                                &:after {
+                                  content: "";
+                                  background: url("/arquivos/arrow.png") no-repeat;
+                                  width: 20px;
+                                  height: 20px;
+                                  background-size: contain;
+                                  position: absolute;
+                                  right: 7px;
+                                  top: 11px;
+
+                                  @media (max-width: $phone + 128px) {
+                                    display: none;
+                                  }
+                                }
+                              }
+
+                              .payment-group-item-cards {
+                                display: none;
+                              }
+
+                              &.active {
+                                border: 1px solid $main;
+                                border-radius: 0px;
+                                background-color: $linen-1;
+
+                                .payment-group-item-text {
+                                  color: $main;
+
+                                  &:after {
+                                    content: "";
+                                    background: url("/arquivos/arrow-active.png") no-repeat;
+                                    background-size: contain;
+
+                                    @media (max-width: $phone + 128px) {
+                                      display: none;
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+
+                        .steps-view {
+                          width: 100%;
+                          float: right;
+                          margin: 0;
+                          background: transparent;
+
+                          @media (max-width: $phone + 128px) {
+                            padding: 0;
+                          }
+
+                          .payment-method {
+                            position: relative;
+                          }
+
+                          iframe {
+                            min-height: 350px;
+                            width: 100%;
+                          }
+
+                          .AddressToggle {
+                            label {
+                              font-size: 0;
+                              &:before {
+                                content: "La direcci\F3n de facturaci\F3n es la misma que la del resumen de la tarjeta.";
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+
+                  .accordion-heading {
+                    .accordion-toggle {
+                      span:not(.payment-edit-link) {
+                        font-size: 0;
+                        display: flex;
+                        align-items: center;
+
+                        &:before {
+                          content: "3";
+                          width: 29px;
+                          height: 29px;
+                          border: 1px solid $main;
+                          border-radius: 50%;
+                          font-size: $font-16;
+                          color: $main;
+                          display: flex;
+                          align-items: center;
+                          justify-content: center;
+
+                          background: none;
+                        }
+
+                        &:after {
+                          content: "Pago";
+                          font-size: $font-16;
+                          font-weight: bold;
+                          line-height: 20px;
+                          color: $darkgray-1;
+                        }
+                      }
+
+                      .payment-edit-link {
+                        position: absolute;
+                        top: 22px;
+                        z-index: 9;
+                        right: 0;
+
+                        &:hover {
+                          color: $main;
+                        }
+
+                        .icon-edit {
+                          font-size: $font-22;
+                          color: $black;
+                        }
+                      }
+                    }
+                  }
+                }
+
+                &.span12 {
+                  width: 100% !important;
+                  margin-left: 52%;
+
+                  @media (max-width: $phone + 128px) {
+                    margin-left: 0;
+                  }
+
+                  .store-country-ARG {
+                    width: auto;
+                  }
+                }
+              }
+            }
+          }
+
+          .cart-template {
+            width: 30%;
+            top: 79px;
+            max-width: 380px;
+            height: 100%;
+            width: 100%;
+            max-height: calc(100vh - 79px);
+
+            @media (max-width: $phone + 128px) {
+              width: 100%;
+              top: 0;
+            }
+
+            .mini-cart {
+              .cart {
+                max-height: 305px;
+
+                @media (max-width: $phone + 128px) {
+                  max-height: none;
+                }
+              }
+            }
+
+            .cart-fixed {
+              overflow: hidden;
+              height: 100% !important;
+              box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.15);
+
+              @media (max-width: $phone + 128px) {
+                max-height: none;
+                height: auto !important;
+                box-shadow: none;
+              }
+
+              .custom-cart-template-wrap {
+                display: flex;
+                flex-direction: column;
+                background: $linen-1;
+                box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.15);
+                padding: 0;
+                border-radius: 0;
+                position: relative;
+                background-color: $floralwhite;
+                height: 100%;
+                > h2 {
+                  order: 1;
+                  height: 74px;
+                  font-size: $font-22;
+                  font-weight: bold;
+                  color: $black;
+                  line-height: 26px;
+                  margin: 0;
+                  padding: 0 !important;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  background-color: $floralwhite !important;
+                  border-bottom: 1px solid $dimgray;
+
+                  @media (max-width: $phone + 128px) {
+                    height: 60px;
+                    font-size: $font-17;
+                    line-height: 20px;
+                  }
+                }
+
+                #go-to-cart-button {
+                  order: 5;
+                  position: static;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  padding: 15px 0;
+                  text-decoration: none;
+                  margin: 0;
+                  background-color: $floralwhite;
+                  margin-top: 0 !important;
+                  a {
+                    font-size: 0;
+                    font-family: $font-normal;
+                    font-weight: bold;
+                    line-height: 18px;
+                    text-decoration: none;
+                    color: $darkgray-1;
+                    position: relative;
+                    display: flex;
+
+                    &:hover {
+                      text-decoration: none;
+                      color: $darkgray-1;
+                    }
+
+                    &:before {
+                      content: "";
+                      background: url("/arquivos/arrow.png") no-repeat;
+                      width: 20px;
+                      height: 20px;
+                      background-size: contain;
+                      position: absolute;
+                      left: -22px;
+                      top: -1px;
+                      transform: rotate(180deg);
+                    }
+
+                    &:after {
+                      content: "Volver al Carrito";
+                      font-size: $font-15;
+                    }
+                  }
+                }
+
+                .summary-cart-template-holder {
+                  order: 2;
+                  background: $linen-1;
+                  padding-top: 31px;
+                  flex: 1;
+
+                  @media (max-width: $phone + 128px) {
+                    max-height: none;
+                    height: auto !important;
+                  }
+
+                  .cart {
+                    padding: 0;
+                    max-height: none;
+
+                    .cart-items {
+                      padding: 0 17px;
+
+                      .item {
+                        display: flex;
+                        border-top: 2px solid $gainsboro;
+                        position: relative;
+
+                        &:first-child {
+                          border-top: none;
+                        }
+
+                        a {
+                          margin: 0;
+                          width: 81px;
+                          display: block;
+                          padding-right: 16px;
+
+                          img {
+                            width: 65px;
+                            height: 65px;
+                          }
+                        }
+
+                        .product-name {
+                          font-size: $font-16;
+                          color: $darkgray-1;
+                          font-weight: 600;
+                          line-height: 20px;
+                          width: 100%;
+
+                          @media (max-width: $phone + 128px) {
+                            font-size: $font-14;
+                          }
+                        }
+
+                        .description {
+                          position: absolute;
+                          height: 16px;
+                          display: flex;
+                          left: 79px;
+                          bottom: 35px;
+
+                          @media (max-width: $phone + 128px) {
+                            left: 86px;
+                          }
+
+                          .item-price {
+                            display: block;
+                            font-size: $font-14;
+                            color: $linen;
+                            text-decoration: line-through;
+                            text-shadow: none;
+                          }
+
+                          .shipping-date {
+                            display: none;
+                          }
+
+                          .price {
+                            display: block;
+                            float: none;
+                            font-size: $font-14;
+                            color: $darkgray-1;
+                            width: auto;
+                            margin-left: 6px;
+                          }
+                        }
+
+                        .badge {
+                          background: $main;
+                          color: $white;
+                          border: none;
+                          box-shadow: none;
+                          width: 11px;
+                          height: 14px;
+                          font-size: $font-11;
+                          font-weight: bold;
+                          line-height: 16px;
+                          left: -10px;
+                        }
+                      }
+                    }
+                  }
+                }
+
+                .summary-template-holder {
+                  order: 3;
+                  overflow-y: overlay;
+
+                  @media (max-width: $phone + 128px) {
+                    max-height: none;
+                    overflow: hidden;
+                  }
+
+                  .summary-coupon-wrap {
+                    display: none !important;
+                  }
+
+                  .summary-totalizers {
+                    .accordion-group {
+                      border: none !important;
+
+                      .accordion-body {
+                        padding: 15px 30px;
+                        background-color: $floralwhite;
+
+                        .accordion-inner {
+                          .totalizers-list {
+                            border: none;
+                            padding: 0;
+
+                            .Items,
+                            .Discounts,
+                            .Shipping,
+                            .srp-summary-result {
+                              padding: 10px 0;
+                              width: 100%;
+
+                              .info {
+                                font-size: 0;
+                                line-height: 16px;
+                                color: $darkgray-1;
+                                font-weight: bold;
+                              }
+
+                              .monetary {
+                                font-size: $font-14;
+                                line-height: 16px;
+                                color: $darkgray-1;
+                                font-weight: 600;
+                              }
+                            }
+
+                            .Items {
+                              .info {
+                                &:before {
+                                  content: "Subtotal:";
+                                  font-size: $font-14;
+                                }
+                              }
+                            }
+                            .Discounts {
+                              .info {
+                                &:before {
+                                  content: "Descuentos:";
+                                  font-size: $font-14;
+                                }
+                              }
+                            }
+
+                            .Shipping {
+                              .info {
+                                &:before {
+                                  content: "Costo de envío:";
+                                  font-size: $font-14;
+                                }
+                              }
+                            }
+
+                            .srp-summary-result {
+                              .info {
+                                font-size: $font-14;
+
+                                &:after {
+                                  content: ":";
+                                  font-size: $font-14;
+                                }
+                              }
+                            }
+                          }
+
+                          tfoot {
+                            border-top: 2px solid $gainsboro;
+
+                            .info,
+                            .monetary {
+                              font-size: $font-20;
+                              font-weight: bold;
+                              color: $black;
+                              padding: 15px 0 13px !important;
+                            }
+
+                            .info {
+                              width: 50px;
+                            }
+
+                            .monetary {
+                              width: 150px;
+                            }
+
+                            .space,
+                            .empty {
+                              display: none;
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+
+                .payment-confirmation-wrap {
+                  order: 4;
+
+                  .payment-submit-wrap {
+                    margin: 0;
+                    position: static;
+
+                    #payment-data-submit {
+                      margin: 0;
+                      background: $main;
+                      border: none;
+                      padding: 19px;
+                      border-radius: 0;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+
+                      @media (max-width: $phone + 128px) {
+                        border-radius: 0px !important;
+                        padding: 11px 19px;
+                        width: calc(100% - 30px);
+                        margin: 0 auto !important;
+                        display: block;
+                      }
+
+                      span {
+                        font-size: 0;
+                        margin: 0;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        &:before {
+                          content: "Comprar Ahora";
+                          font-size: $font-18;
+                          font-weight: 600;
+                          font-family: $font-normal;
+
+                          @media (max-width: $phone + 128px) {
+                            font-size: $font-15;
+                          }
+                        }
+                      }
+
+                      .icon-lock {
+                        display: none;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .transactions {
+        display: none;
+      }
+    }
+
+    .header-logo {
+      padding-left: 60px !important;
+    }
+  }
+
+  .transactions-container {
+    display: none;
+  }
+}
+
+#app-container {
+  background: $floralwhite;
+
+  .iframe-credit-card-payment-group {
+    background: $floralwhite;
+  }
+
+  input#creditCardpayment-card-0Code,
+  input#creditCardpayment-card-1Code {
+    text-align: left;
+    font-size: $font-14;
+  }
+
+  .PaymentCardCVVHelp {
+    left: 30px;
+    height: 100px;
+    width: 120px;
+  }
+
+  label {
+    color: $black-1;
+    font-family: $font-normal;
+    font-size: $font-12;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 16px;
+  }
+
+  .ChangeNumberOfPayments {
+    padding-top: 15px;
+
+    a {
+      color: $darkgray-1;
+      font-size: $font-14;
+      font-weight: bold;
+      line-height: 16px;
+      text-transform: uppercase;
+
+      &:hover {
+        text-decoration: none;
+        color: $darkgray-1;
+      }
+    }
+  }
+
+}
+
+body.v-custom-step-shipping [for="ship-complement"]{
+  font-size: 0 !important;
+}
+body.v-custom-step-shipping [for="ship-complement"]::before{
+  font-size: 12px;
+  content: "Piso / Departamento / Barrio / Zona";
+}
+
+.client-phone {
+  p.input{
+    #client-phone1,
+    #client-phone3,
+    .client-phone-suffix,
+    .client-phone-prefix{
+      display: none !important;
+    }
+  }
+  [for="client-phone"]{
+    font-size: 0 !important;
+    height: 16px;
+    &::after{
+      content: "Teléfono";
+      font-size: 0.75rem !important;
+    }
+  }
+  .client-phone-mobile{
+    display: none !important;
+  }
+  .error-custom{
+    background-color: #fff;
+    z-index: 1;
+    white-space: pre-wrap !important;
+  }
+}
+
+.identified-user-modal,
+.default-modal {
+  text-align: center;
+  background: $floralwhite !important;
+  border-radius: 0px;
+  color: $black;
+
+  &.payment-confirmation-modal {
+    width: 360px;
+    height: 220px;
+
+    @media (max-width: $phone) {
+      width: calc(100% - 20px);
+    }
+
+    .payment-confirmation-modal-body {
+      width: 360px;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 220px;
+
+      @media (max-width: $phone) {
+        width: 100%;
+      }
+
+      .payment-confirmation-content {
+        .payment-confirmation-loading {
+          display: none;
+        }
+
+        .payment-confirmation-thanks {
+          font-size: $font-18;
+          font-weight: bold;
+          font-family: $font-normal;
+
+          &:before {
+            content: "";
+            background: url("/arquivos/payment-check.png") no-repeat;
+            width: 50px;
+            height: 50px;
+            background-size: contain;
+            display: block;
+            margin: 0 auto 15px;
+          }
+        }
+      }
+
+      .payment-confirmation-message {
+        font-size: 0;
+        color: $dimgray;
+
+        &:before {
+          content: "Estamos procesando tu pedido..";
+          font-size: $font-16;
+        }
+      }
+    }
+  }
+
+  .icon-lock {
+    display: none;
+  }
+
+  a {
+    color: $black;
+    text-decoration: none;
+
+    &:hover {
+      color: $black;
+      text-decoration: none;
+    }
+  }
+
+  button {
+    background: transparent !important;
+    border-radius: 0px;
+    border: 2px solid $main;
+    color: $main;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 11px 19px;
+  }
+
+  .identified-user-modal-body {
+    .identified-user-security {
+      display: none;
+    }
+  }
+
+  .identified-user-message {
+    @media (max-width: $phone + 128px) {
+      float: none;
+      width: 100%;
+    }
+  }
+
+  #btn-identified-user-button {
+    border-radius: 0px;
+    border: 1px solid $main;
+    height: 40px;
+    padding: 0 10px;
+    color: $main;
+    font-weight: bold;
+  }
+
+}
+
+.payment-mercadopago-flags-arg{
+  background-size: contain !important;
+}

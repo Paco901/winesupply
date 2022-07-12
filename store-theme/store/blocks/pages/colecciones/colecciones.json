@@ -1,0 +1,160 @@
+{
+    "store.custom#colecciones": {
+        "blocks": [
+            "list-context.image-list#colecciones",
+            "flex-layout.row#colecciones--container"
+        ]
+    },
+    "list-context.image-list#colecciones": {
+        "children": ["slider-layout#colecciones-images"],
+        "props": {
+            "height": 650,
+            "images": [
+                {
+                    "image": "https://limpioonline.vteximg.com.br/arquivos/1.jpg",
+                    "mobileImage": "https://limpioonline.vteximg.com.br/arquivos/1mobile.jpg",
+                    "description": "descuentos"
+                },
+                {
+                    "image": "https://limpioonline.vteximg.com.br/arquivos/2.jpg",
+                    "mobileImage": "https://limpioonline.vteximg.com.br/arquivos/1mobile.jpg",
+                    "description": "descuentos"
+                }
+            ]
+        }
+    },
+    "slider-layout#colecciones-images": {
+        "props": {
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showPaginationDots": "never",
+            "showNavigationArrows": "always",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.row#colecciones--container": {
+        "children": ["flex-layout.col#colecciones"],
+        "props": {
+            "blockClass": ["contenedorColecciones"]
+        }
+    },
+    "flex-layout.col#colecciones": {
+        "children": [
+            "rich-text#colecciones-malbec",
+            "list-context.product-list#colecciones-malbec",
+            "rich-text#colecciones-cabernet",
+            "list-context.product-list#colecciones-cabernet-franc",
+            "rich-text#colecciones-blend-tintos",
+            "list-context.product-list#colecciones-blend-tintos",
+            "rich-text#colecciones-variedades",
+            "list-context.product-list#colecciones-variedades"
+        ]
+    },
+    "rich-text#colecciones-malbec": {
+        "props": {
+            "text": "MALBEC >",
+            "font": "t-heading-1",
+            "blockClass": "titulo-colecciones"
+        }
+    },
+    "rich-text#colecciones-cabernet": {
+        "props": {
+            "text": "CABERNET FRANC >",
+            "font": "t-heading-1",
+            "blockClass": ["titulo-colecciones", "titulo-estilo-secundario"]
+        }
+    },
+    "rich-text#colecciones-blend-tintos": {
+        "props": {
+            "text": "BLEND DE TINTOS >",
+            "font": "t-heading-1",
+            "blockClass": ["titulo-colecciones", "titulo-estilo-secundario"]
+        }
+    },
+    "rich-text#colecciones-variedades": {
+        "props": {
+            "text": "OTRAS VARIEDADES>",
+            "font": "t-heading-1",
+            "blockClass": ["titulo-colecciones", "titulo-estilo-secundario"]
+        }
+    },
+    "rich-text#colecciones-varios1": {
+        "props": {
+            "text": "MALBEC >",
+            "font": "t-heading-1",
+            "blockClass": "titulo-colecciones"
+        }
+    },
+    "rich-text#colecciones-varios2": {
+        "props": {
+            "text": "CABERNET FRANC >",
+            "font": "t-heading-1",
+            "blockClass": ["titulo-colecciones", "titulo-estilo-secundario"]
+        }
+    },
+    "rich-text#colecciones-varios3": {
+        "props": {
+            "text": "BLEND DE TINTOS >",
+            "font": "t-heading-1",
+            "blockClass": ["titulo-colecciones", "titulo-estilo-secundario"]
+        }
+    },
+    "rich-text#colecciones-varios4": {
+        "props": {
+            "text": "OTRAS VARIEDADES>",
+            "font": "t-heading-1",
+            "blockClass": ["titulo-colecciones", "titulo-estilo-secundario"]
+        }
+    },
+    "flex-layout.row#banners-colecciones": {
+        "children": ["info-card#colecciones", "info-card#coleccionesDos"],
+        "props": {
+            "blockClass": ["contenedorInfoCartColecciones"]
+        }
+    },
+    "image#colecciones": {
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+            "blockClass": ["imagenRodri"],
+            "maxHeight": 250
+        }
+    },
+    "info-card#colecciones": {
+        "props": {
+            "id": "info-card-test",
+            "textPosition": "center",
+            "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+            "headline": "¿NO SAVES QUÉ VINO ELEGIR?",
+            "subhead": "Descubrí los vinos que conbinan con tus gustos con nuestro Test de Paladar",
+            "callToActionText": "Empezar Test",
+            "callToActionUrl": "/sale/d",
+            "blockClass": ["info-card-test", "colecciones-card"],
+            "textAlignment": "center",
+            "isFullModeStyle": true,
+            "maxHeight": 250
+        }
+    },
+    "info-card#coleccionesDos": {
+        "props": {
+            "id": "info-card-test",
+            "textPosition": "center",
+            "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+            "headline": "¿NO SAVES QUÉ VINO ELEGIR?",
+            "subhead": "Descubrí los vinos que conbinan con tus gustos con nuestro Test de Paladar",
+            "callToActionText": "Empezar Test",
+            "callToActionUrl": "/sale/d",
+            "blockClass": "info-card-test",
+            "textAlignment": "center",
+            "isFullModeStyle": true,
+            "maxHeight": 250
+        }
+    }
+}

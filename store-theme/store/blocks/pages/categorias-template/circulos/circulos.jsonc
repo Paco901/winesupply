@@ -1,0 +1,149 @@
+{
+    "slider-layout#circulosNordes": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 1
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "navigationStep": 1,
+            "blockClass": ["carousel", "circulos"]
+        },
+        "children": [
+            "flex-layout.row#circulo1Nordes",
+            "flex-layout.row#circulo1Nordes",
+            "flex-layout.row#circulo1Nordes",
+            "flex-layout.row#circulo1Nordes"
+        ]
+    },
+
+    "flex-layout.row#circulo1Nordes": {
+        "children": ["image#circulo1Nordes", "rich-text#nordes"],
+        "props": {
+            "blockClass": ["imagenTextoCol"]
+        }
+    },
+    "image#circulo1Nordes": {
+        "props": {
+            "blockClass": [""],
+            "src": "https://winesupply.vteximg.com.br/arquivos/imgtienda.png",
+            "link": "#"
+        }
+    },
+    "rich-text#nordes": {
+        "props": {
+            "text": "Cockteles",
+            "blockClass": ["textNordesCirculos"]
+        }
+    },
+
+    "slider-layout#circulosflordecana": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "navigationStep": 1,
+            "blockClass": ["carousel", "circulos"]
+        },
+        "children": [
+            "flex-layout.row#circulo1Flor",
+            "flex-layout.row#circulo2Flor",
+            "flex-layout.row#circulo3Flor",
+            "flex-layout.row#circulo4Flor"
+        ]
+    },
+
+    "flex-layout.row#circulo1Flor": {
+        "children": ["image#circulo1Flor", "rich-text#Flor"],
+        "props": {
+            "blockClass": ["imagenTextoCol"]
+        }
+    },
+    "image#circulo1Flor": {
+        "props": {
+            "blockClass": [""],
+            "src": "https://winesupply.vteximg.com.br/arquivos/imgtienda.png",
+            "link": "#"
+        }
+    },
+    "rich-text#Flor": {
+        "props": {
+            "text": "Cockteles",
+            "blockClass": ["textFlorCirculos"]
+        }
+    },
+
+    "flex-layout.row#circulo2Flor": {
+        "children": ["image#circulo2Flor", "rich-text#Flor2"],
+        "props": {
+            "blockClass": ["imagenTextoCol"]
+        }
+    },
+    "image#circulo2Flor": {
+        "props": {
+            "blockClass": [""],
+            "src": "https://winesupply.vteximg.com.br/arquivos/imgtienda.png",
+            "link": "#"
+        }
+    },
+    "rich-text#Flor2": {
+        "props": {
+            "text": "Aprendé + de la marca",
+            "blockClass": ["textFlorCirculos"]
+        }
+    },
+
+    "flex-layout.row#circulo3Flor": {
+        "children": ["image#circulo3Flor", "rich-text#Flor3"],
+        "props": {
+            "blockClass": ["imagenTextoCol"]
+        }
+    },
+    "image#circulo3Flor": {
+        "props": {
+            "blockClass": [""],
+            "src": "https://winesupply.vteximg.com.br/arquivos/imgtienda.png",
+            "link": "#"
+        }
+    },
+    "rich-text#Flor3": {
+        "props": {
+            "text": "Embajador",
+            "blockClass": ["textFlorCirculos"]
+        }
+    },
+
+    "flex-layout.row#circulo4Flor": {
+        "children": ["image#circulo4Flor", "rich-text#Flor4"],
+        "props": {
+            "blockClass": ["imagenTextoCol"]
+        }
+    },
+    "image#circulo4Flor": {
+        "props": {
+            "blockClass": [""],
+            "src": "https://winesupply.vteximg.com.br/arquivos/imgtienda.png",
+            "link": "#"
+        }
+    },
+    "rich-text#Flor4": {
+        "props": {
+            "text": "Regalos exclusivos",
+            "blockClass": ["textFlorCirculos"]
+        }
+    }
+}

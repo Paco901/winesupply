@@ -1,0 +1,18 @@
+{
+  "wine-componente-modal":{
+    "component": "ComponenteModal"
+  },
+  "wine-specification-group":{
+    "component": "SpecificationGroup"
+  },
+  "wine-short-description":{
+    "component": "ShortDescription"
+  },
+  "wine-custom-container":{
+    "component": "CustomContainer",
+    "composition": "children"
+  },
+  "custom-orderplaced": {
+    "component": "CustomOrderPlaced"
+  }
+}

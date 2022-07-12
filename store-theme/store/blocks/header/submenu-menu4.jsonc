@@ -1,0 +1,528 @@
+{
+    "submenu#menu4": {
+       /*  "children": [
+            "flex-layout.col#submenu-teens-&-kids"
+        ], */
+        "props": {
+            "width": "100%",
+            "blockClass": "header-submenu-container"
+        }
+    },
+    "flex-layout.col#submenu-teens-&-kids": {
+        "children": [
+            "flex-layout.row#submenu-teens-&-kids-1",
+            "flex-layout.row#submenu-teens-&-kids-2"
+        ],
+        "props": {
+            "blockClass": "header-submenu",
+            "width": "100%"
+        }
+    },
+    "flex-layout.row#submenu-teens-&-kids-1": {
+        "children": [
+            "flex-layout.col#submenu-teens-&-kids-accesorios-escolares",
+            "flex-layout.col#submenu-teens-&-kids-infantil",
+            "flex-layout.col#submenu-teens-&-kids-mochila",
+            "flex-layout.col#submenu-teens-&-kids-stationery"
+        ],
+        "props": {
+            "blockClass": "header-submenu",
+            "width": "100%"
+        }
+    },
+    "flex-layout.col#submenu-teens-&-kids-accesorios-escolares": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "width": "20%"
+        },
+        "children": [
+            "menu-item#submenu-teens-&-kids-accesorios-escolares",
+            "menu#submenu-teens-&-kids-accesorios-escolares"
+        ]
+    },
+    "menu#submenu-teens-&-kids-accesorios-escolares-title": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-teens-&-kids-accesorios-escolares"
+        ]
+    },
+    "menu-item#submenu-teens-&-kids-accesorios-escolares": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header-submenu-title",
+            "itemProps": {
+                "type": "internal",
+                "href": "/teens---kids/accesorios-escolares",
+                "noFollow": false,
+                "tagTitle": "Accesorios escolares",
+                "text": "ACCESORIOS ESCOLARES"
+            }
+        }
+    },
+    "menu#submenu-teens-&-kids-accesorios-escolares": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-teens-&-kids-accesorios-escolares-carpetas",
+            "menu-item#submenu-teens-&-kids-accesorios-escolares-cartucheras",
+            "menu-item#submenu-teens-&-kids-accesorios-escolares-luncheras",
+            "menu-item#submenu-teens-&-kids-accesorios-escolares-set-escolar"
+        ]
+    },
+    "menu-item#submenu-teens-&-kids-accesorios-escolares-carpetas": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": true,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/teens---kids/accesorios-escolares/carpetas",
+                "noFollow": false,
+                "tagTitle": "carpetas",
+                "text": "Carpetas"
+            }
+        }
+    },
+    "menu-item#submenu-teens-&-kids-accesorios-escolares-cartucheras": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/teens---kids/accesorios-escolares/cartucheras",
+                "noFollow": false,
+                "tagTitle": "cartucheras",
+                "text": "Cartucheras"
+            }
+        }
+    },
+    "menu-item#submenu-teens-&-kids-accesorios-escolares-luncheras": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/teens---kids/accesorios-escolares/luncheras",
+                "noFollow": false,
+                "tagTitle": "luncheras",
+                "text": "Luncheras"
+            }
+        }
+    },
+    "menu-item#submenu-teens-&-kids-accesorios-escolares-set-escolar": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/teens---kids/accesorios-escolares/set-escolar",
+                "noFollow": false,
+                "tagTitle": "set escolar",
+                "text": "Set escolar"
+            }
+        }
+    },
+    "flex-layout.col#submenu-teens-&-kids-infantil": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "width": "20%"
+        },
+        "children": [
+            "menu-item#submenu-teens-&-kids-infantil",
+            "menu#submenu-teens-&-kids-infantil"
+        ]
+    },
+    "menu#submenu-teens-&-kids-infantil-title": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-teens-&-kids-infantil"
+        ]
+    },
+    "menu-item#submenu-teens-&-kids-infantil": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header-submenu-title",
+            "itemProps": {
+                "type": "internal",
+                "href": "/teens---kids/infantil",
+                "noFollow": false,
+                "tagTitle": "infantil",
+                "text": "INFANTIL"
+            }
+        }
+    },
+    "menu#submenu-teens-&-kids-infantil": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-teens-&-kids-infantil-bazar",
+            "menu-item#submenu-teens-&-kids-infantil-billeteras",
+            "menu-item#submenu-teens-&-kids-infantil-bolsos",
+            "menu-item#submenu-teens-&-kids-infantil-botineros",
+            "menu-item#submenu-teens-&-kids-infantil-carteras-bandoleras",
+            "menu-item#submenu-teens-&-kids-infantil-paraguas-y-pilotos",
+            "menu-item#submenu-teens-&-kids-infantil-riñoneras"
+        ]
+    },
+    "menu-item#submenu-teens-&-kids-infantil-bazar": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": true,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/teens---kids/infantil/bazar",
+                "noFollow": false,
+                "tagTitle": "bazar",
+                "text": "Bazar"
+            }
+        }
+    },
+    "menu-item#submenu-teens-&-kids-infantil-billeteras": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": true,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/teens---kids/infantil/billeteras",
+                "noFollow": false,
+                "tagTitle": "Billeteras",
+                "text": "Billeteras"
+            }
+        }
+    },
+    "menu-item#submenu-teens-&-kids-infantil-bolsos": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/teens---kids/infantil/bolsos",
+                "noFollow": false,
+                "tagTitle": "bolsos",
+                "text": "Bolsos"
+            }
+        }
+    },
+    "menu-item#submenu-teens-&-kids-infantil-botineros": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": true,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/teens---kids/infantil/botineros",
+                "noFollow": false,
+                "tagTitle": "botineros",
+                "text": "Botineros"
+            }
+        }
+    },
+    "menu-item#submenu-teens-&-kids-infantil-carteras-bandoleras": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": true,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/teens---kids/infantil/carteras-bandoleras",
+                "noFollow": false,
+                "tagTitle": "carteras bandoleras",
+                "text": "Carteras/Bandoleras"
+            }
+        }
+    },
+    "menu-item#submenu-teens-&-kids-infantil-paraguas-y-pilotos": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": true,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/teens---kids/infantil/paraguas-y-pilotos",
+                "noFollow": false,
+                "tagTitle": "paraguas y pilotos",
+                "text": "Paraguas y Pilotos"
+            }
+        }
+    },
+    "menu-item#submenu-teens-&-kids-infantil-riñoneras": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": true,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/teens---kids/infantil/rinoneras",
+                "noFollow": false,
+                "tagTitle": "riñoneras",
+                "text": "Riñoneras"
+            }
+        }
+    },
+    "flex-layout.col#submenu-teens-&-kids-mochila": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "width": "20%"
+        },
+        "children": [
+            "menu-item#submenu-teens-&-kids-mochila",
+            "menu#submenu-teens-&-kids-mochila"
+        ]
+    },
+    "menu#submenu-teens-&-kids-mochila-title": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-teens-&-kids-mochila"
+        ]
+    },
+    "menu-item#submenu-teens-&-kids-mochila": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header-submenu-title",
+            "itemProps": {
+                "type": "internal",
+                "href": "/teens---kids/mochila",
+                "noFollow": false,
+                "tagTitle": "mochilas",
+                "text": "MOCHILA"
+            }
+        }
+    },
+    "menu#submenu-teens-&-kids-mochila": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-teens-&-kids-mochila-con-carro",
+            "menu-item#submenu-teens-&-kids-mochila-personajes"
+        ]
+    },
+    "menu-item#submenu-teens-&-kids-mochila-con-carro": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/teens---kids/mochila/con-carro",
+                "noFollow": false,
+                "tagTitle": "con carro",
+                "text": "Con carro"
+            }
+        }
+    },
+    "menu-item#submenu-teens-&-kids-mochila-personajes": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/teens---kids/mochila/personajes",
+                "noFollow": false,
+                "tagTitle": "personajes",
+                "text": "Personajes"
+            }
+        }
+    },
+    "flex-layout.col#submenu-teens-&-kids-stationery": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "width": "20%"
+        },
+        "children": [
+            "menu-item#submenu-teens-&-kids-stationery",
+            "menu#submenu-teens-&-kids-stationery"
+        ]
+    },
+    "menu#submenu-teens-&-kids-stationery-title": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-teens-&-kids-stationery"
+        ]
+    },
+    "menu-item#submenu-teens-&-kids-stationery": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header-submenu-title",
+            "itemProps": {
+                "type": "internal",
+                "href": "/teens---kids/stationery",
+                "noFollow": false,
+                "tagTitle": "stationery",
+                "text": "stationery"
+            }
+        }
+    },
+    "menu#submenu-teens-&-kids-stationery": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-teens-&-kids-stationery-anotadores-y-cuadernos"
+        ]
+    },
+    "menu-item#submenu-teens-&-kids-stationery-anotadores-y-cuadernos": {
+        "props": {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/teens---kids/stationery/anotadores-y-cuadernos",
+                "noFollow": false,
+                "tagTitle": "Anotadores y Cuadernos",
+                "text": "Anotadores y Cuadernos"
+            }
+        }
+    },
+    "flex-layout.row#submenu-teens-&-kids-2": {
+        "children": [
+            // "flex-layout.col#submenu-teens-&-kids-textil"
+        ],
+        "props": {
+            "blockClass": "header-submenu",
+            "width": "100%"
+        }
+    },
+    "flex-layout.col#submenu-teens-&-kids-textil": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "width": "20%"
+        },
+        "children": [
+            "menu-item#submenu-teens-&-kids-textil",
+            "menu#submenu-teens-&-kids-textil"
+        ]
+    },
+    "menu#submenu-teens-&-kids-textil-title": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column"
+        },
+        "children": [
+            "menu-item#submenu-teens-&-kids-textil"
+        ]
+    },
+    "menu-item#submenu-teens-&-kids-textil": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header-submenu-title",
+            "itemProps": {
+                "type": "internal",
+                "href": "/teens---kids/textil",
+                "noFollow": false,
+                "tagTitle": "textil",
+                "text": "TEXTIL"
+            }
+        }
+    },
+    "menu#submenu-teens-&-kids-textil": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-column",
+            "items": [
+                {
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "blockClass": "header-menu-item",
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/teens---kids/textil/bufandas-y-cuellos",
+                        "noFollow": false,
+                        "tagTitle": "bufandas y cuellos",
+                        "text": "Bufandas y Cuellos"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "blockClass": "header-menu-item",
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/teens---kids/textil/gorros",
+                        "noFollow": false,
+                        "tagTitle": "gorros",
+                        "text": "Gorros"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "blockClass": "header-menu-item",
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/teens---kids/textil/guantes",
+                        "noFollow": false,
+                        "tagTitle": "Guantes",
+                        "text": "Guantes"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "blockClass": "header-menu-item",
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/teens---kids/textil/pashminas-y-panuelos",
+                        "noFollow": false,
+                        "tagTitle": "Pashminas y pañuelos",
+                        "text": "Pashminas y Pañuelos"
+                    }
+                }
+            ]
+        }
+    }
+}

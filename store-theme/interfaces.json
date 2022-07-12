@@ -1,0 +1,10 @@
+{
+    "submenu.accordion.product-page": {
+        "allowed": [
+            "rich-text"
+        ]
+    },
+    "ProductDescription": {
+        "component": "ProductDescription"
+    }
+}

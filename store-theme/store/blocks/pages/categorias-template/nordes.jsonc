@@ -1,0 +1,433 @@
+{
+    "store.custom#nordes": {
+        "blocks": [
+            "list-context.image-list#nordes",
+            "flex-layout.row#nordes--container"
+        ]
+    },
+    "list-context.image-list#nordes": {
+        "children": ["slider-layout#nordes"],
+        "props": {
+            "height": 650,
+            "images": [
+                {
+                    "image": "https://limpioonline.vteximg.com.br/arquivos/1.jpg",
+                    "mobileImage": "https://limpioonline.vteximg.com.br/arquivos/1mobile.jpg",
+                    "description": "descuentos"
+                },
+                {
+                    "image": "https://limpioonline.vteximg.com.br/arquivos/2.jpg",
+                    "mobileImage": "https://limpioonline.vteximg.com.br/arquivos/1mobile.jpg",
+                    "description": "descuentos"
+                }
+            ]
+        }
+    },
+    "slider-layout#nordes": {
+        "props": {
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "never",
+            "fullWidth": true
+        }
+    },
+
+    "flex-layout.row#nordes--container": {
+        "children": [
+            "rich-text#descripcion",
+            "flex-layout.row#circulos",
+            "flex-layout.row#shelf-and-video",
+            "list-context.product-list#nordesuno",
+            "flex-layout.row#recetaNordesUno",
+            "flex-layout.row#recetaNordesDos",
+            "flex-layout.row#recetaNordesHistoriaNordes",
+            "flex-layout.row#giftNordes",
+            "list-context.product-list#nordesuno",
+            "flex-layout.row#newsletterNordes"
+        ],
+        "props": {
+            "blockClass": ["contedido-nordes"],
+            "preventHorizontalStretch": true
+        }
+    },
+
+    "rich-text#descripcion": {
+        "props": {
+            "text": "Con la cosecha inaugural 1997, el Nicolás #CatenaZapata se convirtió en el primer cuvée de lujo de #Argentina en ser exportado al mundo entero. Este corte de #Malbec y #CabernetSauvignon constituye la cima de la visión de Nicolás Catena Zapata: un vino sudamericano a la altura de los mejores del mundo. Se destaca por su gran complejidad, remite a frutos negros maduros, chocolate amargo y regaliz, suavemente entrelazados con notas minerales, a violetas, hierbas y pimienta.",
+            "blockClass": "textoDescripcion"
+        }
+    },
+    "flex-layout.row#circulos": {
+        "children": ["slider-layout#circulosNordes"],
+        "props": {
+            "blockClass": ["contenidoSliderCirculos"]
+        }
+    },
+
+    //// seccion del video
+
+    "flex-layout.row#shelf-and-video": {
+        "children": ["image#shelf", "modal-trigger#example"],
+        "props": {
+            "blockClass": "shelf-and-video"
+        }
+    },
+    "image#shelf": {
+        "props": {
+            "src": "https://winesupply.vteximg.com.br/arquivos/shelf-prueba.png",
+            "blockClass": ["image-shelf", "especial-nordes"]
+        }
+    },
+
+    "modal-trigger#example": {
+        "children": ["image#video", "modal-layout#example"],
+        "props": {
+            "blockClass": ["video", "especial-nordes"]
+        }
+    },
+    "image#video": {
+        "props": {
+            "src": "https://winesupply.vteximg.com.br/arquivos/prueba-video.jpg",
+            "blockClass": ["video", "especial-nordes"]
+        }
+    },
+    "modal-layout#example": {
+        "children": ["video#background"],
+        "props": {
+            "blockClass": "video"
+        }
+    },
+    "video#background": {
+        "props": {
+            "width": "100%",
+            "height": "600px",
+            "loop": false,
+            "autoPlay": true,
+            "muted": false,
+            "src": "https://www.youtube.com/watch?v=xcJtL7QggTI&t=3s",
+            "blockClass": "videoEl"
+        }
+    },
+
+    // NEWS LETTER
+
+    "flex-layout.row#newsletterNordes": {
+        "children": ["flex-layout.col#NewsText", "newsletter"],
+        "props": {
+            "blockClass": ["newsStyle", "styleTemplate"],
+            "preventHorizontalStretch": true
+        }
+    },
+    "flex-layout.col#NewsText": {
+        "children": ["rich-text#newsTop", "rich-text#newsBotton"]
+    },
+    "rich-text#newsTop": {
+        "props": {
+            "text": "ENTÉRATE DE LAS PROMOCIONES Y NOVEDADES.",
+            "blockClass": "textNewsuno"
+        }
+    },
+    "rich-text#newsBotton": {
+        "props": {
+            "text": "Suscribite a nuestro Newsletter",
+            "blockClass": "textNewsDos"
+        }
+    },
+    "newsletter": {
+        "props": {
+            "submit": "SUSCRIBIRME"
+        }
+    },
+
+    "flex-layout.row#recetaNordesUno": {
+        "children": [
+            "flex-layout.col#recetaNordesUno",
+            "flex-layout.row#img-1"
+        ],
+        "props": {
+            "blockClass": ["contenidoRecetas"]
+        }
+    },
+    "flex-layout.col#recetaNordesUno": {
+        "children": [
+            "rich-text#tituloRecetaUnoNordes",
+            "rich-text#TextoRecetaUnoNordes"
+        ],
+        "props": {
+            "blockClass": ["contenidoInfoRecetas"]
+        }
+    },
+
+    "rich-text#tituloRecetaUnoNordes": {
+        "props": {
+            "text": "COCKTAIL | Recetas",
+            "blockClass": "tituloRecetas"
+        }
+    },
+
+    "rich-text#TextoRecetaUnoNordes": {
+        "props": {
+            "text": "Nordés se produce en Aguardientes de Galicia, una pequeña destilería situada en San Pedro de Sarandon, Vedra (A Coruña). ¿Cuáles son los ingredientes principales de esta ginebra? La receta de Nordés utiliza una porción de uva albariño gallega de la que se obtiene el aguardiente de vino, alma del producto.",
+            "blockClass": "textoRecetas"
+        }
+    },
+
+    "flex-layout.row#img-1": {
+        "children": [
+            "image#recetas1",
+            "image#recetas2",
+            "image#recetas3",
+            "image#recetas4",
+            "image#recetas5",
+            "image#recetas6",
+            "image#recetas7",
+            "image#recetas8"
+        ],
+        "props": {
+            "blockClass": "recetas-imagen"
+        }
+    },
+
+    "image#recetas1": {
+        "props": {
+            "src": "https://user-images.githubusercontent.com/284515/70230392-f982e780-1736-11ea-921b-e83208e80620.png"
+        }
+    },
+    "image#recetas2": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#recetas3": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#recetas4": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#recetas5": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#recetas6": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#recetas7": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#recetas8": {
+        "props": {
+            "src": ""
+        }
+    },
+
+    /////////////
+
+    "flex-layout.row#recetaNordesDos": {
+        "children": [
+            "flex-layout.col#recetaNordesDos",
+            "flex-layout.row#img-2"
+        ],
+        "props": {
+            "blockClass": ["contenidoRecetas"]
+        }
+    },
+    "flex-layout.col#recetaNordesDos": {
+        "children": [
+            "rich-text#tituloRecetaDosNordes",
+            "rich-text#TextoRecetaDosNordes"
+        ],
+        "props": {
+            "blockClass": ["contenidoInfoRecetas"]
+        }
+    },
+
+    "rich-text#tituloRecetaDosNordes": {
+        "props": {
+            "text": "MARIDAJE | Recetas",
+            "blockClass": "tituloRecetas"
+        }
+    },
+
+    "rich-text#TextoRecetaDosNordes": {
+        "props": {
+            "text": "Nordés se produce en Aguardientes de Galicia, una pequeña destilería situada en San Pedro de Sarandon, Vedra (A Coruña). ¿Cuáles son los ingredientes principales de esta ginebra? La receta de Nordés utiliza una porción de uva albariño gallega de la que se obtiene el aguardiente de vino, alma del producto.",
+            "blockClass": "textoRecetas"
+        }
+    },
+
+    "flex-layout.row#img-2": {
+        "children": [
+            "image#recetas-dos-1",
+            "image#recetas-dos-2",
+            "image#recetas-dos-3",
+            "image#recetas-dos-4",
+            "image#recetas-dos-5",
+            "image#recetas-dos-6",
+            "image#recetas-dos-7",
+            "image#recetas-dos-8"
+        ],
+        "props": {
+            "blockClass": ["recetas-imagen"]
+        }
+    },
+
+    "image#recetas-dos-1": {
+        "props": {
+            "src": "https://user-images.githubusercontent.com/284515/70230392-f982e780-1736-11ea-921b-e83208e80620.png"
+        }
+    },
+    "image#recetas-dos-2": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#recetas-dos-3": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#recetas-dos-4": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#recetas-dos-5": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#recetas-dos-6": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#recetas-dos-7": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#recetas-dos-8": {
+        "props": {
+            "src": ""
+        }
+    },
+
+    ////////////////
+
+    "flex-layout.row#recetaNordesHistoriaNordes": {
+        "children": [
+            "flex-layout.col#recetaNordesHistoriaNordes",
+            "flex-layout.row#img-3"
+        ],
+        "props": {
+            "blockClass": ["contenidoRecetas"]
+        }
+    },
+    "flex-layout.col#recetaNordesHistoriaNordes": {
+        "children": [
+            "rich-text#tituloRecetaHistoriaNordesNordes",
+            "rich-text#TextoRecetaHistoriaNordesNordes"
+        ],
+        "props": {
+            "blockClass": ["contenidoInfoRecetas"]
+        }
+    },
+
+    "rich-text#tituloRecetaHistoriaNordesNordes": {
+        "props": {
+            "text": "HISTORIA DE NORDES",
+            "blockClass": "tituloRecetas"
+        }
+    },
+
+    "rich-text#TextoRecetaHistoriaNordesNordes": {
+        "props": {
+            "text": "Nordés se produce en Aguardientes de Galicia, una pequeña destilería situada en San Pedro de Sarandon, Vedra (A Coruña). ¿Cuáles son los ingredientes principales de esta ginebra? La receta de Nordés utiliza una porción de uva albariño gallega de la que se obtiene el aguardiente de vino, alma del producto.",
+            "blockClass": "textoRecetas"
+        }
+    },
+
+    "flex-layout.row#img-3": {
+        "children": [
+            "image#recetas-tres-1",
+            "image#recetas-tres-2",
+            "image#recetas-tres-3",
+            "image#recetas-tres-4",
+            "image#recetas-tres-5",
+            "image#recetas-tres-6",
+            "image#recetas-tres-7",
+            "image#recetas-tres-8"
+        ],
+        "props": {
+            "blockClass": ["recetas-imagen"]
+        }
+    },
+    "image#recetas-tres-1": {
+        "props": {
+            "src": "https://user-images.githubusercontent.com/284515/70230392-f982e780-1736-11ea-921b-e83208e80620.png"
+        }
+    },
+    "image#recetas-tres-2": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#recetas-tres-3": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#recetas-tres-4": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#recetas-tres-5": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#recetas-tres-6": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#recetas-tres-7": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#recetas-tres-8": {
+        "props": {
+            "src": ""
+        }
+    },
+
+    "flex-layout.row#giftNordes": {
+        "children": ["rich-text#gift"]
+    },
+
+    "rich-text#gift": {
+        "props": {
+            "text": "GIFTCARD",
+            "blockClass": "textoRecetas"
+        }
+    }
+}

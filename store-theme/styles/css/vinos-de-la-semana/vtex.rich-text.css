@@ -1,0 +1,16 @@
+.paragraph--tituloVinoSemana{
+  font-size: 20px;
+  font-family: 'BodoniFLF-Bold';
+}
+.wrapper--tituloVinoSemana{
+  width: 100%;
+  margin: auto;
+  padding-left: 4rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .wrapper--tituloVinoSemana{
+    padding-left: 0;
+  }
+}
+

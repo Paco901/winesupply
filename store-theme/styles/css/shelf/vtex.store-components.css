@@ -1,0 +1,95 @@
+.productDescriptionTitle{
+    text-align: left;
+    font-family: 'Baskerville';
+    font-size: 17px;
+}
+:global(.vtex-store-components-3-x-content){
+    display: none;
+}
+
+.discountInsideContainer{
+    background-image: url("https://winesupply.vteximg.com.br/arquivos/backDescuentoDos.png");
+    background-repeat: no-repeat;
+    height: 47px;
+    width: 47px;
+    font-family: 'BodoniFLF-Bold';
+    color: black;
+    position: absolute;
+    letter-spacing: -1px;
+    font-size: 15px;
+    padding: 7px 0px;
+    text-transform: uppercase;
+    background-color: white;
+    background-size: contain;
+}
+
+.discountInsideContainer::after{
+    content: "off";
+    letter-spacing: 0px !important;
+    font-size: 16px;
+
+}
+
+.nameContainer{
+    justify-content: flex-start;
+    padding: 8px 0px;
+}
+.productBrandContainer{
+    color: white;
+    text-align: left;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    
+}
+.productBrandName{
+    font-family: 'Baskerville';
+    text-align: left;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: black;
+    padding: 5px;
+}
+
+.productDescriptionContainer{
+    height: 50px;
+}
+
+@media only screen and (max-width: 700px) {
+    .discountInsideContainer{
+        background-image: url(https://winesupply.vteximg.com.br/arquivos/backDescuentoDos.png);
+        background-repeat: no-repeat;
+        height: 45px;
+        width: 45px;
+        font-family: 'BodoniFLF-Bold';
+        color: black;
+        position: absolute;
+        letter-spacing: -3px;
+        font-size: 16px;
+        padding: 4px 0px;
+        text-transform: uppercase;
+        background-color: white;
+        background-size: contain;
+    }
+    
+    .discountInsideContainer::after{
+        content: "off";
+        letter-spacing: 0px !important;
+        font-size: 15px;
+    
+    }
+    .productDescriptionTitle{
+        text-align: left;
+        font-family: 'Baskerville';
+        font-size: 15px;
+    }
+    .productBrandName{
+        font-family: 'Baskerville';
+        text-align: left;
+        font-size: 12px;
+        font-weight: 700;
+        background-color: black;
+        padding: 3px;
+    }
+}
+

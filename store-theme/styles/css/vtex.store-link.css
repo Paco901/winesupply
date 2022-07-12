@@ -1,0 +1,77 @@
+.link--whatsapp{
+    position: fixed;
+    z-index: 999;
+    right: 2%;
+    left: 94%;
+    bottom: 10%;
+    top: 90%;
+    width: 60px;
+    height: 60px;
+    background-image: url('https://legatus.com.ar/images/ima/wh.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .link--whatsapp{
+        left: unset;
+    }
+}
+
+
+.link--orderplaced-home {
+    height: 45px;
+    width: 250px !important;
+    background-color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 68px 0;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-family: Baskerville,MuseoSans-500,Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  }
+  @media (max-width: 640px) {
+    .link--orderplaced-home {
+      margin: 0 auto 22px;
+      width: calc(100% - 30px) !important;
+    }
+  }
+  .link--orderplaced-home .label--orderplaced-home {
+    font-size: 0.938rem;
+    font-weight: bold;
+    line-height: 18px;
+    color: #fff;
+  }
+  
+  .link--orderplaced-orders {
+    height: 45px;
+    width: 250px !important;
+    border: 2px solid #000;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 68px 10px;
+    text-transform: uppercase;
+    border-radius: 0px;
+    font-family: Baskerville,MuseoSans-500,Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  }
+  @media (max-width: 640px) {
+    .link--orderplaced-orders {
+      margin: 0 auto 9px;
+      width: calc(100% - 30px) !important;
+    }
+  }
+  .link--orderplaced-orders .label--orderplaced-orders {
+    font-size: 0.938rem;
+    font-weight: bold;
+    line-height: 18px;
+    color: #000;
+  }
+  

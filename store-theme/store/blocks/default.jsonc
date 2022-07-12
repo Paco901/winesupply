@@ -1,0 +1,294 @@
+{
+
+  "store.account": {
+    "blocks": ["my-account"],
+    "parent": {
+      "challenge": "challenge.profile"
+    }
+  },
+
+  "store.login": {
+    "blocks": ["list-context.image-list#login","login-content#default"]
+  },
+
+  "list-context.image-list#login": {
+    "children": [
+      "slider-layout#login"
+    ],
+    "props": {
+      "height": 650,
+      "images": [
+        {
+          "image": "https://limpioonline.vteximg.com.br/arquivos/1.jpg",
+          "mobileImage": "https://limpioonline.vteximg.com.br/arquivos/1mobile.jpg",
+          "description": "descuentos"
+        },
+        {
+          "image": "https://limpioonline.vteximg.com.br/arquivos/2.jpg",
+          "mobileImage": "https://limpioonline.vteximg.com.br/arquivos/1mobile.jpg",
+          "description": "descuentos"
+        }
+      ]
+    }
+  },
+  "slider-layout#login": {
+    "props": {
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showPaginationDots": "never",
+      "showNavigationArrows": "always",
+      "fullWidth": true
+    }
+  },
+
+
+  "login-content#default": {
+    "props": {
+      "isInitialScreenOptionOnly": false,
+      "defaultOption": 1,
+      "showPasswordVerificationIntoTooltip": true,
+      "hideIconLabel":true
+     
+    }
+  },
+
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-add-to-list-button",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-identifier.summary",
+      "add-to-cart-button"
+    ]
+  },
+  
+  "product-specification-badges#banderas": {
+    "props": {
+      "blockClass": "banderas",
+      "specificationGroupName": "allSpecifications",
+      "specificationsOptions": [
+        {
+          "specificationName": "Escocia",
+          "displayValue": "Escocia",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "Rusia",
+          "displayValue": "Rusia",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "Alemania",
+          "displayValue": "Alemania",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "Argentina",
+          "displayValue": "Argentina",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "Belgica",
+          "displayValue": "Belgica",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "Brasil",
+          "displayValue": "Brasil",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "Chile",
+          "displayValue": "Chile",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "EEUU",
+          "displayValue": "EEUU",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "España",
+          "displayValue": "España",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "Francia",
+          "displayValue": "Francia",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "Guatemala",
+          "displayValue": "Guatemala",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "Irlanda",
+          "displayValue": "Irlanda",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "Italia",
+          "displayValue": "Italia",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "Mexico",
+          "displayValue": "Mexico",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "Nicaragua",
+          "displayValue": "Nicaragua",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "Peru",
+          "displayValue": "Peru",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "Portugal",
+          "displayValue": "Portugal",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "Reino Unido",
+          "displayValue": "Reino Unido",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "Sudafrica",
+          "displayValue": "Sudafrica",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "Uruguay",
+          "displayValue": "Uruguay",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "Dominicana",
+          "displayValue": "Dominicana",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "Dominicana",
+          "displayValue": "Dominicana",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "Cuba",
+          "displayValue": "Cuba",
+          "visibleWhen": "Si"
+        }
+      ]
+    }
+  },
+
+  "product-specification-badges#descuentos": {
+    "props": {
+      "blockClass": "destaqueDescuentos",
+      "specificationGroupName": "allSpecifications",
+      "specificationsOptions": [
+        {
+          "specificationName": "6x4",
+          "displayValue": "6x4",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "6x5",
+          "displayValue": "6x5",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "10off",
+          "displayValue": "10off",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "15off",
+          "displayValue": "15off",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "20off",
+          "displayValue": "20off",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "25off",
+          "displayValue": "25off",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "33off",
+          "displayValue": "33off",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "50off",
+          "displayValue": "50off",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "newin",
+          "displayValue": "newin",
+          "visibleWhen": "Si"
+        }
+      ]
+    }
+  },
+  "product-specification-badges#organico": {
+    "props": {
+      "blockClass": "destaqueOrganico",
+      "specificationGroupName": "allSpecifications",
+      "specificationsOptions": [
+        {
+          "specificationName": "organico",
+          "displayValue": "organico",
+          "visibleWhen": "Si"
+        }
+      ]
+    }
+  },
+
+  "product-specification-badges#destaques-vinos": {
+    "props": {
+      "blockClass": "destaqueVinos",
+      "specificationGroupName": "allSpecifications",
+      "specificationsOptions": [
+        {
+          "specificationName": "x4",
+          "displayValue": "x4",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "x6",
+          "displayValue": "x6",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "x8",
+          "displayValue": "x8",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "x12",
+          "displayValue": "x12",
+          "visibleWhen": "Si"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,104 @@
+
+.infoCardTextContainer--info-colecciones{
+  width: 100%;
+}
+.infoCardHeadline--info-colecciones {
+  color :white;
+  font-family: 'Nunito-Regular';
+  font-size: 16px;
+}
+
+.infoCardSubhead--info-colecciones {
+  color :white;
+  font-size: 13px;
+}
+
+
+
+.infoCardCallActionContainer--info-colecciones :global(.vtex-button),
+.infoCardCallActionContainer--info-colecciones :global(.vtex-button) {
+    outline: none;
+    border-color: transparent;
+    background-color: #bcac42 !important;
+    color: white;
+    width: 130px;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+.infoCardCallActionContainer--info-colecciones :global(.vtex-button):focus,
+.infoCardCallActionContainer--info-colecciones :global(.vtex-button):hover {
+    outline: none;
+    border-color:transparent;
+    background-color: black !important ;
+    color: white;
+}
+
+.infoCardHeadline--colecciones-card{
+  color: transparent !important;
+}
+.infoCardSubhead--colecciones-card{
+  color: transparent !important;
+}
+
+.infoCardCallActionContainer--colecciones-card{
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .infoCardTextContainer--colecciones-card{
+    min-height: 180px;
+  }
+
+}
+
+.infoCardContainer--info-card-asesoramiento {
+  height: 500px;
+  position: relative;
+  border-radius: 0px;
+  margin-left: 5px;
+}
+
+
+
+.infoCardTextContainer--info-card-asesoramiento {
+  width: 100%;
+}
+
+.infoCardHeadline--info-card-asesoramiento {
+  color: #2f4396;
+  font-size: 12px;
+  z-index: 999;
+  pointer-events: none;
+  text-transform: uppercase;
+}
+
+.infoCardSubhead--info-card-asesoramiento {
+  color: #2f4396;
+  font-size: 23px;
+  font-weight: 500;
+  margin-top: 6px;
+  z-index: 999;
+  pointer-events: none;
+}
+
+.infoCardCallActionContainer--info-card-asesoramiento :global(.vtex-button) {
+  display: block;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background: transparent;
+  border: none;
+  color: transparent;
+}
+
+.infoCardCallActionContainer--info-card-asesoramiento :global(.vtex-button):focus,
+.infoCardCallActionContainer--info-card-asesoramiento :global(.vtex-button):hover {
+  outline: none;
+  border-color: transparent;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 1;
+}

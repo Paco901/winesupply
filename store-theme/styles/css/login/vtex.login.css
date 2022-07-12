@@ -1,0 +1,11 @@
+.loginOptionsContainer{
+  display: none;
+}
+.emailAndPassword{
+  display: block;
+  padding: 80px;
+}
+
+:global(.render-route-vtex-store-2-x-store-custom-johnnie-walker) :global(.vtex-flex-layout-0-x-flexRow--newsStyle){
+  margin: 0 auto;
+}

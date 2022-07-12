@@ -1,0 +1,208 @@
+{
+  "store.search": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "orderByField": "OrderByTopSaleDESC",
+        "maxItemsPerPage": 50,
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#brand": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "orderByField": "OrderByTopSaleDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 50,
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#department": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "orderByField": "OrderByTopSaleDESC",
+        "maxItemsPerPage": 50,
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#subcategory": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "orderByField": "OrderByTopSaleDESC",
+        "maxItemsPerPage": 50,
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "search-result-layout": {
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop": {
+    "children": [
+      "flex-layout.row#above",
+      "flex-layout.row#main"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "blockClass": "search-desktop"
+    }
+  },
+  "search-result-layout.mobile": {
+    "children": [
+      "flex-layout.row#above",
+      "flex-layout.row#main-mobile"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "blockClass": "search-mobile"
+    }
+  },
+  "flex-layout.row#above": {
+    "children": [
+      "search-title.v2",
+      "breadcrumb.search"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "colSizing": "auto",
+      "blockClass": "flex-search-above"
+    }
+  },
+  "breadcrumb.search": {
+    "props": {
+      "showOnMobile": true
+    }
+  },
+  "flex-layout.row#main": {
+    "children": [
+      "filter-navigator.v3",
+      "flex-layout.col#content"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass": [
+        "contenidoGaleria"
+      ]
+    }
+  },
+  "flex-layout.col#content": {
+    "children": [
+      "search-content",
+      "search-fetch-more"
+    ],
+    "props": {
+      "blockClass": "search-content"
+    }
+  },
+  "flex-layout.row#main-mobile": {
+    "children": [
+      "flex-layout.row#options-mobile",
+      "search-content"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass": [
+        "search-main-mobile",
+        "filtroMobile"
+      ]
+    }
+  },
+  "flex-layout.row#options-mobile": {
+    "children": [
+      "filter-navigator.v3"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "menuMobile"
+    }
+  },
+  "search-content": {
+    "blocks": [
+      "gallery",
+      "not-found"
+    ]
+  },
+  "filter-navigator.v3": {
+    "props": {
+      "initiallyCollapsed": true,
+      "HiddenFilters": {
+        "name": "brands"
+      }
+    }
+  },
+  "search-not-found-layout": {
+    "children": [
+      "not-found"
+    ]
+  },
+  "breadcrumb": {
+    "props": {
+      "showOnMobile": true
+    }
+  },
+  "gallery": {
+    "blocks": [
+      "product-summary.shelf#home"
+    ]
+  },
+  "product-summary-sku-selector": {
+    "props": {
+      "showVariationsLabels": [
+        "true"
+      ],
+      "visibleVariations": [
+        "color"
+      ]
+    }
+  },
+  "product-summary.shelf#home": {
+    "children": [
+      "product-specification-badges#banderas",
+      "product-specification-badges#organico",
+      "product-specification-badges#descuentos",
+      "product-specification-badges#destaques-vinos",
+      "product-summary-image",
+      "vtex.product-highlights@2.x:product-highlights#collection",
+      "product-brand",
+      "product-name",
+      "flex-layout.row#price",
+      "flex-layout.row#botones"
+    ],
+    "props": {
+      "blockClass": [
+        "related-shelf-home"
+      ]
+    }
+  },
+  "product-brand": {
+    "props": {
+      "displayMode": "text"
+    }
+  }
+}

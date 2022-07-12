@@ -1,0 +1,19 @@
+.autoCompleteOuterContainer{
+    width: 450px;
+}
+.container{
+    padding: 0%;
+}
+
+.searchBarInnerContainer :global(.vtex-input__suffix) {
+    background-color: #7E7D7D;
+    padding-right: 0rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .autoCompleteOuterContainer{
+        width: 350px;
+        margin: auto;
+}
+    
+}

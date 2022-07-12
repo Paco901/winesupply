@@ -1,0 +1,12 @@
+{
+  "vendor": "winesupply",
+  "name": "checkout",
+  "version": "0.0.5",
+  "title": "Checkout UI Settings",
+  "description": "Declare custom settings to be used by checkout ui",
+  "builders": {
+    "checkout-ui-custom": "0.x"
+  },
+  "credentialType": "absolute",
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

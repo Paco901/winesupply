@@ -1,0 +1,21 @@
+.backdropContainer--video .backdrop--video{
+    background-color: #000 !important;
+}
+
+.container--video .paper--video{
+    width: 70%;
+}
+
+.triggerContainer--video{
+    display: flex;
+    justify-content: center;
+}
+.triggerContainer--keep-walking{
+    justify-content: flex-end;
+}
+
+@media (max-width: 768px){
+    .container--video .paper--video{
+        width: 100%;
+    }
+}

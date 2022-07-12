@@ -1,0 +1,177 @@
+
+.container--landing-row--title--bodegas-del-mes{
+  border-bottom: 2px solid black;
+  margin: 0px auto 0px auto;
+}
+
+.paragraph--landing-row--title--bodegas-del-mes{
+  font-family: 'Baskerville' !important;
+  font-size: 25px;
+  font-weight: bold;
+}
+.paragraph--landing-row--parrafo-bodegas-del-mes{
+  font-size: 19px;
+  font-family: 'Baskerville' !important;
+  color:black;
+  text-align: justify;
+  font-weight: 500;
+ 
+
+}
+
+.wrapper--landing-row--parrafo-bodegas-del-mes{
+  border-bottom: 2px solid black;
+  margin: 0px auto 30px auto;
+}
+
+.paragraph--textoBarraBodega{
+  font-size: 16px!important;
+    font-weight: bold!important;
+    WIDTH: 90%;
+    text-align: center;
+}
+
+/*bloques*/
+.container--titulos-bloques .paragraph--titulos-bloques{
+  font-size: 2rem;
+  margin: 0;
+  text-transform: uppercase;
+}
+.paragraph--titulohistoriflor{
+  font-size: 2rem;
+  margin: 0;
+  text-transform: capitalize !important;
+  font-family: 'BodoniFLF-Bold' !important;
+  color: black !important;
+}
+.paragraph--texto-bloques-flor{
+  font-size: 20px !important;
+}
+.container--textos-bloques .paragraph--textos-bloques{
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  padding-right: 4rem;
+}
+
+.container--cuarto-bloque{
+  margin-bottom: 2rem;
+  border-bottom: 1px solid;
+}
+.paragraph--cuarto-bloque{
+  margin-top: 0;
+  padding: 0.3rem 1.8rem;
+  text-transform: uppercase;
+}
+
+.container--texto-maps .paragraph--texto-maps{
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: .8rem;
+  padding: 0 2rem;
+}
+
+.container--gift-bemberg .paragraph--gift-bemberg{
+  font-size: 1.5rem;
+  margin-bottom: .8rem;
+  border-bottom: 1px solid;
+}
+
+.wrapper--gift-bemberg{
+  width: 100%;
+}
+
+@media (max-width: 768px){
+  .container--textos-bloques .paragraph--textos-bloques{
+    font-size: 1.2rem;
+    padding-right: 0rem;
+  }
+  .paragraph--titulohistoriflor{
+    font-size: 1.5rem !important;
+    margin: 0;
+    text-transform: capitalize !important;
+    font-family: 'BodoniFLF-Bold' !important;
+    color: black !important;
+  }
+  .paragraph--titulosFlorRecetas{
+    font-size: 20px !important;
+  }
+}
+
+/*Keep walking*/
+.container--keep-walking-4{
+  margin-bottom: unset;
+  border-bottom: none;
+}
+.container--keep-walking-4 .paragraph--keep-walking-4{
+  margin-top: 0;
+  color: #fff;
+  padding-right: 0;
+  padding: .7rem 5rem;
+}
+
+@media (max-width: 768px) {
+  .container--keep-walking-4 .paragraph--keep-walking-4{
+    font-size: .9rem;
+    padding: .7rem 2rem;
+  }
+}
+.container--keep-walking{
+  border-bottom: none;
+}
+.paragraph--keep-walking{
+  margin-top: .8rem;
+}
+
+.wrapper--keep-walking{
+  border-top: 2px solid #000;
+  margin-top: 2rem;
+}
+
+.container--keep-walking-colecciones{
+  border-bottom: none;
+}
+.paragraph--keep-walking-colecciones{
+  margin: 0;
+  margin-bottom: .8rem;
+}
+.wrapper--titulosFlorRecetas{
+  text-transform: capitalize!important;
+  font-family: 'BodoniFLF-Bold'!important;
+}
+.paragraph--titulosFlorRecetas{
+  color: white !important;
+  text-transform: capitalize!important;
+  font-family: 'BodoniFLF-Bold'!important;
+  font-size: 30px;
+  margin: 22px;
+}
+
+/*bodegas del mes*/
+.container--bloque-texto{
+  padding: 0 .8rem;
+  border-right: 2px solid #000;
+}
+.paragraph--bloque-texto{
+  font-size: 1rem;
+}
+.container--bd-none{
+  border-right: none;
+}
+.paragraph--titulo-texto{
+  margin: 0;
+  font-size: 2rem;
+  padding-left: 1.5rem;
+  font-family: "Baskerville";
+}
+
+@media (max-width: 768px){
+  .container--bloque-texto{
+    border-right: none;
+    border-bottom: 2px solid #000;
+  }
+  .container--bd-none{
+    border-bottom: none;
+  }
+}
+

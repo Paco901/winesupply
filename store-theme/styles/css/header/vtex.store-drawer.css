@@ -1,0 +1,42 @@
+.menuIcon--drawer-mobile {
+  color: black;
+  border-radius: 0.25rem;
+  padding: 0.35rem 0.55rem;
+}
+
+.menuIcon {
+  padding: 0;
+}
+
+.openIconContainer {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.childrenContainer--drawer-mobile {
+  flex-direction: column;
+}
+
+.overlay--drawer-mobile {
+  background-color: transparent;
+}
+
+.opened--drawer-mobile {
+  background-color: black;
+}
+
+.closeIconContainer--drawer-mobile {
+  background-color: black;
+}
+
+.drawerContent--drawer-mobile :global(.vtex-store-components-3-x-logoLink) {
+  position: absolute;
+  top: 0;
+  left: 10%;
+}
+
+.closeIconContainer {
+  background:black;
+  color: white !;
+}

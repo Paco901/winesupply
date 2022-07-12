@@ -1,0 +1,113 @@
+.menuContainer--footer-menu-column {
+  color: white;
+}
+
+.imageElement--igfooter {
+  width:30px;
+  filter: invert(1);
+}
+.imageElement--fcfooter{
+  width: 42px;
+  filter: invert(1);
+}
+
+.imageElement--inkfooter{
+  width: 29px;
+  height: 30px !important;
+  padding-top: .3rem;
+}
+
+.imageElement--fcfooterIzq {
+  width:37px;
+  filter: invert(1);
+}
+.imageElement--igfooterIzq{
+  width: 25px;
+  filter: invert(1);
+}
+
+
+
+:global(.vtex-menu-2-x-menuItem--footer-menu-item-title-header){
+  font-family: 'Nunito-ExtraBold';
+  color: white;
+  text-transform: uppercase !important;
+}
+
+:global(.vtex-menu-2-x-menuContainer--footer-menu-column){
+  align-items: flex-start !important;
+  
+}
+
+
+:global(.vtex-menu-2-x-menuItem--footer-menu-item-title){
+  font-family: 'Nunito-Regular';
+  color: white;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--footer-menu-item-title){
+ color: white;
+}
+
+
+
+.imageElement--imgLogoFooter{
+  width: 190px;
+}
+
+
+@media only screen and (max-width: 1025px) {
+  :global(.vtex-menu-2-x-menuContainer--footer-menu-column){
+    align-items: center !important ;
+    
+  }
+  .imageElement--fcfooterIzqMobile {
+    width: 26px;
+    margin-left: 10px;
+    filter: invert(1);
+  }
+  .imageElement--igfooterIzqMobile{
+    width: 27px;
+    filter: invert(1);
+  }
+  
+ 
+}
+@media only screen and (max-width: 700px) {
+  .imageElement--fcfooterIzqMobile {
+    width: 26px;
+    margin-left: 10px;
+    filter: invert(1);
+  }
+  .imageElement--linkmobile {
+    width: 26px;
+    margin-left: 12px;
+  }
+}
+
+
+
+@media only screen and (max-width: 700px) {
+  .inputGroup{
+    display: flex !important;
+    flex-direction: row;
+    
+  }
+  .buttonContainer{
+    padding-top:0px !important
+  }
+
+  :global(.vtex-input-prefix__group) {
+    border: solid 2px black !important;
+  }
+
+  .imageElement--imagenEmpresasMobile{
+   padding: 30px 0px;
+  }
+  
+}
+
+
+
+
+

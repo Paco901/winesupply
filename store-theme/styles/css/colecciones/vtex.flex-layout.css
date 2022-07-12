@@ -1,0 +1,40 @@
+.flexRow--contenedorColecciones{
+  max-width: 1200px;
+  margin: auto;
+  width: 90%;
+}
+.flexRow--contenedorInfoCart{
+  width: 100%;
+}
+.flexRow--contenedorInfoCartColecciones{
+  padding: 40px;
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+
+  .flexRowContent--contenedorInfoCartColecciones{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .flexRow--contenedorColecciones :global(.vtex-slider-layout-0-x-paginationDotsContainer--shelf-default){
+    bottom: -33px;
+  }
+  
+}
+
+.flexRow--florcanabloquenews{
+  margin:40px 0px !important;
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .flexRow--row-reverse-bar :global(.vtex-flex-layout-0-x-flexCol--shelfEspeciales){
+    margin-right: 80px;
+  }
+
+}

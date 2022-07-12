@@ -1,0 +1,392 @@
+{
+    "store.home": {
+        "blocks": [
+            "list-context.image-list#home",
+            "flex-layout.row#medios",
+            "flex-layout.row#home--container"
+        ]
+    },
+
+    "flex-layout.row#home--container": {
+        "children": [
+            "flex-layout.row#tiendas",
+            "flex-layout.row#masVendidosTitulo",
+            "list-context.product-list#mas-vendidos-home",
+            "flex-layout.row#bodegasDelMesTitulo",
+            "flex-layout.row#especialesTituloMobile",
+            "flex-layout.row#bannerMobile",
+            "flex-layout.row#bodegasDelMes",
+            "flex-layout.row#novedadesTitulo",
+            "list-context.product-list#novedades",
+            
+            "flex-layout.row#especialesTitulo",
+            "list-context.product-list#EspecialesMobile-s",
+            "flex-layout.row#Especiales",
+            "flex-layout.row#vinosSlider",
+            "flex-layout.row#bodegasDelMesMobile",
+            "flex-layout.row#bannerMobileBodega",
+            "list-context.product-list#bodegasMobile-s",
+            "list-context.product-list#bodegasDosMobile-s",
+            "flex-layout.row#destacadosTitulo",
+            "flex-layout.row#novedadesMobile",
+
+            "list-context.product-list#novedades-mobile",
+            "flex-layout.row#destacadosMobile",
+            "list-context.product-list#Destacados-home",
+            "list-context.product-list#DestacadosDos-home", 
+            "flex-layout.row#banners",
+            "flex-layout.row#marcasTitulo",
+            "flex-layout.row#marcas",
+            "flex-layout.row#linea",
+            "flex-layout.row#blogs",
+            "flex-layout.row#blogsMobile",
+            "flex-layout.row#newsletter"
+        ],
+        "props": {
+            "blockClass": ["contenedor-home"],
+            "preventHorizontalStretch": true
+        }
+    },
+
+   
+    
+
+    "list-context.image-list#home": {
+        "children": ["slider-layout#home-images"],
+        "props": {
+            "height": 650,
+            "images": [
+                {
+                    "image": "https://limpioonline.vteximg.com.br/arquivos/1.jpg",
+                    "mobileImage": "https://limpioonline.vteximg.com.br/arquivos/1mobile.jpg",
+                    "description": "descuentos"
+                },
+                {
+                    "image": "https://limpioonline.vteximg.com.br/arquivos/2.jpg",
+                    "mobileImage": "https://limpioonline.vteximg.com.br/arquivos/1mobile.jpg",
+                    "description": "descuentos"
+                }
+            ]
+        }
+    },
+    "slider-layout#home-images": {
+        "props": {
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showPaginationDots": "never",
+            "showNavigationArrows": "always",
+            "fullWidth": true
+        }
+    },
+
+    // BLOQUE TIENDAS
+
+    "flex-layout.row#tiendas": {
+        "children": ["slider-layout#tienda"],
+        "props": {
+            "blockClass": ["contenidoSlider", "contenidoSliderTiendas"]
+        }
+    },
+
+    // BLOQUE VINOS
+
+    "flex-layout.row#vinosSlider": {
+        "children": ["slider-layout#vinos"],
+        "props": {
+            "blockClass": ["contenidoSlider", "contenidoVinosSlider"]
+        }
+    },
+
+    "flex-layout.row#banners": {
+        "children": ["info-card#colecciones", "info-card#test"],
+        "props": {
+            "blockClass": ["contenedorInfoCart"]
+        }
+    },
+
+    "info-card#test": {
+        "props": {
+            "id": "info-card-test",
+            "textPosition": "center",
+            "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+            "headline": "¿NO SAVES QUÉ VINO ELEGIR?",
+            "subhead": "Descubrí los vinos que conbinan con tus gustos con nuestro Test de Paladar",
+            "callToActionText": "Empezar Test",
+            "callToActionUrl": "/sale/d",
+            "blockClass": "info-card-test",
+            "textAlignment": "center",
+            "isFullModeStyle": true,
+            "maxHeight": 250
+        }
+    },
+
+    //BLOQUE BODEGAS DEL MES
+
+    "flex-layout.row#bodegasDelMes": {
+        "children": ["image#exampleBodega", "flex-layout.col#ShelfBodegas"],
+        "props": {
+            "blockClass": ["bodegasContent"],
+            "colSizing": "auto"
+        }
+    },
+
+    "image#exampleBodega": {
+        "props": {
+            "src": "https://winesupply.vteximg.com.br/arquivos/banner1.png",
+            "blockClass": "bannerBodega"
+        }
+    },
+    "flex-layout.col#ShelfBodegas": {
+        "children": [
+            "list-context.product-list#bodegas",
+            "list-context.product-list#bodegasDos"
+        ],
+        "props": {
+            "blockClass": "shelfbodegas"
+        }
+    },
+    // BLOQUE DESTACADOS
+
+    "flex-layout.row#DestacadosDos": {
+        "children": ["list-context.product-list#DestacadosDos-home"],
+        "props": {
+            "blockClass": "destacadosDos"
+        }
+    },
+
+    //BLOQUE ESPECIALES
+
+    "flex-layout.row#Especiales": {
+        "children": [
+            "image#exampleEspeciales",
+            "flex-layout.col#ShelfEspeciales"
+        ],
+        "props": {
+            "blockClass": ["EspecialesContent"],
+            "colSizing": "auto"
+        }
+    },
+
+    "image#exampleEspeciales": {
+        "props": {
+            "src": "https://winesupply.vteximg.com.br/arquivos/bannerMobile.png",
+            "blockClass": "bannerEspeciales"
+        }
+    },
+    "flex-layout.col#ShelfEspeciales": {
+        "children": ["list-context.product-list#Especiales"],
+        "props": {
+            "blockClass": "shelfEspeciales"
+        }
+    },
+
+    // BLOQUE MARCAS
+
+    "flex-layout.row#marcas": {
+        "children": ["slider-layout#marcasHome"],
+        "props": {
+            "blockClass": [
+                "contenidoSlider",
+                "styleContenido",
+                "styleContenidoMarcas"
+            ]
+        }
+    },
+
+    // FIN BLOQUE MARCAS
+
+    "flex-layout.row#blogs": {
+        "children": [
+            "flex-layout.col#insta",
+            "flex-layout.col#prensa",
+            "flex-layout.col#blog"
+        ],
+        "props": {
+            "blockClass": ["contenidoBlog", "mobileContenidoBlogs"]
+        }
+    },
+
+    "flex-layout.col#insta": {
+        "children": ["rich-text#insta"],
+        "props": {
+            "blockClass": ["card"],
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#insta": {
+        "props": {
+            "text": "RRSS: Ig: @blackwine.com.ar",
+            "blockClass": "tituloblog"
+        }
+    },
+    "image#instaHome2": {
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+            "blockClass": "imgINSTAGRAM"
+        }
+    },
+
+    // MOBILE
+
+    "flex-layout.row#blogsMobile": {
+        "children": ["flex-layout.col#instaMobile"],
+        "props": {
+            "blockClass": ["mobile"],
+            "preventHorizontalStretch": true
+        }
+    },
+    "flex-layout.col#instaMobile": {
+        "children": [
+            "rich-text#instaMobile",
+            "image#instaHome2Mbobile",
+            "image#instaHome3Mbobile",
+            "image#instaHome4Mbobile"
+        ]
+    },
+    "rich-text#instaMobile": {
+        "props": {
+            "text": "RRSS: Ig: @blackwine.com.ar",
+            "blockClass": "tituloblog"
+        }
+    },
+    "image#instaHome2Mbobile": {
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+            "blockClass": "imgINSTAGRAM"
+        }
+    },
+    "image#instaHome3Mbobile": {
+        "props": {
+            "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/a9b83a4d-d8ec-4c9f-8a3c-1d003405fe5e___94ccefc111703784b80b3bbc66ede285.png",
+            "blockClass": "imgINSTAGRAM2"
+        }
+    },
+    "image#instaHome4Mbobile": {
+        "props": {
+            "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/a9b83a4d-d8ec-4c9f-8a3c-1d003405fe5e___94ccefc111703784b80b3bbc66ede285.png",
+            "blockClass": "imgINSTAGRAM3"
+        }
+    },
+
+    "flex-layout.row#bannerMobile": {
+        "children": ["image#banerMobile"],
+        "props": {
+            "blockClass": ["ContentBannerMobile"]
+        }
+    },
+    "image#banerMobile": {
+        "props": {
+            "src": "https://winesupply.vteximg.com.br/arquivos/bannerMobile.png",
+            "blockClass": ["imgbannerMobile"]
+        }
+    },
+
+    "flex-layout.row#bannerMobileBodega": {
+        "children": ["image#bodegaMobile"],
+        "props": {
+            "blockClass": "ContentBannerBodegaMobile"
+        }
+    },
+    "image#bodegaMobile": {
+        "props": {
+            "src": "https://winesupply.vteximg.com.br/arquivos/banner1.png",
+            "blockClass": "bannerBodegaMobile"
+        }
+    },
+
+    "flex-layout.col#prensa": {
+        "children": [
+            "rich-text#titulo",
+            "rich-text#subTitulo",
+            "rich-text#texto"
+        ],
+        "props": {
+            "blockClass": ["card", "cartPrensa"]
+        }
+    },
+    "rich-text#titulo": {
+        "props": {
+            "text": "PRENSA y COMUNICACIÓN",
+            "blockClass": "tituloblogComunicacion"
+        }
+    },
+    "rich-text#subTitulo": {
+        "props": {
+            "text": "Bienvenido a Black Wine!",
+            "blockClass": "parrafoBlog2"
+        }
+    },
+    "rich-text#texto": {
+        "props": {
+            "text": "Bienvenido a Black Wine! Este es el espacio que construimos para conectarte con las marcas premium nacionales e internacionales de Spirits & Vinos, que te llevarán a vivir  una increíble experiencia de sentidos.<br>",
+            "blockClass": "parrafo2Blog2"
+        }
+    },
+
+    "flex-layout.col#blog": {
+        "children": [
+            "rich-text#tituloBlog",
+            "rich-text#subTituloBlog",
+            "rich-text#textoBlog"
+        ],
+        "props": {
+            "blockClass": ["card", "cartBlog"]
+        }
+    },
+    "rich-text#tituloBlog": {
+        "props": {
+            "text": "BLOG",
+            "blockClass": "tituloblog"
+        }
+    },
+    "rich-text#subTituloBlog": {
+        "props": {
+            "text": "Bienvenido a Black Wine!",
+            "blockClass": "parrafoBlog3"
+        }
+    },
+    "rich-text#textoBlog": {
+        "props": {
+            "text": "Bienvenido a Black Wine! Este es el espacio que construimos para conectarte con las marcas premium nacionales e internacionales de Spirits & Vinos, que te llevarán a vivir una increíble experiencia de sentidos.",
+            "blockClass": "parrafo3DosBlog3"
+        }
+    },
+
+    // NEWS LETTER
+
+    "flex-layout.row#newsletter": {
+        "children": ["flex-layout.col#NewsText", "newsletter"],
+        "props": {
+            "blockClass": "newsStyle",
+            "preventHorizontalStretch": true
+        }
+    },
+    "flex-layout.col#NewsText": {
+        "children": ["rich-text#newsTop", "rich-text#newsBotton"]
+    },
+    "rich-text#newsTop": {
+        "props": {
+            "text": "ENTÉRATE DE LAS PROMOCIONES Y NOVEDADES.",
+            "blockClass": "textNewsuno"
+        }
+    },
+    "rich-text#newsBotton": {
+        "props": {
+            "text": "Suscribite a nuestro Newsletter",
+            "blockClass": "textNewsDos"
+        }
+    },
+    "newsletter": {
+        "props": {
+            "submit": "SUSCRIBIRME"
+        }
+    }
+}

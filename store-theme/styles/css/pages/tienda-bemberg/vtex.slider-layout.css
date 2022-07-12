@@ -1,0 +1,8 @@
+.sliderLayoutContainer--oficial-bemberg {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--segundo-shelf-bemberg) .sliderLayoutContainer--oficial-bemberg {
+    max-width: 80%;
+}
