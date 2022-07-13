@@ -43,7 +43,7 @@
     },
     "rich-text#orderplaced-contact-time": {
       "props": {
-        "text": "Si ya abonaste, procedemos al envio de tu pedido.\nSi elegiste el pago por transferencia bancaria, la confirmación del mismo puede tardar hasta 72 horas hábiles; cuando comenzaremos con los preparativos para el envío recibiras otro mail. Recuerda revisar correo no deseado.\n\nPor favor tené en cuenta las tipografías que solicitamos en el figma.\nSe puede agregar un bloque de color blanco en donde aparece la imagen del producto para que no se vea el recuadro blanco de la foto? queda medio raro.\n\nGracias!",
+        "text": "Si ya abonaste, procedemos al envio de tu pedido.\nSi elegiste el pago por transferencia bancaria, la confirmación del mismo puede tardar hasta 72 horas hábiles; cuando comenzaremos con los preparativos para el envío recibiras otro mail. Recuerda revisar correo no deseado.",
         "blockClass": "orderplaced-contact-time"
       }
     },

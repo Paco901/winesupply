@@ -1652,7 +1652,6 @@ body.body-order-form .container .checkout-container .orderform-template .orderfo
   border-radius: 0px;
   background-color: #fff;
   height: 51px;
-  display: flex;
   align-items: center;
 }
 body.body-order-form .container .checkout-container .orderform-template .orderform-template-holder > .row-fluid #shipping-data .shipping-data.active .accordion-inner .vtex-omnishipping-1-x-deliveryChannelsWrapper .vtex-omnishipping-1-x-deliveryChannelsToggle {
