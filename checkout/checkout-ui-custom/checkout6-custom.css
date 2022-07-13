@@ -352,6 +352,7 @@
 .body-cart .container .checkout-container .cart-template .cart-template-holder .cart {
   padding: 0;
   background-color: #fff;
+  margin-bottom: 0;
 }
 @media (max-width: 1024px) {
   .body-cart .container .checkout-container .cart-template .cart-template-holder .cart {
@@ -367,7 +368,7 @@
   line-height: 30px;
   color: #000;
   padding: 22px 0 17px 25px;
-  font-family: "Aleo", serif;
+  font-family: "Aleo", serif !important;
   background-color: #fff;
   box-shadow: 0 2px 6px 1px rgba(0, 0, 0, 0.12);
 }
@@ -805,7 +806,7 @@
 }
 .body-cart .container .checkout-container .cart-template .summary-template-holder .summary .summary-coupon-wrap .summary-coupon .coupon-form .coupon-fieldset .coupon-fields #cart-coupon-add:before {
   content: "Agregar";
-  font-family: "Aleo", serif;
+  font-family: "Aleo", serif !important;
   font-size: 0.938rem;
   font-weight: bold;
   line-height: 18px;
@@ -998,7 +999,7 @@
 .body-cart .container .checkout-container .cart-template .summary-template-holder .cart-links-bottom .btn-place-order-wrapper a:before {
   content: "Finalizar Compra";
   font-size: 0.938rem;
-  font-family: "Aleo", serif;
+  font-family: "Aleo", serif !important;
 }
 .body-cart .container .checkout-container .cart-template .summary-template-holder .cart-links-bottom .link-choose-more-products-wrapper {
   display: block;
@@ -1021,7 +1022,7 @@
   font-weight: bold;
   line-height: 18px;
   color: #000;
-  font-family: "Aleo", serif;
+  font-family: "Aleo", serif !important;
 }
 .body-cart .container .checkout-container .cart-template .summary-template-holder .cart-links-bottom .link-choose-more-products-wrapper #cart-choose-more-products:hover, .body-cart .container .checkout-container .cart-template .summary-template-holder .cart-links-bottom .link-choose-more-products-wrapper #cart-choose-more-products:focus {
   text-decoration: none;
@@ -1085,7 +1086,7 @@
   font-size: 0.938rem;
   font-weight: bold;
   height: 48px;
-  font-family: "Aleo", serif;
+  font-family: "Aleo", serif !important;
   border: 2px solid #000;
   border-radius: 0px;
   display: flex;
@@ -1099,7 +1100,7 @@
 }
 
 body {
-  font-family: "Aleo", serif;
+  font-family: "Aleo", serif !important;
 }
 body .container {
   max-width: unset;
@@ -1243,7 +1244,7 @@ body.body-order-form .container .checkout-container .orderform-template .orderfo
 body.body-order-form .container .checkout-container .orderform-template .orderform-template-holder > .row-fluid #client-profile-data .client-profile-data.active .accordion-body .accordion-inner .box-step .form-step .box-client-info-pf label {
   font-size: 0.75rem;
   line-height: 16px;
-  font-family: "Aleo", serif;
+  font-family: "Aleo", serif !important;
   font-weight: bold;
   color: #212121;
 }
@@ -1318,7 +1319,7 @@ body.body-order-form .container .checkout-container .orderform-template .orderfo
   font-size: 0.75rem;
   line-height: 16px;
   color: #212121;
-  font-family: "Aleo", serif;
+  font-family: "Aleo", serif !important;
 }
 body.body-order-form .container .checkout-container .orderform-template .orderform-template-holder > .row-fluid #client-profile-data .client-profile-data.active .accordion-body .accordion-inner .box-step .form-step .newsletter {
   margin-top: 10px;
@@ -1625,7 +1626,7 @@ body.body-order-form .container .checkout-container .orderform-template .orderfo
   font-size: 0.938rem;
   color: #000;
   border-radius: 0px;
-  font-family: "Aleo", serif;
+  font-family: "Aleo", serif !important;
   height: 45px;
 }
 body.body-order-form .container .checkout-container .orderform-template .orderform-template-holder > .row-fluid #shipping-data .shipping-data.active .accordion-inner .vtex-omnishipping-1-x-addressFormPart1 .address-create #new-address-button {
@@ -1634,7 +1635,7 @@ body.body-order-form .container .checkout-container .orderform-template .orderfo
   font-size: 0.938rem;
   color: #000;
   border-radius: 0px;
-  font-family: "Aleo", serif;
+  font-family: "Aleo", serif !important;
   height: 45px;
 }
 body.body-order-form .container .checkout-container .orderform-template .orderform-template-holder > .row-fluid #shipping-data .shipping-data.active .accordion-inner .vtex-omnishipping-1-x-addressFormPart1 #back-to-address-list {
@@ -1643,7 +1644,7 @@ body.body-order-form .container .checkout-container .orderform-template .orderfo
   font-size: 0.938rem;
   color: #000;
   border-radius: 0px;
-  font-family: "Aleo", serif;
+  font-family: "Aleo", serif !important;
   height: 45px;
 }
 body.body-order-form .container .checkout-container .orderform-template .orderform-template-holder > .row-fluid #shipping-data .shipping-data.active .accordion-inner .vtex-omnishipping-1-x-deliveryChannelsWrapper {
@@ -1736,7 +1737,7 @@ body.body-order-form .container .checkout-container .orderform-template .orderfo
   font-size: 0;
   color: #000;
   border-radius: 0px;
-  font-family: "Aleo", serif;
+  font-family: "Aleo", serif !important;
   height: 45px;
   display: flex;
   align-items: center;
@@ -2284,7 +2285,7 @@ body.body-order-form .container .checkout-container .orderform-template .cart-te
 }
 body.body-order-form .container .checkout-container .orderform-template .cart-template .cart-fixed .custom-cart-template-wrap #go-to-cart-button a {
   font-size: 0;
-  font-family: "Aleo", serif;
+  font-family: "Aleo", serif !important;
   font-weight: bold;
   line-height: 18px;
   text-decoration: none;
@@ -2527,7 +2528,7 @@ body.body-order-form .container .checkout-container .orderform-template .cart-te
   content: "Comprar Ahora";
   font-size: 1.125rem;
   font-weight: 600;
-  font-family: "Aleo", serif;
+  font-family: "Aleo", serif !important;
 }
 @media (max-width: 768px) {
   body.body-order-form .container .checkout-container .orderform-template .cart-template .cart-fixed .custom-cart-template-wrap .payment-confirmation-wrap .payment-submit-wrap #payment-data-submit span:before {
@@ -2565,7 +2566,7 @@ body .transactions-container {
 }
 #app-container label {
   color: #212121;
-  font-family: "Aleo", serif;
+  font-family: "Aleo", serif !important;
   font-size: 0.75rem;
   font-weight: bold;
   letter-spacing: 0;
@@ -2660,7 +2661,7 @@ body.v-custom-step-shipping [for=ship-complement]::before {
 .default-modal.payment-confirmation-modal .payment-confirmation-modal-body .payment-confirmation-content .payment-confirmation-thanks {
   font-size: 1.125rem;
   font-weight: bold;
-  font-family: "Aleo", serif;
+  font-family: "Aleo", serif !important;
 }
 .identified-user-modal.payment-confirmation-modal .payment-confirmation-modal-body .payment-confirmation-content .payment-confirmation-thanks:before,
 .default-modal.payment-confirmation-modal .payment-confirmation-modal-body .payment-confirmation-content .payment-confirmation-thanks:before {
